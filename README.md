@@ -2,7 +2,7 @@
 
 Veille hebdomadaire d’outils **open source** liés à la 3D, au VFX et à la vidéo.
 
-Chaque lundi: 3–7 pépites max (add-ons Blender, pipeline USD/Alembic/assets, nouveaux outils), avec pourquoi ça compte et un lien source.
+Chaque **lundi** et **jeudi** (9h Europe/Paris): 3–7 pépites max (add-ons Blender, pipeline USD/Alembic/assets, nouveaux outils), avec pourquoi ça compte et un lien source.
 
 Les archives sont dans [`revues/`](./revues/).
 
