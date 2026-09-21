@@ -16,7 +16,7 @@ DOCS = ROOT / "docs"
 TAGS_DIR = DOCS / "tags"
 POSTS_DIR = DOCS / "posts"
 
-SITE_TITLE = "Revue OSS 3D"
+SITE_TITLE = "Revue Open Source Software 3D"
 SITE_DESC = "Veille open source 3D, VFX et vidéo — lundi et jeudi."
 
 CSS = """\

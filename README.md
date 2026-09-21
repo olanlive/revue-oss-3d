@@ -19,7 +19,7 @@ Cadence : **lundi** et **jeudi** à **9h Europe/Paris** — 4–5 découvertes p
 ```json
 {
   "date": "2026-09-25",
-  "title": "Revue OSS 3D — 22–25 septembre 2026",
+  "title": "Revue Open Source Software 3D — 22–25 septembre 2026",
   "items": [
     {
       "name": "Nom de l’outil",
