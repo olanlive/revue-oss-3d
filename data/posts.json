@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-09-24",
+    "title": "Revue Open Source Software 3D — 22–24 septembre 2026",
+    "items": [
+      {
+        "name": "Blender 5.3 — Gaussian Splats natifs (alpha)",
+        "summary": "Les 3D Gaussian Splats entrent dans le cœur de Blender (plus d’add-on) : import PLY / SPZ, schéma USD UsdVolParticleField3DGaussianSplat, nœuds Geometry Nodes (Import SPZ, Set Point Cloud Type), rendu Workbench / EEVEE / Cycles. Alpha 5.3 (finale prévue ~10 nov 2026) ; pas d’export encore ; perfs / couleur / Apply Transform encore limités.",
+        "url": "https://developer.blender.org/docs/release_notes/5.3/rendering/",
+        "tags": [
+          "emerging",
+          "usd"
+        ]
+      },
+      {
+        "name": "Light It Up 4.0.0",
+        "summary": "Add-on GPL gratuit (extensions.blender.org) : 17 presets d’éclairage studio éditables (lights natifs + empty), contrôles master absolus (intensité, température, key/fill, orbit), Fit To Subject, presets perso. La 4.0.0 corrige le collapse du rig à l’origine au 2ᵉ preset, la taille nulle des assets liés/instancés, et le basculement du rig sur personnages FBX.",
+        "url": "https://extensions.blender.org/add-ons/light-it-up/",
+        "tags": [
+          "blender-addon"
+        ]
+      },
+      {
+        "name": "Blender 5.3 — bascule OCIO runtime",
+        "summary": "Mécanisme core pour changer la config OpenColorIO active à l’exécution (base pour des configs OCIO par projet). Fondations pipeline pour studios multi-configs ACES/OCIO ; l’UI projet complète n’est pas encore là.",
+        "url": "https://devtalk.blender.org/t/21-september-2026/45811",
+        "tags": [
+          "ocio",
+          "pipeline"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-21",
     "title": "Revue Open Source Software 3D — 15–21 septembre 2026",
     "items": [
@@ -7,25 +39,40 @@
         "name": "Hardcraft 0.9.0-alpha",
         "summary": "Add-on Blender 5.0+ qui retopo des exports CAD (STEP / Plasticity / OBJ) en patches quads/tris. La 0.9.0 (20 sept) ajoute le loft RAILS pour cylindres/cônes, plus de topo STEP, et des binaires converter Linux + macOS. Alpha GPL.",
         "url": "https://github.com/polozad/hardcraft-dist/releases/tag/v0.9.0-alpha",
-        "tags": ["blender-addon", "cad-retopo", "emerging"]
+        "tags": [
+          "blender-addon",
+          "cad-retopo",
+          "emerging"
+        ]
       },
       {
         "name": "B Hair ShapeKey 1.0.0",
         "summary": "Première extension officielle pour de vrais shape keys sur les Hair Curves modernes (sculpt Curves, drivers, miroir). Blender 5.2 LTS+, GPL, extensions.blender.org (13 sept).",
         "url": "https://extensions.blender.org/add-ons/b-hair-shapekey/",
-        "tags": ["blender-addon", "hair"]
+        "tags": [
+          "blender-addon",
+          "hair"
+        ]
       },
       {
         "name": "DV Skin Tools",
         "summary": "Sortie initiale (14 sept). Weight paint / skinning style Maya (smooth multi-influences, mirror, copy weights, viz, undo, export JSON + script Maya). Blender 4.2+ / 5.x, GPL.",
         "url": "https://blenderartists.org/t/released-dv-skin-tools-powerful-weight-paint-tools-for-blender/1652741",
-        "tags": ["blender-addon", "skinning"]
+        "tags": [
+          "blender-addon",
+          "skinning"
+        ]
       },
       {
         "name": "EXR Converter 0.10.0 / 0.10.1 (Derek Rein)",
         "summary": "Desktop+CLI MIT pour EXR↔vidéo avec OCIO (ACES), slate/burn-in, ProRes. 0.10.0 corrige le bake ACES 2.0 + decode BRAW optionnel ; 0.10.1 durcit les browsers R3D/BRAW/ARRIRAW.",
         "url": "https://github.com/derek-rein/exr-converter/releases",
-        "tags": ["video", "exr", "ocio", "encoding"]
+        "tags": [
+          "video",
+          "exr",
+          "ocio",
+          "encoding"
+        ]
       }
     ]
   }
