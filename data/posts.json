@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-09-27",
+    "title": "Revue Open Source Software 3D — 25–27 septembre 2026",
+    "items": [
+      {
+        "name": "NodeForge 0.50.0",
+        "summary": "Add-on GPL qui compile un DSL Python-like en Geometry Nodes natifs (variables, opérateurs, packages). La 0.50.0 (18 sept) ouvre le projet en free software + package Math ; poussée encore active le 24 sept. Utile pour GN complexes maintenables / générables.",
+        "url": "https://github.com/denikryt/NodeForge/releases/tag/v0.50.0",
+        "tags": [
+          "blender-addon",
+          "emerging"
+        ]
+      },
+      {
+        "name": "Simple Deform Helper 2.7.58 (V2)",
+        "summary": "Extension GPL (extensions.blender.org) : rebuild Geometry Nodes avec cages Standard / Shear / FFD / Curve, chaînes, multi-objets, keyframe + bake. Blender 5.0+. Gros saut UX pour déformer/animer sans se battre avec le Simple Deform natif.",
+        "url": "https://extensions.blender.org/add-ons/simple-deform-helper/",
+        "tags": [
+          "blender-addon"
+        ]
+      },
+      {
+        "name": "Blenderbase 1.3.2",
+        "summary": "App desktop gratuite (Win/macOS/Linux), code source public : gérer versions Blender, add-ons/extensions et .blend. La 1.3.x (21 sept) ajoute Sync (réseau local, code chiffré, dossier cloud, fichier .bbsetup) pour cloner prefs/thème/keymap/add-ons entre machines. Signet X « Blender ».",
+        "url": "https://github.com/PhysicalAddons/blenderbase-public/releases/tag/v1.3.2",
+        "tags": [
+          "pipeline",
+          "emerging"
+        ]
+      },
+      {
+        "name": "Fusion → Blender Bridge",
+        "summary": "Paire d’add-ons GPL (Fusion 360 + Blender 4.2+) : sync géométrie en un clic via WebSocket local ; matériaux, modifiers, sharp edges et light links Blender survivent aux révisions CAD. Pas d’import Appearance Fusion (volontaire).",
+        "url": "https://github.com/inspace9018/fusion-to-blender-bridge",
+        "tags": [
+          "blender-addon",
+          "cad-retopo",
+          "pipeline"
+        ]
+      },
+      {
+        "name": "Grease Pencil — Attribute Shape Keys (WIP)",
+        "summary": "Shape keys attributaires pour Grease Pencil en cours (PR #162946, prototype déjà jouable). Démos récentes (ex. rig 2D + drivers) : expressions faciales / morphs stroke sur builds expérimentales — pas encore dans une release stable.",
+        "url": "https://projects.blender.org/blender/blender/pulls/162946",
+        "tags": [
+          "emerging"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-24",
     "title": "Revue Open Source Software 3D — 22–24 septembre 2026",
     "items": [
