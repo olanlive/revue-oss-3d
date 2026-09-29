@@ -4,7 +4,7 @@ Veille open source liée à la **3D**, au **VFX** et à la **vidéo**.
 
 Site statique (GitHub Pages) : **https://olanlive.github.io/revue-oss-3d/**
 
-Cadence : **tous les 2 jours** à **9h Europe/Paris** — 4–5 découvertes par revue (add-ons Blender, pipeline USD/Alembic/assets, nouveaux outils).
+Cadence : **tous les 2 jours** à **9h Europe/Paris** — quelques découvertes à chaque passage (add-ons Blender, pipeline USD/Alembic/assets, nouveaux outils).
 
 ## Priorités
 
@@ -12,22 +12,17 @@ Cadence : **tous les 2 jours** à **9h Europe/Paris** — 4–5 découvertes par
 2. Pipeline USD / Alembic / asset management
 3. Nouveaux outils qui naissent dans le domaine
 
-## Ajouter une revue
+## Ajouter une découverte
 
-1. Éditer [`data/posts.json`](./data/posts.json) : ajouter un objet en tête (ou n’importe où — le build trie par date) :
+1. Éditer [`data/discoveries.json`](./data/discoveries.json) : ajouter un objet en tête (ou n’importe où — le build trie par date décroissante) :
 
 ```json
 {
-  "date": "2026-09-25",
-  "title": "Revue Open Source Software 3D — 22–25 septembre 2026",
-  "items": [
-    {
-      "name": "Nom de l’outil",
-      "summary": "Pourquoi ça compte, version, licence.",
-      "url": "https://…",
-      "tags": ["blender-addon", "hair"]
-    }
-  ]
+  "date": "2026-09-29",
+  "name": "Nom de l’outil",
+  "summary": "Pourquoi ça compte, version, licence.",
+  "url": "https://…",
+  "tags": ["blender-addon", "hair"]
 }
 ```
 
@@ -39,7 +34,7 @@ python3 scripts/build.py
 
 3. Commit + push `data/`, `docs/`, et éventuellement ce README.
 
-Le site dans `docs/` est la **source de vérité**. Les anciens fichiers `revues/*.md` ne sont plus utilisés.
+Le site dans `docs/` est la **source de vérité**. Les anciens fichiers `revues/*.md` et le format groupé « revue » (`data/posts.json` + pages `docs/posts/`) ne sont plus utilisés : chaque découverte a sa propre date dans un fil chronologique plat.
 
 ## Tags (vocabulaire)
 
@@ -66,7 +61,7 @@ Utiliser ces tags kebab-case de façon cohérente :
 
 ## Architecture
 
-- `data/posts.json` — contenu éditable
+- `data/discoveries.json` — fil plat de découvertes (éditable)
 - `scripts/build.py` — génère le HTML dans `docs/`
 - `docs/` — site publié (Pages depuis `main` / dossier `/docs`)
 

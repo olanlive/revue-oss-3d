@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build static HTML blog for revue-oss-3d into docs/."""
+"""Build static HTML discovery feed for revue-oss-3d into docs/."""
 
 from __future__ import annotations
 
@@ -11,10 +11,9 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data" / "posts.json"
+DATA = ROOT / "data" / "discoveries.json"
 DOCS = ROOT / "docs"
 TAGS_DIR = DOCS / "tags"
-POSTS_DIR = DOCS / "posts"
 
 SITE_TITLE = "Revue Open Source Software 3D"
 SITE_DESC = "Veille open source 3D, VFX et vidéo — tous les 2 jours."
@@ -74,27 +73,6 @@ nav.crumbs {
 nav.crumbs a { color: var(--muted); }
 nav.crumbs a:hover { color: var(--accent); }
 nav.crumbs span.sep { margin: 0 0.35rem; }
-.post-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.1rem 1.25rem;
-  margin-bottom: 1rem;
-}
-.post-card h2 {
-  margin: 0 0 0.35rem;
-  font-size: 1.15rem;
-}
-.post-card .meta {
-  color: var(--muted);
-  font-size: 0.85rem;
-  margin-bottom: 0.5rem;
-}
-.post-card .preview {
-  color: var(--muted);
-  font-size: 0.9rem;
-  margin: 0;
-}
 .meta { color: var(--muted); font-size: 0.9rem; }
 .discovery {
   background: var(--surface);
@@ -147,7 +125,7 @@ h2.section {
 .date-label {
   color: var(--muted);
   font-size: 0.9rem;
-  margin-bottom: 0.25rem;
+  margin: 0 0 0.35rem;
 }
 footer.site {
   margin-top: 3rem;
@@ -185,7 +163,7 @@ def page(
     depth: int = 0,
     crumbs: list[tuple[str, str]] | None = None,
 ) -> str:
-    """depth: 0 = docs/, 1 = docs/posts/ or docs/tags/."""
+    """depth: 0 = docs/, 1 = docs/tags/."""
     prefix = "../" * depth
     crumb_html = ""
     if crumbs:
@@ -242,13 +220,13 @@ def discovery_html(
     item: dict,
     *,
     tags_base: str,
-    show_date: str | None = None,
+    show_date: bool = True,
 ) -> str:
     date_bit = ""
-    if show_date:
+    if show_date and item.get("date"):
         date_bit = (
-            f'<p class="date-label"><time datetime="{esc(show_date)}">'
-            f"{esc(format_date_fr(show_date))}</time></p>"
+            f'<p class="date-label"><time datetime="{esc(item["date"])}">'
+            f"{esc(format_date_fr(item['date']))}</time></p>"
         )
     return f"""
 <article class="discovery">
@@ -261,8 +239,8 @@ def discovery_html(
 
 
 def build() -> None:
-    posts = json.loads(DATA.read_text(encoding="utf-8"))
-    posts = sorted(posts, key=lambda p: p["date"], reverse=True)
+    discoveries = json.loads(DATA.read_text(encoding="utf-8"))
+    discoveries = sorted(discoveries, key=lambda d: d["date"], reverse=True)
 
     if DOCS.exists():
         for child in DOCS.iterdir():
@@ -271,46 +249,32 @@ def build() -> None:
             else:
                 child.unlink()
     DOCS.mkdir(parents=True, exist_ok=True)
-    POSTS_DIR.mkdir(parents=True, exist_ok=True)
     TAGS_DIR.mkdir(parents=True, exist_ok=True)
 
     (DOCS / "style.css").write_text(CSS, encoding="utf-8")
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
 
-    by_tag: dict[str, list[tuple[str, str, str, dict]]] = defaultdict(list)
+    by_tag: dict[str, list[dict]] = defaultdict(list)
     all_tags: set[str] = set()
 
-    for post in posts:
-        slug = post["date"]
-        for item in post["items"]:
-            for tag in item.get("tags", []):
-                all_tags.add(tag)
-                by_tag[tag].append((post["date"], post["title"], slug, item))
+    for item in discoveries:
+        for tag in item.get("tags", []):
+            all_tags.add(tag)
+            by_tag[tag].append(item)
 
-    cards = []
-    for post in posts:
-        slug = post["date"]
-        n = len(post["items"])
-        names = ", ".join(i["name"] for i in post["items"][:3])
-        if n > 3:
-            names += "…"
-        cards.append(f"""
-<article class="post-card">
-  <p class="meta"><time datetime="{esc(post['date'])}">{esc(format_date_fr(post['date']))}</time>
-     · {n} découverte{'s' if n != 1 else ''}</p>
-  <h2><a href="posts/{esc(slug)}.html">{esc(post['title'])}</a></h2>
-  <p class="preview">{esc(names)}</p>
-</article>
-""")
-
+    feed = "".join(
+        discovery_html(item, tags_base="tags/") for item in discoveries
+    )
     tag_links = "".join(
         f'<a class="tag" href="tags/{esc(t)}.html">#{esc(t)}</a>'
         for t in sorted(all_tags)
     )
+    n = len(discoveries)
     home_body = f"""
 <section>
-  <h2 class="section">Dernières revues</h2>
-  {''.join(cards) if cards else '<p class="empty">Aucune revue pour le moment.</p>'}
+  <h2 class="section">Découvertes</h2>
+  <p class="meta">{n} découverte{'s' if n != 1 else ''}</p>
+  {feed if feed else '<p class="empty">Aucune découverte pour le moment.</p>'}
 </section>
 <section>
   <h2 class="section">Tags</h2>
@@ -321,32 +285,10 @@ def build() -> None:
         page(SITE_TITLE, home_body, depth=0), encoding="utf-8"
     )
 
-    for post in posts:
-        slug = post["date"]
-        items_html = "".join(
-            discovery_html(item, tags_base="../tags/")
-            for item in post["items"]
-        )
-        body = f"""
-<p class="meta"><time datetime="{esc(post['date'])}">{esc(format_date_fr(post['date']))}</time></p>
-<h2 class="section">{esc(post['title'])}</h2>
-{items_html}
-"""
-        (POSTS_DIR / f"{slug}.html").write_text(
-            page(
-                f"{post['title']} · {SITE_TITLE}",
-                body,
-                depth=1,
-                crumbs=[("Accueil", "../index.html"), (post["title"], "")],
-            ),
-            encoding="utf-8",
-        )
-
     for tag in sorted(all_tags):
-        entries = sorted(by_tag[tag], key=lambda e: e[0], reverse=True)
+        entries = sorted(by_tag[tag], key=lambda e: e["date"], reverse=True)
         items_html = "".join(
-            discovery_html(item, tags_base="./", show_date=date)
-            for date, _title, _slug, item in entries
+            discovery_html(item, tags_base="./") for item in entries
         )
         body = f"""
 <h2 class="section">Tag <code>#{esc(tag)}</code></h2>
@@ -387,7 +329,7 @@ def build() -> None:
         encoding="utf-8",
     )
 
-    print(f"Built {len(posts)} post(s), {len(all_tags)} tag(s) → {DOCS}")
+    print(f"Built {len(discoveries)} discovery(ies), {len(all_tags)} tag(s) → {DOCS}")
 
 
 if __name__ == "__main__":
