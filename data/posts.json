@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-09-29",
+    "title": "Revue Open Source Software 3D — 27–29 septembre 2026",
+    "items": [
+      {
+        "name": "Cloth Lab 0.8.1",
+        "summary": "Add-on GPL (slohero) pour cloth / vêtements dans Blender : presets tissu, pins/grabs, collisions, patrons, sewing, plis, finishing, et tearing dynamique expérimental (Blender 5.2+). La 0.8.1 (annonce 26 sept) sort une UI anglaise + source ; alternative libre aux workflows type Simply Cloth Studio.",
+        "url": "https://slohero.com/tools/blender/en/",
+        "tags": [
+          "blender-addon",
+          "sim",
+          "emerging"
+        ]
+      },
+      {
+        "name": "Hair Bone Generator 1.2.0",
+        "summary": "Extension GPL (extensions.blender.org) : génère une chaîne de bones deform le long d’un brin de cheveux mesh (cartes, tubes, tresses). La 1.2.0 (22 sept) accélère les meshes denses et ajoute Mirror to Other Side (symétrie L/R). Blender 4.5+.",
+        "url": "https://extensions.blender.org/add-ons/hair-bone-generator/",
+        "tags": [
+          "blender-addon",
+          "hair",
+          "skinning"
+        ]
+      },
+      {
+        "name": "MattRM2 VFX Build 1.1",
+        "summary": "Build Windows non officiel de Blender 5.2 (GPL, sources jointes) orienté VFX : Deep EXR réel depuis Cycles (volumes éclairés, surfaces émissives/transparentes), Z Depth volume-aware, overrides par view layer (chemin + plage), export caméra Alembic corrigé (film back), nœud Curves Lofting. Portable, Win64 seulement.",
+        "url": "https://github.com/MattRM2/MattRM2_VFX_Build/releases/tag/v1.1.0",
+        "tags": [
+          "exr",
+          "pipeline",
+          "alembic",
+          "emerging"
+        ]
+      },
+      {
+        "name": "three-gpu-pathtracer 0.0.25 — WebGPUPathTracer",
+        "summary": "Path tracer WebGPU pour three.js (MIT) : la 0.0.25 (28 sept) expose WebGPUPathTracer via « three-gpu-pathtracer/webgpu », déprécie WebGLPathTracer ; 0.0.26 (29 sept) corrige le chargement CDN. Utile pour previews web path-tracés / intégration web 3D.",
+        "url": "https://github.com/gkjohnson/three-gpu-pathtracer/releases/tag/v0.0.25",
+        "tags": [
+          "emerging"
+        ]
+      },
+      {
+        "name": "CoatLink 0.2.0",
+        "summary": "Pont GPL Blender ↔ 3D-Coat (protocole AppLink) : sync modèles bidirectionnelle prévisible, sans baking ni chirurgie de scène. La 0.2.0 (24 sept) resserre le pont ; install one-click. Niche mais utile si 3D-Coat est dans le pipeline sculpt/retopo.",
+        "url": "https://github.com/VictoryLuode/Blender-CoatLink/releases/tag/v0.2.0",
+        "tags": [
+          "blender-addon",
+          "pipeline",
+          "cad-retopo",
+          "emerging"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-27",
     "title": "Revue Open Source Software 3D — 25–27 septembre 2026",
     "items": [
