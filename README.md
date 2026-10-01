@@ -1,4 +1,6 @@
-# revue-oss-3d
+# Pépites Open Source Software 3D & VFX
+
+Repo : `revue-oss-3d`
 
 Veille open source liée à la **3D**, au **VFX** et à la **vidéo**.
 

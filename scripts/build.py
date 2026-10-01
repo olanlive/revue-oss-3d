@@ -15,7 +15,7 @@ DATA = ROOT / "data" / "discoveries.json"
 DOCS = ROOT / "docs"
 TAGS_DIR = DOCS / "tags"
 
-SITE_TITLE = "Revue Open Source Software 3D"
+SITE_TITLE = "Pépites Open Source Software 3D & VFX"
 SITE_DESC = "Veille open source 3D, VFX et vidéo — tous les jours."
 
 CSS = """\
