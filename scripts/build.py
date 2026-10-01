@@ -16,7 +16,7 @@ DOCS = ROOT / "docs"
 TAGS_DIR = DOCS / "tags"
 
 SITE_TITLE = "Revue Open Source Software 3D"
-SITE_DESC = "Veille open source 3D, VFX et vidéo — tous les 2 jours."
+SITE_DESC = "Veille open source 3D, VFX et vidéo — tous les jours."
 
 CSS = """\
 :root {
@@ -196,7 +196,7 @@ def page(
     {crumb_html}
     {body}
     <footer class="site">
-      <p>Veille open source 3D / VFX / vidéo · tous les 2 jours · 9h Europe/Paris</p>
+      <p>Veille open source 3D / VFX / vidéo · tous les jours · 9h Europe/Paris</p>
       <p><a href="https://github.com/olanlive/revue-oss-3d">Code source sur GitHub</a>
          · <a href="{prefix}tags/index.html">Tous les tags</a></p>
     </footer>

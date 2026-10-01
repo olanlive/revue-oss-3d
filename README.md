@@ -4,7 +4,7 @@ Veille open source liée à la **3D**, au **VFX** et à la **vidéo**.
 
 Site statique (GitHub Pages) : **https://olanlive.github.io/revue-oss-3d/**
 
-Cadence : **tous les 2 jours** à **9h Europe/Paris** — quelques découvertes à chaque passage (add-ons Blender, pipeline USD/Alembic/assets, nouveaux outils).
+Cadence : **tous les jours** à **9h Europe/Paris** — quelques découvertes à chaque passage (add-ons Blender, pipeline USD/Alembic/assets, nouveaux outils).
 
 ## Priorités
 
