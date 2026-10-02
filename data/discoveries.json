@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-02",
+    "name": "houdini-eevee-bridge 0.7.6",
+    "summary": "Pont Hydra MIT : EEVEE (worker Blender 5.2 headless) dans le viewport Solaris de Houdini — matériaux/lumières USD, UsdSkel, courbes/cheveux, holdouts, rendu final. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma (matériaux + Cd, lumières double face, primvars, instances quath, NURBS). Utile pour un pipeline Blender ↔ Houdini/USD.",
+    "url": "https://github.com/badgerz42/houdini-eevee-bridge/releases/tag/v0.7.6",
+    "tags": [
+      "pipeline",
+      "usd",
+      "vfx",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "name": "Blender 5.3 — Copy Paste World Space Animation",
+    "summary": "Opérateurs natifs pour copier/coller l’animation en espace monde (objets et os, multi-sélection, entre fichiers via fichier temp). Utile pour un transfert d’anim / retarget léger sans add-on. Documenté dans le manuel 5.3 ; 5.3 est en beta depuis le 30 sept.",
+    "url": "https://docs.blender.org/manual/en/5.3/editors/3dview/animation/world_space_animation_copy_paste.html",
+    "tags": [
+      "emerging",
+      "vfx"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "name": "GNToolkit 0.2.5",
+    "summary": "Add-on GPL-3.0 : versioning sémantique des node trees Blender (JSON canonique + sync Git, checks headless). La 0.2.5 (27 sept) ajoute audits (impact / doublons / santé JSON), gnt_check.py headless, détection des groupes enfants non trackés, et corrige la fidélité Menu Switch / modifiers à l’import. Bon levier pipeline Geometry Nodes / assets.",
+    "url": "https://github.com/oobma/GNToolkit/releases/tag/v0.2.5",
+    "tags": [
+      "pipeline",
+      "blender-addon",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "name": "On-Twos Retimer 0.7.0",
+    "summary": "Add-on Blender GPL : bake une anim contrainte/physique en pas de 2 (ou 3) frames. En 0.7.0 (28 sept) : plus lié à MMD — standalone sur n’importe quel armature (sélection Pose Mode, chaînes enfants, highlight preview). Utile pour un look stop-motion / anime sur des sims.",
+    "url": "https://github.com/zlz188/ontwos-retimer/releases/tag/v0.7.0",
+    "tags": [
+      "blender-addon",
+      "vfx"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "name": "LAMPOCHKA 3.5.0",
+    "summary": "Gestionnaire de lumières de scène (GPL). En 3.5.0 (27 sept) : sync Sky Texture avec le soleil (y compris Time keyé), Kelvin depuis l’élévation (horizon chaud → 6500 K), liste pliable, checker de mises à jour. Pratique pour setups éclairage / lookdev Blender 4.2–5.2.",
+    "url": "https://github.com/abyrvalg379/LAMPOCHKA/releases/tag/v3.5.0",
+    "tags": [
+      "blender-addon",
+      "vfx"
+    ]
+  },
+  {
     "date": "2026-10-01",
     "name": "Blenderbase 1.4.0",
     "summary": "App desktop gratuite (Win/macOS/Linux), code source public : gérer versions Blender et add-ons. La 1.4.0 (30 sept) permet d’appliquer un add-on à une autre version installée (drag & drop ou clic droit Apply to), avec copie/symlink dans le dossier de série et confirmation avant remplacement — utile pour cloner un set d’extensions entre 4.x / 5.x.",
