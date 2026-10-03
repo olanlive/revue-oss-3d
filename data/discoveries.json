@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-03",
+    "name": "STUKACH 1.8.5",
+    "summary": "Validateur d’assets Blender GPL (42 checkers, overlays GPU, mode live) : la 1.8.5 unifie le « Naming Contract » pour les conventions objet/scène et redesign hiérarchie. Utile en QC pipeline avant livraison.",
+    "url": "https://github.com/abyrvalg379/STUKACH/releases/tag/v1.8.5",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "OpenDLSS-NR",
+    "summary": "Réimplémentation Vulkan MIT bit-exact du réseau Neural Rendering DLSS 5 (NVIDIA) — 71 blocs Swin/ViT, FP8, sans poids NVIDIA inclus. Port WebGPU navigateur fourni. Base OSS pour le neural rendering génératif.",
+    "url": "https://github.com/maanHimself/OpenDLSS-NR",
+    "tags": [
+      "emerging",
+      "vfx"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "three-dlss-nr 0.1.0",
+    "summary": "Port Three.js (TSL/WebGPU) d’OpenDLSS-NR : le réseau DLSS 5 NR en compute nodes, byte-identique à la référence. Démo live ; poids NVIDIA à fournir soi-même. Signal frais sur le fil X.",
+    "url": "https://github.com/bhouston/three-dlss-nr",
+    "tags": [
+      "emerging",
+      "vfx"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "BowerBot 2.0.0",
+    "summary": "Agent IA Apache-2.0 qui assemble des scènes OpenUSD production-ready depuis le langage naturel. La 2.0 casse la compat (physique USD, formes d’assets). Radar pipeline USD.",
+    "url": "https://github.com/binary-core-llc/bowerbot/releases/tag/v2.0.0",
+    "tags": [
+      "usd",
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "ZeroGeometry Kit 1.0.1",
+    "summary": "Add-on Blender GPL : reframing vertical one-click (9:16 / 4:5 / 1:1) avec auto-follow, beat sync, loop doctor et wedge renders. Première release publique pour décliner une anim 16:9.",
+    "url": "https://github.com/zerogeometry/zerogeometry-kit/releases/tag/v1.0.1",
+    "tags": [
+      "blender-addon",
+      "video",
+      "emerging"
+    ]
+  },
+  {
     "date": "2026-10-02",
     "name": "houdini-eevee-bridge 0.7.6",
     "summary": "Pont Hydra MIT : EEVEE (worker Blender 5.2 headless) dans le viewport Solaris de Houdini — matériaux/lumières USD, UsdSkel, courbes/cheveux, holdouts, rendu final. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma (matériaux + Cd, lumières double face, primvars, instances quath, NURBS). Utile pour un pipeline Blender ↔ Houdini/USD.",
