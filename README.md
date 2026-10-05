@@ -72,3 +72,13 @@ Pas de npm. Python 3 standard library uniquement.
 ## Licence
 
 Notes de veille (liens vers les projets upstream, chacun avec sa propre licence).
+
+## Source d’une découverte
+
+Champ optionnel `source` dans `data/discoveries.json` : où la pépite a été repérée.
+
+```json
+"source": { "label": "Fil X — @compte", "url": "https://x.com/…" }
+```
+
+Libellés usuels : « Fil X — @compte », « Signet X », « Issue GitHub — owner/repo#123 », « Web — site ». Affiché sur le site sous le résumé (« Trouvé via : … »).

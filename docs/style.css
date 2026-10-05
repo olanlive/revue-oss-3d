@@ -71,6 +71,11 @@ nav.crumbs span.sep { margin: 0 0.35rem; }
   color: var(--text);
   font-size: 0.95rem;
 }
+.discovery .source {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
 .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .tag {
   display: inline-block;

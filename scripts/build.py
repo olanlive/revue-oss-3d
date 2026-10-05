@@ -92,6 +92,11 @@ nav.crumbs span.sep { margin: 0 0.35rem; }
   color: var(--text);
   font-size: 0.95rem;
 }
+.discovery .source {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
 .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .tag {
   display: inline-block;
@@ -216,6 +221,19 @@ def tags_html(tags: list[str], *, tags_base: str) -> str:
     return '<div class="tags">' + "".join(links) + "</div>"
 
 
+def source_html(source) -> str:
+    """source: {"label": str, "url": str?} or a plain string."""
+    if not source:
+        return ""
+    if isinstance(source, str):
+        return f'<p class="source">Trouvé via : {esc(source)}</p>'
+    label = esc(source.get("label", ""))
+    url = source.get("url")
+    if url:
+        label = f'<a href="{esc(url)}" rel="noopener" target="_blank">{label}</a>'
+    return f'<p class="source">Trouvé via : {label}</p>'
+
+
 def discovery_html(
     item: dict,
     *,
@@ -233,6 +251,7 @@ def discovery_html(
   {date_bit}
   <h3><a href="{esc(item['url'])}" rel="noopener" target="_blank">{esc(item['name'])}</a></h3>
   <p class="summary">{esc(item['summary'])}</p>
+  {source_html(item.get('source'))}
   {tags_html(item.get('tags', []), tags_base=tags_base)}
 </article>
 """

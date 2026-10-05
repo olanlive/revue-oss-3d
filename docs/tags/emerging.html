@@ -22,6 +22,7 @@
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://devtalk.blender.org/t/multi-stage-compositing-prototype-feedback/45865" rel="noopener" target="_blank">Multi Stage Compositor (PoC NPR, Blender 5.3)</a></h3>
   <p class="summary">Add-on proof of concept officiel du projet NPR (Miguel Pozo / pragma37, GPL-2.0+), publié le 30 sept pour feedback : arbres de compositing par objet et par matériau, assemblés automatiquement en un node tree régénéré à chaque frame (viewport et rendu final). Blender 5.3 requis ; UI provisoire, limitations listées (ViewLayer principal seulement, profondeur correcte depuis la caméra, artefacts Cryptomatte en bord). Préfigure le compositing par objet dans Blender.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -29,6 +30,7 @@
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://github.com/animu-sphere/usd-blender-plugins" rel="noopener" target="_blank">usd-blender-plugins 0.1.0</a></h3>
   <p class="summary">Plugin OpenUSD SdfFileFormat (Apache-2.0, animu-sphere) qui ouvre un .blend directement comme layer USD (references = @character.blend@, usdview scene.blend) sans lier ni installer Blender, + CLI blend_inspect. 0.1.0 préparée le 5 oct (binaires Windows/Linux pour OpenUSD 26.08 / Python 3.13 ; release GitHub pas encore publiée au moment du scan). Périmètre volontairement borné : Mesh/Empty Blender 5.2.2 (transforms, hiérarchie, topologie, UV, normales) — pas encore matériaux, caméras, lumières, animation ni armatures.</p>
+  
   <div class="tags"><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -36,6 +38,7 @@
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://github.com/postproject-org/postproject/releases/tag/v0.6.0-alpha.1" rel="noopener" target="_blank">PostProject 0.6.0-alpha.1 (+ extension Blender VSE)</a></h3>
   <p class="summary">Couche d’identité média pour la post-prod (Apache-2.0, Rust + C ABI/C++/Python/CLI) : IDs d’assets stables, représentations (originaux, proxies, séquences d’images), provenance, relink déterministe par empreinte de contenu, production .pproj SQLite. 0.6.0-alpha.1 sortie le 4 oct. Pilotes OSS : extension Blender (GPL-3.0) « Find Missing Media by Content » pour le Sequencer, Kdenlive, Natron, OBS, Ardour, et validations OpenAssetIO / OpenTimelineIO.</p>
+  
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./video.html">#video</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -43,6 +46,7 @@
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://github.com/Shriinivas/xnodify" rel="noopener" target="_blank">XNodify 1.0.0</a></h3>
   <p class="summary">Langage déclaratif .xfy + compilateur (GPL-3.0, Shriinivas) pour générer Geometry Nodes, shaders matériaux et World en code « pythonique » au lieu de câbler des nodes : zones Repeat/Simulation/Foreach, groupes réutilisables et include multi-fichiers, closures et bundles typés, auto-layout. Validation offline en CLI/CI sans GUI, LSP Neovim. Extension Blender 4.2+ / 5.x, dépendance lark embarquée. Repo publié le 3 oct.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -50,6 +54,7 @@
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://github.com/gjnail/blackbody" rel="noopener" target="_blank">Blackbody 1.0.0</a></h3>
   <p class="summary">App standalone MIT (Python + wgpu, Vulkan/D3D12/Metal) de simulation GPU feu/fumée, liquides, tissu, destruction (MuJoCo), sable, météo, directement dans un plan live : calage du sol, tracking caméra, roto/layers, 111 presets. Sorties composite ProRes/H.264/H.265/DNxHR, éléments avec alpha, EXR multi-couches et deep EXR (Nuke, Fusion, Resolve), volumes OpenVDB et meshes USD/OBJ pour Blender/Houdini. 1.0.0 datée du 30 sept ; projet tout neuf, à tester.</p>
+  
   <div class="tags"><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./sim.html">#sim</a><a class="tag" href="./exr.html">#exr</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -57,6 +62,7 @@
   <p class="date-label"><time datetime="2026-10-04">4 octobre 2026</time></p>
   <h3><a href="https://github.com/oobma/GNToolkit/releases/tag/v0.2.8" rel="noopener" target="_blank">GNToolkit 0.2.8</a></h3>
   <p class="summary">Versioning sémantique des Geometry Nodes (GPL-3.0) : la 0.2.8 (2 oct) ajoute l’impact dépendances sur objets/modifiers, résolution de conflits dans le panneau Sync, détection des JSON modifiés hors Blender, exclusion des node groups liés en library, export/import headless multi-fichiers, cache JSON à l’échelle, et backups avant écritures massives. Gros levier pipeline GN / assets.</p>
+  
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -64,6 +70,7 @@
   <p class="date-label"><time datetime="2026-10-04">4 octobre 2026</time></p>
   <h3><a href="https://github.com/blendershelf/BlenderShelf/releases/tag/v0.3.0" rel="noopener" target="_blank">BlenderShelf 0.3.0</a></h3>
   <p class="summary">Étagère flottante de boutons custom dans le viewport (style Maya). La 0.3.0 (3 oct) ajoute le redimensionnement au coin, Add Script / Import Script (.py) depuis le clic droit, icônes auto pour les boutons script, et pages de pie menu au-delà de 8 boutons. Blender 4.2+ / 5.x.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -71,6 +78,7 @@
   <p class="date-label"><time datetime="2026-10-04">4 octobre 2026</time></p>
   <h3><a href="https://github.com/Eterea/blender_addons/releases/tag/v1.6.1" rel="noopener" target="_blank">Eterea Blender Tools 1.6.1</a></h3>
   <p class="summary">Première release publique GPL-3.0 : kit Extension Blender 5.2+ qui regroupe 16 outils modeling/modifiers/nodes/transforms (Custom Color Nodes via D, Weight Ramp by Order, Batch Operate Attributes, Reset Modifier, Join Equalizing Bevels…). Un seul zip à installer.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -78,6 +86,7 @@
   <p class="date-label"><time datetime="2026-10-04">4 octobre 2026</time></p>
   <h3><a href="https://github.com/neilsonnn/image-blaster" rel="noopener" target="_blank">image-blaster</a></h3>
   <p class="summary">Skillset MIT (Claude) image→monde 3D en ~5 min : meshes dynamiques (.glb/.obj), splat d’environnement (.spz), SFX ambiants. Orchestre World Labs Marble + FAL (Hunyuan 3D) + ElevenLabs — APIs payantes requises. Signal viral sur le fil X (3–4 oct) ; utile pour kickstart environnements / layout.</p>
+  
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a><a class="tag" href="./vfx.html">#vfx</a></div>
 </article>
 
@@ -85,6 +94,7 @@
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/abyrvalg379/STUKACH/releases/tag/v1.8.5" rel="noopener" target="_blank">STUKACH 1.8.5</a></h3>
   <p class="summary">Validateur d’assets Blender GPL (42 checkers, overlays GPU, mode live) : la 1.8.5 unifie le « Naming Contract » pour les conventions objet/scène et redesign hiérarchie. Utile en QC pipeline avant livraison.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -92,6 +102,7 @@
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/maanHimself/OpenDLSS-NR" rel="noopener" target="_blank">OpenDLSS-NR</a></h3>
   <p class="summary">Réimplémentation Vulkan MIT bit-exact du réseau Neural Rendering DLSS 5 (NVIDIA) — 71 blocs Swin/ViT, FP8, sans poids NVIDIA inclus. Port WebGPU navigateur fourni. Base OSS pour le neural rendering génératif.</p>
+  
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a><a class="tag" href="./vfx.html">#vfx</a></div>
 </article>
 
@@ -99,6 +110,7 @@
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/bhouston/three-dlss-nr" rel="noopener" target="_blank">three-dlss-nr 0.1.0</a></h3>
   <p class="summary">Port Three.js (TSL/WebGPU) d’OpenDLSS-NR : le réseau DLSS 5 NR en compute nodes, byte-identique à la référence. Démo live ; poids NVIDIA à fournir soi-même. Signal frais sur le fil X.</p>
+  
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a><a class="tag" href="./vfx.html">#vfx</a></div>
 </article>
 
@@ -106,6 +118,7 @@
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/binary-core-llc/bowerbot/releases/tag/v2.0.0" rel="noopener" target="_blank">BowerBot 2.0.0</a></h3>
   <p class="summary">Agent IA Apache-2.0 qui assemble des scènes OpenUSD production-ready depuis le langage naturel. La 2.0 casse la compat (physique USD, formes d’assets). Radar pipeline USD.</p>
+  
   <div class="tags"><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -113,6 +126,7 @@
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/zerogeometry/zerogeometry-kit/releases/tag/v1.0.1" rel="noopener" target="_blank">ZeroGeometry Kit 1.0.1</a></h3>
   <p class="summary">Add-on Blender GPL : reframing vertical one-click (9:16 / 4:5 / 1:1) avec auto-follow, beat sync, loop doctor et wedge renders. Première release publique pour décliner une anim 16:9.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./video.html">#video</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -120,6 +134,7 @@
   <p class="date-label"><time datetime="2026-10-02">2 octobre 2026</time></p>
   <h3><a href="https://github.com/badgerz42/houdini-eevee-bridge/releases/tag/v0.7.6" rel="noopener" target="_blank">houdini-eevee-bridge 0.7.6</a></h3>
   <p class="summary">Pont Hydra MIT : EEVEE (worker Blender 5.2 headless) dans le viewport Solaris de Houdini — matériaux/lumières USD, UsdSkel, courbes/cheveux, holdouts, rendu final. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma (matériaux + Cd, lumières double face, primvars, instances quath, NURBS). Utile pour un pipeline Blender ↔ Houdini/USD.</p>
+  
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -127,6 +142,7 @@
   <p class="date-label"><time datetime="2026-10-02">2 octobre 2026</time></p>
   <h3><a href="https://docs.blender.org/manual/en/5.3/editors/3dview/animation/world_space_animation_copy_paste.html" rel="noopener" target="_blank">Blender 5.3 — Copy Paste World Space Animation</a></h3>
   <p class="summary">Opérateurs natifs pour copier/coller l’animation en espace monde (objets et os, multi-sélection, entre fichiers via fichier temp). Utile pour un transfert d’anim / retarget léger sans add-on. Documenté dans le manuel 5.3 ; 5.3 est en beta depuis le 30 sept.</p>
+  
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a><a class="tag" href="./vfx.html">#vfx</a></div>
 </article>
 
@@ -134,6 +150,7 @@
   <p class="date-label"><time datetime="2026-10-02">2 octobre 2026</time></p>
   <h3><a href="https://github.com/oobma/GNToolkit/releases/tag/v0.2.5" rel="noopener" target="_blank">GNToolkit 0.2.5</a></h3>
   <p class="summary">Add-on GPL-3.0 : versioning sémantique des node trees Blender (JSON canonique + sync Git, checks headless). La 0.2.5 (27 sept) ajoute audits (impact / doublons / santé JSON), gnt_check.py headless, détection des groupes enfants non trackés, et corrige la fidélité Menu Switch / modifiers à l’import. Bon levier pipeline Geometry Nodes / assets.</p>
+  
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -141,6 +158,7 @@
   <p class="date-label"><time datetime="2026-10-01">1 octobre 2026</time></p>
   <h3><a href="https://github.com/PhysicalAddons/blenderbase-public/releases/tag/v1.4.0" rel="noopener" target="_blank">Blenderbase 1.4.0</a></h3>
   <p class="summary">App desktop gratuite (Win/macOS/Linux), code source public : gérer versions Blender et add-ons. La 1.4.0 (30 sept) permet d’appliquer un add-on à une autre version installée (drag &amp; drop ou clic droit Apply to), avec copie/symlink dans le dossier de série et confirmation avant remplacement — utile pour cloner un set d’extensions entre 4.x / 5.x.</p>
+  
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -148,6 +166,7 @@
   <p class="date-label"><time datetime="2026-10-01">1 octobre 2026</time></p>
   <h3><a href="https://github.com/RoboticHuman/OpenUSDConnect" rel="noopener" target="_blank">OpenUSDConnect</a></h3>
   <p class="summary">Live-link OpenUSD Apache-2.0 entre DCC / outils USD / services headless : transactions ordonnées (SQLite), replay à la reconnexion, transforms/géométrie/primvars/caméras/lumières/animation, MaterialX, layers partagés. Intégrations de référence Blender, usdview, Unreal, MCP et Python ; commits actifs fin septembre (cible OpenUSD 26.08). Priorité pipeline USD multi-app.</p>
+  
   <div class="tags"><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -155,6 +174,7 @@
   <p class="date-label"><time datetime="2026-10-01">1 octobre 2026</time></p>
   <h3><a href="https://github.com/blendershelf/BlenderShelf/releases/tag/v0.2.2" rel="noopener" target="_blank">BlenderShelf 0.2.2</a></h3>
   <p class="summary">Add-on GPL-3.0 : étagère flottante de boutons custom dans le viewport 3D + pie menu contextuel (style shelf Maya). Projet né fin septembre ; la 0.2.x (30 sept) ajoute des shelves par mode (Object/Edit/Sculpt/UV/Shader/GN), icônes UV/sculpt, et stocke le placement des labels par layout horizontal/vertical. Blender 4.2+ / 5.x.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -162,6 +182,7 @@
   <p class="date-label"><time datetime="2026-10-01">1 octobre 2026</time></p>
   <h3><a href="https://github.com/ZJUCQR/CodeCinema" rel="noopener" target="_blank">CodeCinema</a></h3>
   <p class="summary">Framework MIT pour films « as code » : picture, musique, son, titres et master via un CLI (`codecinema run`). Config film.toml, toolkit audio partagé, assembly ffmpeg ; deux courts exemples (dont un duel 3D Blender 5.2+). Sortie initiale 30 sept–1er oct — piste émergente pour pipelines vidéo reproductibles / agents.</p>
+  
   <div class="tags"><a class="tag" href="./video.html">#video</a><a class="tag" href="./encoding.html">#encoding</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -169,6 +190,7 @@
   <p class="date-label"><time datetime="2026-09-29">29 septembre 2026</time></p>
   <h3><a href="https://slohero.com/tools/blender/en/" rel="noopener" target="_blank">Cloth Lab 0.8.1</a></h3>
   <p class="summary">Add-on GPL (slohero) pour cloth / vêtements dans Blender : presets tissu, pins/grabs, collisions, patrons, sewing, plis, finishing, et tearing dynamique expérimental (Blender 5.2+). La 0.8.1 (annonce 26 sept) sort une UI anglaise + source ; alternative libre aux workflows type Simply Cloth Studio.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./sim.html">#sim</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -176,6 +198,7 @@
   <p class="date-label"><time datetime="2026-09-29">29 septembre 2026</time></p>
   <h3><a href="https://github.com/MattRM2/MattRM2_VFX_Build/releases/tag/v1.1.0" rel="noopener" target="_blank">MattRM2 VFX Build 1.1</a></h3>
   <p class="summary">Build Windows non officiel de Blender 5.2 (GPL, sources jointes) orienté VFX : Deep EXR réel depuis Cycles (volumes éclairés, surfaces émissives/transparentes), Z Depth volume-aware, overrides par view layer (chemin + plage), export caméra Alembic corrigé (film back), nœud Curves Lofting. Portable, Win64 seulement.</p>
+  
   <div class="tags"><a class="tag" href="./exr.html">#exr</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./alembic.html">#alembic</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -183,6 +206,7 @@
   <p class="date-label"><time datetime="2026-09-29">29 septembre 2026</time></p>
   <h3><a href="https://github.com/gkjohnson/three-gpu-pathtracer/releases/tag/v0.0.25" rel="noopener" target="_blank">three-gpu-pathtracer 0.0.25 — WebGPUPathTracer</a></h3>
   <p class="summary">Path tracer WebGPU pour three.js (MIT) : la 0.0.25 (28 sept) expose WebGPUPathTracer via « three-gpu-pathtracer/webgpu », déprécie WebGLPathTracer ; 0.0.26 (29 sept) corrige le chargement CDN. Utile pour previews web path-tracés / intégration web 3D.</p>
+  
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -190,6 +214,7 @@
   <p class="date-label"><time datetime="2026-09-29">29 septembre 2026</time></p>
   <h3><a href="https://github.com/VictoryLuode/Blender-CoatLink/releases/tag/v0.2.0" rel="noopener" target="_blank">CoatLink 0.2.0</a></h3>
   <p class="summary">Pont GPL Blender ↔ 3D-Coat (protocole AppLink) : sync modèles bidirectionnelle prévisible, sans baking ni chirurgie de scène. La 0.2.0 (24 sept) resserre le pont ; install one-click. Niche mais utile si 3D-Coat est dans le pipeline sculpt/retopo.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./cad-retopo.html">#cad-retopo</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -197,6 +222,7 @@
   <p class="date-label"><time datetime="2026-09-27">27 septembre 2026</time></p>
   <h3><a href="https://github.com/denikryt/NodeForge/releases/tag/v0.50.0" rel="noopener" target="_blank">NodeForge 0.50.0</a></h3>
   <p class="summary">Add-on GPL qui compile un DSL Python-like en Geometry Nodes natifs (variables, opérateurs, packages). La 0.50.0 (18 sept) ouvre le projet en free software + package Math ; poussée encore active le 24 sept. Utile pour GN complexes maintenables / générables.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -204,6 +230,7 @@
   <p class="date-label"><time datetime="2026-09-27">27 septembre 2026</time></p>
   <h3><a href="https://github.com/PhysicalAddons/blenderbase-public/releases/tag/v1.3.2" rel="noopener" target="_blank">Blenderbase 1.3.2</a></h3>
   <p class="summary">App desktop gratuite (Win/macOS/Linux), code source public : gérer versions Blender, add-ons/extensions et .blend. La 1.3.x (21 sept) ajoute Sync (réseau local, code chiffré, dossier cloud, fichier .bbsetup) pour cloner prefs/thème/keymap/add-ons entre machines. Signet X « Blender ».</p>
+  
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -211,6 +238,7 @@
   <p class="date-label"><time datetime="2026-09-27">27 septembre 2026</time></p>
   <h3><a href="https://projects.blender.org/blender/blender/pulls/162946" rel="noopener" target="_blank">Grease Pencil — Attribute Shape Keys (WIP)</a></h3>
   <p class="summary">Shape keys attributaires pour Grease Pencil en cours (PR #162946, prototype déjà jouable). Démos récentes (ex. rig 2D + drivers) : expressions faciales / morphs stroke sur builds expérimentales — pas encore dans une release stable.</p>
+  
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
@@ -218,6 +246,7 @@
   <p class="date-label"><time datetime="2026-09-24">24 septembre 2026</time></p>
   <h3><a href="https://developer.blender.org/docs/release_notes/5.3/rendering/" rel="noopener" target="_blank">Blender 5.3 — Gaussian Splats natifs (alpha)</a></h3>
   <p class="summary">Les 3D Gaussian Splats entrent dans le cœur de Blender (plus d’add-on) : import PLY / SPZ, schéma USD UsdVolParticleField3DGaussianSplat, nœuds Geometry Nodes (Import SPZ, Set Point Cloud Type), rendu Workbench / EEVEE / Cycles. Alpha 5.3 (finale prévue ~10 nov 2026) ; pas d’export encore ; perfs / couleur / Apply Transform encore limités.</p>
+  
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a><a class="tag" href="./usd.html">#usd</a></div>
 </article>
 
@@ -225,6 +254,7 @@
   <p class="date-label"><time datetime="2026-09-21">21 septembre 2026</time></p>
   <h3><a href="https://github.com/polozad/hardcraft-dist/releases/tag/v0.9.0-alpha" rel="noopener" target="_blank">Hardcraft 0.9.0-alpha</a></h3>
   <p class="summary">Add-on Blender 5.0+ qui retopo des exports CAD (STEP / Plasticity / OBJ) en patches quads/tris. La 0.9.0 (20 sept) ajoute le loft RAILS pour cylindres/cônes, plus de topo STEP, et des binaires converter Linux + macOS. Alpha GPL.</p>
+  
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./cad-retopo.html">#cad-retopo</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
