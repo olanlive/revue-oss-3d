@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-05",
+    "name": "Multi Stage Compositor (PoC NPR, Blender 5.3)",
+    "summary": "Add-on proof of concept officiel du projet NPR (Miguel Pozo / pragma37, GPL-2.0+), publié le 30 sept pour feedback : arbres de compositing par objet et par matériau, assemblés automatiquement en un node tree régénéré à chaque frame (viewport et rendu final). Blender 5.3 requis ; UI provisoire, limitations listées (ViewLayer principal seulement, profondeur correcte depuis la caméra, artefacts Cryptomatte en bord). Préfigure le compositing par objet dans Blender.",
+    "url": "https://devtalk.blender.org/t/multi-stage-compositing-prototype-feedback/45865",
+    "tags": [
+      "blender-addon",
+      "vfx",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "name": "usd-blender-plugins 0.1.0",
+    "summary": "Plugin OpenUSD SdfFileFormat (Apache-2.0, animu-sphere) qui ouvre un .blend directement comme layer USD (references = @character.blend@, usdview scene.blend) sans lier ni installer Blender, + CLI blend_inspect. 0.1.0 préparée le 5 oct (binaires Windows/Linux pour OpenUSD 26.08 / Python 3.13 ; release GitHub pas encore publiée au moment du scan). Périmètre volontairement borné : Mesh/Empty Blender 5.2.2 (transforms, hiérarchie, topologie, UV, normales) — pas encore matériaux, caméras, lumières, animation ni armatures.",
+    "url": "https://github.com/animu-sphere/usd-blender-plugins",
+    "tags": [
+      "usd",
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "name": "PostProject 0.6.0-alpha.1 (+ extension Blender VSE)",
+    "summary": "Couche d’identité média pour la post-prod (Apache-2.0, Rust + C ABI/C++/Python/CLI) : IDs d’assets stables, représentations (originaux, proxies, séquences d’images), provenance, relink déterministe par empreinte de contenu, production .pproj SQLite. 0.6.0-alpha.1 sortie le 4 oct. Pilotes OSS : extension Blender (GPL-3.0) « Find Missing Media by Content » pour le Sequencer, Kdenlive, Natron, OBS, Ardour, et validations OpenAssetIO / OpenTimelineIO.",
+    "url": "https://github.com/postproject-org/postproject/releases/tag/v0.6.0-alpha.1",
+    "tags": [
+      "pipeline",
+      "video",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "name": "XNodify 1.0.0",
+    "summary": "Langage déclaratif .xfy + compilateur (GPL-3.0, Shriinivas) pour générer Geometry Nodes, shaders matériaux et World en code « pythonique » au lieu de câbler des nodes : zones Repeat/Simulation/Foreach, groupes réutilisables et include multi-fichiers, closures et bundles typés, auto-layout. Validation offline en CLI/CI sans GUI, LSP Neovim. Extension Blender 4.2+ / 5.x, dépendance lark embarquée. Repo publié le 3 oct.",
+    "url": "https://github.com/Shriinivas/xnodify",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "name": "Blackbody 1.0.0",
+    "summary": "App standalone MIT (Python + wgpu, Vulkan/D3D12/Metal) de simulation GPU feu/fumée, liquides, tissu, destruction (MuJoCo), sable, météo, directement dans un plan live : calage du sol, tracking caméra, roto/layers, 111 presets. Sorties composite ProRes/H.264/H.265/DNxHR, éléments avec alpha, EXR multi-couches et deep EXR (Nuke, Fusion, Resolve), volumes OpenVDB et meshes USD/OBJ pour Blender/Houdini. 1.0.0 datée du 30 sept ; projet tout neuf, à tester.",
+    "url": "https://github.com/gjnail/blackbody",
+    "tags": [
+      "vfx",
+      "sim",
+      "exr",
+      "emerging"
+    ]
+  },
+  {
     "date": "2026-10-04",
     "name": "GNToolkit 0.2.8",
     "summary": "Versioning sémantique des Geometry Nodes (GPL-3.0) : la 0.2.8 (2 oct) ajoute l’impact dépendances sur objets/modifiers, résolution de conflits dans le panneau Sync, détection des JSON modifiés hors Blender, exclusion des node groups liés en library, export/import headless multi-fichiers, cache JSON à l’échelle, et backups avant écritures massives. Gros levier pipeline GN / assets.",
