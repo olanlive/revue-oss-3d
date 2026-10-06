@@ -1,5 +1,78 @@
 [
   {
+    "date": "2026-10-06",
+    "name": "Gaussian Splat Patch 0.1.12",
+    "summary": "Extension Blender 5.3+ (GPL-3.0, Tim Fennell) pour retoucher des scans Gaussian splat importés nativement (PLY/SPZ) : 7 brosses Erase, Select, Clone, Heal, Spot Heal, Bridge et Restore, avec feather, mode Surface/Through et Restore en guise d'undo sur les gros nuages. Conçue pour nettoyer des scans d'insectes (poussière, fibres, épingle). Toute jeune (créée le 29 sept, v0.1.12 du 30 sept). Complète bien le support natif des splats arrivé dans Blender 5.3.",
+    "url": "https://github.com/timfennell/blender-splat-patch",
+    "tags": [
+      "blender-addon",
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107030170662285681"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "name": "Nukomfy 0.1.1",
+    "summary": "Plugin Python pour Nuke 14.1+ (Apache-2.0, Francesco Lorussi) qui transforme des workflows ComfyUI en gizmos Nuke réutilisables : le TD configure le gizmo une fois, l'artiste règle quelques knobs dans sa comp, envoie le job à une machine ComfyUI du réseau, suit la progression dans un Render Manager et réimporte les frames. 0.1.1 (28 sept) corrige le mode non-GUI (rendus en ligne de commande / render farm) et le support de l'App Builder ComfyUI 0.29+. Companion côté serveur : ComfyUI-Nukomfy-Suite.",
+    "url": "https://github.com/francescolorussi/Nukomfy",
+    "tags": [
+      "vfx",
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107038762102596051"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "name": "MacBlend 3.3.0",
+    "summary": "Extension Blender (GPL-3.0+, Manuel Houben) pour calibrer des images contenant une ColorChecker directement dans Blender (Calibrite/X-Rite Classic, Datacolor Spyder Checkr 24) : échantillonnage de la charte, transforms avant/inverse générés en nœuds compositor ou shader, ou export en LUT .cube, et matrice 3x3 vers un gamut cible. Permet aussi de matcher deux images entre elles (HDRI vers plaque caméra, caméra A vers caméra B). 3.3.0 publiée le 22 sept.",
+    "url": "https://extensions.blender.org/add-ons/macblend/",
+    "tags": [
+      "blender-addon",
+      "vfx",
+      "color"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org",
+      "url": "https://extensions.blender.org/add-ons/macblend/"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "name": "Mio3 Flex 1.0.4",
+    "summary": "Add-on Blender gratuit (GPL-3.0, mio3io) qui redessine une edge loop le long d'une spline éditable : points de contrôle à déplacer, densité ajustée au nombre de vertices, miroir X, contraintes d'axe et bouton Quick pour lisser d'un coup. Inspiré de MiraTools (implémentation indépendante). Disponible sur Blender Extensions (Blender 4.2+), 1.0.4 ajoute le keymap industry compatible.",
+    "url": "https://extensions.blender.org/add-ons/mio3-flex/",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Signet X — @JanvandenHemel",
+      "url": "https://x.com/JanvandenHemel/status/2106809289775980583"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "name": "Photo Relief 1.0.1",
+    "summary": "Petite extension Blender (GPL-3.0+, ~5 Ko, Blender 4.2+) qui transforme une image en mesh fermé imprimable en 3D, en local et hors ligne : modes Relief, Lithophane et Stamp, largeur en millimètres, hauteur déduite de l'image. Publiée le 24 sept sur Blender Extensions, 1.0.1 mise à jour début octobre.",
+    "url": "https://extensions.blender.org/add-ons/photo-relief/",
+    "tags": [
+      "blender-addon",
+      "3d-print"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107052084516340099"
+    }
+  },
+  {
     "date": "2026-10-05",
     "name": "Multi Stage Compositor (PoC NPR, Blender 5.3)",
     "summary": "Add-on proof of concept officiel du projet NPR (Miguel Pozo / pragma37, GPL-2.0+), publié le 30 sept pour feedback : arbres de compositing par objet et par matériau, assemblés automatiquement en un node tree régénéré à chaque frame (viewport et rendu final). Blender 5.3 requis ; UI provisoire, limitations listées (ViewLayer principal seulement, profondeur correcte depuis la caméra, artefacts Cryptomatte en bord). Préfigure le compositing par objet dans Blender.",
