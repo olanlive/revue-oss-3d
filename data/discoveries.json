@@ -1,5 +1,80 @@
 [
   {
+    "date": "2026-10-07",
+    "name": "Splat Slicer 0.2.9",
+    "summary": "Nouvelle extension Blender 5.3 (GPL-3.0, Tim Fennell, l'auteur de Gaussian Splat Patch) qui découpe un scan Gaussian splat importé nativement (PLY/SPZ) en couches à imprimer sur film transparent puis à empiler en bloc laminé. On définit la taille du bloc en mm, l'épaisseur film + colle, on prévisualise couche par couche dans le panneau N, puis export PDF (repères et traits de coupe) ou PNG, fichiers blanc pour impression DTF et volumes DICOM/NIfTI/NRRD, plus un aperçu optique Cycles. Repo créé le 5 oct, déjà en v0.2.9 (6 oct) ; l'auteur précise ne pas avoir encore testé l'impression réelle.",
+    "url": "https://github.com/timfennell/blender-splat-slicer",
+    "tags": [
+      "blender-addon",
+      "gaussian-splat",
+      "3d-print",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107709671947837818"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "ROTONIX 2.0.0 beta 1",
+    "summary": "Assistant de matte IA pour Nuke 15+ (Bishal Pandit, code sous licence MIT ; les modèles gardent leurs propres licences), publié sur Nukepedia le 6 oct. Un seul panneau pour sélectionner le sujet (points +/−, bbox, peinture, gomme, plusieurs objets), tracker en avant/arrière avec preview live, retoucher, puis exporter la plage de travail en séquence alpha lisible par un Read. Par défaut SAM 2.1 Large pour la découpe, ViTMatte Base pour les bords, RAFT pour la stabilité temporelle. Tout tourne en local, rien n'est uploadé. Bêta gratuite Windows uniquement (GPU NVIDIA).",
+    "url": "https://www.nukepedia.com/tools/python/misc/rotonix-ai-matte-assistant-public-beta-1/",
+    "tags": [
+      "vfx",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107702901657522544"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "AOV Rebuild Pipeline",
+    "summary": "Plugin Python pour Nuke 14 à 17 (MIT, michaelpbb) qui reconstruit automatiquement la beauty à partir des AOV d'un EXR multicouche : détection auto du moteur (Arnold, Redshift, V-Ray, Karma, UE5), mode Basic (addition rapide) ou Advanced (raw × filter, direct/indirect séparés), arbre de nodes propre généré automatiquement, passes depth/motion vector préparées. QC intégré en deux niveaux : contrôle que toutes les couches sont là + audit pixel par pixel (Difference) contre la beauty d'origine. Repo créé le 5 oct.",
+    "url": "https://github.com/michaelpbb/nuke-aov-rebuild-pipeline-Plugin",
+    "tags": [
+      "vfx",
+      "exr",
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107406023988555825"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "slatefree 1.2.0",
+    "summary": "Outil en ligne de commande en Rust (MIT, MayVortex ; Windows, macOS, Linux) pour synchroniser des centaines de clips multi-caméras sans clap ni timecode : l'audio continu d'un enregistreur (Zoom H4n etc.) sert d'horloge de référence, chaque clip y est recalé via son son interne, et on obtient une timeline FCP 7 XML pour DaVinci Resolve (une piste par caméra, l'enregistreur en bas) plus un CSV de contrôle par clip (statut ok / check / hors enregistreur, corrélation, dérive). On glisse le dossier de tournage sur slatefree.exe, ffmpeg à côté. Pensé pour mariages, conférences, events. Repo créé le 6 oct, déjà en v1.2.0.",
+    "url": "https://github.com/MayVortex/slatefree",
+    "tags": [
+      "video",
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107698253294887243"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "Render Animated .GIF 1.8.0",
+    "summary": "Extension Blender 4.2+ (GPL-3.0-or-later, byebyeLAN) qui exporte directement un GIF animé depuis le menu Render, sans outil externe (imageio-ffmpeg embarqué). La 1.8.0 (5 oct) sépare la qualité en mode Basic (presets Very Low à Very High) et Advanced, où l'on règle le dithering et la taille de palette. Le plus rapide passe par le VSE ; transparence possible via Film > Transparent (pas de semi-transparence en GIF).",
+    "url": "https://extensions.blender.org/add-ons/render-gif-animation/",
+    "tags": [
+      "blender-addon",
+      "video"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107411624088993969"
+    }
+  },
+  {
     "date": "2026-10-06",
     "name": "Gaussian Splat Patch 0.1.12",
     "summary": "Extension Blender 5.3+ (GPL-3.0, Tim Fennell) pour retoucher des scans Gaussian splat importés nativement (PLY/SPZ) : 7 brosses Erase, Select, Clone, Heal, Spot Heal, Bridge et Restore, avec feather, mode Surface/Through et Restore en guise d'undo sur les gros nuages. Conçue pour nettoyer des scans d'insectes (poussière, fibres, épingle). Toute jeune (créée le 29 sept, v0.1.12 du 30 sept). Complète bien le support natif des splats arrivé dans Blender 5.3.",
