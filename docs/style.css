@@ -111,6 +111,15 @@ h2.section {
   font-size: 0.9rem;
   margin: 0 0 0.35rem;
 }
+.day-sep {
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--accent);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.day-sep:first-of-type { margin-top: 1.5rem; }
 footer.site {
   margin-top: 3rem;
   padding-top: 1.25rem;

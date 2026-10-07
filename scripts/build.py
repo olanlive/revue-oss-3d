@@ -139,6 +139,15 @@ h2.section {
   font-size: 0.9rem;
   margin: 0 0 0.35rem;
 }
+.day-sep {
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--accent);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.day-sep:first-of-type { margin-top: 1.5rem; }
 footer.site {
   margin-top: 3rem;
   padding-top: 1.25rem;
@@ -166,6 +175,12 @@ def format_date_fr(iso: str) -> str:
         "juillet", "août", "septembre", "octobre", "novembre", "décembre",
     ]
     return f"{dt.day} {months[dt.month]} {dt.year}"
+
+
+def format_day_fr(iso: str) -> str:
+    days = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    dt = datetime.strptime(iso, "%Y-%m-%d")
+    return f"{days[dt.weekday()]} {format_date_fr(iso)}"
 
 
 def page(
@@ -339,9 +354,17 @@ def build() -> None:
             all_tags.add(tag)
             by_tag[tag].append(item)
 
-    feed = "".join(
-        discovery_html(item, tags_base="tags/") for item in discoveries
-    )
+    feed_parts: list[str] = []
+    current_day = None
+    for item in discoveries:
+        day = item.get("date")
+        if day and day != current_day:
+            feed_parts.append(
+                f'<h3 class="day-sep" id="jour-{esc(day)}">{esc(format_day_fr(day))}</h3>'
+            )
+            current_day = day
+        feed_parts.append(discovery_html(item, tags_base="tags/"))
+    feed = "".join(feed_parts)
     tag_links = "".join(
         f'<a class="tag" href="tags/{esc(t)}.html">#{esc(t)}</a>'
         for t in sorted(all_tags)
