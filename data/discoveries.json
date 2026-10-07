@@ -47,21 +47,6 @@
   },
   {
     "date": "2026-10-07",
-    "name": "slatefree 1.2.0",
-    "summary": "Outil Rust en ligne de commande qui synchronise des centaines de clips multi-caméras sans clap ni timecode, calés sur l’audio continu d’un enregistreur. Sortie : timeline FCP 7 XML pour Resolve et CSV de contrôle par clip. Repo créé le 6 oct, déjà en v1.2.0.",
-    "url": "https://github.com/MayVortex/slatefree",
-    "tags": [
-      "video",
-      "pipeline",
-      "emerging"
-    ],
-    "source": {
-      "label": "Fil X — @VFXDESK",
-      "url": "https://x.com/VFXDESK/status/2107698253294887243"
-    }
-  },
-  {
-    "date": "2026-10-07",
     "name": "Render Animated .GIF 1.8.0",
     "summary": "Exporte directement un GIF animé depuis le menu Render de Blender, sans outil externe. La 1.8.0 (5 oct) sépare la qualité en mode Basic (presets) et Advanced, où l’on règle le dithering et la taille de palette.",
     "url": "https://extensions.blender.org/add-ons/render-gif-animation/",
