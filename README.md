@@ -6,6 +6,8 @@ Veille open source liée à la **3D**, au **VFX** et à la **vidéo**.
 
 Site statique (GitHub Pages) : **https://olanlive.github.io/revue-oss-3d/**
 
+Flux RSS 2.0 : **https://olanlive.github.io/revue-oss-3d/feed.xml** (un item par découverte, lien vers l’ancre du bloc)
+
 Cadence : **tous les jours** à **9h Europe/Paris** — quelques découvertes à chaque passage (add-ons Blender, pipeline USD/Alembic/assets, nouveaux outils).
 
 ## Priorités
@@ -13,6 +15,10 @@ Cadence : **tous les jours** à **9h Europe/Paris** — quelques découvertes à
 1. Add-ons & extensions Blender
 2. Pipeline USD / Alembic / asset management
 3. Nouveaux outils qui naissent dans le domaine
+
+## Résumés
+
+**Résumé court et percutant : 1 à 2 phrases, ~280 caractères max** (le build avertit au-delà). Ce que fait l’outil ou ce qui est neuf dans cette version, avec la date de l’actu, pour donner envie de cliquer. Pas de pavé licence/maturité ; une mention très courte (« bêta », « payant ») seulement si essentielle.
 
 ## Ajouter une découverte
 
@@ -22,13 +28,13 @@ Cadence : **tous les jours** à **9h Europe/Paris** — quelques découvertes à
 {
   "date": "2026-09-29",
   "name": "Nom de l’outil",
-  "summary": "Pourquoi ça compte, version, licence.",
+  "summary": "Ce que fait l’outil / ce qui est neuf (sortie le 28 sept). 1–2 phrases, ~280 caractères max.",
   "url": "https://…",
   "tags": ["blender-addon", "hair"]
 }
 ```
 
-2. Rebuild :
+2. Rebuild (régénère `docs/`, dont `docs/feed.xml`) :
 
 ```bash
 python3 scripts/build.py
@@ -65,7 +71,9 @@ Utiliser ces tags kebab-case de façon cohérente :
 
 - `data/discoveries.json` — fil plat de découvertes (éditable)
 - `scripts/build.py` — génère le HTML dans `docs/`
-- `docs/` — site publié (Pages depuis `main` / dossier `/docs`)
+- `docs/` — site publié (Pages depuis `main` / dossier `/docs`) : `index.html` (fil unique, plus récent en haut), `tags/*.html`, `feed.xml` (RSS 2.0, 100 dernières découvertes)
+
+Chaque bloc `<article class="discovery">` a une ancre stable `id="AAAA-MM-JJ-nom-version"` (lien direct, utilisé par le flux RSS).
 
 Pas de npm. Python 3 standard library uniquement.
 

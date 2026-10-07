@@ -5,15 +5,22 @@ from __future__ import annotations
 
 import html
 import json
+import re
 import shutil
+import unicodedata
 from collections import defaultdict
 from datetime import datetime
+from email.utils import format_datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "discoveries.json"
 DOCS = ROOT / "docs"
 TAGS_DIR = DOCS / "tags"
+SITE_URL = "https://olanlive.github.io/revue-oss-3d/"
+FEED_MAX = 100
+SUMMARY_MAX = 280
 
 SITE_TITLE = "Pépites Open Source Software 3D & VFX"
 SITE_DESC = "Veille open source 3D, VFX et vidéo — tous les jours."
@@ -191,6 +198,7 @@ def page(
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(SITE_DESC)}">
   <link rel="stylesheet" href="{prefix}style.css">
+  <link rel="alternate" type="application/rss+xml" title="{esc(SITE_TITLE)}" href="{SITE_URL}feed.xml">
 </head>
 <body>
   <div class="wrap">
@@ -203,7 +211,8 @@ def page(
     <footer class="site">
       <p>Veille open source 3D / VFX / vidéo · tous les jours · 9h Europe/Paris</p>
       <p><a href="https://github.com/olanlive/revue-oss-3d">Code source sur GitHub</a>
-         · <a href="{prefix}tags/index.html">Tous les tags</a></p>
+         · <a href="{prefix}tags/index.html">Tous les tags</a>
+         · <a href="{prefix}feed.xml">Flux RSS</a></p>
     </footer>
   </div>
 </body>
@@ -234,6 +243,15 @@ def source_html(source) -> str:
     return f'<p class="source">Trouvé via : {label}</p>'
 
 
+def anchor_id(item: dict) -> str:
+    """Ancre stable : AAAA-MM-JJ-nom-version (ex. 2026-10-07-gntoolkit-0-2-8)."""
+    if item.get("id"):
+        return item["id"]
+    name = unicodedata.normalize("NFKD", item["name"]).encode("ascii", "ignore").decode()
+    slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    return f"{item['date']}-{slug}"
+
+
 def discovery_html(
     item: dict,
     *,
@@ -247,7 +265,7 @@ def discovery_html(
             f"{esc(format_date_fr(item['date']))}</time></p>"
         )
     return f"""
-<article class="discovery">
+<article class="discovery" id="{esc(anchor_id(item))}">
   {date_bit}
   <h3><a href="{esc(item['url'])}" rel="noopener" target="_blank">{esc(item['name'])}</a></h3>
   <p class="summary">{esc(item['summary'])}</p>
@@ -257,9 +275,49 @@ def discovery_html(
 """
 
 
+def write_feed(discoveries: list[dict]) -> None:
+    """docs/feed.xml — RSS 2.0, un item par découverte (lien = ancre du bloc)."""
+    paris = ZoneInfo("Europe/Paris")
+
+    def x(s: str) -> str:
+        return html.escape(s, quote=False)
+
+    items = []
+    for d in discoveries[:FEED_MAX]:
+        link = f"{SITE_URL}#{anchor_id(d)}"
+        pub = datetime.strptime(d["date"], "%Y-%m-%d").replace(hour=9, tzinfo=paris)
+        cats = "".join(f"\n      <category>{x(t)}</category>" for t in d.get("tags", []))
+        items.append(f"""    <item>
+      <title>{x(d['name'])}</title>
+      <link>{x(link)}</link>
+      <guid isPermaLink="true">{x(link)}</guid>
+      <pubDate>{format_datetime(pub)}</pubDate>
+      <description>{x(d['summary'])}</description>{cats}
+    </item>""")
+    last = discoveries[0]["date"] if discoveries else "1970-01-01"
+    last_dt = datetime.strptime(last, "%Y-%m-%d").replace(hour=9, tzinfo=paris)
+    feed = f"""<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{x(SITE_TITLE)}</title>
+    <link>{SITE_URL}</link>
+    <description>{x(SITE_DESC)}</description>
+    <language>fr</language>
+    <lastBuildDate>{format_datetime(last_dt)}</lastBuildDate>
+    <atom:link href="{SITE_URL}feed.xml" rel="self" type="application/rss+xml"/>
+{chr(10).join(items)}
+  </channel>
+</rss>
+"""
+    (DOCS / "feed.xml").write_text(feed, encoding="utf-8")
+
+
 def build() -> None:
     discoveries = json.loads(DATA.read_text(encoding="utf-8"))
     discoveries = sorted(discoveries, key=lambda d: d["date"], reverse=True)
+    for d in discoveries:
+        if len(d["summary"]) > SUMMARY_MAX:
+            print(f"ATTENTION : résumé trop long ({len(d['summary'])} > {SUMMARY_MAX} car.) : {d['name']}")
 
     if DOCS.exists():
         for child in DOCS.iterdir():
@@ -347,6 +405,8 @@ def build() -> None:
         ),
         encoding="utf-8",
     )
+
+    write_feed(discoveries)
 
     print(f"Built {len(discoveries)} discovery(ies), {len(all_tags)} tag(s) → {DOCS}")
 

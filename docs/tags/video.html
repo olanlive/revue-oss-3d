@@ -6,6 +6,7 @@
   <title>#video · Pépites Open Source Software 3D &amp; VFX</title>
   <meta name="description" content="Veille open source 3D, VFX et vidéo — tous les jours.">
   <link rel="stylesheet" href="../style.css">
+  <link rel="alternate" type="application/rss+xml" title="Pépites Open Source Software 3D &amp; VFX" href="https://olanlive.github.io/revue-oss-3d/feed.xml">
 </head>
 <body>
   <div class="wrap">
@@ -18,31 +19,31 @@
 <h2 class="section">Tag <code>#video</code></h2>
 <p class="meta">6 découvertes</p>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-07-slatefree-1-2-0">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://github.com/MayVortex/slatefree" rel="noopener" target="_blank">slatefree 1.2.0</a></h3>
-  <p class="summary">Outil en ligne de commande en Rust (MIT, MayVortex ; Windows, macOS, Linux) pour synchroniser des centaines de clips multi-caméras sans clap ni timecode : l&#x27;audio continu d&#x27;un enregistreur (Zoom H4n etc.) sert d&#x27;horloge de référence, chaque clip y est recalé via son son interne, et on obtient une timeline FCP 7 XML pour DaVinci Resolve (une piste par caméra, l&#x27;enregistreur en bas) plus un CSV de contrôle par clip (statut ok / check / hors enregistreur, corrélation, dérive). On glisse le dossier de tournage sur slatefree.exe, ffmpeg à côté. Pensé pour mariages, conférences, events. Repo créé le 6 oct, déjà en v1.2.0.</p>
+  <p class="summary">Outil Rust en ligne de commande qui synchronise des centaines de clips multi-caméras sans clap ni timecode, calés sur l’audio continu d’un enregistreur. Sortie : timeline FCP 7 XML pour Resolve et CSV de contrôle par clip. Repo créé le 6 oct, déjà en v1.2.0.</p>
   <p class="source">Trouvé via : <a href="https://x.com/VFXDESK/status/2107698253294887243" rel="noopener" target="_blank">Fil X — @VFXDESK</a></p>
   <div class="tags"><a class="tag" href="./video.html">#video</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-07-render-animated-gif-1-8-0">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://extensions.blender.org/add-ons/render-gif-animation/" rel="noopener" target="_blank">Render Animated .GIF 1.8.0</a></h3>
-  <p class="summary">Extension Blender 4.2+ (GPL-3.0-or-later, byebyeLAN) qui exporte directement un GIF animé depuis le menu Render, sans outil externe (imageio-ffmpeg embarqué). La 1.8.0 (5 oct) sépare la qualité en mode Basic (presets Very Low à Very High) et Advanced, où l&#x27;on règle le dithering et la taille de palette. Le plus rapide passe par le VSE ; transparence possible via Film &gt; Transparent (pas de semi-transparence en GIF).</p>
+  <p class="summary">Exporte directement un GIF animé depuis le menu Render de Blender, sans outil externe. La 1.8.0 (5 oct) sépare la qualité en mode Basic (presets) et Advanced, où l’on règle le dithering et la taille de palette.</p>
   <p class="source">Trouvé via : <a href="https://x.com/VFXDESK/status/2107411624088993969" rel="noopener" target="_blank">Fil X — @VFXDESK</a></p>
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./video.html">#video</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-05-postproject-0-6-0-alpha-1-extension-blender-vse">
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://github.com/postproject-org/postproject/releases/tag/v0.6.0-alpha.1" rel="noopener" target="_blank">PostProject 0.6.0-alpha.1 (+ extension Blender VSE)</a></h3>
-  <p class="summary">Couche d’identité média pour la post-prod (Apache-2.0, Rust + C ABI/C++/Python/CLI) : IDs d’assets stables, représentations (originaux, proxies, séquences d’images), provenance, relink déterministe par empreinte de contenu, production .pproj SQLite. 0.6.0-alpha.1 sortie le 4 oct. Pilotes OSS : extension Blender (GPL-3.0) « Find Missing Media by Content » pour le Sequencer, Kdenlive, Natron, OBS, Ardour, et validations OpenAssetIO / OpenTimelineIO.</p>
+  <p class="summary">Couche d’identité média pour la post-prod : IDs d’assets stables, provenance et relink déterministe par empreinte de contenu. La 0.6.0-alpha.1 est sortie le 4 oct, avec des pilotes Blender Sequencer, Kdenlive, Natron, OBS et Ardour.</p>
   
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./video.html">#video</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-03-zerogeometry-kit-1-0-1">
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/zerogeometry/zerogeometry-kit/releases/tag/v1.0.1" rel="noopener" target="_blank">ZeroGeometry Kit 1.0.1</a></h3>
   <p class="summary">Add-on Blender GPL : reframing vertical one-click (9:16 / 4:5 / 1:1) avec auto-follow, beat sync, loop doctor et wedge renders. Première release publique pour décliner une anim 16:9.</p>
@@ -50,15 +51,15 @@
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./video.html">#video</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-01-codecinema">
   <p class="date-label"><time datetime="2026-10-01">1 octobre 2026</time></p>
   <h3><a href="https://github.com/ZJUCQR/CodeCinema" rel="noopener" target="_blank">CodeCinema</a></h3>
-  <p class="summary">Framework MIT pour films « as code » : picture, musique, son, titres et master via un CLI (`codecinema run`). Config film.toml, toolkit audio partagé, assembly ffmpeg ; deux courts exemples (dont un duel 3D Blender 5.2+). Sortie initiale 30 sept–1er oct — piste émergente pour pipelines vidéo reproductibles / agents.</p>
+  <p class="summary">Framework pour faire des films « as code » : image, musique, son, titres et master via un CLI et ffmpeg, avec un court exemple de duel 3D en Blender 5.2+. Sortie initiale 30 sept–1er oct.</p>
   
   <div class="tags"><a class="tag" href="./video.html">#video</a><a class="tag" href="./encoding.html">#encoding</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-09-21-exr-converter-0-10-0-0-10-1-derek-rein">
   <p class="date-label"><time datetime="2026-09-21">21 septembre 2026</time></p>
   <h3><a href="https://github.com/derek-rein/exr-converter/releases" rel="noopener" target="_blank">EXR Converter 0.10.0 / 0.10.1 (Derek Rein)</a></h3>
   <p class="summary">Desktop+CLI MIT pour EXR↔vidéo avec OCIO (ACES), slate/burn-in, ProRes. 0.10.0 corrige le bake ACES 2.0 + decode BRAW optionnel ; 0.10.1 durcit les browsers R3D/BRAW/ARRIRAW.</p>
@@ -70,7 +71,8 @@
     <footer class="site">
       <p>Veille open source 3D / VFX / vidéo · tous les jours · 9h Europe/Paris</p>
       <p><a href="https://github.com/olanlive/revue-oss-3d">Code source sur GitHub</a>
-         · <a href="../tags/index.html">Tous les tags</a></p>
+         · <a href="../tags/index.html">Tous les tags</a>
+         · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
 </body>

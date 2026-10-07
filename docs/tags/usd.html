@@ -6,6 +6,7 @@
   <title>#usd · Pépites Open Source Software 3D &amp; VFX</title>
   <meta name="description" content="Veille open source 3D, VFX et vidéo — tous les jours.">
   <link rel="stylesheet" href="../style.css">
+  <link rel="alternate" type="application/rss+xml" title="Pépites Open Source Software 3D &amp; VFX" href="https://olanlive.github.io/revue-oss-3d/feed.xml">
 </head>
 <body>
   <div class="wrap">
@@ -18,15 +19,15 @@
 <h2 class="section">Tag <code>#usd</code></h2>
 <p class="meta">5 découvertes</p>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-05-usd-blender-plugins-0-1-0">
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://github.com/animu-sphere/usd-blender-plugins" rel="noopener" target="_blank">usd-blender-plugins 0.1.0</a></h3>
-  <p class="summary">Plugin OpenUSD SdfFileFormat (Apache-2.0, animu-sphere) qui ouvre un .blend directement comme layer USD (references = @character.blend@, usdview scene.blend) sans lier ni installer Blender, + CLI blend_inspect. 0.1.0 préparée le 5 oct (binaires Windows/Linux pour OpenUSD 26.08 / Python 3.13 ; release GitHub pas encore publiée au moment du scan). Périmètre volontairement borné : Mesh/Empty Blender 5.2.2 (transforms, hiérarchie, topologie, UV, normales) — pas encore matériaux, caméras, lumières, animation ni armatures.</p>
+  <p class="summary">Plugin OpenUSD qui ouvre un .blend directement comme layer USD (references, usdview) sans installer Blender. La 0.1.0 (5 oct) se limite encore aux Mesh/Empty de Blender 5.2.2 : pas de matériaux, caméras, lumières ni animation.</p>
   
   <div class="tags"><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-03-bowerbot-2-0-0">
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/binary-core-llc/bowerbot/releases/tag/v2.0.0" rel="noopener" target="_blank">BowerBot 2.0.0</a></h3>
   <p class="summary">Agent IA Apache-2.0 qui assemble des scènes OpenUSD production-ready depuis le langage naturel. La 2.0 casse la compat (physique USD, formes d’assets). Radar pipeline USD.</p>
@@ -34,26 +35,26 @@
   <div class="tags"><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-02-houdini-eevee-bridge-0-7-6">
   <p class="date-label"><time datetime="2026-10-02">2 octobre 2026</time></p>
   <h3><a href="https://github.com/badgerz42/houdini-eevee-bridge/releases/tag/v0.7.6" rel="noopener" target="_blank">houdini-eevee-bridge 0.7.6</a></h3>
-  <p class="summary">Pont Hydra MIT : EEVEE (worker Blender 5.2 headless) dans le viewport Solaris de Houdini — matériaux/lumières USD, UsdSkel, courbes/cheveux, holdouts, rendu final. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma (matériaux + Cd, lumières double face, primvars, instances quath, NURBS). Utile pour un pipeline Blender ↔ Houdini/USD.</p>
+  <p class="summary">Pont Hydra qui fait tourner EEVEE (Blender 5.2 headless) dans le viewport Solaris de Houdini. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma : matériaux, lumières double face, primvars, instances, NURBS.</p>
   
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-01-openusdconnect">
   <p class="date-label"><time datetime="2026-10-01">1 octobre 2026</time></p>
   <h3><a href="https://github.com/RoboticHuman/OpenUSDConnect" rel="noopener" target="_blank">OpenUSDConnect</a></h3>
-  <p class="summary">Live-link OpenUSD Apache-2.0 entre DCC / outils USD / services headless : transactions ordonnées (SQLite), replay à la reconnexion, transforms/géométrie/primvars/caméras/lumières/animation, MaterialX, layers partagés. Intégrations de référence Blender, usdview, Unreal, MCP et Python ; commits actifs fin septembre (cible OpenUSD 26.08). Priorité pipeline USD multi-app.</p>
+  <p class="summary">Live-link OpenUSD entre DCC et outils USD : transactions ordonnées, replay à la reconnexion, MaterialX et layers partagés. Intégrations Blender, usdview, Unreal, MCP et Python ; commits actifs fin septembre.</p>
   
   <div class="tags"><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-09-24-blender-5-3-gaussian-splats-natifs-alpha">
   <p class="date-label"><time datetime="2026-09-24">24 septembre 2026</time></p>
   <h3><a href="https://developer.blender.org/docs/release_notes/5.3/rendering/" rel="noopener" target="_blank">Blender 5.3 — Gaussian Splats natifs (alpha)</a></h3>
-  <p class="summary">Les 3D Gaussian Splats entrent dans le cœur de Blender (plus d’add-on) : import PLY / SPZ, schéma USD UsdVolParticleField3DGaussianSplat, nœuds Geometry Nodes (Import SPZ, Set Point Cloud Type), rendu Workbench / EEVEE / Cycles. Alpha 5.3 (finale prévue ~10 nov 2026) ; pas d’export encore ; perfs / couleur / Apply Transform encore limités.</p>
+  <p class="summary">Les Gaussian Splats entrent dans le cœur de Blender : import PLY / SPZ, schéma USD, nœuds Geometry Nodes et rendu Workbench / EEVEE / Cycles. Alpha 5.3 (finale prévue ~10 nov 2026), pas encore d’export.</p>
   
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a><a class="tag" href="./usd.html">#usd</a></div>
 </article>
@@ -62,7 +63,8 @@
     <footer class="site">
       <p>Veille open source 3D / VFX / vidéo · tous les jours · 9h Europe/Paris</p>
       <p><a href="https://github.com/olanlive/revue-oss-3d">Code source sur GitHub</a>
-         · <a href="../tags/index.html">Tous les tags</a></p>
+         · <a href="../tags/index.html">Tous les tags</a>
+         · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
 </body>

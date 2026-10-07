@@ -6,6 +6,7 @@
   <title>#pipeline · Pépites Open Source Software 3D &amp; VFX</title>
   <meta name="description" content="Veille open source 3D, VFX et vidéo — tous les jours.">
   <link rel="stylesheet" href="../style.css">
+  <link rel="alternate" type="application/rss+xml" title="Pépites Open Source Software 3D &amp; VFX" href="https://olanlive.github.io/revue-oss-3d/feed.xml">
 </head>
 <body>
   <div class="wrap">
@@ -18,63 +19,63 @@
 <h2 class="section">Tag <code>#pipeline</code></h2>
 <p class="meta">18 découvertes</p>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-07-aov-rebuild-pipeline">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://github.com/michaelpbb/nuke-aov-rebuild-pipeline-Plugin" rel="noopener" target="_blank">AOV Rebuild Pipeline</a></h3>
-  <p class="summary">Plugin Python pour Nuke 14 à 17 (MIT, michaelpbb) qui reconstruit automatiquement la beauty à partir des AOV d&#x27;un EXR multicouche : détection auto du moteur (Arnold, Redshift, V-Ray, Karma, UE5), mode Basic (addition rapide) ou Advanced (raw × filter, direct/indirect séparés), arbre de nodes propre généré automatiquement, passes depth/motion vector préparées. QC intégré en deux niveaux : contrôle que toutes les couches sont là + audit pixel par pixel (Difference) contre la beauty d&#x27;origine. Repo créé le 5 oct.</p>
+  <p class="summary">Plugin Nuke 14 à 17 qui reconstruit automatiquement la beauty depuis les AOV d’un EXR, avec détection du moteur (Arnold, Redshift, V-Ray, Karma, UE5). Modes Basic ou Advanced et QC intégré jusqu’à l’audit pixel par pixel. Repo créé le 5 oct.</p>
   <p class="source">Trouvé via : <a href="https://x.com/VFXDESK/status/2107406023988555825" rel="noopener" target="_blank">Fil X — @VFXDESK</a></p>
   <div class="tags"><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./exr.html">#exr</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-07-slatefree-1-2-0">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://github.com/MayVortex/slatefree" rel="noopener" target="_blank">slatefree 1.2.0</a></h3>
-  <p class="summary">Outil en ligne de commande en Rust (MIT, MayVortex ; Windows, macOS, Linux) pour synchroniser des centaines de clips multi-caméras sans clap ni timecode : l&#x27;audio continu d&#x27;un enregistreur (Zoom H4n etc.) sert d&#x27;horloge de référence, chaque clip y est recalé via son son interne, et on obtient une timeline FCP 7 XML pour DaVinci Resolve (une piste par caméra, l&#x27;enregistreur en bas) plus un CSV de contrôle par clip (statut ok / check / hors enregistreur, corrélation, dérive). On glisse le dossier de tournage sur slatefree.exe, ffmpeg à côté. Pensé pour mariages, conférences, events. Repo créé le 6 oct, déjà en v1.2.0.</p>
+  <p class="summary">Outil Rust en ligne de commande qui synchronise des centaines de clips multi-caméras sans clap ni timecode, calés sur l’audio continu d’un enregistreur. Sortie : timeline FCP 7 XML pour Resolve et CSV de contrôle par clip. Repo créé le 6 oct, déjà en v1.2.0.</p>
   <p class="source">Trouvé via : <a href="https://x.com/VFXDESK/status/2107698253294887243" rel="noopener" target="_blank">Fil X — @VFXDESK</a></p>
   <div class="tags"><a class="tag" href="./video.html">#video</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-06-nukomfy-0-1-1">
   <p class="date-label"><time datetime="2026-10-06">6 octobre 2026</time></p>
   <h3><a href="https://github.com/francescolorussi/Nukomfy" rel="noopener" target="_blank">Nukomfy 0.1.1</a></h3>
-  <p class="summary">Plugin Python pour Nuke 14.1+ (Apache-2.0, Francesco Lorussi) qui transforme des workflows ComfyUI en gizmos Nuke réutilisables : le TD configure le gizmo une fois, l&#x27;artiste règle quelques knobs dans sa comp, envoie le job à une machine ComfyUI du réseau, suit la progression dans un Render Manager et réimporte les frames. 0.1.1 (28 sept) corrige le mode non-GUI (rendus en ligne de commande / render farm) et le support de l&#x27;App Builder ComfyUI 0.29+. Companion côté serveur : ComfyUI-Nukomfy-Suite.</p>
+  <p class="summary">Transforme des workflows ComfyUI en gizmos Nuke : l’artiste règle ses knobs dans la comp, envoie le job à une machine ComfyUI du réseau et réimporte les frames. La 0.1.1 (28 sept) corrige les rendus en ligne de commande et sur render farm.</p>
   <p class="source">Trouvé via : <a href="https://x.com/VFXDESK/status/2107038762102596051" rel="noopener" target="_blank">Fil X — @VFXDESK</a></p>
   <div class="tags"><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-05-usd-blender-plugins-0-1-0">
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://github.com/animu-sphere/usd-blender-plugins" rel="noopener" target="_blank">usd-blender-plugins 0.1.0</a></h3>
-  <p class="summary">Plugin OpenUSD SdfFileFormat (Apache-2.0, animu-sphere) qui ouvre un .blend directement comme layer USD (references = @character.blend@, usdview scene.blend) sans lier ni installer Blender, + CLI blend_inspect. 0.1.0 préparée le 5 oct (binaires Windows/Linux pour OpenUSD 26.08 / Python 3.13 ; release GitHub pas encore publiée au moment du scan). Périmètre volontairement borné : Mesh/Empty Blender 5.2.2 (transforms, hiérarchie, topologie, UV, normales) — pas encore matériaux, caméras, lumières, animation ni armatures.</p>
+  <p class="summary">Plugin OpenUSD qui ouvre un .blend directement comme layer USD (references, usdview) sans installer Blender. La 0.1.0 (5 oct) se limite encore aux Mesh/Empty de Blender 5.2.2 : pas de matériaux, caméras, lumières ni animation.</p>
   
   <div class="tags"><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-05-postproject-0-6-0-alpha-1-extension-blender-vse">
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://github.com/postproject-org/postproject/releases/tag/v0.6.0-alpha.1" rel="noopener" target="_blank">PostProject 0.6.0-alpha.1 (+ extension Blender VSE)</a></h3>
-  <p class="summary">Couche d’identité média pour la post-prod (Apache-2.0, Rust + C ABI/C++/Python/CLI) : IDs d’assets stables, représentations (originaux, proxies, séquences d’images), provenance, relink déterministe par empreinte de contenu, production .pproj SQLite. 0.6.0-alpha.1 sortie le 4 oct. Pilotes OSS : extension Blender (GPL-3.0) « Find Missing Media by Content » pour le Sequencer, Kdenlive, Natron, OBS, Ardour, et validations OpenAssetIO / OpenTimelineIO.</p>
+  <p class="summary">Couche d’identité média pour la post-prod : IDs d’assets stables, provenance et relink déterministe par empreinte de contenu. La 0.6.0-alpha.1 est sortie le 4 oct, avec des pilotes Blender Sequencer, Kdenlive, Natron, OBS et Ardour.</p>
   
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./video.html">#video</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-05-xnodify-1-0-0">
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://github.com/Shriinivas/xnodify" rel="noopener" target="_blank">XNodify 1.0.0</a></h3>
-  <p class="summary">Langage déclaratif .xfy + compilateur (GPL-3.0, Shriinivas) pour générer Geometry Nodes, shaders matériaux et World en code « pythonique » au lieu de câbler des nodes : zones Repeat/Simulation/Foreach, groupes réutilisables et include multi-fichiers, closures et bundles typés, auto-layout. Validation offline en CLI/CI sans GUI, LSP Neovim. Extension Blender 4.2+ / 5.x, dépendance lark embarquée. Repo publié le 3 oct.</p>
+  <p class="summary">Langage .xfy compilé pour écrire en code Geometry Nodes, shaders et World au lieu de câbler des nodes, avec groupes réutilisables et auto-layout. Validation offline en CLI/CI sans GUI. Repo publié le 3 oct.</p>
   
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-04-gntoolkit-0-2-8">
   <p class="date-label"><time datetime="2026-10-04">4 octobre 2026</time></p>
   <h3><a href="https://github.com/oobma/GNToolkit/releases/tag/v0.2.8" rel="noopener" target="_blank">GNToolkit 0.2.8</a></h3>
-  <p class="summary">Versioning sémantique des Geometry Nodes (GPL-3.0) : la 0.2.8 (2 oct) ajoute l’impact dépendances sur objets/modifiers, résolution de conflits dans le panneau Sync, détection des JSON modifiés hors Blender, exclusion des node groups liés en library, export/import headless multi-fichiers, cache JSON à l’échelle, et backups avant écritures massives. Gros levier pipeline GN / assets.</p>
+  <p class="summary">Versioning sémantique des Geometry Nodes. La 0.2.8 (2 oct) ajoute l’impact des dépendances sur objets/modifiers, la résolution de conflits dans Sync, la détection des JSON modifiés hors Blender et l’export/import headless multi-fichiers.</p>
   
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-03-stukach-1-8-5">
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/abyrvalg379/STUKACH/releases/tag/v1.8.5" rel="noopener" target="_blank">STUKACH 1.8.5</a></h3>
   <p class="summary">Validateur d’assets Blender GPL (42 checkers, overlays GPU, mode live) : la 1.8.5 unifie le « Naming Contract » pour les conventions objet/scène et redesign hiérarchie. Utile en QC pipeline avant livraison.</p>
@@ -82,7 +83,7 @@
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-03-bowerbot-2-0-0">
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/binary-core-llc/bowerbot/releases/tag/v2.0.0" rel="noopener" target="_blank">BowerBot 2.0.0</a></h3>
   <p class="summary">Agent IA Apache-2.0 qui assemble des scènes OpenUSD production-ready depuis le langage naturel. La 2.0 casse la compat (physique USD, formes d’assets). Radar pipeline USD.</p>
@@ -90,47 +91,47 @@
   <div class="tags"><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-02-houdini-eevee-bridge-0-7-6">
   <p class="date-label"><time datetime="2026-10-02">2 octobre 2026</time></p>
   <h3><a href="https://github.com/badgerz42/houdini-eevee-bridge/releases/tag/v0.7.6" rel="noopener" target="_blank">houdini-eevee-bridge 0.7.6</a></h3>
-  <p class="summary">Pont Hydra MIT : EEVEE (worker Blender 5.2 headless) dans le viewport Solaris de Houdini — matériaux/lumières USD, UsdSkel, courbes/cheveux, holdouts, rendu final. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma (matériaux + Cd, lumières double face, primvars, instances quath, NURBS). Utile pour un pipeline Blender ↔ Houdini/USD.</p>
+  <p class="summary">Pont Hydra qui fait tourner EEVEE (Blender 5.2 headless) dans le viewport Solaris de Houdini. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma : matériaux, lumières double face, primvars, instances, NURBS.</p>
   
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-02-gntoolkit-0-2-5">
   <p class="date-label"><time datetime="2026-10-02">2 octobre 2026</time></p>
   <h3><a href="https://github.com/oobma/GNToolkit/releases/tag/v0.2.5" rel="noopener" target="_blank">GNToolkit 0.2.5</a></h3>
-  <p class="summary">Add-on GPL-3.0 : versioning sémantique des node trees Blender (JSON canonique + sync Git, checks headless). La 0.2.5 (27 sept) ajoute audits (impact / doublons / santé JSON), gnt_check.py headless, détection des groupes enfants non trackés, et corrige la fidélité Menu Switch / modifiers à l’import. Bon levier pipeline Geometry Nodes / assets.</p>
+  <p class="summary">Versioning sémantique des node trees Blender (JSON + Git, checks headless). La 0.2.5 (27 sept) ajoute des audits impact / doublons / santé JSON et corrige la fidélité Menu Switch / modifiers à l’import.</p>
   
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-01-blenderbase-1-4-0">
   <p class="date-label"><time datetime="2026-10-01">1 octobre 2026</time></p>
   <h3><a href="https://github.com/PhysicalAddons/blenderbase-public/releases/tag/v1.4.0" rel="noopener" target="_blank">Blenderbase 1.4.0</a></h3>
-  <p class="summary">App desktop gratuite (Win/macOS/Linux), code source public : gérer versions Blender et add-ons. La 1.4.0 (30 sept) permet d’appliquer un add-on à une autre version installée (drag &amp; drop ou clic droit Apply to), avec copie/symlink dans le dossier de série et confirmation avant remplacement — utile pour cloner un set d’extensions entre 4.x / 5.x.</p>
+  <p class="summary">App desktop gratuite pour gérer versions Blender et add-ons. La 1.4.0 (30 sept) applique un add-on à une autre version installée (drag &amp; drop ou Apply to) : pratique pour cloner un set d’extensions entre 4.x et 5.x.</p>
   
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-01-openusdconnect">
   <p class="date-label"><time datetime="2026-10-01">1 octobre 2026</time></p>
   <h3><a href="https://github.com/RoboticHuman/OpenUSDConnect" rel="noopener" target="_blank">OpenUSDConnect</a></h3>
-  <p class="summary">Live-link OpenUSD Apache-2.0 entre DCC / outils USD / services headless : transactions ordonnées (SQLite), replay à la reconnexion, transforms/géométrie/primvars/caméras/lumières/animation, MaterialX, layers partagés. Intégrations de référence Blender, usdview, Unreal, MCP et Python ; commits actifs fin septembre (cible OpenUSD 26.08). Priorité pipeline USD multi-app.</p>
+  <p class="summary">Live-link OpenUSD entre DCC et outils USD : transactions ordonnées, replay à la reconnexion, MaterialX et layers partagés. Intégrations Blender, usdview, Unreal, MCP et Python ; commits actifs fin septembre.</p>
   
   <div class="tags"><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-09-29-mattrm2-vfx-build-1-1">
   <p class="date-label"><time datetime="2026-09-29">29 septembre 2026</time></p>
   <h3><a href="https://github.com/MattRM2/MattRM2_VFX_Build/releases/tag/v1.1.0" rel="noopener" target="_blank">MattRM2 VFX Build 1.1</a></h3>
-  <p class="summary">Build Windows non officiel de Blender 5.2 (GPL, sources jointes) orienté VFX : Deep EXR réel depuis Cycles (volumes éclairés, surfaces émissives/transparentes), Z Depth volume-aware, overrides par view layer (chemin + plage), export caméra Alembic corrigé (film back), nœud Curves Lofting. Portable, Win64 seulement.</p>
+  <p class="summary">Build Windows non officiel de Blender 5.2 orienté VFX : Deep EXR depuis Cycles, Z Depth compatible volumes, overrides par view layer, export caméra Alembic corrigé et nœud Curves Lofting.</p>
   
   <div class="tags"><a class="tag" href="./exr.html">#exr</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./alembic.html">#alembic</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-09-29-coatlink-0-2-0">
   <p class="date-label"><time datetime="2026-09-29">29 septembre 2026</time></p>
   <h3><a href="https://github.com/VictoryLuode/Blender-CoatLink/releases/tag/v0.2.0" rel="noopener" target="_blank">CoatLink 0.2.0</a></h3>
   <p class="summary">Pont GPL Blender ↔ 3D-Coat (protocole AppLink) : sync modèles bidirectionnelle prévisible, sans baking ni chirurgie de scène. La 0.2.0 (24 sept) resserre le pont ; install one-click. Niche mais utile si 3D-Coat est dans le pipeline sculpt/retopo.</p>
@@ -138,15 +139,15 @@
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./cad-retopo.html">#cad-retopo</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-09-27-blenderbase-1-3-2">
   <p class="date-label"><time datetime="2026-09-27">27 septembre 2026</time></p>
   <h3><a href="https://github.com/PhysicalAddons/blenderbase-public/releases/tag/v1.3.2" rel="noopener" target="_blank">Blenderbase 1.3.2</a></h3>
-  <p class="summary">App desktop gratuite (Win/macOS/Linux), code source public : gérer versions Blender, add-ons/extensions et .blend. La 1.3.x (21 sept) ajoute Sync (réseau local, code chiffré, dossier cloud, fichier .bbsetup) pour cloner prefs/thème/keymap/add-ons entre machines. Signet X « Blender ».</p>
+  <p class="summary">App desktop gratuite pour gérer versions Blender, add-ons et .blend. La 1.3.x (21 sept) ajoute Sync pour cloner prefs, thème, keymap et add-ons entre machines (réseau local, dossier cloud, fichier .bbsetup).</p>
   
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-09-27-fusion-blender-bridge">
   <p class="date-label"><time datetime="2026-09-27">27 septembre 2026</time></p>
   <h3><a href="https://github.com/inspace9018/fusion-to-blender-bridge" rel="noopener" target="_blank">Fusion → Blender Bridge</a></h3>
   <p class="summary">Paire d’add-ons GPL (Fusion 360 + Blender 4.2+) : sync géométrie en un clic via WebSocket local ; matériaux, modifiers, sharp edges et light links Blender survivent aux révisions CAD. Pas d’import Appearance Fusion (volontaire).</p>
@@ -154,7 +155,7 @@
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./cad-retopo.html">#cad-retopo</a><a class="tag" href="./pipeline.html">#pipeline</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-09-24-blender-5-3-bascule-ocio-runtime">
   <p class="date-label"><time datetime="2026-09-24">24 septembre 2026</time></p>
   <h3><a href="https://devtalk.blender.org/t/21-september-2026/45811" rel="noopener" target="_blank">Blender 5.3 — bascule OCIO runtime</a></h3>
   <p class="summary">Mécanisme core pour changer la config OpenColorIO active à l’exécution (base pour des configs OCIO par projet). Fondations pipeline pour studios multi-configs ACES/OCIO ; l’UI projet complète n’est pas encore là.</p>
@@ -166,7 +167,8 @@
     <footer class="site">
       <p>Veille open source 3D / VFX / vidéo · tous les jours · 9h Europe/Paris</p>
       <p><a href="https://github.com/olanlive/revue-oss-3d">Code source sur GitHub</a>
-         · <a href="../tags/index.html">Tous les tags</a></p>
+         · <a href="../tags/index.html">Tous les tags</a>
+         · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
 </body>

@@ -6,6 +6,7 @@
   <title>#vfx · Pépites Open Source Software 3D &amp; VFX</title>
   <meta name="description" content="Veille open source 3D, VFX et vidéo — tous les jours.">
   <link rel="stylesheet" href="../style.css">
+  <link rel="alternate" type="application/rss+xml" title="Pépites Open Source Software 3D &amp; VFX" href="https://olanlive.github.io/revue-oss-3d/feed.xml">
 </head>
 <body>
   <div class="wrap">
@@ -18,63 +19,63 @@
 <h2 class="section">Tag <code>#vfx</code></h2>
 <p class="meta">13 découvertes</p>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-07-rotonix-2-0-0-beta-1">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://www.nukepedia.com/tools/python/misc/rotonix-ai-matte-assistant-public-beta-1/" rel="noopener" target="_blank">ROTONIX 2.0.0 beta 1</a></h3>
-  <p class="summary">Assistant de matte IA pour Nuke 15+ (Bishal Pandit, code sous licence MIT ; les modèles gardent leurs propres licences), publié sur Nukepedia le 6 oct. Un seul panneau pour sélectionner le sujet (points +/−, bbox, peinture, gomme, plusieurs objets), tracker en avant/arrière avec preview live, retoucher, puis exporter la plage de travail en séquence alpha lisible par un Read. Par défaut SAM 2.1 Large pour la découpe, ViTMatte Base pour les bords, RAFT pour la stabilité temporelle. Tout tourne en local, rien n&#x27;est uploadé. Bêta gratuite Windows uniquement (GPU NVIDIA).</p>
+  <p class="summary">Assistant de matte IA pour Nuke 15+, publié sur Nukepedia le 6 oct : un seul panneau pour sélectionner le sujet, tracker, retoucher et exporter une séquence alpha, avec SAM 2.1, ViTMatte et RAFT en local. Bêta gratuite, Windows uniquement.</p>
   <p class="source">Trouvé via : <a href="https://x.com/VFXDESK/status/2107702901657522544" rel="noopener" target="_blank">Fil X — @VFXDESK</a></p>
   <div class="tags"><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-07-aov-rebuild-pipeline">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://github.com/michaelpbb/nuke-aov-rebuild-pipeline-Plugin" rel="noopener" target="_blank">AOV Rebuild Pipeline</a></h3>
-  <p class="summary">Plugin Python pour Nuke 14 à 17 (MIT, michaelpbb) qui reconstruit automatiquement la beauty à partir des AOV d&#x27;un EXR multicouche : détection auto du moteur (Arnold, Redshift, V-Ray, Karma, UE5), mode Basic (addition rapide) ou Advanced (raw × filter, direct/indirect séparés), arbre de nodes propre généré automatiquement, passes depth/motion vector préparées. QC intégré en deux niveaux : contrôle que toutes les couches sont là + audit pixel par pixel (Difference) contre la beauty d&#x27;origine. Repo créé le 5 oct.</p>
+  <p class="summary">Plugin Nuke 14 à 17 qui reconstruit automatiquement la beauty depuis les AOV d’un EXR, avec détection du moteur (Arnold, Redshift, V-Ray, Karma, UE5). Modes Basic ou Advanced et QC intégré jusqu’à l’audit pixel par pixel. Repo créé le 5 oct.</p>
   <p class="source">Trouvé via : <a href="https://x.com/VFXDESK/status/2107406023988555825" rel="noopener" target="_blank">Fil X — @VFXDESK</a></p>
   <div class="tags"><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./exr.html">#exr</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-06-nukomfy-0-1-1">
   <p class="date-label"><time datetime="2026-10-06">6 octobre 2026</time></p>
   <h3><a href="https://github.com/francescolorussi/Nukomfy" rel="noopener" target="_blank">Nukomfy 0.1.1</a></h3>
-  <p class="summary">Plugin Python pour Nuke 14.1+ (Apache-2.0, Francesco Lorussi) qui transforme des workflows ComfyUI en gizmos Nuke réutilisables : le TD configure le gizmo une fois, l&#x27;artiste règle quelques knobs dans sa comp, envoie le job à une machine ComfyUI du réseau, suit la progression dans un Render Manager et réimporte les frames. 0.1.1 (28 sept) corrige le mode non-GUI (rendus en ligne de commande / render farm) et le support de l&#x27;App Builder ComfyUI 0.29+. Companion côté serveur : ComfyUI-Nukomfy-Suite.</p>
+  <p class="summary">Transforme des workflows ComfyUI en gizmos Nuke : l’artiste règle ses knobs dans la comp, envoie le job à une machine ComfyUI du réseau et réimporte les frames. La 0.1.1 (28 sept) corrige les rendus en ligne de commande et sur render farm.</p>
   <p class="source">Trouvé via : <a href="https://x.com/VFXDESK/status/2107038762102596051" rel="noopener" target="_blank">Fil X — @VFXDESK</a></p>
   <div class="tags"><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-06-macblend-3-3-0">
   <p class="date-label"><time datetime="2026-10-06">6 octobre 2026</time></p>
   <h3><a href="https://extensions.blender.org/add-ons/macblend/" rel="noopener" target="_blank">MacBlend 3.3.0</a></h3>
-  <p class="summary">Extension Blender (GPL-3.0+, Manuel Houben) pour calibrer des images contenant une ColorChecker directement dans Blender (Calibrite/X-Rite Classic, Datacolor Spyder Checkr 24) : échantillonnage de la charte, transforms avant/inverse générés en nœuds compositor ou shader, ou export en LUT .cube, et matrice 3x3 vers un gamut cible. Permet aussi de matcher deux images entre elles (HDRI vers plaque caméra, caméra A vers caméra B). 3.3.0 publiée le 22 sept.</p>
+  <p class="summary">Calibre des images contenant une ColorChecker directement dans Blender, en nœuds compositor ou shader, ou en LUT .cube. Sait aussi matcher deux images (HDRI vers plaque caméra, caméra A vers caméra B). 3.3.0 publiée le 22 sept.</p>
   <p class="source">Trouvé via : <a href="https://extensions.blender.org/add-ons/macblend/" rel="noopener" target="_blank">Web — extensions.blender.org</a></p>
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./color.html">#color</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-05-multi-stage-compositor-poc-npr-blender-5-3">
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://devtalk.blender.org/t/multi-stage-compositing-prototype-feedback/45865" rel="noopener" target="_blank">Multi Stage Compositor (PoC NPR, Blender 5.3)</a></h3>
-  <p class="summary">Add-on proof of concept officiel du projet NPR (Miguel Pozo / pragma37, GPL-2.0+), publié le 30 sept pour feedback : arbres de compositing par objet et par matériau, assemblés automatiquement en un node tree régénéré à chaque frame (viewport et rendu final). Blender 5.3 requis ; UI provisoire, limitations listées (ViewLayer principal seulement, profondeur correcte depuis la caméra, artefacts Cryptomatte en bord). Préfigure le compositing par objet dans Blender.</p>
+  <p class="summary">Proof of concept officiel du projet NPR, publié le 30 sept pour feedback : des arbres de compositing par objet et par matériau dans Blender 5.3, en viewport comme au rendu final. Préfigure le compositing par objet dans Blender.</p>
   
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-05-blackbody-1-0-0">
   <p class="date-label"><time datetime="2026-10-05">5 octobre 2026</time></p>
   <h3><a href="https://github.com/gjnail/blackbody" rel="noopener" target="_blank">Blackbody 1.0.0</a></h3>
-  <p class="summary">App standalone MIT (Python + wgpu, Vulkan/D3D12/Metal) de simulation GPU feu/fumée, liquides, tissu, destruction (MuJoCo), sable, météo, directement dans un plan live : calage du sol, tracking caméra, roto/layers, 111 presets. Sorties composite ProRes/H.264/H.265/DNxHR, éléments avec alpha, EXR multi-couches et deep EXR (Nuke, Fusion, Resolve), volumes OpenVDB et meshes USD/OBJ pour Blender/Houdini. 1.0.0 datée du 30 sept ; projet tout neuf, à tester.</p>
+  <p class="summary">App standalone de simulation GPU (feu, fumée, liquides, destruction, météo…) directement dans un plan live, avec tracking caméra et 111 presets. Exports deep EXR, OpenVDB et USD/OBJ. 1.0.0 du 30 sept : tout neuf, à tester.</p>
   
   <div class="tags"><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./sim.html">#sim</a><a class="tag" href="./exr.html">#exr</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-04-image-blaster">
   <p class="date-label"><time datetime="2026-10-04">4 octobre 2026</time></p>
   <h3><a href="https://github.com/neilsonnn/image-blaster" rel="noopener" target="_blank">image-blaster</a></h3>
-  <p class="summary">Skillset MIT (Claude) image→monde 3D en ~5 min : meshes dynamiques (.glb/.obj), splat d’environnement (.spz), SFX ambiants. Orchestre World Labs Marble + FAL (Hunyuan 3D) + ElevenLabs — APIs payantes requises. Signal viral sur le fil X (3–4 oct) ; utile pour kickstart environnements / layout.</p>
+  <p class="summary">Skillset (Claude) qui transforme une image en monde 3D en ~5 min : meshes, splat d’environnement et SFX ambiants, via World Labs Marble, FAL et ElevenLabs. APIs payantes. Viral sur le fil X (3–4 oct).</p>
   
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a><a class="tag" href="./vfx.html">#vfx</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-03-opendlss-nr">
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/maanHimself/OpenDLSS-NR" rel="noopener" target="_blank">OpenDLSS-NR</a></h3>
   <p class="summary">Réimplémentation Vulkan MIT bit-exact du réseau Neural Rendering DLSS 5 (NVIDIA) — 71 blocs Swin/ViT, FP8, sans poids NVIDIA inclus. Port WebGPU navigateur fourni. Base OSS pour le neural rendering génératif.</p>
@@ -82,7 +83,7 @@
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a><a class="tag" href="./vfx.html">#vfx</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-03-three-dlss-nr-0-1-0">
   <p class="date-label"><time datetime="2026-10-03">3 octobre 2026</time></p>
   <h3><a href="https://github.com/bhouston/three-dlss-nr" rel="noopener" target="_blank">three-dlss-nr 0.1.0</a></h3>
   <p class="summary">Port Three.js (TSL/WebGPU) d’OpenDLSS-NR : le réseau DLSS 5 NR en compute nodes, byte-identique à la référence. Démo live ; poids NVIDIA à fournir soi-même. Signal frais sur le fil X.</p>
@@ -90,15 +91,15 @@
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a><a class="tag" href="./vfx.html">#vfx</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-02-houdini-eevee-bridge-0-7-6">
   <p class="date-label"><time datetime="2026-10-02">2 octobre 2026</time></p>
   <h3><a href="https://github.com/badgerz42/houdini-eevee-bridge/releases/tag/v0.7.6" rel="noopener" target="_blank">houdini-eevee-bridge 0.7.6</a></h3>
-  <p class="summary">Pont Hydra MIT : EEVEE (worker Blender 5.2 headless) dans le viewport Solaris de Houdini — matériaux/lumières USD, UsdSkel, courbes/cheveux, holdouts, rendu final. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma (matériaux + Cd, lumières double face, primvars, instances quath, NURBS). Utile pour un pipeline Blender ↔ Houdini/USD.</p>
+  <p class="summary">Pont Hydra qui fait tourner EEVEE (Blender 5.2 headless) dans le viewport Solaris de Houdini. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma : matériaux, lumières double face, primvars, instances, NURBS.</p>
   
   <div class="tags"><a class="tag" href="./pipeline.html">#pipeline</a><a class="tag" href="./usd.html">#usd</a><a class="tag" href="./vfx.html">#vfx</a><a class="tag" href="./emerging.html">#emerging</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-02-blender-5-3-copy-paste-world-space-animation">
   <p class="date-label"><time datetime="2026-10-02">2 octobre 2026</time></p>
   <h3><a href="https://docs.blender.org/manual/en/5.3/editors/3dview/animation/world_space_animation_copy_paste.html" rel="noopener" target="_blank">Blender 5.3 — Copy Paste World Space Animation</a></h3>
   <p class="summary">Opérateurs natifs pour copier/coller l’animation en espace monde (objets et os, multi-sélection, entre fichiers via fichier temp). Utile pour un transfert d’anim / retarget léger sans add-on. Documenté dans le manuel 5.3 ; 5.3 est en beta depuis le 30 sept.</p>
@@ -106,7 +107,7 @@
   <div class="tags"><a class="tag" href="./emerging.html">#emerging</a><a class="tag" href="./vfx.html">#vfx</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-02-on-twos-retimer-0-7-0">
   <p class="date-label"><time datetime="2026-10-02">2 octobre 2026</time></p>
   <h3><a href="https://github.com/zlz188/ontwos-retimer/releases/tag/v0.7.0" rel="noopener" target="_blank">On-Twos Retimer 0.7.0</a></h3>
   <p class="summary">Add-on Blender GPL : bake une anim contrainte/physique en pas de 2 (ou 3) frames. En 0.7.0 (28 sept) : plus lié à MMD — standalone sur n’importe quel armature (sélection Pose Mode, chaînes enfants, highlight preview). Utile pour un look stop-motion / anime sur des sims.</p>
@@ -114,7 +115,7 @@
   <div class="tags"><a class="tag" href="./blender-addon.html">#blender-addon</a><a class="tag" href="./vfx.html">#vfx</a></div>
 </article>
 
-<article class="discovery">
+<article class="discovery" id="2026-10-02-lampochka-3-5-0">
   <p class="date-label"><time datetime="2026-10-02">2 octobre 2026</time></p>
   <h3><a href="https://github.com/abyrvalg379/LAMPOCHKA/releases/tag/v3.5.0" rel="noopener" target="_blank">LAMPOCHKA 3.5.0</a></h3>
   <p class="summary">Gestionnaire de lumières de scène (GPL). En 3.5.0 (27 sept) : sync Sky Texture avec le soleil (y compris Time keyé), Kelvin depuis l’élévation (horizon chaud → 6500 K), liste pliable, checker de mises à jour. Pratique pour setups éclairage / lookdev Blender 4.2–5.2.</p>
@@ -126,7 +127,8 @@
     <footer class="site">
       <p>Veille open source 3D / VFX / vidéo · tous les jours · 9h Europe/Paris</p>
       <p><a href="https://github.com/olanlive/revue-oss-3d">Code source sur GitHub</a>
-         · <a href="../tags/index.html">Tous les tags</a></p>
+         · <a href="../tags/index.html">Tous les tags</a>
+         · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
 </body>

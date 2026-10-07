@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pépites Open Source Software 3D &amp; VFX</title>
+    <link>https://olanlive.github.io/revue-oss-3d/</link>
+    <description>Veille open source 3D, VFX et vidéo — tous les jours.</description>
+    <language>fr</language>
+    <lastBuildDate>Wed, 07 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Splat Slicer 0.2.9</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-07-splat-slicer-0-2-9</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-07-splat-slicer-0-2-9</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Découpe un scan Gaussian splat en couches à imprimer sur film transparent puis à empiler en bloc, avec preview couche par couche et export PDF, PNG, DTF ou DICOM/NIfTI/NRRD. Repo créé le 5 oct, déjà en v0.2.9 (6 oct) ; impression réelle pas encore testée.</description>
+      <category>blender-addon</category>
+      <category>gaussian-splat</category>
+      <category>3d-print</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>ROTONIX 2.0.0 beta 1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-07-rotonix-2-0-0-beta-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-07-rotonix-2-0-0-beta-1</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Assistant de matte IA pour Nuke 15+, publié sur Nukepedia le 6 oct : un seul panneau pour sélectionner le sujet, tracker, retoucher et exporter une séquence alpha, avec SAM 2.1, ViTMatte et RAFT en local. Bêta gratuite, Windows uniquement.</description>
+      <category>vfx</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>AOV Rebuild Pipeline</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-07-aov-rebuild-pipeline</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-07-aov-rebuild-pipeline</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Plugin Nuke 14 à 17 qui reconstruit automatiquement la beauty depuis les AOV d’un EXR, avec détection du moteur (Arnold, Redshift, V-Ray, Karma, UE5). Modes Basic ou Advanced et QC intégré jusqu’à l’audit pixel par pixel. Repo créé le 5 oct.</description>
+      <category>vfx</category>
+      <category>exr</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>slatefree 1.2.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-07-slatefree-1-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-07-slatefree-1-2-0</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Outil Rust en ligne de commande qui synchronise des centaines de clips multi-caméras sans clap ni timecode, calés sur l’audio continu d’un enregistreur. Sortie : timeline FCP 7 XML pour Resolve et CSV de contrôle par clip. Repo créé le 6 oct, déjà en v1.2.0.</description>
+      <category>video</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Render Animated .GIF 1.8.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-07-render-animated-gif-1-8-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-07-render-animated-gif-1-8-0</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Exporte directement un GIF animé depuis le menu Render de Blender, sans outil externe. La 1.8.0 (5 oct) sépare la qualité en mode Basic (presets) et Advanced, où l’on règle le dithering et la taille de palette.</description>
+      <category>blender-addon</category>
+      <category>video</category>
+    </item>
+    <item>
+      <title>Gaussian Splat Patch 0.1.12</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-06-gaussian-splat-patch-0-1-12</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-06-gaussian-splat-patch-0-1-12</guid>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Retouche les scans Gaussian splat importés nativement dans Blender 5.3+ avec 7 brosses (Erase, Clone, Heal, Spot Heal, Bridge…), feather et mode Surface/Through. Toute jeune (v0.1.12 du 30 sept), elle complète bien les splats natifs de la 5.3.</description>
+      <category>blender-addon</category>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Nukomfy 0.1.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-06-nukomfy-0-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-06-nukomfy-0-1-1</guid>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Transforme des workflows ComfyUI en gizmos Nuke : l’artiste règle ses knobs dans la comp, envoie le job à une machine ComfyUI du réseau et réimporte les frames. La 0.1.1 (28 sept) corrige les rendus en ligne de commande et sur render farm.</description>
+      <category>vfx</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>MacBlend 3.3.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-06-macblend-3-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-06-macblend-3-3-0</guid>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Calibre des images contenant une ColorChecker directement dans Blender, en nœuds compositor ou shader, ou en LUT .cube. Sait aussi matcher deux images (HDRI vers plaque caméra, caméra A vers caméra B). 3.3.0 publiée le 22 sept.</description>
+      <category>blender-addon</category>
+      <category>vfx</category>
+      <category>color</category>
+    </item>
+    <item>
+      <title>Mio3 Flex 1.0.4</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-06-mio3-flex-1-0-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-06-mio3-flex-1-0-4</guid>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on gratuit qui redessine une edge loop le long d’une spline éditable, avec miroir X, contraintes d’axe et bouton Quick pour lisser d’un coup. La 1.0.4 ajoute le keymap industry compatible.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Photo Relief 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-06-photo-relief-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-06-photo-relief-1-0-1</guid>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Petite extension qui transforme une image en mesh fermé imprimable en 3D, hors ligne : modes Relief, Lithophane et Stamp, largeur en millimètres. Publiée le 24 sept sur Blender Extensions, 1.0.1 début octobre.</description>
+      <category>blender-addon</category>
+      <category>3d-print</category>
+    </item>
+    <item>
+      <title>Multi Stage Compositor (PoC NPR, Blender 5.3)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-05-multi-stage-compositor-poc-npr-blender-5-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-05-multi-stage-compositor-poc-npr-blender-5-3</guid>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Proof of concept officiel du projet NPR, publié le 30 sept pour feedback : des arbres de compositing par objet et par matériau dans Blender 5.3, en viewport comme au rendu final. Préfigure le compositing par objet dans Blender.</description>
+      <category>blender-addon</category>
+      <category>vfx</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>usd-blender-plugins 0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-05-usd-blender-plugins-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-05-usd-blender-plugins-0-1-0</guid>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Plugin OpenUSD qui ouvre un .blend directement comme layer USD (references, usdview) sans installer Blender. La 0.1.0 (5 oct) se limite encore aux Mesh/Empty de Blender 5.2.2 : pas de matériaux, caméras, lumières ni animation.</description>
+      <category>usd</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>PostProject 0.6.0-alpha.1 (+ extension Blender VSE)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-05-postproject-0-6-0-alpha-1-extension-blender-vse</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-05-postproject-0-6-0-alpha-1-extension-blender-vse</guid>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Couche d’identité média pour la post-prod : IDs d’assets stables, provenance et relink déterministe par empreinte de contenu. La 0.6.0-alpha.1 est sortie le 4 oct, avec des pilotes Blender Sequencer, Kdenlive, Natron, OBS et Ardour.</description>
+      <category>pipeline</category>
+      <category>video</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>XNodify 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-05-xnodify-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-05-xnodify-1-0-0</guid>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Langage .xfy compilé pour écrire en code Geometry Nodes, shaders et World au lieu de câbler des nodes, avec groupes réutilisables et auto-layout. Validation offline en CLI/CI sans GUI. Repo publié le 3 oct.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Blackbody 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-05-blackbody-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-05-blackbody-1-0-0</guid>
+      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
+      <description>App standalone de simulation GPU (feu, fumée, liquides, destruction, météo…) directement dans un plan live, avec tracking caméra et 111 presets. Exports deep EXR, OpenVDB et USD/OBJ. 1.0.0 du 30 sept : tout neuf, à tester.</description>
+      <category>vfx</category>
+      <category>sim</category>
+      <category>exr</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>GNToolkit 0.2.8</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-04-gntoolkit-0-2-8</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-04-gntoolkit-0-2-8</guid>
+      <pubDate>Sun, 04 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Versioning sémantique des Geometry Nodes. La 0.2.8 (2 oct) ajoute l’impact des dépendances sur objets/modifiers, la résolution de conflits dans Sync, la détection des JSON modifiés hors Blender et l’export/import headless multi-fichiers.</description>
+      <category>pipeline</category>
+      <category>blender-addon</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>BlenderShelf 0.3.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-04-blendershelf-0-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-04-blendershelf-0-3-0</guid>
+      <pubDate>Sun, 04 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Étagère flottante de boutons custom dans le viewport (style Maya). La 0.3.0 (3 oct) ajoute le redimensionnement au coin, Add Script / Import Script (.py) depuis le clic droit, icônes auto pour les boutons script, et pages de pie menu au-delà de 8 boutons. Blender 4.2+ / 5.x.</description>
+      <category>blender-addon</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Eterea Blender Tools 1.6.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-04-eterea-blender-tools-1-6-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-04-eterea-blender-tools-1-6-1</guid>
+      <pubDate>Sun, 04 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Première release publique GPL-3.0 : kit Extension Blender 5.2+ qui regroupe 16 outils modeling/modifiers/nodes/transforms (Custom Color Nodes via D, Weight Ramp by Order, Batch Operate Attributes, Reset Modifier, Join Equalizing Bevels…). Un seul zip à installer.</description>
+      <category>blender-addon</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>image-blaster</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-04-image-blaster</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-04-image-blaster</guid>
+      <pubDate>Sun, 04 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Skillset (Claude) qui transforme une image en monde 3D en ~5 min : meshes, splat d’environnement et SFX ambiants, via World Labs Marble, FAL et ElevenLabs. APIs payantes. Viral sur le fil X (3–4 oct).</description>
+      <category>emerging</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>STUKACH 1.8.5</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-03-stukach-1-8-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-03-stukach-1-8-5</guid>
+      <pubDate>Sat, 03 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Validateur d’assets Blender GPL (42 checkers, overlays GPU, mode live) : la 1.8.5 unifie le « Naming Contract » pour les conventions objet/scène et redesign hiérarchie. Utile en QC pipeline avant livraison.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>OpenDLSS-NR</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-03-opendlss-nr</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-03-opendlss-nr</guid>
+      <pubDate>Sat, 03 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Réimplémentation Vulkan MIT bit-exact du réseau Neural Rendering DLSS 5 (NVIDIA) — 71 blocs Swin/ViT, FP8, sans poids NVIDIA inclus. Port WebGPU navigateur fourni. Base OSS pour le neural rendering génératif.</description>
+      <category>emerging</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>three-dlss-nr 0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-03-three-dlss-nr-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-03-three-dlss-nr-0-1-0</guid>
+      <pubDate>Sat, 03 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Port Three.js (TSL/WebGPU) d’OpenDLSS-NR : le réseau DLSS 5 NR en compute nodes, byte-identique à la référence. Démo live ; poids NVIDIA à fournir soi-même. Signal frais sur le fil X.</description>
+      <category>emerging</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>BowerBot 2.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-03-bowerbot-2-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-03-bowerbot-2-0-0</guid>
+      <pubDate>Sat, 03 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Agent IA Apache-2.0 qui assemble des scènes OpenUSD production-ready depuis le langage naturel. La 2.0 casse la compat (physique USD, formes d’assets). Radar pipeline USD.</description>
+      <category>usd</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>ZeroGeometry Kit 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-03-zerogeometry-kit-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-03-zerogeometry-kit-1-0-1</guid>
+      <pubDate>Sat, 03 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL : reframing vertical one-click (9:16 / 4:5 / 1:1) avec auto-follow, beat sync, loop doctor et wedge renders. Première release publique pour décliner une anim 16:9.</description>
+      <category>blender-addon</category>
+      <category>video</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>houdini-eevee-bridge 0.7.6</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-02-houdini-eevee-bridge-0-7-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-02-houdini-eevee-bridge-0-7-6</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Pont Hydra qui fait tourner EEVEE (Blender 5.2 headless) dans le viewport Solaris de Houdini. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma : matériaux, lumières double face, primvars, instances, NURBS.</description>
+      <category>pipeline</category>
+      <category>usd</category>
+      <category>vfx</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Blender 5.3 — Copy Paste World Space Animation</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-02-blender-5-3-copy-paste-world-space-animation</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-02-blender-5-3-copy-paste-world-space-animation</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Opérateurs natifs pour copier/coller l’animation en espace monde (objets et os, multi-sélection, entre fichiers via fichier temp). Utile pour un transfert d’anim / retarget léger sans add-on. Documenté dans le manuel 5.3 ; 5.3 est en beta depuis le 30 sept.</description>
+      <category>emerging</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>GNToolkit 0.2.5</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-02-gntoolkit-0-2-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-02-gntoolkit-0-2-5</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Versioning sémantique des node trees Blender (JSON + Git, checks headless). La 0.2.5 (27 sept) ajoute des audits impact / doublons / santé JSON et corrige la fidélité Menu Switch / modifiers à l’import.</description>
+      <category>pipeline</category>
+      <category>blender-addon</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>On-Twos Retimer 0.7.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-02-on-twos-retimer-0-7-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-02-on-twos-retimer-0-7-0</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL : bake une anim contrainte/physique en pas de 2 (ou 3) frames. En 0.7.0 (28 sept) : plus lié à MMD — standalone sur n’importe quel armature (sélection Pose Mode, chaînes enfants, highlight preview). Utile pour un look stop-motion / anime sur des sims.</description>
+      <category>blender-addon</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>LAMPOCHKA 3.5.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-02-lampochka-3-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-02-lampochka-3-5-0</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Gestionnaire de lumières de scène (GPL). En 3.5.0 (27 sept) : sync Sky Texture avec le soleil (y compris Time keyé), Kelvin depuis l’élévation (horizon chaud → 6500 K), liste pliable, checker de mises à jour. Pratique pour setups éclairage / lookdev Blender 4.2–5.2.</description>
+      <category>blender-addon</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>Blenderbase 1.4.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-01-blenderbase-1-4-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-01-blenderbase-1-4-0</guid>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0200</pubDate>
+      <description>App desktop gratuite pour gérer versions Blender et add-ons. La 1.4.0 (30 sept) applique un add-on à une autre version installée (drag &amp; drop ou Apply to) : pratique pour cloner un set d’extensions entre 4.x et 5.x.</description>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>OpenUSDConnect</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-01-openusdconnect</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-01-openusdconnect</guid>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Live-link OpenUSD entre DCC et outils USD : transactions ordonnées, replay à la reconnexion, MaterialX et layers partagés. Intégrations Blender, usdview, Unreal, MCP et Python ; commits actifs fin septembre.</description>
+      <category>usd</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>BlenderShelf 0.2.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-01-blendershelf-0-2-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-01-blendershelf-0-2-2</guid>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Étagère flottante de boutons custom et pie menu dans le viewport, style shelf Maya. La 0.2.x (30 sept) ajoute des shelves par mode (Object, Edit, Sculpt, UV, Shader, GN).</description>
+      <category>blender-addon</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>CodeCinema</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-01-codecinema</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-01-codecinema</guid>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Framework pour faire des films « as code » : image, musique, son, titres et master via un CLI et ffmpeg, avec un court exemple de duel 3D en Blender 5.2+. Sortie initiale 30 sept–1er oct.</description>
+      <category>video</category>
+      <category>encoding</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Cloth Lab 0.8.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-29-cloth-lab-0-8-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-29-cloth-lab-0-8-1</guid>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Add-on libre de cloth / vêtements : presets tissu, pins, collisions, patrons, sewing, plis et tearing expérimental (Blender 5.2+). La 0.8.1 (annonce 26 sept) passe en UI anglaise avec les sources.</description>
+      <category>blender-addon</category>
+      <category>sim</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Hair Bone Generator 1.2.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-29-hair-bone-generator-1-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-29-hair-bone-generator-1-2-0</guid>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Extension GPL (extensions.blender.org) : génère une chaîne de bones deform le long d’un brin de cheveux mesh (cartes, tubes, tresses). La 1.2.0 (22 sept) accélère les meshes denses et ajoute Mirror to Other Side (symétrie L/R). Blender 4.5+.</description>
+      <category>blender-addon</category>
+      <category>hair</category>
+      <category>skinning</category>
+    </item>
+    <item>
+      <title>MattRM2 VFX Build 1.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-29-mattrm2-vfx-build-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-29-mattrm2-vfx-build-1-1</guid>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Build Windows non officiel de Blender 5.2 orienté VFX : Deep EXR depuis Cycles, Z Depth compatible volumes, overrides par view layer, export caméra Alembic corrigé et nœud Curves Lofting.</description>
+      <category>exr</category>
+      <category>pipeline</category>
+      <category>alembic</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>three-gpu-pathtracer 0.0.25 — WebGPUPathTracer</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-29-three-gpu-pathtracer-0-0-25-webgpupathtracer</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-29-three-gpu-pathtracer-0-0-25-webgpupathtracer</guid>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Path tracer WebGPU pour three.js (MIT) : la 0.0.25 (28 sept) expose WebGPUPathTracer via « three-gpu-pathtracer/webgpu », déprécie WebGLPathTracer ; 0.0.26 (29 sept) corrige le chargement CDN. Utile pour previews web path-tracés / intégration web 3D.</description>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>CoatLink 0.2.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-29-coatlink-0-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-29-coatlink-0-2-0</guid>
+      <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Pont GPL Blender ↔ 3D-Coat (protocole AppLink) : sync modèles bidirectionnelle prévisible, sans baking ni chirurgie de scène. La 0.2.0 (24 sept) resserre le pont ; install one-click. Niche mais utile si 3D-Coat est dans le pipeline sculpt/retopo.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>cad-retopo</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>NodeForge 0.50.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-27-nodeforge-0-50-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-27-nodeforge-0-50-0</guid>
+      <pubDate>Sun, 27 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Add-on GPL qui compile un DSL Python-like en Geometry Nodes natifs (variables, opérateurs, packages). La 0.50.0 (18 sept) ouvre le projet en free software + package Math ; poussée encore active le 24 sept. Utile pour GN complexes maintenables / générables.</description>
+      <category>blender-addon</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Simple Deform Helper 2.7.58 (V2)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-27-simple-deform-helper-2-7-58-v2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-27-simple-deform-helper-2-7-58-v2</guid>
+      <pubDate>Sun, 27 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Extension GPL (extensions.blender.org) : rebuild Geometry Nodes avec cages Standard / Shear / FFD / Curve, chaînes, multi-objets, keyframe + bake. Blender 5.0+. Gros saut UX pour déformer/animer sans se battre avec le Simple Deform natif.</description>
+      <category>blender-addon</category>
+    </item>
+    <item>
+      <title>Blenderbase 1.3.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-27-blenderbase-1-3-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-27-blenderbase-1-3-2</guid>
+      <pubDate>Sun, 27 Sep 2026 09:00:00 +0200</pubDate>
+      <description>App desktop gratuite pour gérer versions Blender, add-ons et .blend. La 1.3.x (21 sept) ajoute Sync pour cloner prefs, thème, keymap et add-ons entre machines (réseau local, dossier cloud, fichier .bbsetup).</description>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Fusion → Blender Bridge</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-27-fusion-blender-bridge</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-27-fusion-blender-bridge</guid>
+      <pubDate>Sun, 27 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Paire d’add-ons GPL (Fusion 360 + Blender 4.2+) : sync géométrie en un clic via WebSocket local ; matériaux, modifiers, sharp edges et light links Blender survivent aux révisions CAD. Pas d’import Appearance Fusion (volontaire).</description>
+      <category>blender-addon</category>
+      <category>cad-retopo</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Grease Pencil — Attribute Shape Keys (WIP)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-27-grease-pencil-attribute-shape-keys-wip</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-27-grease-pencil-attribute-shape-keys-wip</guid>
+      <pubDate>Sun, 27 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Shape keys attributaires pour Grease Pencil en cours (PR #162946, prototype déjà jouable). Démos récentes (ex. rig 2D + drivers) : expressions faciales / morphs stroke sur builds expérimentales — pas encore dans une release stable.</description>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Blender 5.3 — Gaussian Splats natifs (alpha)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-24-blender-5-3-gaussian-splats-natifs-alpha</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-24-blender-5-3-gaussian-splats-natifs-alpha</guid>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Les Gaussian Splats entrent dans le cœur de Blender : import PLY / SPZ, schéma USD, nœuds Geometry Nodes et rendu Workbench / EEVEE / Cycles. Alpha 5.3 (finale prévue ~10 nov 2026), pas encore d’export.</description>
+      <category>emerging</category>
+      <category>usd</category>
+    </item>
+    <item>
+      <title>Light It Up 4.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-24-light-it-up-4-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-24-light-it-up-4-0-0</guid>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Add-on gratuit de 17 presets d’éclairage studio éditables, avec contrôles master (intensité, température, key/fill, orbit) et Fit To Subject. La 4.0.0 corrige notamment le collapse du rig à l’origine et son basculement sur les personnages FBX.</description>
+      <category>blender-addon</category>
+    </item>
+    <item>
+      <title>Blender 5.3 — bascule OCIO runtime</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-24-blender-5-3-bascule-ocio-runtime</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-24-blender-5-3-bascule-ocio-runtime</guid>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Mécanisme core pour changer la config OpenColorIO active à l’exécution (base pour des configs OCIO par projet). Fondations pipeline pour studios multi-configs ACES/OCIO ; l’UI projet complète n’est pas encore là.</description>
+      <category>ocio</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Hardcraft 0.9.0-alpha</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-21-hardcraft-0-9-0-alpha</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-21-hardcraft-0-9-0-alpha</guid>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender 5.0+ qui retopo des exports CAD (STEP / Plasticity / OBJ) en patches quads/tris. La 0.9.0 (20 sept) ajoute le loft RAILS pour cylindres/cônes, plus de topo STEP, et des binaires converter Linux + macOS. Alpha GPL.</description>
+      <category>blender-addon</category>
+      <category>cad-retopo</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>B Hair ShapeKey 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-21-b-hair-shapekey-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-21-b-hair-shapekey-1-0-0</guid>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Première extension officielle pour de vrais shape keys sur les Hair Curves modernes (sculpt Curves, drivers, miroir). Blender 5.2 LTS+, GPL, extensions.blender.org (13 sept).</description>
+      <category>blender-addon</category>
+      <category>hair</category>
+    </item>
+    <item>
+      <title>DV Skin Tools</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-21-dv-skin-tools</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-21-dv-skin-tools</guid>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Sortie initiale (14 sept). Weight paint / skinning style Maya (smooth multi-influences, mirror, copy weights, viz, undo, export JSON + script Maya). Blender 4.2+ / 5.x, GPL.</description>
+      <category>blender-addon</category>
+      <category>skinning</category>
+    </item>
+    <item>
+      <title>EXR Converter 0.10.0 / 0.10.1 (Derek Rein)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-21-exr-converter-0-10-0-0-10-1-derek-rein</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-21-exr-converter-0-10-0-0-10-1-derek-rein</guid>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
+      <description>Desktop+CLI MIT pour EXR↔vidéo avec OCIO (ACES), slate/burn-in, ProRes. 0.10.0 corrige le bake ACES 2.0 + decode BRAW optionnel ; 0.10.1 durcit les browsers R3D/BRAW/ARRIRAW.</description>
+      <category>video</category>
+      <category>exr</category>
+      <category>ocio</category>
+      <category>encoding</category>
+    </item>
+  </channel>
+</rss>
