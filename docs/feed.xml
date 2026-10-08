@@ -5,8 +5,36 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo — tous les jours.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 07 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Blender — Custom Space Types (proposition + branche)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-08-blender-custom-space-types-proposition-branche</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-08-blender-custom-space-types-proposition-branche</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le studio Autour de Minuit propose (devtalk, 7 oct) de laisser les add-ons créer de vrais éditeurs Blender en Python : type d’espace custom, header, sidebar, dessin GPU, sauvegarde et repli si l’add-on manque. Branche de test publique, retours demandés.</description>
+      <category>blender-addon</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Shramko SOG LOD Converter 1.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-08-shramko-sog-lod-converter-1-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-08-shramko-sog-lod-converter-1-2</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Convertit des Gaussian splats PLY géants (100M+ splats, 10+ Go) en Streamed SOG avec vrais LOD pour SuperSplat, dans le navigateur via WebGPU, sans upload. Testé le 2 oct sur un scan de ville de 259M splats ; la 1.2 ajoute une file d’attente. MIT.</description>
+      <category>gaussian-splat</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Blender Internal Port</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-08-blender-internal-port</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-08-blender-internal-port</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Ressuscite le moteur Blender Internal de la 2.79b comme moteur de rendu add-on dans Blender 5.2/5.3 : rendu viewport, anciens matériaux nodaux, import de scènes 2.79. Repo du 5 oct, expérimental et largement codé par IA, testé sur macOS ARM seulement.</description>
+      <category>blender-addon</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>Splat Slicer 0.2.9</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-07-splat-slicer-0-2-9</link>

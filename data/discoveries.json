@@ -1,5 +1,48 @@
 [
   {
+    "date": "2026-10-08",
+    "name": "Blender — Custom Space Types (proposition + branche)",
+    "summary": "Le studio Autour de Minuit propose (devtalk, 7 oct) de laisser les add-ons créer de vrais éditeurs Blender en Python : type d’espace custom, header, sidebar, dessin GPU, sauvegarde et repli si l’add-on manque. Branche de test publique, retours demandés.",
+    "url": "https://devtalk.blender.org/t/custom-space-types/45934",
+    "tags": [
+      "blender-addon",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — devtalk.blender.org",
+      "url": "https://devtalk.blender.org/latest"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "name": "Shramko SOG LOD Converter 1.2",
+    "summary": "Convertit des Gaussian splats PLY géants (100M+ splats, 10+ Go) en Streamed SOG avec vrais LOD pour SuperSplat, dans le navigateur via WebGPU, sans upload. Testé le 2 oct sur un scan de ville de 259M splats ; la 1.2 ajoute une file d’attente. MIT.",
+    "url": "https://github.com/AndriiShramko/shramko-sog-lod-converter",
+    "tags": [
+      "gaussian-splat",
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (repos Gaussian splat récents)",
+      "url": "https://github.com/search?q=gaussian-splat+created%3A%3E%3D2026-10-01&type=repositories&s=stars"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "name": "Blender Internal Port",
+    "summary": "Ressuscite le moteur Blender Internal de la 2.79b comme moteur de rendu add-on dans Blender 5.2/5.3 : rendu viewport, anciens matériaux nodaux, import de scènes 2.79. Repo du 5 oct, expérimental et largement codé par IA, testé sur macOS ARM seulement.",
+    "url": "https://github.com/luciascarlet/blender-internal-port",
+    "tags": [
+      "blender-addon",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (repos Blender récents)",
+      "url": "https://github.com/search?q=blender+created%3A%3E%3D2026-10-04&type=repositories&s=stars"
+    }
+  },
+  {
     "date": "2026-10-07",
     "name": "Splat Slicer 0.2.9",
     "summary": "Découpe un scan Gaussian splat en couches à imprimer sur film transparent puis à empiler en bloc, avec preview couche par couche et export PDF, PNG, DTF ou DICOM/NIfTI/NRRD. Repo créé le 5 oct, déjà en v0.2.9 (6 oct) ; impression réelle pas encore testée.",
