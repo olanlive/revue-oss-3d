@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-10-09",
+    "name": "Nuke × ComfyUI bridge 0.1.0",
+    "summary": "Nouveau (8 oct) : un panneau Nuke envoie une plaque à ComfyUI et récupère un EXR multicouche par frame avec normales, profondeur métrique, position et matte alpha. Expérience perso, testée sur RTX 3090.",
+    "url": "https://github.com/Mariolepipe/nuke-comfyui-bridge",
+    "tags": [
+      "vfx",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (topic nuke)",
+      "url": "https://github.com/topics/nuke"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "name": "usd-optimize 1.3.1 (NVIDIA)",
+    "summary": "Version du 7 oct de la lib d’optimisation de stages OpenUSD : support USD 26.08, wheel Linux allégée, et correctif qui rend enfin fiables les checks de shaders UsdPreviewSurface.",
+    "url": "https://github.com/NVIDIA-Omniverse/usd-optimize/releases/tag/v1.3.1",
+    "tags": [
+      "usd"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (topics openusd / nuke)",
+      "url": "https://github.com/topics/openusd"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Hydra Lotus",
+    "summary": "Tout jeune délégué Hydra (créé le 30 sept) : path tracer GPU Vulkan pour OpenUSD, avec NEE/MIS, ReSTIR et débruitage, chaque mode rapide étant vérifié contre un path tracer de référence.",
+    "url": "https://github.com/animu-sphere/hydra-lotus",
+    "tags": [
+      "usd",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (topics openusd / nuke)",
+      "url": "https://github.com/topics/openusd"
+    }
+  },
+  {
     "date": "2026-10-08",
     "name": "Blender — Custom Space Types (proposition + branche)",
     "summary": "Le studio Autour de Minuit propose (devtalk, 7 oct) de laisser les add-ons créer de vrais éditeurs Blender en Python : type d’espace custom, header, sidebar, dessin GPU, sauvegarde et repli si l’add-on manque. Branche de test publique, retours demandés.",
