@@ -5,8 +5,38 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo — tous les jours.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 09 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>py2gn</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-10-py2gn</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-10-py2gn</guid>
+      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Nouvel add-on Blender (publié le 9 octobre 2026) qui compile des fonctions Python restreintes en groupes Geometry Nodes natifs : paramètres en sockets, corps en nœuds Math/Switch. 68 nœuds sur 351 supportés pour l’instant.</description>
+      <category>blender</category>
+      <category>addon</category>
+      <category>geometry-nodes</category>
+    </item>
+    <item>
+      <title>usd-web-viewer</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-10-usd-web-viewer</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-10-usd-web-viewer</guid>
+      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
+      <description>OpenUSD dans le navigateur (repo créé le 9 octobre 2026) : la composition USD tient dans 604 Ko de WebAssembly, avec rendu three.js. Pratique pour inspecter une scène sans DCC.</description>
+      <category>usd</category>
+      <category>pipeline</category>
+      <category>web</category>
+    </item>
+    <item>
+      <title>SleepyTools (Nuke)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-10-sleepytools-nuke</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-10-sleepytools-nuke</guid>
+      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Boîte à outils Nuke/NukeX publiée le 8 octobre 2026 : file de rendu, « script doctor », snapshots, éditeur de texte, bibliothèques BlinkScript et d’expressions, scrub de knobs et pack de gizmos.</description>
+      <category>nuke</category>
+      <category>vfx</category>
+      <category>compositing</category>
+    </item>
     <item>
       <title>Nuke × ComfyUI bridge 0.1.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-09-nuke-comfyui-bridge-0-1-0</link>
