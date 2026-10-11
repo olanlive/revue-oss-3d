@@ -5,8 +5,27 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo — tous les jours.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 10 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenScatter 0.13.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-11-openscatter-0-13-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-11-openscatter-0-13-0</guid>
+      <pubDate>Sun, 11 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Fork communautaire et gratuit de GScatter (Graswald, plus maintenu) : scattering Geometry Nodes pour prairies et forêts, même interface, Blender 4.2 à 5.2. Release 0.13.0 publiée le 4 octobre 2026.</description>
+      <category>blender</category>
+      <category>addon</category>
+      <category>geometry-nodes</category>
+    </item>
+    <item>
+      <title>Unreal Render Farm 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-11-unreal-render-farm-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-11-unreal-render-farm-1-0-0</guid>
+      <pubDate>Sun, 11 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Ferme de rendu libre (MIT) pour le Movie Render Queue d’Unreal Engine 5 : dashboard web, file de jobs, découpe auto des plans sur plusieurs PC Windows, retries et historique. v1.0.0 sortie le 6 octobre 2026.</description>
+      <category>pipeline</category>
+      <category>render-farm</category>
+    </item>
     <item>
       <title>py2gn</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-10-py2gn</link>

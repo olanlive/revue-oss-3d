@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-10-11",
+    "name": "OpenScatter 0.13.0",
+    "summary": "Fork communautaire et gratuit de GScatter (Graswald, plus maintenu) : scattering Geometry Nodes pour prairies et forêts, même interface, Blender 4.2 à 5.2. Release 0.13.0 publiée le 4 octobre 2026.",
+    "url": "https://github.com/joseph-wardle/openscatter",
+    "tags": [
+      "blender",
+      "addon",
+      "geometry-nodes"
+    ],
+    "source": {
+      "label": "GitHub — topic blender (repos récents)",
+      "url": "https://github.com/topics/blender"
+    }
+  },
+  {
+    "date": "2026-10-11",
+    "name": "Unreal Render Farm 1.0.0",
+    "summary": "Ferme de rendu libre (MIT) pour le Movie Render Queue d’Unreal Engine 5 : dashboard web, file de jobs, découpe auto des plans sur plusieurs PC Windows, retries et historique. v1.0.0 sortie le 6 octobre 2026.",
+    "url": "https://github.com/f1hunterr/unreal-render-farm",
+    "tags": [
+      "pipeline",
+      "render-farm"
+    ],
+    "source": {
+      "label": "GitHub — topic render-farm (repos récents)",
+      "url": "https://github.com/topics/render-farm"
+    }
+  },
+  {
     "date": "2026-10-10",
     "name": "py2gn",
     "summary": "Nouvel add-on Blender (publié le 9 octobre 2026) qui compile des fonctions Python restreintes en groupes Geometry Nodes natifs : paramètres en sockets, corps en nœuds Math/Switch. 68 nœuds sur 351 supportés pour l’instant.",
