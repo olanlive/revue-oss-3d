@@ -26,8 +26,10 @@
   <h3><a href="https://github.com/Niik-l/Natron" rel="noopener" target="_blank">Natron 2.6 — fork 3D / Cycles (Niik-l)</a></h3>
   <p class="summary">Fork de Natron qui ajoute un système 3D, Cycles en nœud (passes AOV, deep EXR), le compositing deep, des particules, des volumes et un tracker caméra 3D : 69 nœuds sur base Qt6. Builds portables Windows et Linux, dernière le 7 octobre 2026.</p>
   <p class="source">Trouvé via : <a href="https://github.com/Niik-l/nik-kit-natron" rel="noopener" target="_blank">Web — recherche GitHub (natron), via nik-kit-natron</a></p>
-  <div class="tags"><a class="tag" href="../index.html#tag=vfx">#vfx</a><a class="tag" href="../index.html#tag=compositing">#compositing</a><a class="tag" href="../index.html#tag=natron">#natron</a><a class="tag" href="../index.html#tag=emerging">#emerging</a></div>
-  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0ANatron%202.6%20%E2%80%94%20fork%203D%20%2F%20Cycles%20%28Niik-l%29%20%3A%20Fork%20de%20Natron%20qui%20ajoute%20un%20syst%C3%A8me%203D%2C%20Cycles%20en%20n%C5%93ud%20%28passes%20AOV%2C%20deep%20EXR%29%2C%20le%20compositing%20deep%2C%20des%20particules%2C%20des%20volumes%20et%20un%20tracker%20cam%C3%A9ra%203D%20%3A%2069%20n%C5%93uds%20sur%20base%20Qt6%E2%80%A6%0Ahttps%3A%2F%2Fgithub.com%2FNiik-l%2FNatron%0A%23b3d%20%23opensource" rel="noopener" target="_blank">Partager sur X</a></p>
+  <p class="share-x" data-tags="vfx compositing natron emerging" data-text="Pépite du jour 💎
+Natron 2.6 — fork 3D / Cycles (Niik-l) : Fork de Natron qui ajoute un système 3D, Cycles en nœud (passes AOV, deep EXR), le compositing deep, des particules, des volumes et un tracker caméra 3D : 69 nœuds sur base Qt6…
+https://github.com/Niik-l/Natron
+#b3d #opensource"><a class="share-btn" href="https://twitter.com/intent/tweet?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0ANatron%202.6%20%E2%80%94%20fork%203D%20%2F%20Cycles%20%28Niik-l%29%20%3A%20Fork%20de%20Natron%20qui%20ajoute%20un%20syst%C3%A8me%203D%2C%20Cycles%20en%20n%C5%93ud%20%28passes%20AOV%2C%20deep%20EXR%29%2C%20le%20compositing%20deep%2C%20des%20particules%2C%20des%20volumes%20et%20un%20tracker%20cam%C3%A9ra%203D%20%3A%2069%20n%C5%93uds%20sur%20base%20Qt6%E2%80%A6%0Ahttps%3A%2F%2Fgithub.com%2FNiik-l%2FNatron%0A%23b3d%20%23opensource" rel="noopener" target="_blank">Partager sur X</a> · <button type="button" class="copy-btn" hidden>Copier</button></p>
 </article>
 
 
@@ -38,5 +40,23 @@
          · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
+<script>/*PEPITES_SHARE*/
+(function(){
+  [].forEach.call(document.querySelectorAll('.share-x .copy-btn'),function(b){ if(navigator.clipboard) b.hidden=false; });
+  document.addEventListener('click',function(e){
+    var t=e.target, p=t.closest&&t.closest('.share-x'); if(!p) return;
+    var text=p.getAttribute('data-text');
+    if(t.closest('.share-btn')){
+      e.preventDefault();
+      if(navigator.share){ navigator.share({text:text}).catch(function(){}); }
+      else { window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text),'_blank','noopener'); }
+    } else if(t.closest('.copy-btn')){
+      navigator.clipboard.writeText(text).then(function(){
+        var b=t.closest('.copy-btn'); b.textContent='Copié ✓'; setTimeout(function(){ b.textContent='Copier'; },2000);
+      }).catch(function(){});
+    }
+  });
+})();
+</script>
 </body>
 </html>

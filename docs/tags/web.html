@@ -26,8 +26,10 @@
   <h3><a href="https://github.com/cfahlgren1/usd-web-viewer" rel="noopener" target="_blank">usd-web-viewer</a></h3>
   <p class="summary">OpenUSD dans le navigateur (repo créé le 9 octobre 2026) : la composition USD tient dans 604 Ko de WebAssembly, avec rendu three.js. Pratique pour inspecter une scène sans DCC.</p>
   <p class="source">Trouvé via : <a href="https://github.com/topics/openusd" rel="noopener" target="_blank">GitHub — topic openusd (repos récents)</a></p>
-  <div class="tags"><a class="tag" href="../index.html#tag=usd">#usd</a><a class="tag" href="../index.html#tag=pipeline">#pipeline</a><a class="tag" href="../index.html#tag=web">#web</a></div>
-  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0Ausd-web-viewer%20%3A%20OpenUSD%20dans%20le%20navigateur%20%28repo%20cr%C3%A9%C3%A9%20le%209%20octobre%202026%29%20%3A%20la%20composition%20USD%20tient%20dans%20604%20Ko%20de%20WebAssembly%2C%20avec%20rendu%20three.js.%20Pratique%20pour%20inspecter%20une%20sc%C3%A8ne%20sans%20DCC.%0Ahttps%3A%2F%2Fgithub.com%2Fcfahlgren1%2Fusd-web-viewer%0A%23b3d%20%23opensource" rel="noopener" target="_blank">Partager sur X</a></p>
+  <p class="share-x" data-tags="usd pipeline web" data-text="Pépite du jour 💎
+usd-web-viewer : OpenUSD dans le navigateur (repo créé le 9 octobre 2026) : la composition USD tient dans 604 Ko de WebAssembly, avec rendu three.js. Pratique pour inspecter une scène sans DCC.
+https://github.com/cfahlgren1/usd-web-viewer
+#b3d #opensource"><a class="share-btn" href="https://twitter.com/intent/tweet?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0Ausd-web-viewer%20%3A%20OpenUSD%20dans%20le%20navigateur%20%28repo%20cr%C3%A9%C3%A9%20le%209%20octobre%202026%29%20%3A%20la%20composition%20USD%20tient%20dans%20604%20Ko%20de%20WebAssembly%2C%20avec%20rendu%20three.js.%20Pratique%20pour%20inspecter%20une%20sc%C3%A8ne%20sans%20DCC.%0Ahttps%3A%2F%2Fgithub.com%2Fcfahlgren1%2Fusd-web-viewer%0A%23b3d%20%23opensource" rel="noopener" target="_blank">Partager sur X</a> · <button type="button" class="copy-btn" hidden>Copier</button></p>
 </article>
 
 
@@ -38,5 +40,23 @@
          · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
+<script>/*PEPITES_SHARE*/
+(function(){
+  [].forEach.call(document.querySelectorAll('.share-x .copy-btn'),function(b){ if(navigator.clipboard) b.hidden=false; });
+  document.addEventListener('click',function(e){
+    var t=e.target, p=t.closest&&t.closest('.share-x'); if(!p) return;
+    var text=p.getAttribute('data-text');
+    if(t.closest('.share-btn')){
+      e.preventDefault();
+      if(navigator.share){ navigator.share({text:text}).catch(function(){}); }
+      else { window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text),'_blank','noopener'); }
+    } else if(t.closest('.copy-btn')){
+      navigator.clipboard.writeText(text).then(function(){
+        var b=t.closest('.copy-btn'); b.textContent='Copié ✓'; setTimeout(function(){ b.textContent='Copier'; },2000);
+      }).catch(function(){});
+    }
+  });
+})();
+</script>
 </body>
 </html>

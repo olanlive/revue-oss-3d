@@ -26,8 +26,10 @@
   <h3><a href="https://github.com/MattRM2/MattRM2_VFX_Build/releases/tag/v1.1.0" rel="noopener" target="_blank">MattRM2 VFX Build 1.1</a></h3>
   <p class="summary">Build Windows non officiel de Blender 5.2 orienté VFX : Deep EXR depuis Cycles, Z Depth compatible volumes, overrides par view layer, export caméra Alembic corrigé et nœud Curves Lofting.</p>
   
-  <div class="tags"><a class="tag" href="../index.html#tag=exr">#exr</a><a class="tag" href="../index.html#tag=pipeline">#pipeline</a><a class="tag" href="../index.html#tag=alembic">#alembic</a><a class="tag" href="../index.html#tag=emerging">#emerging</a></div>
-  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AMattRM2%20VFX%20Build%201.1%20%3A%20Build%20Windows%20non%20officiel%20de%20Blender%205.2%20orient%C3%A9%20VFX%20%3A%20Deep%20EXR%20depuis%20Cycles%2C%20Z%20Depth%20compatible%20volumes%2C%20overrides%20par%20view%20layer%2C%20export%20cam%C3%A9ra%20Alembic%20corrig%C3%A9%20et%20n%C5%93ud%20Curves%20Lofting.%0Ahttps%3A%2F%2Fgithub.com%2FMattRM2%2FMattRM2_VFX_Build%2Freleases%2Ftag%2Fv1.1.0%0A%23b3d%20%23opensource" rel="noopener" target="_blank">Partager sur X</a></p>
+  <p class="share-x" data-tags="exr pipeline alembic emerging" data-text="Pépite du jour 💎
+MattRM2 VFX Build 1.1 : Build Windows non officiel de Blender 5.2 orienté VFX : Deep EXR depuis Cycles, Z Depth compatible volumes, overrides par view layer, export caméra Alembic corrigé et nœud Curves Lofting.
+https://github.com/MattRM2/MattRM2_VFX_Build/releases/tag/v1.1.0
+#b3d #opensource"><a class="share-btn" href="https://twitter.com/intent/tweet?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AMattRM2%20VFX%20Build%201.1%20%3A%20Build%20Windows%20non%20officiel%20de%20Blender%205.2%20orient%C3%A9%20VFX%20%3A%20Deep%20EXR%20depuis%20Cycles%2C%20Z%20Depth%20compatible%20volumes%2C%20overrides%20par%20view%20layer%2C%20export%20cam%C3%A9ra%20Alembic%20corrig%C3%A9%20et%20n%C5%93ud%20Curves%20Lofting.%0Ahttps%3A%2F%2Fgithub.com%2FMattRM2%2FMattRM2_VFX_Build%2Freleases%2Ftag%2Fv1.1.0%0A%23b3d%20%23opensource" rel="noopener" target="_blank">Partager sur X</a> · <button type="button" class="copy-btn" hidden>Copier</button></p>
 </article>
 
 
@@ -38,5 +40,23 @@
          · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
+<script>/*PEPITES_SHARE*/
+(function(){
+  [].forEach.call(document.querySelectorAll('.share-x .copy-btn'),function(b){ if(navigator.clipboard) b.hidden=false; });
+  document.addEventListener('click',function(e){
+    var t=e.target, p=t.closest&&t.closest('.share-x'); if(!p) return;
+    var text=p.getAttribute('data-text');
+    if(t.closest('.share-btn')){
+      e.preventDefault();
+      if(navigator.share){ navigator.share({text:text}).catch(function(){}); }
+      else { window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text),'_blank','noopener'); }
+    } else if(t.closest('.copy-btn')){
+      navigator.clipboard.writeText(text).then(function(){
+        var b=t.closest('.copy-btn'); b.textContent='Copié ✓'; setTimeout(function(){ b.textContent='Copier'; },2000);
+      }).catch(function(){});
+    }
+  });
+})();
+</script>
 </body>
 </html>
