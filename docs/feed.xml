@@ -5,8 +5,60 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo — tous les jours.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 11 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Natron 2.6 — fork 3D / Cycles (Niik-l)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-12-natron-2-6-fork-3d-cycles-niik-l</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-12-natron-2-6-fork-3d-cycles-niik-l</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Fork de Natron qui ajoute un système 3D, Cycles en nœud (passes AOV, deep EXR), le compositing deep, des particules, des volumes et un tracker caméra 3D : 69 nœuds sur base Qt6. Builds portables Windows et Linux, dernière le 7 octobre 2026.</description>
+      <category>vfx</category>
+      <category>compositing</category>
+      <category>natron</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>UVgami 2.2.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-12-uvgami-2-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-12-uvgami-2-2-0</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender de dépliage UV automatique qui réunit trois moteurs : OptCuts, PartUV (GPU, SIGGRAPH Asia 2025) et xatlas. La 2.2.0 du 6 octobre ajoute un dépliage web et une appli desktop, mise à jour en 0.3.0 le 12 octobre 2026.</description>
+      <category>blender-addon</category>
+      <category>uv</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>H-Style RBD Nodes 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-12-h-style-rbd-nodes-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-12-h-style-rbd-nodes-1-0-1</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Groupes Geometry Nodes de destruction rigid body pour le VFX temps réel : fracture béton, verre ou bois, solveur Bullet, bake puis export FBX, Alembic ou VAT vers les moteurs de jeu. Publié sur Blender Extensions le 6 octobre 2026.</description>
+      <category>blender-addon</category>
+      <category>vfx</category>
+      <category>sim</category>
+      <category>geometry-nodes</category>
+    </item>
+    <item>
+      <title>FTC – Fit The Camera 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-12-ftc-fit-the-camera-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-12-ftc-fit-the-camera-1-0-0</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Extension Blender 5.2+ qui retrouve focale, position et rotation de la caméra à partir d’une seule photo (points de fuite, rectangle connu ou horizon), à l’échelle réelle, puis prépare l’intégration CG avec ombres au sol. v1.0.0 sortie le 11 octobre 2026.</description>
+      <category>blender-addon</category>
+      <category>vfx</category>
+      <category>matchmove</category>
+    </item>
+    <item>
+      <title>Blender Compositor — Fast Gaussian 2 à 10× plus rapide (décision)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-12-blender-compositor-fast-gaussian-2-a-10-plus-rapide-decision</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-12-blender-compositor-fast-gaussian-2-a-10-plus-rapide-decision</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <description>À la réunion compositor du 8 octobre 2026, l’équipe a décidé de remplacer l’implémentation du flou Fast Gaussian par le Downsampled Gaussian, 2 à 10× plus rapide pour un résultat à peine différent ; retours d’artistes attendus après le merge.</description>
+      <category>blender</category>
+      <category>compositing</category>
+      <category>vfx</category>
+    </item>
     <item>
       <title>OpenScatter 0.13.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-11-openscatter-0-13-0</link>
