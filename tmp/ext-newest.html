@@ -1,0 +1,2608 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+Add-ons
+ &mdash; Blender Extensions</title>
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.1131f253faf5.png">
+    <link rel="icon" type="image/svg+xml" href="/static/icons/favicon.49e74215f3a2.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.e0cfac52225b.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.c228102a8815.png">
+    
+
+    <link rel="canonical" href="https://extensions.blender.org/add-ons/" /><meta property="og:url" content="https://extensions.blender.org/add-ons/"><meta name="author" content="Blender Foundation"><meta name="theme-color" content="#009eff"><meta property="og:site_name" content="Blender Extensions"><meta property="og:locale" content="en_US"><meta property="og:type" content="website"><meta property="og:title" content="Blender Extensions"><meta property="twitter:title" content="Blender Extensions"><meta name="description" content="Blender Extensions is a web based service developed by Blender Foundation that allows people to share open source add-ons for Blender."><meta property="og:description" content="Blender Extensions is a web based service developed by Blender Foundation that allows people to share open source add-ons for Blender."><meta property="twitter:description" content="Blender Extensions is a web based service developed by Blender Foundation that allows people to share open source add-ons for Blender."><meta property="og:image" content="https://extensions.blender.org/static/common/images/extensions-website-og-image-placeholder.jpg"><meta property="og:image:alt" content="Blender Extensions">
+
+    
+
+    <link href="/static/css/common.54c69a914524.css" rel="stylesheet" type="text/css" media="screen,projection" />
+
+    
+    
+
+    <script defer data-domain="extensions.blender.org" src="https://analytics.blender.org/js/script.outbound-links.file-downloads.tagged-events.js"></script>
+  </head>
+
+  <body class="has-global-bar">
+      <div class="alert alert-info" style="width: 100%; max-width: 100%; margin: 0; padding: 1rem; border: 0; border-radius: 0; text-align: center; text-decoration: underline; box-sizing: border-box;">
+			  <span>
+          <a href="https://www.blender.org/news/blender-survey-2026/">Join the <strong>official Blender Survey 2026</strong>! 🧡</a>
+        </span>
+		  </div>
+      
+    
+
+    
+    
+    <div class="nav-global">
+      <div class="nav-global-container">
+        <nav>
+          <div class="d-md-block d-none site-beta-logo-container text-nowrap">
+            <a href="/" class="nav-global-logo">
+              <svg fill-rule="nonzero" viewBox="0 0 200 162.05">
+                <path
+                  d="M61.1 104.56c.05 2.6.88 7.66 2.12 11.61a61.27 61.27 0 0 0 13.24 22.92 68.39 68.39 0 0 0 23.17 16.64 74.46 74.46 0 0 0 30.42 6.32 74.52 74.52 0 0 0 30.4-6.42 68.87 68.87 0 0 0 23.15-16.7 61.79 61.79 0 0 0 13.23-22.97 58.06 58.06 0 0 0 2.07-25.55 59.18 59.18 0 0 0-8.44-23.1 64.45 64.45 0 0 0-15.4-16.98h.02L112.76 2.46l-.16-.12c-4.09-3.14-10.96-3.13-15.46.02-4.55 3.18-5.07 8.44-1.02 11.75l-.02.02 26 21.14-79.23.08h-.1c-6.55.01-12.85 4.3-14.1 9.74-1.27 5.53 3.17 10.11 9.98 10.14v.02l40.15-.07-71.66 55-.27.2c-6.76 5.18-8.94 13.78-4.69 19.23 4.32 5.54 13.51 5.55 20.34.03l39.1-32s-.56 4.32-.52 6.91zm100.49 14.47c-8.06 8.2-19.34 12.86-31.54 12.89-12.23.02-23.5-4.6-31.57-12.79-3.93-4-6.83-8.59-8.61-13.48a35.57 35.57 0 0 1 2.34-29.25 39.1 39.1 0 0 1 9.58-11.4 44.68 44.68 0 0 1 28.24-9.85 44.59 44.59 0 0 1 28.24 9.77 38.94 38.94 0 0 1 9.58 11.36 35.58 35.58 0 0 1 4.33 14.18 35.1 35.1 0 0 1-1.98 15.05 37.7 37.7 0 0 1-8.61 13.52zm-57.6-27.91a23.55 23.55 0 0 1 8.55-16.68 28.45 28.45 0 0 1 18.39-6.57 28.5 28.5 0 0 1 18.38 6.57 23.57 23.57 0 0 1 8.55 16.67c.37 6.83-2.37 13.19-7.2 17.9a28.18 28.18 0 0 1-19.73 7.79c-7.83 0-14.84-3-19.75-7.8a23.13 23.13 0 0 1-7.19-17.88z" />
+                <strong>Extensions</strong>
+              </svg>
+            </a>
+            
+              
+            
+          </div>
+
+          <button class="nav-global-logo js-dropdown-toggle" data-toggle-menu-id="nav-global-nav-links">
+            <svg fill-rule="nonzero" viewBox="0 0 200 162.05">
+              <path
+                d="M61.1 104.56c.05 2.6.88 7.66 2.12 11.61a61.27 61.27 0 0 0 13.24 22.92 68.39 68.39 0 0 0 23.17 16.64 74.46 74.46 0 0 0 30.42 6.32 74.52 74.52 0 0 0 30.4-6.42 68.87 68.87 0 0 0 23.15-16.7 61.79 61.79 0 0 0 13.23-22.97 58.06 58.06 0 0 0 2.07-25.55 59.18 59.18 0 0 0-8.44-23.1 64.45 64.45 0 0 0-15.4-16.98h.02L112.76 2.46l-.16-.12c-4.09-3.14-10.96-3.13-15.46.02-4.55 3.18-5.07 8.44-1.02 11.75l-.02.02 26 21.14-79.23.08h-.1c-6.55.01-12.85 4.3-14.1 9.74-1.27 5.53 3.17 10.11 9.98 10.14v.02l40.15-.07-71.66 55-.27.2c-6.76 5.18-8.94 13.78-4.69 19.23 4.32 5.54 13.51 5.55 20.34.03l39.1-32s-.56 4.32-.52 6.91zm100.49 14.47c-8.06 8.2-19.34 12.86-31.54 12.89-12.23.02-23.5-4.6-31.57-12.79-3.93-4-6.83-8.59-8.61-13.48a35.57 35.57 0 0 1 2.34-29.25 39.1 39.1 0 0 1 9.58-11.4 44.68 44.68 0 0 1 28.24-9.85 44.59 44.59 0 0 1 28.24 9.77 38.94 38.94 0 0 1 9.58 11.36 35.58 35.58 0 0 1 4.33 14.18 35.1 35.1 0 0 1-1.98 15.05 37.7 37.7 0 0 1-8.61 13.52zm-57.6-27.91a23.55 23.55 0 0 1 8.55-16.68 28.45 28.45 0 0 1 18.39-6.57 28.5 28.5 0 0 1 18.38 6.57 23.57 23.57 0 0 1 8.55 16.67c.37 6.83-2.37 13.19-7.2 17.9a28.18 28.18 0 0 1-19.73 7.79c-7.83 0-14.84-3-19.75-7.8a23.13 23.13 0 0 1-7.19-17.88z" />
+            </svg>
+            <strong>Extensions</strong>
+            <i class="i-chevron-down"></i>
+          </button>
+
+          <ul class="flex-nowrap nav-global-nav-links nav-global-dropdown js-dropdown-menu" id="nav-global-nav-links">
+            <li class="d-md-none">
+              <a href="/" class="">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="/add-ons/" class="nav-global-link-active">
+                Add-ons
+              </a>
+            </li>
+            
+            <li>
+              <a href="/themes/" class="">
+                Themes
+              </a>
+            </li>
+            <li>
+              <a href="/approval-queue/" class="">
+                Approval Queue
+              </a>
+            </li>
+            <li>
+              <a href="/about/" class="">
+                About
+              </a>
+            </li>
+          </ul>
+
+          <ul class="nav-global-links-right">
+            <li class="js-nav-global-link-search nav-global-link-search">
+              <search>
+                <form action="/search/" class="navbar-search" method="GET">
+                  <input name="q" aria-label="Search" aria-describedby="nav-search-button" class="form-control" type="text" placeholder="Search..."  >
+                    <button id="nav-search-button" type="submit">
+                      <i class="i-search"></i>
+                    </button>
+                </form>
+              </search>
+            </li>
+
+            <li>
+              <button class="js-nav-global-link-search-toggle nav-global-link-search-toggle"><i class="i-search"></i></button>
+            </li>
+
+            
+              <li class="d-lg-inline-flex d-none">
+                <a class="nav-global-btn nav-global-btn-primary" href="/submit/"><i class="i-upload"></i><span>Upload Extension</span></a>
+              </li>
+            
+
+            <li>
+              <button class="js-toggle-theme-btn"><i class="js-toggle-theme-btn-icon i-adjust"></i></button>
+            </li>
+
+            
+              <li>
+                <a class="nav-global-btn" href="/oauth/login">
+                  <i class="i-log-in"></i>
+                  <span>Sign in</span>
+                </a>
+              </li>
+            
+
+            <li>
+              <div class="nav-global-apps-dropdown-container">
+                <button class="js-dropdown-toggle" data-toggle-menu-id="nav-global-apps-menu">
+                  <svg class="nav-global-icon" height="100px" width="100px" viewBox="0 0 1000 1000">
+                    <path
+                      d="m 150.5,899 a 50,50 0 0 1 -49,-50 V 749 a 50,50 0 0 1 49,-50 h 100 a 50,50 0 0 1 50,50 v 100 a 50,50 0 0 1 -50,50 z m 299,0 a 50,50 0 0 1 -50,-50 V 749 a 50,50 0 0 1 50,-50 h 100 a 50,50 0 0 1 50,50 v 100 a 50,50 0 0 1 -50,50 z m 299,0 a 50,50 0 0 1 -50,-50 V 749 a 50,50 0 0 1 50,-50 h 100 a 50,50 0 0 1 50,50 v 100 a 50,50 0 0 1 -50,50 z m -598,-299 a 50,50 0 0 1 -49,-50 V 450 a 50,50 0 0 1 49,-50 h 100 a 50,50 0 0 1 50,50 v 100 a 50,50 0 0 1 -50,50 z m 299,0 a 50,50 0 0 1 -50,-50 V 450 a 50,50 0 0 1 50,-50 h 100 a 50,50 0 0 1 50,50 v 100 a 50,50 0 0 1 -50,50 z m 299,0 a 50,50 0 0 1 -50,-50 V 450 a 50,50 0 0 1 50,-50 h 100 a 50,50 0 0 1 50,50 v 100 a 50,50 0 0 1 -50,50 z m -598,-299 a 50,50 0 0 1 -49,-50 V 151 a 50,50 0 0 1 49,-50 h 100 a 50,50 0 0 1 50,50 v 100 a 50,50 0 0 1 -50,50 z m 299,0 a 50,50 0 0 1 -50,-50 V 151 a 50,50 0 0 1 50,-50 h 100 a 50,50 0 0 1 50,50 v 100 a 50,50 0 0 1 -50,50 z m 299,0 a 50,50 0 0 1 -50,-50 V 151 a 50,50 0 0 1 50,-50 h 100 a 50,50 0 0 1 50,50 v 100 a 50,50 0 0 1 -50,50 z" />
+                  </svg>
+                </button>
+
+                <!-- @build Blender Web Assets v2.2.10 - Do not remove comment -->
+
+<div class="nav-global-apps-menu nav-global-dropdown js-dropdown-menu" id="nav-global-apps-menu">
+  <a href="https://www.blender.org/?utm_medium=nav-global" target="_blank">
+    <h3>BLENDER.ORG</h3>
+  </a>
+  <ul>
+    <li>
+      <a href="https://www.blender.org/download/?utm_medium=nav-global" target="_blank">
+        <figure>
+          <svg class="nav-global-icon" height="100px" width="100px" viewbox="0 0 1000 1000">
+            <path d="m 49.15424,599.52895 a 50.360431,50.360431 0 0 0 -49.16137168,50.36043 v 200.24266 c 0,81.53594 68.34629768,149.88226 149.88223168,149.88226 h 700.2498 c 81.53593,0 149.8822,-68.34632 149.8822,-149.88226 V 649.88938 a 50.360431,50.360431 0 1 0 -100.72083,0 v 200.24266 c 0,27.57834 -21.58304,49.16138 -49.16137,49.16138 H 149.8751 c -27.57833,0 -49.16137,-21.58304 -49.16137,-49.16138 V 649.88938 A 50.360431,50.360431 0 0 0 49.15424,599.52895 Z M 249.3969,350.12491 a 50.360431,50.360431 0 0 0 -34.77267,85.13311 l 250.60309,249.40404 a 50.360431,50.360431 0 0 0 70.74442,0 L 785.37577,435.25802 A 50.360431,50.360431 0 1 0 714.63136,364.51361 L 500,579.14497 285.36864,364.51361 A 50.360431,50.360431 0 0 0 249.3969,350.12491 Z M 498.80094,0 A 50.360431,50.360431 0 0 0 449.63957,50.360432 V 649.88938 a 50.360431,50.360431 0 1 0 100.72086,0 V 50.360432 A 50.360431,50.360431 0 0 0 498.80094,0 Z" style="stroke-width:1.19906"></path>
+          </svg>
+        </figure>
+        <div>
+          <h4>Download</h4>
+          <p>Get the latest Blender, older versions, or experimental builds.</p>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.blender.org/download/releases/?utm_medium=nav-global" target="_blank">
+        <div>
+          <h4>What&apos;s New</h4>
+          <p>Stay up-to-date with the new features in the latest Blender releases.</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+  <a href="https://projects.blender.org/?utm_medium=nav-global" target="_blank">
+    <h3>DEVELOPMENT</h3>
+  </a>
+  <ul>
+    <li>
+      <a href="https://code.blender.org/roadmap/?utm_medium=nav-global" target="_blank">
+        <figure>
+          <svg class="nav-global-icon" height="100px" width="100px" viewbox="0 0 1000 1000">
+            <path d="m 683.36434,818.19976 a 45.841084,45.841084 0 0 1 -33.83509,-13.09745 45.841084,45.841084 0 0 1 0,-64.39581 L 890.74067,499.49508 649.52925,259.37512 a 45.841084,45.841084 0 0 1 0,-64.39582 45.841084,45.841084 0 0 1 64.39581,0 l 272.8636,272.8636 a 45.841084,45.841084 0 0 1 0,64.39581 l -272.8636,272.8636 a 45.841084,45.841084 0 0 1 -30.56072,13.09745 z m -363.45431,0 A 45.841084,45.841084 0 0 1 286.07494,805.10231 L 13.211339,532.23871 a 45.841084,45.841084 0 0 1 0,-64.39581 L 286.07494,194.9793 a 45.841084,45.841084 0 0 1 64.39581,0 45.841084,45.841084 0 0 1 0,64.39582 L 109.25933,499.49508 350.47075,740.7065 a 45.841084,45.841084 0 0 1 0,64.39581 45.841084,45.841084 0 0 1 -30.56072,13.09745 z" style="stroke-width:1.09145"></path>
+          </svg>
+        </figure>
+        <div>
+          <h4>Roadmap</h4>
+          <p>See which projects are currently being worked on and what's next.</p>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="https://developer.blender.org/docs/?utm_medium=nav-global" target="_blank">
+        <div>
+          <h4>Documentation</h4>
+          <p>Guidelines, release notes and development docs.</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+  <a href="https://studio.blender.org/?utm_medium=nav-global" target="_blank">
+    <h3>LEARNING & RESOURCES</h3>
+  </a>
+  <ul>
+    <li>
+      <a href="https://studio.blender.org/?utm_medium=nav-global" target="_blank">
+        <figure>
+          <svg class="nav-global-icon" height="100px" width="100px" viewbox="0 0 1000 1000">
+            <path d="m 146.70939,1.6802353 c -78.362959,0 -143.678322,64.2057377 -143.6783209,143.6570547 -7.2533835,268.45385 0,463.93349 0,709.63356 0,79.45132 65.3153619,143.65705 143.6783209,143.65705 266.17757,0.51388 460.32009,0 709.61228,0 79.45134,0 143.67832,-64.20573 143.67832,-143.65705 0.37471,-118.45983 0,-235.03162 0,-353.72203 0.017,-0.72264 0.017,-1.4456 0,-2.16825 0.43351,-118.60776 0,-235.80643 0,-353.74328 0,-79.451317 -64.22698,-143.6570547 -143.67832,-143.6570547 -241.21275,-1.18614431 -498.91438,-0.041532 -709.61228,0 z m 0,90.3436617 h 82.71228 V 228.07083 H 93.374735 v -82.73354 c 0,-30.47448 22.860165,-53.313393 53.334655,-53.313393 z m 173.05594,0 h 363.5004 c -5.81542,127.740813 0,236.658243 0,362.416273 h -363.5004 c 0.39671,-121.62159 0,-241.06277 0,-362.416273 z m 453.84406,0 h 82.71228 c 30.4745,0 53.33466,22.838913 53.33466,53.313393 v 82.73354 H 773.60939 Z M 93.374735,318.39324 H 229.42167 V 454.44017 H 93.374735 Z m 680.234655,0 H 909.65633 V 454.44017 H 773.60939 Z M 93.374735,545.86796 H 229.42167 V 681.91489 H 93.374735 Z m 226.390595,0 h 363.5004 c -5.81534,127.74773 0,236.67164 0,362.43753 h -363.5004 c 0.3967,-121.62867 0,-241.07685 0,-362.43753 z m 453.84406,0 H 909.65633 V 681.91489 H 773.60939 Z M 93.374735,772.25856 H 229.42167 v 136.04693 h -82.71228 c -30.47449,0 -53.334655,-22.86016 -53.334655,-53.33464 z m 680.234655,0 h 136.04694 v 82.71229 c 0,30.47448 -22.86016,53.33464 -53.33466,53.33464 h -82.71228 z" style="stroke-width:1.08838"></path>
+          </svg>
+        </figure>
+        <div>
+          <h4>Blender Studio</h4>
+          <p>Access production assets and knowledge from the open movies.</p>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="https://docs.blender.org/manual/en/latest/?utm_medium=nav-global" target="_blank">
+        <div>
+          <h4>Manual</h4>
+          <p>Documentation on the usage and features in Blender.</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="https://opendata.blender.org/?utm_medium=nav-global" target="_blank">
+        <figure>
+          <svg class="nav-global-icon" height="100px" width="100px" viewbox="0 0 1000 1000">
+            <path d="M 499.99424,0 A 55.30474,55.30474 0 0 0 444.6895,55.30474 V 944.69526 A 55.30474,55.30474 0 0 0 499.99424,1000 55.30474,55.30474 0 0 0 555.29898,944.69526 V 55.30474 A 55.30474,55.30474 0 0 0 499.99424,0 Z m 332.95711,332.95711 a 55.30474,55.30474 0 0 0 -55.30474,56.43341 V 944.69526 A 55.30474,55.30474 0 0 0 832.95135,1000 55.30474,55.30474 0 0 0 888.25609,944.69526 V 389.39052 A 55.30474,55.30474 0 0 0 832.95135,332.95711 Z M 167.03713,555.30474 a 55.30474,55.30474 0 0 0 -55.30474,55.30474 V 944.69526 A 55.30474,55.30474 0 0 0 167.03713,1000 55.30474,55.30474 0 0 0 222.34187,944.69526 V 610.60948 a 55.30474,55.30474 0 0 0 -55.30474,-55.30474 z" style="stroke-width:1.12867"></path>
+          </svg>
+        </figure>
+        <div>
+          <h4>Benchmark</h4>
+          <p>A platform to collect and share results of the Blender Benchmark.</p>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="https://conference.blender.org/?utm_medium=nav-global" target="_blank">
+        <div>
+          <h4>Blender Conference</h4>
+          <p>The yearly event that brings the community together.</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+  <div class="nav-global-apps-menu-section-donate">
+    <a href="https://fund.blender.org/?utm_medium=nav-global" target="_blank">
+      <h3>DONATE</h3>
+    </a>
+    <ul>
+      <li>
+        <a href="https://fund.blender.org/?utm_medium=nav-global" target="_blank">
+          <figure>
+            <svg class="nav-global-icon" height="100px" width="100px" viewbox="0 0 1000 1000">
+              <path d="M 273.67169,58.416076 C 201.59785,62.59427 135.79129,94.975269 86.697523,145.11359 37.603742,194.20736 4.1781939,260.01391 0,332.08775 -4.1781926,403.11704 22.980065,480.41362 86.697523,545.17562 l 45.960127,45.96013 339.47823,338.43367 a 43.871033,43.871033 0 0 0 61.62835,0 L 872.1979,591.13575 918.15804,545.17562 c 109.67766,-110.72213 109.67766,-290.38445 0,-400.06203 -110.72213,-110.722127 -290.38445,-110.722127 -400.06204,0 l -15.66822,14.62368 -15.66822,-14.62368 C 423.04211,80.351592 345.74553,53.193334 273.67169,58.416076 Z m 5.22274,86.697514 c 48.04922,-3.13365 98.18754,12.53458 146.23677,60.5838 l 47.00468,47.00468 a 43.871033,43.871033 0 0 0 61.62835,0 l 45.96013,-47.00468 c 76.25204,-76.25203 199.50874,-76.25203 276.80532,0 77.29658,77.29658 77.29658,200.5533 0,277.84988 L 810.56956,529.50739 502.42778,837.64917 194.286,529.50739 148.32588,483.54727 C 100.27665,434.45349 84.608431,384.31516 86.697523,336.26594 c 3.133646,-47.00467 26.113717,-95.0539 61.628357,-130.56855 35.51464,-35.51464 82.51932,-58.49471 130.56855,-60.5838 z" style="stroke-width:1.04455"></path>
+            </svg>
+          </figure>
+          <div>
+            <h4>Development Fund</h4>
+            <p>Support core development with a monthly contribution.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.blender.org/about/donations/?utm_medium=nav-global" target="_blank">
+          <div>
+            <h4>One-time Donations</h4>
+            <p>Perform a single donation with more payment options available.</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="navdrawer-offset">
+      
+
+      
+
+      
+      <div class="container-main">
+        
+        
+
+        <div class="container">
+          
+<div class="row is-row-add-ons">
+  <div class="col-md-12 my-4">
+    
+      <div class="row mb-3">
+        <div class="col-md-12 d-flex justify-content-between">
+          
+            <h2 class="me-auto">1098 Add-ons</h2>
+          
+
+          <div class="btn-row align-items-center">
+            <span class="text-secondary">Filter</span>
+            
+              <div class="dropdown dropdown-filter-sort">
+                <button class="dropdown-toggle js-dropdown-toggle" data-toggle-menu-id="js-dropdown-menu-filter">
+                  
+                    All
+                  
+
+                  <i class="i-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-filter dropdown-menu-filter-sort dropdown-menu-right js-dropdown-menu" id="js-dropdown-menu-filter">
+                  <li>
+                    
+                    
+                    <a class="dropdown-item is-active" href="/s/">
+                      All
+                      <div class="badge">
+                        1098
+                      </div>
+                    </a>
+                  </li>
+
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/3d-view/" title="3D View">
+                        3D View
+                        <div class="badge">
+                        127
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/add-curve/" title="Add Curve">
+                        Add Curve
+                        <div class="badge">
+                        20
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/add-mesh/" title="Add Mesh">
+                        Add Mesh
+                        <div class="badge">
+                        35
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/animation/" title="Animation">
+                        Animation
+                        <div class="badge">
+                        162
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/bake/" title="Bake">
+                        Bake
+                        <div class="badge">
+                        17
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/camera/" title="Camera">
+                        Camera
+                        <div class="badge">
+                        56
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/compositing/" title="Compositing">
+                        Compositing
+                        <div class="badge">
+                        23
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/development/" title="Development">
+                        Development
+                        <div class="badge">
+                        16
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/game-engine/" title="Game Engine">
+                        Game Engine
+                        <div class="badge">
+                        21
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/geometry-nodes/" title="Geometry Nodes">
+                        Geometry Nodes
+                        <div class="badge">
+                        35
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/grease-pencil/" title="Grease Pencil">
+                        Grease Pencil
+                        <div class="badge">
+                        15
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/import-export/" title="Import-Export">
+                        Import-Export
+                        <div class="badge">
+                        191
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/lighting/" title="Lighting">
+                        Lighting
+                        <div class="badge">
+                        28
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/material/" title="Material">
+                        Material
+                        <div class="badge">
+                        68
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/mesh/" title="Mesh">
+                        Mesh
+                        <div class="badge">
+                        147
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/modeling/" title="Modeling">
+                        Modeling
+                        <div class="badge">
+                        111
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/node/" title="Node">
+                        Node
+                        <div class="badge">
+                        82
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/object/" title="Object">
+                        Object
+                        <div class="badge">
+                        102
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/paint/" title="Paint">
+                        Paint
+                        <div class="badge">
+                        23
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/physics/" title="Physics">
+                        Physics
+                        <div class="badge">
+                        14
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/pipeline/" title="Pipeline">
+                        Pipeline
+                        <div class="badge">
+                        69
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/render/" title="Render">
+                        Render
+                        <div class="badge">
+                        71
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/rigging/" title="Rigging">
+                        Rigging
+                        <div class="badge">
+                        72
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/scene/" title="Scene">
+                        Scene
+                        <div class="badge">
+                        27
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/sculpt/" title="Sculpt">
+                        Sculpt
+                        <div class="badge">
+                        18
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/sequencer/" title="Sequencer">
+                        Sequencer
+                        <div class="badge">
+                        29
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/system/" title="System">
+                        System
+                        <div class="badge">
+                        55
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/text-editor/" title="Text Editor">
+                        Text Editor
+                        <div class="badge">
+                        8
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/tracking/" title="Tracking">
+                        Tracking
+                        <div class="badge">
+                        17
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/user-interface/" title="User Interface">
+                        User Interface
+                        <div class="badge">
+                        124
+                        </div>
+                      </a>
+                    </li>
+                  
+                    <li>
+                      <a class="dropdown-item " href="/tag/add-ons/uv/" title="UV">
+                        UV
+                        <div class="badge">
+                        31
+                        </div>
+                      </a>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <div class="d-flex align-items-center ms-3">
+              <span class="text-secondary">Sort By</span>
+              <div class="dropdown dropdown-filter-sort ms-3">
+                <button class="dropdown-toggle js-dropdown-toggle" data-toggle-menu-id="js-dropdown-menu-sort">
+                  Rating <i class="i-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-filter-sort dropdown-menu-right js-dropdown-menu" id="js-dropdown-menu-sort">
+                
+                  <li>
+                    <a class="dropdown-item is-active" href="?order=-created&amp;page=1&amp;sort_by=-rating_sortkey">
+                      Rating
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="?order=-created&amp;page=1&amp;sort_by=-download_count">
+                      Downloads
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="?order=-created&amp;page=1&amp;sort_by=-date_approved">
+                      Newest First
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="?order=-created&amp;page=1&amp;sort_by=date_approved">
+                      Oldest First
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="?order=-created&amp;page=1&amp;sort_by=name">
+                      Title (A-Z)
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a class="dropdown-item" href="?order=-created&amp;page=1&amp;sort_by=-name">
+                      Title (Z-A)
+                    </a>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    
+
+    <div class="row">
+      <div class="col">
+        
+        <div class="cards cards cards-lg-4 cards-md-3 cards-sm-2">
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/simple-deform-helper/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Simple Deform Helper" src="/media/thumbnails/01/01d1db3f00c646a030238b9c958ae44ddba3fc5b40929c3169392a630ffebb56_640x360.webp" title="Simple Deform Helper">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/simple-deform-helper/">Simple Deform Helper</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Easy to deform, easy to animate: keyable cage handles
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/3d-view/" title="3D View"
+  class="badge badge-tag badge-sm">
+  3D View
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/modeling/" title="Modeling"
+  class="badge badge-tag badge-sm">
+  Modeling
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/445/" title="ACGGIT_LJ">ACGGIT_LJ</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/simple-deform-helper/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (174)
+            </a>
+          </li>
+          
+
+          
+          <li title="109237 downloads">
+            <i class="i-download"></i> 109K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/mio3-uv/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Mio3 UV" src="/media/thumbnails/55/55a5e40a87f5f567dc60fa2d477dabcf1f1f5c0b58a54bf4e960f523f50665a9_640x360.webp" title="Mio3 UV">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/mio3-uv/">Mio3 UV</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          UV Edit Assistant Tools
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/uv/" title="UV"
+  class="badge badge-tag badge-sm">
+  UV
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/2411/" title="mio">mio</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/mio3-uv/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (130)
+            </a>
+          </li>
+          
+
+          
+          <li title="303175 downloads">
+            <i class="i-download"></i> 303K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/placehelper/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Place Helper" src="/media/thumbnails/7e/7ee61a9381223a86afe90e88ac541bcf86bfa4d7187b5bfbf1db8225902fa5c0_640x360.webp" title="Place Helper">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/placehelper/">Place Helper</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Place, align and scatter objects with ease
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/3d-view/" title="3D View"
+  class="badge badge-tag badge-sm">
+  3D View
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/object/" title="Object"
+  class="badge badge-tag badge-sm">
+  Object
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/445/" title="ACGGIT_LJ">ACGGIT_LJ</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/placehelper/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (107)
+            </a>
+          </li>
+          
+
+          
+          <li title="48822 downloads">
+            <i class="i-download"></i> 49K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/nd/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="ND" src="/media/thumbnails/96/9669627e91f32ea0a5ab7e2f7dfdc86e7d5d3017e30abe5c7df6b806ea4fe36b_640x360.webp" title="ND">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/nd/">ND</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Non-Destructive Modeling Toolkit
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/3d-view/" title="3D View"
+  class="badge badge-tag badge-sm">
+  3D View
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/lighting/" title="Lighting"
+  class="badge badge-tag badge-sm">
+  Lighting
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/material/" title="Material"
+  class="badge badge-tag badge-sm">
+  Material
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/409/" title="HugeMenace">HugeMenace</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/nd/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (139)
+            </a>
+          </li>
+          
+
+          
+          <li title="110562 downloads">
+            <i class="i-download"></i> 111K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/synchronize-workspaces/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Synchronize Workspaces" src="/media/thumbnails/7a/7a2d3e15db52654224dd621b1ed10e6a9afce2705a12d65cc79b34d92a6a0792_640x360.webp" title="Synchronize Workspaces">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/synchronize-workspaces/">Synchronize Workspaces</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Synchronize 3D views between workspaces
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/3d-view/" title="3D View"
+  class="badge badge-tag badge-sm">
+  3D View
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/user-interface/" title="User Interface"
+  class="badge badge-tag badge-sm">
+  User Interface
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/1488/" title="MultLabs">MultLabs</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/synchronize-workspaces/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (84)
+            </a>
+          </li>
+          
+
+          
+          <li title="30429 downloads">
+            <i class="i-download"></i> 30K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/node-arrange/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Node Arrange" src="/media/thumbnails/69/69020e987b73f89930275fa6e977906696fe57cf9d6495c39d27e999f3d7ba7a_640x360.webp" title="Node Arrange">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/node-arrange/">Node Arrange</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Arrange node trees with one click
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/node/" title="Node"
+  class="badge badge-tag badge-sm">
+  Node
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/6448/" title="Leonardo-Pike-Excell">Leonardo-Pike-Excell</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/node-arrange/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (97)
+            </a>
+          </li>
+          
+
+          
+          <li title="251426 downloads">
+            <i class="i-download"></i> 251K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/threemf-io/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="3MF Import/Export" src="/media/thumbnails/e6/e65abb9dfa5d3a5fbb787c8d83986229f723ccebb2e26aeb9a73cc116ffa4007_640x360.webp" title="3MF Import/Export">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/threemf-io/">3MF Import/Export</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Import and export 3D Manufacturing Format (3MF) files
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/import-export/" title="Import-Export"
+  class="badge badge-tag badge-sm">
+  Import-Export
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/44747/" title="Clonephaze">Clonephaze</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/threemf-io/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (76)
+            </a>
+          </li>
+          
+
+          
+          <li title="103999 downloads">
+            <i class="i-download"></i> 104K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/edgeflow/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="EdgeFlow" src="/media/thumbnails/4f/4f24f9e182577de49b1ce72b19629d3938eba089a1dada5d3410e93dc774e60f_640x360.webp" title="EdgeFlow">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/edgeflow/">EdgeFlow</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Helps adjusting mesh geometry to curved surfaces
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/mesh/" title="Mesh"
+  class="badge badge-tag badge-sm">
+  Mesh
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/modeling/" title="Modeling"
+  class="badge badge-tag badge-sm">
+  Modeling
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/2227/" title="Benjamin-Sauder">Benjamin-Sauder</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/edgeflow/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (86)
+            </a>
+          </li>
+          
+
+          
+          <li title="205288 downloads">
+            <i class="i-download"></i> 205K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/brushstroke-tools/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Brushstroke Tools" src="/media/thumbnails/d0/d0195c9177930d737b4a5275408c012d7ae3a7d059f00608c6e928eb8c421503_640x360.webp" title="Brushstroke Tools">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/brushstroke-tools/">Brushstroke Tools</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Brushstroke painting tools by the Blender Studio
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/paint/" title="Paint"
+  class="badge badge-tag badge-sm">
+  Paint
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/geometry-nodes/" title="Geometry Nodes"
+  class="badge badge-tag badge-sm">
+  Geometry Nodes
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/material/" title="Material"
+  class="badge badge-tag badge-sm">
+  Material
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+            <a href="/team/blender-studio/" title="Blender Studio">Blender Studio</a>
+            
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/brushstroke-tools/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (77)
+            </a>
+          </li>
+          
+
+          
+          <li title="128447 downloads">
+            <i class="i-download"></i> 128K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/quick-groups/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Quick Groups (Instances)" src="/media/thumbnails/38/38f2245ad68d59a3b12c9577e982feb0e86596f27594bd59d1139158ec128746_640x360.webp" title="Quick Groups (Instances)">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/quick-groups/">Quick Groups (Instances)</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Group objects with Ctrl+G using instances
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/object/" title="Object"
+  class="badge badge-tag badge-sm">
+  Object
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/modeling/" title="Modeling"
+  class="badge badge-tag badge-sm">
+  Modeling
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/1488/" title="MultLabs">MultLabs</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/quick-groups/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (79)
+            </a>
+          </li>
+          
+
+          
+          <li title="39479 downloads">
+            <i class="i-download"></i> 39K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/ucupaint/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Ucupaint" src="/media/thumbnails/e8/e8e96a144bd5c34165bcc45bb7fd26c3dc3b51ea0bd0b0c174b23167914823a7_640x360.webp" title="Ucupaint">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/ucupaint/">Ucupaint</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Layer based painting for Eevee and Cycles
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/node/" title="Node"
+  class="badge badge-tag badge-sm">
+  Node
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/material/" title="Material"
+  class="badge badge-tag badge-sm">
+  Material
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/paint/" title="Paint"
+  class="badge badge-tag badge-sm">
+  Paint
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/543/" title="ucupumar">ucupumar</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/ucupaint/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (145)
+            </a>
+          </li>
+          
+
+          
+          <li title="301456 downloads">
+            <i class="i-download"></i> 301K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/grid-dimensions/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Grid Dimensions/网格标注" src="/media/thumbnails/af/af64c6190fb1611a35c5099d96b6f8e184b5e8db57760a0b6e3226166a8b08fa_640x360.webp" title="Grid Dimensions/网格标注">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/grid-dimensions/">Grid Dimensions/网格标注</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Grid Dimensions/网格标注
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/3d-view/" title="3D View"
+  class="badge badge-tag badge-sm">
+  3D View
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/3361/" title="Shuimeng">Shuimeng</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/grid-dimensions/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (64)
+            </a>
+          </li>
+          
+
+          
+          <li title="27519 downloads">
+            <i class="i-download"></i> 28K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/texel-density-checker/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Texel Density Checker" src="/media/thumbnails/6e/6e2894f1fbcf7ef0a6f595f51154e057f1f6824a4a2158529d72fff2f24f48fc_640x360.webp" title="Texel Density Checker">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/texel-density-checker/">Texel Density Checker</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Toolset for working with Texel Density
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/3d-view/" title="3D View"
+  class="badge badge-tag badge-sm">
+  3D View
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/object/" title="Object"
+  class="badge badge-tag badge-sm">
+  Object
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/uv/" title="UV"
+  class="badge badge-tag badge-sm">
+  UV
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/5697/" title="IvanVostrikov">IvanVostrikov</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/texel-density-checker/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (50)
+            </a>
+          </li>
+          
+
+          
+          <li title="106464 downloads">
+            <i class="i-download"></i> 106K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/modern-primitive/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Modern Primitive" src="/media/thumbnails/c8/c86f47768bd30ded7decafea8001bd8b4246af916f26acd673fd1b9dbae34543_640x360.webp" title="Modern Primitive">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/modern-primitive/">Modern Primitive</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Modern Primitive for Non-Destructive Modeling
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/add-mesh/" title="Add Mesh"
+  class="badge badge-tag badge-sm">
+  Add Mesh
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/modeling/" title="Modeling"
+  class="badge badge-tag badge-sm">
+  Modeling
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/21377/" title="Degarashi">Degarashi</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/modern-primitive/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (51)
+            </a>
+          </li>
+          
+
+          
+          <li title="80585 downloads">
+            <i class="i-download"></i> 81K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/univ/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="UniV" src="/media/thumbnails/54/54213e2cc787d8e7f5a28baf614cb232af474bd02f4403e59cf6a5e51fa99a52_640x360.webp" title="UniV">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/univ/">UniV</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Smart UV Tools
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/uv/" title="UV"
+  class="badge badge-tag badge-sm">
+  UV
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/2345/" title="Oxicid">Oxicid</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/univ/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (76)
+            </a>
+          </li>
+          
+
+          
+          <li title="107988 downloads">
+            <i class="i-download"></i> 108K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+            
+
+  <div class="cards-item">
+    <div class="cards-item-content">
+      <a href="/add-ons/nodepie/">
+        
+          <div class="cards-item-thumbnail">
+            
+              <img alt="Node Pie" src="/media/thumbnails/7b/7b6e1544a9b797b075d9f77330e5ee1a23ab94509d2be8a35cc7d0b5bedee03e_640x360.webp" title="Node Pie">
+            
+          </div>
+        
+      </a>
+      <div class="cards-item-headline">
+        Add-on
+      </div>
+      <h3 class="cards-item-title">
+        <a href="/add-ons/nodepie/">Node Pie</a>
+      </h3>
+      <div class="cards-item-excerpt">
+        <p>
+          Add nodes faster with a pie menu
+        </p>
+      </div>
+      <div class="cards-item-extra">
+        
+        <ul class="flex-wrap mb-1">
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/user-interface/" title="User Interface"
+  class="badge badge-tag badge-sm">
+  User Interface
+</a>
+
+            </li>
+          
+            <li class="mb-1">
+              
+
+<a href="/tag/add-ons/node/" title="Node"
+  class="badge badge-tag badge-sm">
+  Node
+</a>
+
+            </li>
+          
+        </ul>
+        
+
+        <ul>
+          <li>
+          
+            
+<a class="d-inline" href="/author/51/" title="Strike_Digital">Strike_Digital</a>
+
+          
+          </li>
+        </ul>
+
+        <ul class="cards-item-extra-rating-stars">
+          
+          <li class="me-auto">
+            <a class="align-items-center d-flex" href="/add-ons/nodepie/reviews/">
+            
+
+
+
+<span class="stars me-1 " title="Rated 5.0 out of 5">
+  <span style="width: 100%"></span>
+</span>
+
+            (58)
+            </a>
+          </li>
+          
+
+          
+          <li title="95417 downloads">
+            <i class="i-download"></i> 95K
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+          
+        </div>
+        
+
+        <div class="row">
+          <div class="col">
+            
+
+<nav>
+  
+    <ul class="pagination pb-2">
+      
+
+      
+
+      
+        
+          <li class="page-item page-current active" aria-current="page">
+            <a>1</a>
+          </li>
+        
+      
+        
+          <li class="page-item">
+            <a href="?order=-created&amp;page=2">2</a>
+          </li>
+        
+      
+        
+          <li class="page-item">
+            <a href="?order=-created&amp;page=3">3</a>
+          </li>
+        
+      
+        
+          <li class="page-item">
+            <a href="?order=-created&amp;page=4">4</a>
+          </li>
+        
+      
+        
+          <li class="page-item disabled">
+            <span class="page-link px-0">...</span>
+          </li>
+        
+      
+        
+          <li class="page-item">
+            <a href="?order=-created&amp;page=68">68</a>
+          </li>
+        
+      
+        
+          <li class="page-item">
+            <a href="?order=-created&amp;page=69">69</a>
+          </li>
+        
+      
+
+      
+      <li class="page-item page-next">
+        <a href="?order=-created&amp;page=2">
+          Next <i class="i-chevron-right"></i>
+        </a>
+      </li>
+      
+
+      
+      <li class="page-item page-last">
+        <a href="?order=-created&amp;page=69">
+          Last
+        </a>
+      </li>
+      
+    </ul>
+  
+
+  <div class="mb-2 mb-lg-0 page-item text-center">
+    1098 results
+  </div>
+</nav>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      
+    </div>
+
+    
+      <div class="footer-pages pt-2">
+        <div class="container">
+          <ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="https://www.blender.org/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms-of-service/">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- @build Blender Web Assets v2.2.10 - Do not remove comment -->
+<div class="footer-navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-md-2">
+        <section>
+          <a href="https://www.blender.org/about/" class="sitemap-title">
+            About
+          </a>
+          <ul>
+            <li>
+              <a href="https://www.blender.org/about/foundation/" title="Blender Foundation">
+                Blender Foundation
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/about/institute/" title="Blender Institute">
+                Blender Institute
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/about/studio/" title="Blender Studio">
+                Blender Studio
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/about/license/" title="License">
+                License
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/about/logo/" title="Logo & Trademark">
+                Logo & Trademark
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/about/credits/" title="Credits">
+                Credits
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/privacy-policy/" title="Privacy Policy">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="https://developer.blender.org/docs/handbook/communication/code_of_conduct/" title="Code of Conduct">
+                Code of Conduct
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <div class="sitemap-title">
+            Organization
+          </div>
+          <ul>
+            <li>
+              <a href="https://www.blender.org/about/people/" title="People">
+                People
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/jobs/" title="Jobs">
+                Jobs
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <a href="https://network.blender.org/" title="Blender Network" class="sitemap-title">
+          Blender Network
+        </a>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <section>
+          <a href="https://www.blender.org/download/" class="sitemap-title">
+            Download
+          </a>
+          <ul>
+            <li>
+              <a href="https://www.blender.org/download/" title="Download Blender">
+                Latest Blender
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/download/lts/" title="Blender Long-term Support">
+                Blender LTS
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/download/previous-versions/" title="Previous Versions">
+                Previous Versions
+              </a>
+            </li>
+            <li>
+              <a href="https://builder.blender.org/download/daily/?utm_medium=www-footer" title="Experimental Builds">
+                Experimental Builds
+              </a>
+            </li>
+            <li>
+              <a href="https://projects.blender.org/blender/blender?utm_medium=www-footer" title="Source Code">
+                Source Code
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/download/requirements/" title="Requirements">
+                Requirements
+              </a>
+            </li>
+            <li>
+              <a href="https://opendata.blender.org/?utm_medium=www-footer" title="Blender Benchmark">
+                Benchmark
+              </a>
+            </li>
+            <li>
+              <a href="https://flamenco.blender.org/?utm_medium=www-footer" title="Flamenco">
+                Flamenco
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <a href="https://extensions.blender.org/?utm_medium=www-footer" title="Add-ons, themes, and other extensions"
+            class="sitemap-title">
+            Extensions
+          </a>
+          <ul>
+            <li>
+              <a href="https://extensions.blender.org/add-ons/?utm_medium=www-footer" title="Add-ons">
+                Add-ons
+              </a>
+            </li>
+            <li>
+              <a href="https://extensions.blender.org/themes/?utm_medium=www-footer"
+                title="Themes">
+                Themes
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <section>
+          <a href="https://developer.blender.org/?utm_medium=www-footer" class="sitemap-title">
+            Developers
+          </a>
+          <ul>
+            <li>
+              <a href="https://developer.blender.org/?utm_medium=www-footer" title="Get Started">
+                Get Started
+              </a>
+            </li>
+            <li>
+              <a href="https://code.blender.org/roadmap/?utm_medium=www-footer" title="Projects">
+                Roadmap
+              </a>
+            </li>
+            <li>
+              <a href="https://projects.blender.org/?utm_medium=www-footer" title="Projects">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="https://developer.blender.org/docs/?utm_medium=www-footer" title="Developers Docs">
+                Docs
+              </a>
+            </li>
+            <li>
+              <a href="https://code.blender.org/?utm_medium=www-footer" title="Developers Blog">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="https://devtalk.blender.org/?utm_medium=www-footer" title="Developers Forum">
+                Forum
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/blenderdevelopers" target="_blank" title="YouTube (Developers)">
+                YouTube
+              </a>
+            </li>
+            <li>
+              <a href="https://docs.blender.org/api/current/?utm_medium=www-footer" title="Python API">
+                Python API
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <a href="https://studio.blender.org/?utm_medium=www-footer" title="Blender Studio" class="sitemap-title">
+            Blender Studio
+          </a>
+          <ul>
+            <li>
+              <a href="https://studio.blender.org/films/?utm_medium=www-footer" title="Blender Studio Films">
+                Films
+              </a>
+            </li>
+            <li>
+              <a href="https://studio.blender.org/training/?utm_medium=www-footer" title="Blender Studio Training">
+                Training
+              </a>
+            </li>
+            <li>
+              <a href="https://studio.blender.org/tools/?utm_medium=www-footer" title="Blender Studio Tools">
+                Tools & Pipeline
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <section>
+          <a href="https://www.blender.org/support/" class="sitemap-title">
+            Support
+          </a>
+          <ul>
+            <li>
+              <a href="https://docs.blender.org/manual/?utm_medium=www-footer" title="Manual">
+                Manual
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/community/" title="Community">
+                Community
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/support/faq/" title="FAQ">
+                FAQ
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <a href="https://www.blender.org/get-involved/" class="sitemap-title">
+            Get Involved
+          </a>
+          <ul>
+            <li>
+              <a href="https://www.blender.org/get-involved/documenters/" title="Documentation">
+                Documentation
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/get-involved/" title="Education">
+                Education
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <a href="https://www.blender.org/news/" title="News" class="sitemap-title">
+            News
+          </a>
+          <ul>
+            <li>
+              <a href="https://www.blender.org/category/press/" title="Press Releases">
+                Press Releases
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blender.org/get-involved/user-stories/" title="User Stories">
+                User Stories
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <a href="https://conference.blender.org/" title="Blender Conference" class="sitemap-title">
+          Blender Conference
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3 social">
+        <section>
+          <a href="https://bsky.app/profile/blender.org" class="sitemap-title">
+            Follow Blender
+          </a>
+          <ul class="list-inline mb-4 social-icons">
+            <li>
+              <a href="https://youtube.com/BlenderFoundation" title="Blender's Official YouTube channel" target="_blank"
+                class="social-icons__youtube">
+                <i class="i-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://video.blender.org/" title="Blender's PeerTube instance" target="_blank"
+                class="social-icons__peertube">
+                <i class="i-peertube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://bsky.app/profile/blender.org" title="Follow Blender on Bluesky" target="_blank"
+                class="social-icons__bluesky">
+                <i class="i-bluesky"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/blender.official/" title="Follow Blender on Instagram" target="_blank"
+                class="social-icons__instagram">
+                <i class="i-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/YourOwn3DSoftware/" title="Follow Blender on Facebook" target="_blank"
+                class="social-icons__facebook">
+                <i class="i-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/blender-org/" title="Follow Blender on LinkedIn" target="_blank"
+                class="social-icons__linkedin">
+                <i class="i-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://mastodon.social/@blender" title="Follow Blender on Mastodon" target="_blank"
+                class="social-icons__mastodon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216.4144 232.00976">
+                  <path
+                    d="M 107.87112,1.8691521 C 78.687821,2.1077446 50.615693,5.2679473 34.256124,12.781149 c 0,0 -32.4459422,14.513545 -32.4459422,64.032543 0,11.33929 -0.220399,24.897358 0.1387195,39.275628 1.1782038,48.42688 8.8777977,96.15389 53.6520047,108.00481 20.644395,5.46425 38.369975,6.60907 52.644934,5.82442 25.88728,-1.43526 40.41961,-9.23836 40.41961,-9.23836 l -0.85394,-18.78298 c 0,0 -18.49963,5.83267 -39.27562,5.12182 -20.58413,-0.70594 -42.314881,-2.21933 -45.644106,-27.49168 -0.307465,-2.2199 -0.461196,-4.59439 -0.461196,-7.0873 0,0 20.207151,4.93937 45.815252,6.11266 15.65855,0.71823 30.34229,-0.91732 45.25677,-2.69692 28.60157,-3.41533 53.50539,-21.03826 56.63538,-37.14079 4.93172,-25.36583 4.52549,-61.901308 4.52549,-61.901308 0,-49.518998 -32.44414,-64.032543 -32.44414,-64.032543 C 165.861,5.2679473 137.77144,2.1077446 108.58813,1.8691521 Z M 74.843276,40.561072 c 12.155915,0 21.360069,4.672182 27.446624,14.017872 l 5.91811,9.919343 5.91809,-9.919343 c 6.08534,-9.34569 15.28949,-14.017872 27.44664,-14.017872 10.50545,0 18.97017,3.693077 25.43431,10.897586 6.26612,7.204507 9.38608,16.94344 9.38608,29.197743 V 140.61564 H 152.63788 V 82.418319 c 0,-12.267833 -5.16149,-18.494728 -15.48615,-18.494728 -11.41555,0 -17.13636,7.385747 -17.13636,21.99154 V 117.77016 H 96.400641 V 85.915131 c 0,-14.605793 -5.722618,-21.99154 -17.138159,-21.99154 -10.324658,0 -15.486137,6.226895 -15.486137,18.494728 V 140.61564 H 40.021088 V 80.656401 c 0,-12.254303 3.120529,-21.993236 9.387885,-29.197743 C 55.871876,44.254149 64.3366,40.561072 74.843276,40.561072 Z"
+                    style="fill:none;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@blender_org" title="Follow Blender on TikTok" target="_blank"
+                class="social-icons__tiktok">
+                <i class="i-tiktok"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://space.bilibili.com/3546814074587443" title="Follow Blender on Bilibili" target="_blank"
+                class="social-icons__bilibili">
+                <i class="i-bilibili"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <a href="https://fund.blender.org/?utm_medium=www-footer" class="sitemap-title">
+            Support Blender
+          </a>
+          <ul>
+            <li class="mb-3 mt-2">
+              <a href="https://fund.blender.org/?utm_medium=www-footer" class="btn btn-accent"><i class="i-heart"></i> Donate</a>
+            </li>
+            <li>
+              <a class="text-center" href="https://fund.blender.org/donate-once/?utm_medium=www-footer" title="One-time Donation">
+                One-time Donation
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer-note">Artistic freedom starts with Blender <i class="i-heart"></i> <span>The Free and Open
+    Source 3D Creation Suite</span>
+  <div id="hop" title="Be awesome in space">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512">
+      <path
+        d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+      </path>
+    </svg>
+  </div>
+</footer>
+
+    
+
+    <script type="text/javascript" src="/static/js/common.ff85faab0e76.js" charset="utf-8"></script>
+    
+
+  </body>
+</html>

@@ -5,8 +5,48 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo — tous les jours.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 12 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>IngeTrazo 0.5.8</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-13-ingetrazo-0-5-8</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-13-ingetrazo-0-5-8</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Modeleur 3D libre (GPL-3.0) façon SketchUp pour l’architecture et l’ingénierie, natif Linux/Windows/macOS : push/pull, solides étanches, ouverture des .skp, export IFC/glTF/OBJ, plans PDF à l’échelle et rendu via Blender. La 0.5.8 est sortie le 12 oct.</description>
+      <category>modelisation</category>
+      <category>architecture</category>
+      <category>outil</category>
+    </item>
+    <item>
+      <title>ChainCut – Bone Chain Slicer</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-13-chaincut-bone-chain-slicer</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-13-chaincut-bone-chain-slicer</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender 5.2+ (GPL-3.0) qui coupe des os en 2 à 8 segments connectés en gardant des noms propres et en redistribuant les poids des vertex groups, contrairement au Subdivide natif. Version 0.1.0, créé le 12 oct.</description>
+      <category>blender</category>
+      <category>addon</category>
+      <category>rigging</category>
+    </item>
+    <item>
+      <title>GH Stack (Grasshopper ↔ Blender)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-13-gh-stack-grasshopper-blender</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-13-gh-stack-grasshopper-blender</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Extension Blender (GPL-3.0) qui pilote des définitions Grasshopper comme des modificateurs empilables à côté des Geometry Nodes, avec paramètres animables, via WebSocket vers Rhino 8. Démo v0.1.x, créé le 12 oct.</description>
+      <category>blender</category>
+      <category>addon</category>
+      <category>procedural</category>
+    </item>
+    <item>
+      <title>EpicFigRig 2.0 (fork Blender 5)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-13-epicfigrig-2-0-fork-blender-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-13-epicfigrig-2-0-fork-blender-5</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Fork GPL-3.0 de l’auto-rig de minifigs LEGO EpicFigRig, compatible Blender 4.0 et 5.0 alors que l’original casse en 5.0 : rig en un clic des exports Mecabricks, IK/FK, capes et accessoires. Release 2.0 publiée en mai 2026.</description>
+      <category>blender</category>
+      <category>addon</category>
+      <category>rigging</category>
+    </item>
     <item>
       <title>Natron 2.6 — fork 3D / Cycles (Niik-l)</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-12-natron-2-6-fork-3d-cycles-niik-l</link>

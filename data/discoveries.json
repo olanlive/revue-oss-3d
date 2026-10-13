@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-10-13",
+    "name": "IngeTrazo 0.5.8",
+    "summary": "Modeleur 3D libre (GPL-3.0) façon SketchUp pour l’architecture et l’ingénierie, natif Linux/Windows/macOS : push/pull, solides étanches, ouverture des .skp, export IFC/glTF/OBJ, plans PDF à l’échelle et rendu via Blender. La 0.5.8 est sortie le 12 oct.",
+    "url": "https://github.com/ingelibre/ingetrazo/releases/tag/v0.5.8",
+    "tags": [
+      "modelisation",
+      "architecture",
+      "outil"
+    ],
+    "source": {
+      "label": "CGPress",
+      "url": "https://cgpress.org/archives/ingetrazo-open-source-3d-modeler-for-architecture-engineering-and-design.html"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "ChainCut – Bone Chain Slicer",
+    "summary": "Add-on Blender 5.2+ (GPL-3.0) qui coupe des os en 2 à 8 segments connectés en gardant des noms propres et en redistribuant les poids des vertex groups, contrairement au Subdivide natif. Version 0.1.0, créé le 12 oct.",
+    "url": "https://github.com/jalvartstudio-lab/chaincut-blender",
+    "tags": [
+      "blender",
+      "addon",
+      "rigging"
+    ],
+    "source": {
+      "label": "recherche GitHub des repos Blender récents",
+      "url": "https://github.com/search?q=blender+created%3A%3E%3D2026-10-12&type=repositories"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "GH Stack (Grasshopper ↔ Blender)",
+    "summary": "Extension Blender (GPL-3.0) qui pilote des définitions Grasshopper comme des modificateurs empilables à côté des Geometry Nodes, avec paramètres animables, via WebSocket vers Rhino 8. Démo v0.1.x, créé le 12 oct.",
+    "url": "https://github.com/miscasquel/gh-blender-stack",
+    "tags": [
+      "blender",
+      "addon",
+      "procedural"
+    ],
+    "source": {
+      "label": "recherche GitHub des repos Blender récents",
+      "url": "https://github.com/search?q=blender+created%3A%3E%3D2026-10-12&type=repositories"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "EpicFigRig 2.0 (fork Blender 5)",
+    "summary": "Fork GPL-3.0 de l’auto-rig de minifigs LEGO EpicFigRig, compatible Blender 4.0 et 5.0 alors que l’original casse en 5.0 : rig en un clic des exports Mecabricks, IK/FK, capes et accessoires. Release 2.0 publiée en mai 2026.",
+    "url": "https://github.com/ReeceTaylor512/EpicFigRig",
+    "tags": [
+      "blender",
+      "addon",
+      "rigging"
+    ],
+    "source": {
+      "label": "forum Mecabricks",
+      "url": "https://www.mecabricks.com/en/forum/topic/76259"
+    }
+  },
+  {
     "date": "2026-10-12",
     "name": "Natron 2.6 — fork 3D / Cycles (Niik-l)",
     "summary": "Fork de Natron qui ajoute un système 3D, Cycles en nœud (passes AOV, deep EXR), le compositing deep, des particules, des volumes et un tracker caméra 3D : 69 nœuds sur base Qt6. Builds portables Windows et Linux, dernière le 7 octobre 2026.",
