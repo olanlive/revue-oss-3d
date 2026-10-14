@@ -5,8 +5,46 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo — tous les jours.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 13 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>EffectCraft 0.9.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-14-effectcraft-0-9-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-14-effectcraft-0-9-2</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Compositeur libre en Rust (MIT/Apache-2.0) façon After Effects : calques, keyframes, 306 effets, caméras 3D, file de rendu, sur macOS/Windows/Linux et web. La 0.9.2 du 12 oct. ajoute l’import FBX/STL, DPX/Cineon, HDR et MXF.</description>
+      <category>vfx</category>
+      <category>compositing</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Shape Key &amp; Vertex Groups Utilities Enhanced 2.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-14-shape-key-vertex-groups-utilities-enhanced-2-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-14-shape-key-vertex-groups-utilities-enhanced-2-0-0</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender gratuit qui range les shape keys en dossiers sans toucher à l’ordre réel, avec opérations en lot, transfert entre maillages et outils pour vertex groups et UV maps. La 2.0.0 est sortie le 13 oct. sur Blender Extensions.</description>
+      <category>blender-addon</category>
+      <category>rigging</category>
+    </item>
+    <item>
+      <title>Provenance 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-14-provenance-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-14-provenance-1-0-1</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Coffre d’assets versionné et local pour Blender (GPL) : publie une sélection en versions numérotées (.blend autonomes), affiche un rapport de dépendances avant insertion et répare les liens cassés. Publié le 12 oct.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Cycles — OpenPBR 1.1.1 complet, prototype ReSTIR</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-14-cycles-openpbr-1-1-1-complet-prototype-restir</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-14-cycles-openpbr-1-1-1-complet-prototype-restir</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Réunion Render &amp; Cycles du 13 oct. : le support OpenPBR (v1.1.1) est fonctionnellement complet et passe en phase de tests, les splats gaussiens sont finis pour ce jalon, et un prototype ReSTIR (WIP #164970) relance l’échantillonnage par réservoirs.</description>
+      <category>blender</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>IngeTrazo 0.5.8</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-13-ingetrazo-0-5-8</link>
