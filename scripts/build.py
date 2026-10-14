@@ -23,7 +23,7 @@ FEED_MAX = 100
 SUMMARY_MAX = 280
 
 SITE_TITLE = "Pépites Open Source Software 3D & VFX"
-SITE_DESC = "Veille open source 3D, VFX et vidéo — tous les jours."
+SITE_DESC = "Veille open source 3D, VFX et vidéo."
 
 CSS = """\
 :root {
@@ -391,7 +391,7 @@ def page(
     {crumb_html}
     {body}
     <footer class="site">
-      <p>Veille open source 3D / VFX / vidéo · tous les jours · 9h Europe/Paris</p>
+      <p>Veille open source 3D / VFX / vidéo</p>
       <p><a href="https://github.com/olanlive/revue-oss-3d">Code source sur GitHub</a>
          · <a href="{prefix}tags/index.html">Tous les tags</a>
          · <a href="{prefix}feed.xml">Flux RSS</a></p>
