@@ -1,983 +1,983 @@
 [
- {
-  "date": "2026-10-15",
-  "name": "Open Painter 0.15.1",
-  "summary": "Texturing PBR non destructif dans Blender 5.2+ (GPL) : texture sets, calques peints et de remplissage, masques, baking de mesh maps, 50 smart materials, UDIM et export. Version 0.15.1 publiée le 14 oct.",
-  "url": "https://github.com/caspianmoon/open_painter/releases/tag/v0.15.1",
-  "tags": [
-   "blender-addon",
-   "texturing",
-   "emerging"
-  ],
-  "source": {
-   "label": "GitHub — topic blender-addon (repos récents)",
-   "url": "https://github.com/topics/blender-addon"
+  {
+    "date": "2026-10-15",
+    "name": "Open Painter 0.15.1",
+    "summary": "Texturing PBR non destructif dans Blender 5.2+ (GPL) : texture sets, calques peints et de remplissage, masques, baking de mesh maps, 50 smart materials, UDIM et export. Version 0.15.1 publiée le 14 oct.",
+    "url": "https://github.com/caspianmoon/open_painter/releases/tag/v0.15.1",
+    "tags": [
+      "blender-addon",
+      "texturing",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Render Unique Frames 0.2.2",
+    "summary": "Add-on Blender qui repère les images identiques d’une animation (objets, compositor, view layers) et ne rend que les uniques : idéal pour l’animation en 2 ou 3 et les gros décors fixes. Rendu headless en ligne de commande. Version 0.2.2 du 13 oct.",
+    "url": "https://extensions.blender.org/add-ons/render-unique-frames/",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "render-farm"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Preview Quads 1.0.0",
+    "summary": "Add-on Blender qui prévisualise en direct, sans toucher au maillage, la conversion triangles vers quads (même algo que Blender), avec tous les réglages, puis l’applique en un clic. Pratique après import CAO ou booléens. Sorti le 12 oct.",
+    "url": "https://extensions.blender.org/add-ons/preview-quads/",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Gausify Orbit 0.5.0",
+    "summary": "Appli libre (MIT) qui transforme une vidéo en orbite, même générée par IA, en Gaussian Splat, 100 % en local : desktop macOS/Windows ou version WebGPU dans le navigateur. Version 0.5.0 du 13 oct.",
+    "url": "https://github.com/obraia/gausify-orbit/releases/tag/v0.5.0",
+    "tags": [
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (repos récents)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Motion2MixamoRig (extension Blender)",
+    "summary": "Outil libre (Apache-2.0) qui copie le mouvement d’une personne filmée sur un perso riggé Mixamo et sort un GLB skinné. Une extension Blender 4.2+ expérimentale lance le pipeline depuis Blender. Mis en avant sur X le 13 oct.",
+    "url": "https://github.com/MaxLiu22/Motion2MixamoRig",
+    "tags": [
+      "blender-addon",
+      "rigging",
+      "animation",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @Stefan_3D_AI",
+      "url": "https://x.com/Stefan_3D_AI/status/2109989762899570828"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "EffectCraft 0.9.2",
+    "summary": "Compositeur libre en Rust (MIT/Apache-2.0) façon After Effects : calques, keyframes, 306 effets, caméras 3D, file de rendu, sur macOS/Windows/Linux et web. La 0.9.2 du 12 oct. ajoute l’import FBX/STL, DPX/Cineon, HDR et MXF.",
+    "url": "https://github.com/storytold/effectcraft/releases/tag/v0.9.2",
+    "tags": [
+      "vfx",
+      "compositing",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic compositing (repos actifs)",
+      "url": "https://github.com/topics/compositing"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Shape Key & Vertex Groups Utilities Enhanced 2.0.0",
+    "summary": "Add-on Blender gratuit qui range les shape keys en dossiers sans toucher à l’ordre réel, avec opérations en lot, transfert entre maillages et outils pour vertex groups et UV maps. La 2.0.0 est sortie le 13 oct. sur Blender Extensions.",
+    "url": "https://extensions.blender.org/add-ons/shape-key-utilities-enhanced/",
+    "tags": [
+      "blender-addon",
+      "rigging"
+    ],
+    "source": {
+      "label": "Fil X — @LeafyBush7",
+      "url": "https://x.com/LeafyBush7/status/2110001994081636766"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Provenance 1.0.1",
+    "summary": "Coffre d’assets versionné et local pour Blender (GPL) : publie une sélection en versions numérotées (.blend autonomes), affiche un rapport de dépendances avant insertion et répare les liens cassés. Publié le 12 oct.",
+    "url": "https://github.com/Metanoid18/provenance/releases/tag/v1.0.1",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Cycles — OpenPBR 1.1.1 complet, prototype ReSTIR",
+    "summary": "Réunion Render & Cycles du 13 oct. : le support OpenPBR (v1.1.1) est fonctionnellement complet et passe en phase de tests, les splats gaussiens sont finis pour ce jalon, et un prototype ReSTIR (WIP #164970) relance l’échantillonnage par réservoirs.",
+    "url": "https://devtalk.blender.org/t/2026-10-13-render-cycles-meeting/45974",
+    "tags": [
+      "blender",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — devtalk.blender.org",
+      "url": "https://devtalk.blender.org/latest"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "IngeTrazo 0.5.8",
+    "summary": "Modeleur 3D libre (GPL-3.0) façon SketchUp pour l’architecture et l’ingénierie, natif Linux/Windows/macOS : push/pull, solides étanches, ouverture des .skp, export IFC/glTF/OBJ, plans PDF à l’échelle et rendu via Blender. La 0.5.8 est sortie le 12 oct.",
+    "url": "https://github.com/ingelibre/ingetrazo/releases/tag/v0.5.8",
+    "tags": [
+      "modelisation",
+      "architecture",
+      "outil"
+    ],
+    "source": {
+      "label": "CGPress",
+      "url": "https://cgpress.org/archives/ingetrazo-open-source-3d-modeler-for-architecture-engineering-and-design.html"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "ChainCut – Bone Chain Slicer",
+    "summary": "Add-on Blender 5.2+ (GPL-3.0) qui coupe des os en 2 à 8 segments connectés en gardant des noms propres et en redistribuant les poids des vertex groups, contrairement au Subdivide natif. Version 0.1.0, créé le 12 oct.",
+    "url": "https://github.com/jalvartstudio-lab/chaincut-blender",
+    "tags": [
+      "blender",
+      "addon",
+      "rigging"
+    ],
+    "source": {
+      "label": "recherche GitHub des repos Blender récents",
+      "url": "https://github.com/search?q=blender+created%3A%3E%3D2026-10-12&type=repositories"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "GH Stack (Grasshopper ↔ Blender)",
+    "summary": "Extension Blender (GPL-3.0) qui pilote des définitions Grasshopper comme des modificateurs empilables à côté des Geometry Nodes, avec paramètres animables, via WebSocket vers Rhino 8. Démo v0.1.x, créé le 12 oct.",
+    "url": "https://github.com/miscasquel/gh-blender-stack",
+    "tags": [
+      "blender",
+      "addon",
+      "procedural"
+    ],
+    "source": {
+      "label": "recherche GitHub des repos Blender récents",
+      "url": "https://github.com/search?q=blender+created%3A%3E%3D2026-10-12&type=repositories"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "EpicFigRig 2.0 (fork Blender 5)",
+    "summary": "Fork GPL-3.0 de l’auto-rig de minifigs LEGO EpicFigRig, compatible Blender 4.0 et 5.0 alors que l’original casse en 5.0 : rig en un clic des exports Mecabricks, IK/FK, capes et accessoires. Release 2.0 publiée en mai 2026.",
+    "url": "https://github.com/ReeceTaylor512/EpicFigRig",
+    "tags": [
+      "blender",
+      "addon",
+      "rigging"
+    ],
+    "source": {
+      "label": "forum Mecabricks",
+      "url": "https://www.mecabricks.com/en/forum/topic/76259"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "name": "Natron 2.6 — fork 3D / Cycles (Niik-l)",
+    "summary": "Fork de Natron qui ajoute un système 3D, Cycles en nœud (passes AOV, deep EXR), le compositing deep, des particules, des volumes et un tracker caméra 3D : 69 nœuds sur base Qt6. Builds portables Windows et Linux, dernière le 7 octobre 2026.",
+    "url": "https://github.com/Niik-l/Natron",
+    "tags": [
+      "vfx",
+      "compositing",
+      "natron",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (natron), via nik-kit-natron",
+      "url": "https://github.com/Niik-l/nik-kit-natron"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "name": "UVgami 2.2.0",
+    "summary": "Add-on Blender de dépliage UV automatique qui réunit trois moteurs : OptCuts, PartUV (GPU, SIGGRAPH Asia 2025) et xatlas. La 2.2.0 du 6 octobre ajoute un dépliage web et une appli desktop, mise à jour en 0.3.0 le 12 octobre 2026.",
+    "url": "https://github.com/DanielBoxer/UVgami",
+    "tags": [
+      "blender-addon",
+      "uv",
+      "modeling"
+    ],
+    "source": {
+      "label": "Fil X — @ymt3d (RT par @AFX_LAB)",
+      "url": "https://x.com/AFX_LAB/status/2109540028259156452"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "name": "H-Style RBD Nodes 1.0.1",
+    "summary": "Groupes Geometry Nodes de destruction rigid body pour le VFX temps réel : fracture béton, verre ou bois, solveur Bullet, bake puis export FBX, Alembic ou VAT vers les moteurs de jeu. Publié sur Blender Extensions le 6 octobre 2026.",
+    "url": "https://extensions.blender.org/add-ons/h-style-rbd-nodes/",
+    "tags": [
+      "blender-addon",
+      "vfx",
+      "sim",
+      "geometry-nodes"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "name": "FTC – Fit The Camera 1.0.0",
+    "summary": "Extension Blender 5.2+ qui retrouve focale, position et rotation de la caméra à partir d’une seule photo (points de fuite, rectangle connu ou horizon), à l’échelle réelle, puis prépare l’intégration CG avec ombres au sol. v1.0.0 sortie le 11 octobre 2026.",
+    "url": "https://github.com/Tonysa87/FTC-Fit-The-Camera",
+    "tags": [
+      "blender-addon",
+      "vfx",
+      "matchmove"
+    ],
+    "source": {
+      "label": "GitHub — topic compositing (repos récents)",
+      "url": "https://github.com/topics/compositing"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "name": "Blender Compositor — Fast Gaussian 2 à 10× plus rapide (décision)",
+    "summary": "À la réunion compositor du 8 octobre 2026, l’équipe a décidé de remplacer l’implémentation du flou Fast Gaussian par le Downsampled Gaussian, 2 à 10× plus rapide pour un résultat à peine différent ; retours d’artistes attendus après le merge.",
+    "url": "https://devtalk.blender.org/t/2026-10-08-compositor-meeting-notes/45946",
+    "tags": [
+      "blender",
+      "compositing",
+      "vfx"
+    ],
+    "source": {
+      "label": "Web — devtalk.blender.org",
+      "url": "https://devtalk.blender.org/latest"
+    }
+  },
+  {
+    "date": "2026-10-11",
+    "name": "OpenScatter 0.13.0",
+    "summary": "Fork communautaire et gratuit de GScatter (Graswald, plus maintenu) : scattering Geometry Nodes pour prairies et forêts, même interface, Blender 4.2 à 5.2. Release 0.13.0 publiée le 4 octobre 2026.",
+    "url": "https://github.com/joseph-wardle/openscatter",
+    "tags": [
+      "blender",
+      "addon",
+      "geometry-nodes"
+    ],
+    "source": {
+      "label": "GitHub — topic blender (repos récents)",
+      "url": "https://github.com/topics/blender"
+    }
+  },
+  {
+    "date": "2026-10-11",
+    "name": "Unreal Render Farm 1.0.0",
+    "summary": "Ferme de rendu libre (MIT) pour le Movie Render Queue d’Unreal Engine 5 : dashboard web, file de jobs, découpe auto des plans sur plusieurs PC Windows, retries et historique. v1.0.0 sortie le 6 octobre 2026.",
+    "url": "https://github.com/f1hunterr/unreal-render-farm",
+    "tags": [
+      "pipeline",
+      "render-farm"
+    ],
+    "source": {
+      "label": "GitHub — topic render-farm (repos récents)",
+      "url": "https://github.com/topics/render-farm"
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "name": "py2gn",
+    "summary": "Nouvel add-on Blender (publié le 9 octobre 2026) qui compile des fonctions Python restreintes en groupes Geometry Nodes natifs : paramètres en sockets, corps en nœuds Math/Switch. 68 nœuds sur 351 supportés pour l’instant.",
+    "url": "https://github.com/haykh/py2gn",
+    "tags": [
+      "blender",
+      "addon",
+      "geometry-nodes"
+    ],
+    "source": {
+      "label": "GitHub — topic blender (repos récents)",
+      "url": "https://github.com/topics/blender"
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "name": "usd-web-viewer",
+    "summary": "OpenUSD dans le navigateur (repo créé le 9 octobre 2026) : la composition USD tient dans 604 Ko de WebAssembly, avec rendu three.js. Pratique pour inspecter une scène sans DCC.",
+    "url": "https://github.com/cfahlgren1/usd-web-viewer",
+    "tags": [
+      "usd",
+      "pipeline",
+      "web"
+    ],
+    "source": {
+      "label": "GitHub — topic openusd (repos récents)",
+      "url": "https://github.com/topics/openusd"
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "name": "SleepyTools (Nuke)",
+    "summary": "Boîte à outils Nuke/NukeX publiée le 8 octobre 2026 : file de rendu, « script doctor », snapshots, éditeur de texte, bibliothèques BlinkScript et d’expressions, scrub de knobs et pack de gizmos.",
+    "url": "https://github.com/PedroGartner/SleepyTools",
+    "tags": [
+      "nuke",
+      "vfx",
+      "compositing"
+    ],
+    "source": {
+      "label": "GitHub — topic nuke (repos récents)",
+      "url": "https://github.com/topics/nuke"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Nuke × ComfyUI bridge 0.1.0",
+    "summary": "Nouveau (8 oct) : un panneau Nuke envoie une plaque à ComfyUI et récupère un EXR multicouche par frame avec normales, profondeur métrique, position et matte alpha. Expérience perso, testée sur RTX 3090.",
+    "url": "https://github.com/Mariolepipe/nuke-comfyui-bridge",
+    "tags": [
+      "vfx",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (topic nuke)",
+      "url": "https://github.com/topics/nuke"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "name": "usd-optimize 1.3.1 (NVIDIA)",
+    "summary": "Version du 7 oct de la lib d’optimisation de stages OpenUSD : support USD 26.08, wheel Linux allégée, et correctif qui rend enfin fiables les checks de shaders UsdPreviewSurface.",
+    "url": "https://github.com/NVIDIA-Omniverse/usd-optimize/releases/tag/v1.3.1",
+    "tags": [
+      "usd"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (topics openusd / nuke)",
+      "url": "https://github.com/topics/openusd"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Hydra Lotus",
+    "summary": "Tout jeune délégué Hydra (créé le 30 sept) : path tracer GPU Vulkan pour OpenUSD, avec NEE/MIS, ReSTIR et débruitage, chaque mode rapide étant vérifié contre un path tracer de référence.",
+    "url": "https://github.com/animu-sphere/hydra-lotus",
+    "tags": [
+      "usd",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (topics openusd / nuke)",
+      "url": "https://github.com/topics/openusd"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "name": "Blender — Custom Space Types (proposition + branche)",
+    "summary": "Le studio Autour de Minuit propose (devtalk, 7 oct) de laisser les add-ons créer de vrais éditeurs Blender en Python : type d’espace custom, header, sidebar, dessin GPU, sauvegarde et repli si l’add-on manque. Branche de test publique, retours demandés.",
+    "url": "https://devtalk.blender.org/t/custom-space-types/45934",
+    "tags": [
+      "blender-addon",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — devtalk.blender.org",
+      "url": "https://devtalk.blender.org/latest"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "name": "Shramko SOG LOD Converter 1.2",
+    "summary": "Convertit des Gaussian splats PLY géants (100M+ splats, 10+ Go) en Streamed SOG avec vrais LOD pour SuperSplat, dans le navigateur via WebGPU, sans upload. Testé le 2 oct sur un scan de ville de 259M splats ; la 1.2 ajoute une file d’attente. MIT.",
+    "url": "https://github.com/AndriiShramko/shramko-sog-lod-converter",
+    "tags": [
+      "gaussian-splat",
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (repos Gaussian splat récents)",
+      "url": "https://github.com/search?q=gaussian-splat+created%3A%3E%3D2026-10-01&type=repositories&s=stars"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "name": "Blender Internal Port",
+    "summary": "Ressuscite le moteur Blender Internal de la 2.79b comme moteur de rendu add-on dans Blender 5.2/5.3 : rendu viewport, anciens matériaux nodaux, import de scènes 2.79. Repo du 5 oct, expérimental et largement codé par IA, testé sur macOS ARM seulement.",
+    "url": "https://github.com/luciascarlet/blender-internal-port",
+    "tags": [
+      "blender-addon",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — recherche GitHub (repos Blender récents)",
+      "url": "https://github.com/search?q=blender+created%3A%3E%3D2026-10-04&type=repositories&s=stars"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "Splat Slicer 0.2.9",
+    "summary": "Découpe un scan Gaussian splat en couches à imprimer sur film transparent puis à empiler en bloc, avec preview couche par couche et export PDF, PNG, DTF ou DICOM/NIfTI/NRRD. Repo créé le 5 oct, déjà en v0.2.9 (6 oct) ; impression réelle pas encore testée.",
+    "url": "https://github.com/timfennell/blender-splat-slicer",
+    "tags": [
+      "blender-addon",
+      "gaussian-splat",
+      "3d-print",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107709671947837818"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "ROTONIX 2.0.0 beta 1",
+    "summary": "Assistant de matte IA pour Nuke 15+, publié sur Nukepedia le 6 oct : un seul panneau pour sélectionner le sujet, tracker, retoucher et exporter une séquence alpha, avec SAM 2.1, ViTMatte et RAFT en local. Bêta gratuite, Windows uniquement.",
+    "url": "https://www.nukepedia.com/tools/python/misc/rotonix-ai-matte-assistant-public-beta-1/",
+    "tags": [
+      "vfx",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107702901657522544"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "AOV Rebuild Pipeline",
+    "summary": "Plugin Nuke 14 à 17 qui reconstruit automatiquement la beauty depuis les AOV d’un EXR, avec détection du moteur (Arnold, Redshift, V-Ray, Karma, UE5). Modes Basic ou Advanced et QC intégré jusqu’à l’audit pixel par pixel. Repo créé le 5 oct.",
+    "url": "https://github.com/michaelpbb/nuke-aov-rebuild-pipeline-Plugin",
+    "tags": [
+      "vfx",
+      "exr",
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107406023988555825"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "Render Animated .GIF 1.8.0",
+    "summary": "Exporte directement un GIF animé depuis le menu Render de Blender, sans outil externe. La 1.8.0 (5 oct) sépare la qualité en mode Basic (presets) et Advanced, où l’on règle le dithering et la taille de palette.",
+    "url": "https://extensions.blender.org/add-ons/render-gif-animation/",
+    "tags": [
+      "blender-addon",
+      "video"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107411624088993969"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "name": "Gaussian Splat Patch 0.1.12",
+    "summary": "Retouche les scans Gaussian splat importés nativement dans Blender 5.3+ avec 7 brosses (Erase, Clone, Heal, Spot Heal, Bridge…), feather et mode Surface/Through. Toute jeune (v0.1.12 du 30 sept), elle complète bien les splats natifs de la 5.3.",
+    "url": "https://github.com/timfennell/blender-splat-patch",
+    "tags": [
+      "blender-addon",
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107030170662285681"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "name": "Nukomfy 0.1.1",
+    "summary": "Transforme des workflows ComfyUI en gizmos Nuke : l’artiste règle ses knobs dans la comp, envoie le job à une machine ComfyUI du réseau et réimporte les frames. La 0.1.1 (28 sept) corrige les rendus en ligne de commande et sur render farm.",
+    "url": "https://github.com/francescolorussi/Nukomfy",
+    "tags": [
+      "vfx",
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107038762102596051"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "name": "MacBlend 3.3.0",
+    "summary": "Calibre des images contenant une ColorChecker directement dans Blender, en nœuds compositor ou shader, ou en LUT .cube. Sait aussi matcher deux images (HDRI vers plaque caméra, caméra A vers caméra B). 3.3.0 publiée le 22 sept.",
+    "url": "https://extensions.blender.org/add-ons/macblend/",
+    "tags": [
+      "blender-addon",
+      "vfx",
+      "color"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org",
+      "url": "https://extensions.blender.org/add-ons/macblend/"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "name": "Mio3 Flex 1.0.4",
+    "summary": "Add-on gratuit qui redessine une edge loop le long d’une spline éditable, avec miroir X, contraintes d’axe et bouton Quick pour lisser d’un coup. La 1.0.4 ajoute le keymap industry compatible.",
+    "url": "https://extensions.blender.org/add-ons/mio3-flex/",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Signet X — @JanvandenHemel",
+      "url": "https://x.com/JanvandenHemel/status/2106809289775980583"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "name": "Photo Relief 1.0.1",
+    "summary": "Petite extension qui transforme une image en mesh fermé imprimable en 3D, hors ligne : modes Relief, Lithophane et Stamp, largeur en millimètres. Publiée le 24 sept sur Blender Extensions, 1.0.1 début octobre.",
+    "url": "https://extensions.blender.org/add-ons/photo-relief/",
+    "tags": [
+      "blender-addon",
+      "3d-print"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107052084516340099"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "name": "Multi Stage Compositor (PoC NPR, Blender 5.3)",
+    "summary": "Proof of concept officiel du projet NPR, publié le 30 sept pour feedback : des arbres de compositing par objet et par matériau dans Blender 5.3, en viewport comme au rendu final. Préfigure le compositing par objet dans Blender.",
+    "url": "https://devtalk.blender.org/t/multi-stage-compositing-prototype-feedback/45865",
+    "tags": [
+      "blender-addon",
+      "vfx",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "name": "usd-blender-plugins 0.1.0",
+    "summary": "Plugin OpenUSD qui ouvre un .blend directement comme layer USD (references, usdview) sans installer Blender. La 0.1.0 (5 oct) se limite encore aux Mesh/Empty de Blender 5.2.2 : pas de matériaux, caméras, lumières ni animation.",
+    "url": "https://github.com/animu-sphere/usd-blender-plugins",
+    "tags": [
+      "usd",
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "name": "PostProject 0.6.0-alpha.1 (+ extension Blender VSE)",
+    "summary": "Couche d’identité média pour la post-prod : IDs d’assets stables, provenance et relink déterministe par empreinte de contenu. La 0.6.0-alpha.1 est sortie le 4 oct, avec des pilotes Blender Sequencer, Kdenlive, Natron, OBS et Ardour.",
+    "url": "https://github.com/postproject-org/postproject/releases/tag/v0.6.0-alpha.1",
+    "tags": [
+      "pipeline",
+      "video",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "name": "XNodify 1.0.0",
+    "summary": "Langage .xfy compilé pour écrire en code Geometry Nodes, shaders et World au lieu de câbler des nodes, avec groupes réutilisables et auto-layout. Validation offline en CLI/CI sans GUI. Repo publié le 3 oct.",
+    "url": "https://github.com/Shriinivas/xnodify",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "name": "Blackbody 1.0.0",
+    "summary": "App standalone de simulation GPU (feu, fumée, liquides, destruction, météo…) directement dans un plan live, avec tracking caméra et 111 presets. Exports deep EXR, OpenVDB et USD/OBJ. 1.0.0 du 30 sept : tout neuf, à tester.",
+    "url": "https://github.com/gjnail/blackbody",
+    "tags": [
+      "vfx",
+      "sim",
+      "exr",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "name": "GNToolkit 0.2.8",
+    "summary": "Versioning sémantique des Geometry Nodes. La 0.2.8 (2 oct) ajoute l’impact des dépendances sur objets/modifiers, la résolution de conflits dans Sync, la détection des JSON modifiés hors Blender et l’export/import headless multi-fichiers.",
+    "url": "https://github.com/oobma/GNToolkit/releases/tag/v0.2.8",
+    "tags": [
+      "pipeline",
+      "blender-addon",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "name": "BlenderShelf 0.3.0",
+    "summary": "Étagère flottante de boutons custom dans le viewport (style Maya). La 0.3.0 (3 oct) ajoute le redimensionnement au coin, Add Script / Import Script (.py) depuis le clic droit, icônes auto pour les boutons script, et pages de pie menu au-delà de 8 boutons. Blender 4.2+ / 5.x.",
+    "url": "https://github.com/blendershelf/BlenderShelf/releases/tag/v0.3.0",
+    "tags": [
+      "blender-addon",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "name": "Eterea Blender Tools 1.6.1",
+    "summary": "Première release publique GPL-3.0 : kit Extension Blender 5.2+ qui regroupe 16 outils modeling/modifiers/nodes/transforms (Custom Color Nodes via D, Weight Ramp by Order, Batch Operate Attributes, Reset Modifier, Join Equalizing Bevels…). Un seul zip à installer.",
+    "url": "https://github.com/Eterea/blender_addons/releases/tag/v1.6.1",
+    "tags": [
+      "blender-addon",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "name": "image-blaster",
+    "summary": "Skillset (Claude) qui transforme une image en monde 3D en ~5 min : meshes, splat d’environnement et SFX ambiants, via World Labs Marble, FAL et ElevenLabs. APIs payantes. Viral sur le fil X (3–4 oct).",
+    "url": "https://github.com/neilsonnn/image-blaster",
+    "tags": [
+      "emerging",
+      "vfx"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "STUKACH 1.8.5",
+    "summary": "Validateur d’assets Blender GPL (42 checkers, overlays GPU, mode live) : la 1.8.5 unifie le « Naming Contract » pour les conventions objet/scène et redesign hiérarchie. Utile en QC pipeline avant livraison.",
+    "url": "https://github.com/abyrvalg379/STUKACH/releases/tag/v1.8.5",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "OpenDLSS-NR",
+    "summary": "Réimplémentation Vulkan MIT bit-exact du réseau Neural Rendering DLSS 5 (NVIDIA) — 71 blocs Swin/ViT, FP8, sans poids NVIDIA inclus. Port WebGPU navigateur fourni. Base OSS pour le neural rendering génératif.",
+    "url": "https://github.com/maanHimself/OpenDLSS-NR",
+    "tags": [
+      "emerging",
+      "vfx"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "three-dlss-nr 0.1.0",
+    "summary": "Port Three.js (TSL/WebGPU) d’OpenDLSS-NR : le réseau DLSS 5 NR en compute nodes, byte-identique à la référence. Démo live ; poids NVIDIA à fournir soi-même. Signal frais sur le fil X.",
+    "url": "https://github.com/bhouston/three-dlss-nr",
+    "tags": [
+      "emerging",
+      "vfx"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "BowerBot 2.0.0",
+    "summary": "Agent IA Apache-2.0 qui assemble des scènes OpenUSD production-ready depuis le langage naturel. La 2.0 casse la compat (physique USD, formes d’assets). Radar pipeline USD.",
+    "url": "https://github.com/binary-core-llc/bowerbot/releases/tag/v2.0.0",
+    "tags": [
+      "usd",
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "ZeroGeometry Kit 1.0.1",
+    "summary": "Add-on Blender GPL : reframing vertical one-click (9:16 / 4:5 / 1:1) avec auto-follow, beat sync, loop doctor et wedge renders. Première release publique pour décliner une anim 16:9.",
+    "url": "https://github.com/zerogeometry/zerogeometry-kit/releases/tag/v1.0.1",
+    "tags": [
+      "blender-addon",
+      "video",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "name": "houdini-eevee-bridge 0.7.6",
+    "summary": "Pont Hydra qui fait tourner EEVEE (Blender 5.2 headless) dans le viewport Solaris de Houdini. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma : matériaux, lumières double face, primvars, instances, NURBS.",
+    "url": "https://github.com/badgerz42/houdini-eevee-bridge/releases/tag/v0.7.6",
+    "tags": [
+      "pipeline",
+      "usd",
+      "vfx",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "name": "Blender 5.3 — Copy Paste World Space Animation",
+    "summary": "Opérateurs natifs pour copier/coller l’animation en espace monde (objets et os, multi-sélection, entre fichiers via fichier temp). Utile pour un transfert d’anim / retarget léger sans add-on. Documenté dans le manuel 5.3 ; 5.3 est en beta depuis le 30 sept.",
+    "url": "https://docs.blender.org/manual/en/5.3/editors/3dview/animation/world_space_animation_copy_paste.html",
+    "tags": [
+      "emerging",
+      "vfx"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "name": "GNToolkit 0.2.5",
+    "summary": "Versioning sémantique des node trees Blender (JSON + Git, checks headless). La 0.2.5 (27 sept) ajoute des audits impact / doublons / santé JSON et corrige la fidélité Menu Switch / modifiers à l’import.",
+    "url": "https://github.com/oobma/GNToolkit/releases/tag/v0.2.5",
+    "tags": [
+      "pipeline",
+      "blender-addon",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "name": "On-Twos Retimer 0.7.0",
+    "summary": "Add-on Blender GPL : bake une anim contrainte/physique en pas de 2 (ou 3) frames. En 0.7.0 (28 sept) : plus lié à MMD — standalone sur n’importe quel armature (sélection Pose Mode, chaînes enfants, highlight preview). Utile pour un look stop-motion / anime sur des sims.",
+    "url": "https://github.com/zlz188/ontwos-retimer/releases/tag/v0.7.0",
+    "tags": [
+      "blender-addon",
+      "vfx"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "name": "LAMPOCHKA 3.5.0",
+    "summary": "Gestionnaire de lumières de scène (GPL). En 3.5.0 (27 sept) : sync Sky Texture avec le soleil (y compris Time keyé), Kelvin depuis l’élévation (horizon chaud → 6500 K), liste pliable, checker de mises à jour. Pratique pour setups éclairage / lookdev Blender 4.2–5.2.",
+    "url": "https://github.com/abyrvalg379/LAMPOCHKA/releases/tag/v3.5.0",
+    "tags": [
+      "blender-addon",
+      "vfx"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "name": "Blenderbase 1.4.0",
+    "summary": "App desktop gratuite pour gérer versions Blender et add-ons. La 1.4.0 (30 sept) applique un add-on à une autre version installée (drag & drop ou Apply to) : pratique pour cloner un set d’extensions entre 4.x et 5.x.",
+    "url": "https://github.com/PhysicalAddons/blenderbase-public/releases/tag/v1.4.0",
+    "tags": [
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "name": "OpenUSDConnect",
+    "summary": "Live-link OpenUSD entre DCC et outils USD : transactions ordonnées, replay à la reconnexion, MaterialX et layers partagés. Intégrations Blender, usdview, Unreal, MCP et Python ; commits actifs fin septembre.",
+    "url": "https://github.com/RoboticHuman/OpenUSDConnect",
+    "tags": [
+      "usd",
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "name": "BlenderShelf 0.2.2",
+    "summary": "Étagère flottante de boutons custom et pie menu dans le viewport, style shelf Maya. La 0.2.x (30 sept) ajoute des shelves par mode (Object, Edit, Sculpt, UV, Shader, GN).",
+    "url": "https://github.com/blendershelf/BlenderShelf/releases/tag/v0.2.2",
+    "tags": [
+      "blender-addon",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "name": "CodeCinema",
+    "summary": "Framework pour faire des films « as code » : image, musique, son, titres et master via un CLI et ffmpeg, avec un court exemple de duel 3D en Blender 5.2+. Sortie initiale 30 sept–1er oct.",
+    "url": "https://github.com/ZJUCQR/CodeCinema",
+    "tags": [
+      "video",
+      "encoding",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "name": "Cloth Lab 0.8.1",
+    "summary": "Add-on libre de cloth / vêtements : presets tissu, pins, collisions, patrons, sewing, plis et tearing expérimental (Blender 5.2+). La 0.8.1 (annonce 26 sept) passe en UI anglaise avec les sources.",
+    "url": "https://slohero.com/tools/blender/en/",
+    "tags": [
+      "blender-addon",
+      "sim",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "name": "Hair Bone Generator 1.2.0",
+    "summary": "Extension GPL (extensions.blender.org) : génère une chaîne de bones deform le long d’un brin de cheveux mesh (cartes, tubes, tresses). La 1.2.0 (22 sept) accélère les meshes denses et ajoute Mirror to Other Side (symétrie L/R). Blender 4.5+.",
+    "url": "https://extensions.blender.org/add-ons/hair-bone-generator/",
+    "tags": [
+      "blender-addon",
+      "hair",
+      "skinning"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "name": "MattRM2 VFX Build 1.1",
+    "summary": "Build Windows non officiel de Blender 5.2 orienté VFX : Deep EXR depuis Cycles, Z Depth compatible volumes, overrides par view layer, export caméra Alembic corrigé et nœud Curves Lofting.",
+    "url": "https://github.com/MattRM2/MattRM2_VFX_Build/releases/tag/v1.1.0",
+    "tags": [
+      "exr",
+      "pipeline",
+      "alembic",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "name": "three-gpu-pathtracer 0.0.25 — WebGPUPathTracer",
+    "summary": "Path tracer WebGPU pour three.js (MIT) : la 0.0.25 (28 sept) expose WebGPUPathTracer via « three-gpu-pathtracer/webgpu », déprécie WebGLPathTracer ; 0.0.26 (29 sept) corrige le chargement CDN. Utile pour previews web path-tracés / intégration web 3D.",
+    "url": "https://github.com/gkjohnson/three-gpu-pathtracer/releases/tag/v0.0.25",
+    "tags": [
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "name": "CoatLink 0.2.0",
+    "summary": "Pont GPL Blender ↔ 3D-Coat (protocole AppLink) : sync modèles bidirectionnelle prévisible, sans baking ni chirurgie de scène. La 0.2.0 (24 sept) resserre le pont ; install one-click. Niche mais utile si 3D-Coat est dans le pipeline sculpt/retopo.",
+    "url": "https://github.com/VictoryLuode/Blender-CoatLink/releases/tag/v0.2.0",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "cad-retopo",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "name": "NodeForge 0.50.0",
+    "summary": "Add-on GPL qui compile un DSL Python-like en Geometry Nodes natifs (variables, opérateurs, packages). La 0.50.0 (18 sept) ouvre le projet en free software + package Math ; poussée encore active le 24 sept. Utile pour GN complexes maintenables / générables.",
+    "url": "https://github.com/denikryt/NodeForge/releases/tag/v0.50.0",
+    "tags": [
+      "blender-addon",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "name": "Simple Deform Helper 2.7.58 (V2)",
+    "summary": "Extension GPL (extensions.blender.org) : rebuild Geometry Nodes avec cages Standard / Shear / FFD / Curve, chaînes, multi-objets, keyframe + bake. Blender 5.0+. Gros saut UX pour déformer/animer sans se battre avec le Simple Deform natif.",
+    "url": "https://extensions.blender.org/add-ons/simple-deform-helper/",
+    "tags": [
+      "blender-addon"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "name": "Blenderbase 1.3.2",
+    "summary": "App desktop gratuite pour gérer versions Blender, add-ons et .blend. La 1.3.x (21 sept) ajoute Sync pour cloner prefs, thème, keymap et add-ons entre machines (réseau local, dossier cloud, fichier .bbsetup).",
+    "url": "https://github.com/PhysicalAddons/blenderbase-public/releases/tag/v1.3.2",
+    "tags": [
+      "pipeline",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "name": "Fusion → Blender Bridge",
+    "summary": "Paire d’add-ons GPL (Fusion 360 + Blender 4.2+) : sync géométrie en un clic via WebSocket local ; matériaux, modifiers, sharp edges et light links Blender survivent aux révisions CAD. Pas d’import Appearance Fusion (volontaire).",
+    "url": "https://github.com/inspace9018/fusion-to-blender-bridge",
+    "tags": [
+      "blender-addon",
+      "cad-retopo",
+      "pipeline"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "name": "Grease Pencil — Attribute Shape Keys (WIP)",
+    "summary": "Shape keys attributaires pour Grease Pencil en cours (PR #162946, prototype déjà jouable). Démos récentes (ex. rig 2D + drivers) : expressions faciales / morphs stroke sur builds expérimentales — pas encore dans une release stable.",
+    "url": "https://projects.blender.org/blender/blender/pulls/162946",
+    "tags": [
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "name": "Blender 5.3 — Gaussian Splats natifs (alpha)",
+    "summary": "Les Gaussian Splats entrent dans le cœur de Blender : import PLY / SPZ, schéma USD, nœuds Geometry Nodes et rendu Workbench / EEVEE / Cycles. Alpha 5.3 (finale prévue ~10 nov 2026), pas encore d’export.",
+    "url": "https://developer.blender.org/docs/release_notes/5.3/rendering/",
+    "tags": [
+      "emerging",
+      "usd"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "name": "Light It Up 4.0.0",
+    "summary": "Add-on gratuit de 17 presets d’éclairage studio éditables, avec contrôles master (intensité, température, key/fill, orbit) et Fit To Subject. La 4.0.0 corrige notamment le collapse du rig à l’origine et son basculement sur les personnages FBX.",
+    "url": "https://extensions.blender.org/add-ons/light-it-up/",
+    "tags": [
+      "blender-addon"
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "name": "Blender 5.3 — bascule OCIO runtime",
+    "summary": "Mécanisme core pour changer la config OpenColorIO active à l’exécution (base pour des configs OCIO par projet). Fondations pipeline pour studios multi-configs ACES/OCIO ; l’UI projet complète n’est pas encore là.",
+    "url": "https://devtalk.blender.org/t/21-september-2026/45811",
+    "tags": [
+      "ocio",
+      "pipeline"
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "name": "Hardcraft 0.9.0-alpha",
+    "summary": "Add-on Blender 5.0+ qui retopo des exports CAD (STEP / Plasticity / OBJ) en patches quads/tris. La 0.9.0 (20 sept) ajoute le loft RAILS pour cylindres/cônes, plus de topo STEP, et des binaires converter Linux + macOS. Alpha GPL.",
+    "url": "https://github.com/polozad/hardcraft-dist/releases/tag/v0.9.0-alpha",
+    "tags": [
+      "blender-addon",
+      "cad-retopo",
+      "emerging"
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "name": "B Hair ShapeKey 1.0.0",
+    "summary": "Première extension officielle pour de vrais shape keys sur les Hair Curves modernes (sculpt Curves, drivers, miroir). Blender 5.2 LTS+, GPL, extensions.blender.org (13 sept).",
+    "url": "https://extensions.blender.org/add-ons/b-hair-shapekey/",
+    "tags": [
+      "blender-addon",
+      "hair"
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "name": "DV Skin Tools",
+    "summary": "Sortie initiale (14 sept). Weight paint / skinning style Maya (smooth multi-influences, mirror, copy weights, viz, undo, export JSON + script Maya). Blender 4.2+ / 5.x, GPL.",
+    "url": "https://blenderartists.org/t/released-dv-skin-tools-powerful-weight-paint-tools-for-blender/1652741",
+    "tags": [
+      "blender-addon",
+      "skinning"
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "name": "EXR Converter 0.10.0 / 0.10.1 (Derek Rein)",
+    "summary": "Desktop+CLI MIT pour EXR↔vidéo avec OCIO (ACES), slate/burn-in, ProRes. 0.10.0 corrige le bake ACES 2.0 + decode BRAW optionnel ; 0.10.1 durcit les browsers R3D/BRAW/ARRIRAW.",
+    "url": "https://github.com/derek-rein/exr-converter/releases",
+    "tags": [
+      "video",
+      "exr",
+      "ocio",
+      "encoding"
+    ]
   }
- },
- {
-  "date": "2026-10-15",
-  "name": "Render Unique Frames 0.2.2",
-  "summary": "Add-on Blender qui repère les images identiques d’une animation (objets, compositor, view layers) et ne rend que les uniques : idéal pour l’animation en 2 ou 3 et les gros décors fixes. Rendu headless en ligne de commande. Version 0.2.2 du 13 oct.",
-  "url": "https://extensions.blender.org/add-ons/render-unique-frames/",
-  "tags": [
-   "blender-addon",
-   "pipeline",
-   "render-farm"
-  ],
-  "source": {
-   "label": "Web — extensions.blender.org (nouveautés)",
-   "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
-  }
- },
- {
-  "date": "2026-10-15",
-  "name": "Preview Quads 1.0.0",
-  "summary": "Add-on Blender qui prévisualise en direct, sans toucher au maillage, la conversion triangles vers quads (même algo que Blender), avec tous les réglages, puis l’applique en un clic. Pratique après import CAO ou booléens. Sorti le 12 oct.",
-  "url": "https://extensions.blender.org/add-ons/preview-quads/",
-  "tags": [
-   "blender-addon",
-   "modeling"
-  ],
-  "source": {
-   "label": "Web — extensions.blender.org (nouveautés)",
-   "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
-  }
- },
- {
-  "date": "2026-10-15",
-  "name": "Gausify Orbit 0.5.0",
-  "summary": "Appli libre (MIT) qui transforme une vidéo en orbite, même générée par IA, en Gaussian Splat, 100 % en local : desktop macOS/Windows ou version WebGPU dans le navigateur. Version 0.5.0 du 13 oct.",
-  "url": "https://github.com/obraia/gausify-orbit/releases/tag/v0.5.0",
-  "tags": [
-   "gaussian-splat",
-   "emerging"
-  ],
-  "source": {
-   "label": "GitHub — topic gaussian-splatting (repos récents)",
-   "url": "https://github.com/topics/gaussian-splatting"
-  }
- },
- {
-  "date": "2026-10-15",
-  "name": "Motion2MixamoRig (extension Blender)",
-  "summary": "Outil libre (Apache-2.0) qui copie le mouvement d’une personne filmée sur un perso riggé Mixamo et sort un GLB skinné. Une extension Blender 4.2+ expérimentale lance le pipeline depuis Blender. Mis en avant sur X le 13 oct.",
-  "url": "https://github.com/MaxLiu22/Motion2MixamoRig",
-  "tags": [
-   "blender-addon",
-   "rigging",
-   "animation",
-   "emerging"
-  ],
-  "source": {
-   "label": "Fil X — @Stefan_3D_AI",
-   "url": "https://x.com/Stefan_3D_AI/status/2109989762899570828"
-  }
- },
- {
-  "date": "2026-10-14",
-  "name": "EffectCraft 0.9.2",
-  "summary": "Compositeur libre en Rust (MIT/Apache-2.0) façon After Effects : calques, keyframes, 306 effets, caméras 3D, file de rendu, sur macOS/Windows/Linux et web. La 0.9.2 du 12 oct. ajoute l’import FBX/STL, DPX/Cineon, HDR et MXF.",
-  "url": "https://github.com/storytold/effectcraft/releases/tag/v0.9.2",
-  "tags": [
-   "vfx",
-   "compositing",
-   "emerging"
-  ],
-  "source": {
-   "label": "GitHub — topic compositing (repos actifs)",
-   "url": "https://github.com/topics/compositing"
-  }
- },
- {
-  "date": "2026-10-14",
-  "name": "Shape Key & Vertex Groups Utilities Enhanced 2.0.0",
-  "summary": "Add-on Blender gratuit qui range les shape keys en dossiers sans toucher à l’ordre réel, avec opérations en lot, transfert entre maillages et outils pour vertex groups et UV maps. La 2.0.0 est sortie le 13 oct. sur Blender Extensions.",
-  "url": "https://extensions.blender.org/add-ons/shape-key-utilities-enhanced/",
-  "tags": [
-   "blender-addon",
-   "rigging"
-  ],
-  "source": {
-   "label": "Fil X — @LeafyBush7",
-   "url": "https://x.com/LeafyBush7/status/2110001994081636766"
-  }
- },
- {
-  "date": "2026-10-14",
-  "name": "Provenance 1.0.1",
-  "summary": "Coffre d’assets versionné et local pour Blender (GPL) : publie une sélection en versions numérotées (.blend autonomes), affiche un rapport de dépendances avant insertion et répare les liens cassés. Publié le 12 oct.",
-  "url": "https://github.com/Metanoid18/provenance/releases/tag/v1.0.1",
-  "tags": [
-   "blender-addon",
-   "pipeline",
-   "emerging"
-  ],
-  "source": {
-   "label": "GitHub — topic blender-addon (repos récents)",
-   "url": "https://github.com/topics/blender-addon"
-  }
- },
- {
-  "date": "2026-10-14",
-  "name": "Cycles — OpenPBR 1.1.1 complet, prototype ReSTIR",
-  "summary": "Réunion Render & Cycles du 13 oct. : le support OpenPBR (v1.1.1) est fonctionnellement complet et passe en phase de tests, les splats gaussiens sont finis pour ce jalon, et un prototype ReSTIR (WIP #164970) relance l’échantillonnage par réservoirs.",
-  "url": "https://devtalk.blender.org/t/2026-10-13-render-cycles-meeting/45974",
-  "tags": [
-   "blender",
-   "emerging"
-  ],
-  "source": {
-   "label": "Web — devtalk.blender.org",
-   "url": "https://devtalk.blender.org/latest"
-  }
- },
- {
-  "date": "2026-10-13",
-  "name": "IngeTrazo 0.5.8",
-  "summary": "Modeleur 3D libre (GPL-3.0) façon SketchUp pour l’architecture et l’ingénierie, natif Linux/Windows/macOS : push/pull, solides étanches, ouverture des .skp, export IFC/glTF/OBJ, plans PDF à l’échelle et rendu via Blender. La 0.5.8 est sortie le 12 oct.",
-  "url": "https://github.com/ingelibre/ingetrazo/releases/tag/v0.5.8",
-  "tags": [
-   "modelisation",
-   "architecture",
-   "outil"
-  ],
-  "source": {
-   "label": "CGPress",
-   "url": "https://cgpress.org/archives/ingetrazo-open-source-3d-modeler-for-architecture-engineering-and-design.html"
-  }
- },
- {
-  "date": "2026-10-13",
-  "name": "ChainCut – Bone Chain Slicer",
-  "summary": "Add-on Blender 5.2+ (GPL-3.0) qui coupe des os en 2 à 8 segments connectés en gardant des noms propres et en redistribuant les poids des vertex groups, contrairement au Subdivide natif. Version 0.1.0, créé le 12 oct.",
-  "url": "https://github.com/jalvartstudio-lab/chaincut-blender",
-  "tags": [
-   "blender",
-   "addon",
-   "rigging"
-  ],
-  "source": {
-   "label": "recherche GitHub des repos Blender récents",
-   "url": "https://github.com/search?q=blender+created%3A%3E%3D2026-10-12&type=repositories"
-  }
- },
- {
-  "date": "2026-10-13",
-  "name": "GH Stack (Grasshopper ↔ Blender)",
-  "summary": "Extension Blender (GPL-3.0) qui pilote des définitions Grasshopper comme des modificateurs empilables à côté des Geometry Nodes, avec paramètres animables, via WebSocket vers Rhino 8. Démo v0.1.x, créé le 12 oct.",
-  "url": "https://github.com/miscasquel/gh-blender-stack",
-  "tags": [
-   "blender",
-   "addon",
-   "procedural"
-  ],
-  "source": {
-   "label": "recherche GitHub des repos Blender récents",
-   "url": "https://github.com/search?q=blender+created%3A%3E%3D2026-10-12&type=repositories"
-  }
- },
- {
-  "date": "2026-10-13",
-  "name": "EpicFigRig 2.0 (fork Blender 5)",
-  "summary": "Fork GPL-3.0 de l’auto-rig de minifigs LEGO EpicFigRig, compatible Blender 4.0 et 5.0 alors que l’original casse en 5.0 : rig en un clic des exports Mecabricks, IK/FK, capes et accessoires. Release 2.0 publiée en mai 2026.",
-  "url": "https://github.com/ReeceTaylor512/EpicFigRig",
-  "tags": [
-   "blender",
-   "addon",
-   "rigging"
-  ],
-  "source": {
-   "label": "forum Mecabricks",
-   "url": "https://www.mecabricks.com/en/forum/topic/76259"
-  }
- },
- {
-  "date": "2026-10-12",
-  "name": "Natron 2.6 — fork 3D / Cycles (Niik-l)",
-  "summary": "Fork de Natron qui ajoute un système 3D, Cycles en nœud (passes AOV, deep EXR), le compositing deep, des particules, des volumes et un tracker caméra 3D : 69 nœuds sur base Qt6. Builds portables Windows et Linux, dernière le 7 octobre 2026.",
-  "url": "https://github.com/Niik-l/Natron",
-  "tags": [
-   "vfx",
-   "compositing",
-   "natron",
-   "emerging"
-  ],
-  "source": {
-   "label": "Web — recherche GitHub (natron), via nik-kit-natron",
-   "url": "https://github.com/Niik-l/nik-kit-natron"
-  }
- },
- {
-  "date": "2026-10-12",
-  "name": "UVgami 2.2.0",
-  "summary": "Add-on Blender de dépliage UV automatique qui réunit trois moteurs : OptCuts, PartUV (GPU, SIGGRAPH Asia 2025) et xatlas. La 2.2.0 du 6 octobre ajoute un dépliage web et une appli desktop, mise à jour en 0.3.0 le 12 octobre 2026.",
-  "url": "https://github.com/DanielBoxer/UVgami",
-  "tags": [
-   "blender-addon",
-   "uv",
-   "modeling"
-  ],
-  "source": {
-   "label": "Fil X — @ymt3d (RT par @AFX_LAB)",
-   "url": "https://x.com/AFX_LAB/status/2109540028259156452"
-  }
- },
- {
-  "date": "2026-10-12",
-  "name": "H-Style RBD Nodes 1.0.1",
-  "summary": "Groupes Geometry Nodes de destruction rigid body pour le VFX temps réel : fracture béton, verre ou bois, solveur Bullet, bake puis export FBX, Alembic ou VAT vers les moteurs de jeu. Publié sur Blender Extensions le 6 octobre 2026.",
-  "url": "https://extensions.blender.org/add-ons/h-style-rbd-nodes/",
-  "tags": [
-   "blender-addon",
-   "vfx",
-   "sim",
-   "geometry-nodes"
-  ],
-  "source": {
-   "label": "Web — extensions.blender.org (nouveautés)",
-   "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
-  }
- },
- {
-  "date": "2026-10-12",
-  "name": "FTC – Fit The Camera 1.0.0",
-  "summary": "Extension Blender 5.2+ qui retrouve focale, position et rotation de la caméra à partir d’une seule photo (points de fuite, rectangle connu ou horizon), à l’échelle réelle, puis prépare l’intégration CG avec ombres au sol. v1.0.0 sortie le 11 octobre 2026.",
-  "url": "https://github.com/Tonysa87/FTC-Fit-The-Camera",
-  "tags": [
-   "blender-addon",
-   "vfx",
-   "matchmove"
-  ],
-  "source": {
-   "label": "GitHub — topic compositing (repos récents)",
-   "url": "https://github.com/topics/compositing"
-  }
- },
- {
-  "date": "2026-10-12",
-  "name": "Blender Compositor — Fast Gaussian 2 à 10× plus rapide (décision)",
-  "summary": "À la réunion compositor du 8 octobre 2026, l’équipe a décidé de remplacer l’implémentation du flou Fast Gaussian par le Downsampled Gaussian, 2 à 10× plus rapide pour un résultat à peine différent ; retours d’artistes attendus après le merge.",
-  "url": "https://devtalk.blender.org/t/2026-10-08-compositor-meeting-notes/45946",
-  "tags": [
-   "blender",
-   "compositing",
-   "vfx"
-  ],
-  "source": {
-   "label": "Web — devtalk.blender.org",
-   "url": "https://devtalk.blender.org/latest"
-  }
- },
- {
-  "date": "2026-10-11",
-  "name": "OpenScatter 0.13.0",
-  "summary": "Fork communautaire et gratuit de GScatter (Graswald, plus maintenu) : scattering Geometry Nodes pour prairies et forêts, même interface, Blender 4.2 à 5.2. Release 0.13.0 publiée le 4 octobre 2026.",
-  "url": "https://github.com/joseph-wardle/openscatter",
-  "tags": [
-   "blender",
-   "addon",
-   "geometry-nodes"
-  ],
-  "source": {
-   "label": "GitHub — topic blender (repos récents)",
-   "url": "https://github.com/topics/blender"
-  }
- },
- {
-  "date": "2026-10-11",
-  "name": "Unreal Render Farm 1.0.0",
-  "summary": "Ferme de rendu libre (MIT) pour le Movie Render Queue d’Unreal Engine 5 : dashboard web, file de jobs, découpe auto des plans sur plusieurs PC Windows, retries et historique. v1.0.0 sortie le 6 octobre 2026.",
-  "url": "https://github.com/f1hunterr/unreal-render-farm",
-  "tags": [
-   "pipeline",
-   "render-farm"
-  ],
-  "source": {
-   "label": "GitHub — topic render-farm (repos récents)",
-   "url": "https://github.com/topics/render-farm"
-  }
- },
- {
-  "date": "2026-10-10",
-  "name": "py2gn",
-  "summary": "Nouvel add-on Blender (publié le 9 octobre 2026) qui compile des fonctions Python restreintes en groupes Geometry Nodes natifs : paramètres en sockets, corps en nœuds Math/Switch. 68 nœuds sur 351 supportés pour l’instant.",
-  "url": "https://github.com/haykh/py2gn",
-  "tags": [
-   "blender",
-   "addon",
-   "geometry-nodes"
-  ],
-  "source": {
-   "label": "GitHub — topic blender (repos récents)",
-   "url": "https://github.com/topics/blender"
-  }
- },
- {
-  "date": "2026-10-10",
-  "name": "usd-web-viewer",
-  "summary": "OpenUSD dans le navigateur (repo créé le 9 octobre 2026) : la composition USD tient dans 604 Ko de WebAssembly, avec rendu three.js. Pratique pour inspecter une scène sans DCC.",
-  "url": "https://github.com/cfahlgren1/usd-web-viewer",
-  "tags": [
-   "usd",
-   "pipeline",
-   "web"
-  ],
-  "source": {
-   "label": "GitHub — topic openusd (repos récents)",
-   "url": "https://github.com/topics/openusd"
-  }
- },
- {
-  "date": "2026-10-10",
-  "name": "SleepyTools (Nuke)",
-  "summary": "Boîte à outils Nuke/NukeX publiée le 8 octobre 2026 : file de rendu, « script doctor », snapshots, éditeur de texte, bibliothèques BlinkScript et d’expressions, scrub de knobs et pack de gizmos.",
-  "url": "https://github.com/PedroGartner/SleepyTools",
-  "tags": [
-   "nuke",
-   "vfx",
-   "compositing"
-  ],
-  "source": {
-   "label": "GitHub — topic nuke (repos récents)",
-   "url": "https://github.com/topics/nuke"
-  }
- },
- {
-  "date": "2026-10-09",
-  "name": "Nuke × ComfyUI bridge 0.1.0",
-  "summary": "Nouveau (8 oct) : un panneau Nuke envoie une plaque à ComfyUI et récupère un EXR multicouche par frame avec normales, profondeur métrique, position et matte alpha. Expérience perso, testée sur RTX 3090.",
-  "url": "https://github.com/Mariolepipe/nuke-comfyui-bridge",
-  "tags": [
-   "vfx",
-   "emerging"
-  ],
-  "source": {
-   "label": "Web — recherche GitHub (topic nuke)",
-   "url": "https://github.com/topics/nuke"
-  }
- },
- {
-  "date": "2026-10-09",
-  "name": "usd-optimize 1.3.1 (NVIDIA)",
-  "summary": "Version du 7 oct de la lib d’optimisation de stages OpenUSD : support USD 26.08, wheel Linux allégée, et correctif qui rend enfin fiables les checks de shaders UsdPreviewSurface.",
-  "url": "https://github.com/NVIDIA-Omniverse/usd-optimize/releases/tag/v1.3.1",
-  "tags": [
-   "usd"
-  ],
-  "source": {
-   "label": "Web — recherche GitHub (topics openusd / nuke)",
-   "url": "https://github.com/topics/openusd"
-  }
- },
- {
-  "date": "2026-10-09",
-  "name": "Hydra Lotus",
-  "summary": "Tout jeune délégué Hydra (créé le 30 sept) : path tracer GPU Vulkan pour OpenUSD, avec NEE/MIS, ReSTIR et débruitage, chaque mode rapide étant vérifié contre un path tracer de référence.",
-  "url": "https://github.com/animu-sphere/hydra-lotus",
-  "tags": [
-   "usd",
-   "emerging"
-  ],
-  "source": {
-   "label": "Web — recherche GitHub (topics openusd / nuke)",
-   "url": "https://github.com/topics/openusd"
-  }
- },
- {
-  "date": "2026-10-08",
-  "name": "Blender — Custom Space Types (proposition + branche)",
-  "summary": "Le studio Autour de Minuit propose (devtalk, 7 oct) de laisser les add-ons créer de vrais éditeurs Blender en Python : type d’espace custom, header, sidebar, dessin GPU, sauvegarde et repli si l’add-on manque. Branche de test publique, retours demandés.",
-  "url": "https://devtalk.blender.org/t/custom-space-types/45934",
-  "tags": [
-   "blender-addon",
-   "emerging"
-  ],
-  "source": {
-   "label": "Web — devtalk.blender.org",
-   "url": "https://devtalk.blender.org/latest"
-  }
- },
- {
-  "date": "2026-10-08",
-  "name": "Shramko SOG LOD Converter 1.2",
-  "summary": "Convertit des Gaussian splats PLY géants (100M+ splats, 10+ Go) en Streamed SOG avec vrais LOD pour SuperSplat, dans le navigateur via WebGPU, sans upload. Testé le 2 oct sur un scan de ville de 259M splats ; la 1.2 ajoute une file d’attente. MIT.",
-  "url": "https://github.com/AndriiShramko/shramko-sog-lod-converter",
-  "tags": [
-   "gaussian-splat",
-   "pipeline",
-   "emerging"
-  ],
-  "source": {
-   "label": "Web — recherche GitHub (repos Gaussian splat récents)",
-   "url": "https://github.com/search?q=gaussian-splat+created%3A%3E%3D2026-10-01&type=repositories&s=stars"
-  }
- },
- {
-  "date": "2026-10-08",
-  "name": "Blender Internal Port",
-  "summary": "Ressuscite le moteur Blender Internal de la 2.79b comme moteur de rendu add-on dans Blender 5.2/5.3 : rendu viewport, anciens matériaux nodaux, import de scènes 2.79. Repo du 5 oct, expérimental et largement codé par IA, testé sur macOS ARM seulement.",
-  "url": "https://github.com/luciascarlet/blender-internal-port",
-  "tags": [
-   "blender-addon",
-   "emerging"
-  ],
-  "source": {
-   "label": "Web — recherche GitHub (repos Blender récents)",
-   "url": "https://github.com/search?q=blender+created%3A%3E%3D2026-10-04&type=repositories&s=stars"
-  }
- },
- {
-  "date": "2026-10-07",
-  "name": "Splat Slicer 0.2.9",
-  "summary": "Découpe un scan Gaussian splat en couches à imprimer sur film transparent puis à empiler en bloc, avec preview couche par couche et export PDF, PNG, DTF ou DICOM/NIfTI/NRRD. Repo créé le 5 oct, déjà en v0.2.9 (6 oct) ; impression réelle pas encore testée.",
-  "url": "https://github.com/timfennell/blender-splat-slicer",
-  "tags": [
-   "blender-addon",
-   "gaussian-splat",
-   "3d-print",
-   "emerging"
-  ],
-  "source": {
-   "label": "Fil X — @VFXDESK",
-   "url": "https://x.com/VFXDESK/status/2107709671947837818"
-  }
- },
- {
-  "date": "2026-10-07",
-  "name": "ROTONIX 2.0.0 beta 1",
-  "summary": "Assistant de matte IA pour Nuke 15+, publié sur Nukepedia le 6 oct : un seul panneau pour sélectionner le sujet, tracker, retoucher et exporter une séquence alpha, avec SAM 2.1, ViTMatte et RAFT en local. Bêta gratuite, Windows uniquement.",
-  "url": "https://www.nukepedia.com/tools/python/misc/rotonix-ai-matte-assistant-public-beta-1/",
-  "tags": [
-   "vfx",
-   "emerging"
-  ],
-  "source": {
-   "label": "Fil X — @VFXDESK",
-   "url": "https://x.com/VFXDESK/status/2107702901657522544"
-  }
- },
- {
-  "date": "2026-10-07",
-  "name": "AOV Rebuild Pipeline",
-  "summary": "Plugin Nuke 14 à 17 qui reconstruit automatiquement la beauty depuis les AOV d’un EXR, avec détection du moteur (Arnold, Redshift, V-Ray, Karma, UE5). Modes Basic ou Advanced et QC intégré jusqu’à l’audit pixel par pixel. Repo créé le 5 oct.",
-  "url": "https://github.com/michaelpbb/nuke-aov-rebuild-pipeline-Plugin",
-  "tags": [
-   "vfx",
-   "exr",
-   "pipeline",
-   "emerging"
-  ],
-  "source": {
-   "label": "Fil X — @VFXDESK",
-   "url": "https://x.com/VFXDESK/status/2107406023988555825"
-  }
- },
- {
-  "date": "2026-10-07",
-  "name": "Render Animated .GIF 1.8.0",
-  "summary": "Exporte directement un GIF animé depuis le menu Render de Blender, sans outil externe. La 1.8.0 (5 oct) sépare la qualité en mode Basic (presets) et Advanced, où l’on règle le dithering et la taille de palette.",
-  "url": "https://extensions.blender.org/add-ons/render-gif-animation/",
-  "tags": [
-   "blender-addon",
-   "video"
-  ],
-  "source": {
-   "label": "Fil X — @VFXDESK",
-   "url": "https://x.com/VFXDESK/status/2107411624088993969"
-  }
- },
- {
-  "date": "2026-10-06",
-  "name": "Gaussian Splat Patch 0.1.12",
-  "summary": "Retouche les scans Gaussian splat importés nativement dans Blender 5.3+ avec 7 brosses (Erase, Clone, Heal, Spot Heal, Bridge…), feather et mode Surface/Through. Toute jeune (v0.1.12 du 30 sept), elle complète bien les splats natifs de la 5.3.",
-  "url": "https://github.com/timfennell/blender-splat-patch",
-  "tags": [
-   "blender-addon",
-   "gaussian-splat",
-   "emerging"
-  ],
-  "source": {
-   "label": "Fil X — @VFXDESK",
-   "url": "https://x.com/VFXDESK/status/2107030170662285681"
-  }
- },
- {
-  "date": "2026-10-06",
-  "name": "Nukomfy 0.1.1",
-  "summary": "Transforme des workflows ComfyUI en gizmos Nuke : l’artiste règle ses knobs dans la comp, envoie le job à une machine ComfyUI du réseau et réimporte les frames. La 0.1.1 (28 sept) corrige les rendus en ligne de commande et sur render farm.",
-  "url": "https://github.com/francescolorussi/Nukomfy",
-  "tags": [
-   "vfx",
-   "pipeline",
-   "emerging"
-  ],
-  "source": {
-   "label": "Fil X — @VFXDESK",
-   "url": "https://x.com/VFXDESK/status/2107038762102596051"
-  }
- },
- {
-  "date": "2026-10-06",
-  "name": "MacBlend 3.3.0",
-  "summary": "Calibre des images contenant une ColorChecker directement dans Blender, en nœuds compositor ou shader, ou en LUT .cube. Sait aussi matcher deux images (HDRI vers plaque caméra, caméra A vers caméra B). 3.3.0 publiée le 22 sept.",
-  "url": "https://extensions.blender.org/add-ons/macblend/",
-  "tags": [
-   "blender-addon",
-   "vfx",
-   "color"
-  ],
-  "source": {
-   "label": "Web — extensions.blender.org",
-   "url": "https://extensions.blender.org/add-ons/macblend/"
-  }
- },
- {
-  "date": "2026-10-06",
-  "name": "Mio3 Flex 1.0.4",
-  "summary": "Add-on gratuit qui redessine une edge loop le long d’une spline éditable, avec miroir X, contraintes d’axe et bouton Quick pour lisser d’un coup. La 1.0.4 ajoute le keymap industry compatible.",
-  "url": "https://extensions.blender.org/add-ons/mio3-flex/",
-  "tags": [
-   "blender-addon",
-   "modeling"
-  ],
-  "source": {
-   "label": "Signet X — @JanvandenHemel",
-   "url": "https://x.com/JanvandenHemel/status/2106809289775980583"
-  }
- },
- {
-  "date": "2026-10-06",
-  "name": "Photo Relief 1.0.1",
-  "summary": "Petite extension qui transforme une image en mesh fermé imprimable en 3D, hors ligne : modes Relief, Lithophane et Stamp, largeur en millimètres. Publiée le 24 sept sur Blender Extensions, 1.0.1 début octobre.",
-  "url": "https://extensions.blender.org/add-ons/photo-relief/",
-  "tags": [
-   "blender-addon",
-   "3d-print"
-  ],
-  "source": {
-   "label": "Fil X — @VFXDESK",
-   "url": "https://x.com/VFXDESK/status/2107052084516340099"
-  }
- },
- {
-  "date": "2026-10-05",
-  "name": "Multi Stage Compositor (PoC NPR, Blender 5.3)",
-  "summary": "Proof of concept officiel du projet NPR, publié le 30 sept pour feedback : des arbres de compositing par objet et par matériau dans Blender 5.3, en viewport comme au rendu final. Préfigure le compositing par objet dans Blender.",
-  "url": "https://devtalk.blender.org/t/multi-stage-compositing-prototype-feedback/45865",
-  "tags": [
-   "blender-addon",
-   "vfx",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-05",
-  "name": "usd-blender-plugins 0.1.0",
-  "summary": "Plugin OpenUSD qui ouvre un .blend directement comme layer USD (references, usdview) sans installer Blender. La 0.1.0 (5 oct) se limite encore aux Mesh/Empty de Blender 5.2.2 : pas de matériaux, caméras, lumières ni animation.",
-  "url": "https://github.com/animu-sphere/usd-blender-plugins",
-  "tags": [
-   "usd",
-   "pipeline",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-05",
-  "name": "PostProject 0.6.0-alpha.1 (+ extension Blender VSE)",
-  "summary": "Couche d’identité média pour la post-prod : IDs d’assets stables, provenance et relink déterministe par empreinte de contenu. La 0.6.0-alpha.1 est sortie le 4 oct, avec des pilotes Blender Sequencer, Kdenlive, Natron, OBS et Ardour.",
-  "url": "https://github.com/postproject-org/postproject/releases/tag/v0.6.0-alpha.1",
-  "tags": [
-   "pipeline",
-   "video",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-05",
-  "name": "XNodify 1.0.0",
-  "summary": "Langage .xfy compilé pour écrire en code Geometry Nodes, shaders et World au lieu de câbler des nodes, avec groupes réutilisables et auto-layout. Validation offline en CLI/CI sans GUI. Repo publié le 3 oct.",
-  "url": "https://github.com/Shriinivas/xnodify",
-  "tags": [
-   "blender-addon",
-   "pipeline",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-05",
-  "name": "Blackbody 1.0.0",
-  "summary": "App standalone de simulation GPU (feu, fumée, liquides, destruction, météo…) directement dans un plan live, avec tracking caméra et 111 presets. Exports deep EXR, OpenVDB et USD/OBJ. 1.0.0 du 30 sept : tout neuf, à tester.",
-  "url": "https://github.com/gjnail/blackbody",
-  "tags": [
-   "vfx",
-   "sim",
-   "exr",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-04",
-  "name": "GNToolkit 0.2.8",
-  "summary": "Versioning sémantique des Geometry Nodes. La 0.2.8 (2 oct) ajoute l’impact des dépendances sur objets/modifiers, la résolution de conflits dans Sync, la détection des JSON modifiés hors Blender et l’export/import headless multi-fichiers.",
-  "url": "https://github.com/oobma/GNToolkit/releases/tag/v0.2.8",
-  "tags": [
-   "pipeline",
-   "blender-addon",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-04",
-  "name": "BlenderShelf 0.3.0",
-  "summary": "Étagère flottante de boutons custom dans le viewport (style Maya). La 0.3.0 (3 oct) ajoute le redimensionnement au coin, Add Script / Import Script (.py) depuis le clic droit, icônes auto pour les boutons script, et pages de pie menu au-delà de 8 boutons. Blender 4.2+ / 5.x.",
-  "url": "https://github.com/blendershelf/BlenderShelf/releases/tag/v0.3.0",
-  "tags": [
-   "blender-addon",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-04",
-  "name": "Eterea Blender Tools 1.6.1",
-  "summary": "Première release publique GPL-3.0 : kit Extension Blender 5.2+ qui regroupe 16 outils modeling/modifiers/nodes/transforms (Custom Color Nodes via D, Weight Ramp by Order, Batch Operate Attributes, Reset Modifier, Join Equalizing Bevels…). Un seul zip à installer.",
-  "url": "https://github.com/Eterea/blender_addons/releases/tag/v1.6.1",
-  "tags": [
-   "blender-addon",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-04",
-  "name": "image-blaster",
-  "summary": "Skillset (Claude) qui transforme une image en monde 3D en ~5 min : meshes, splat d’environnement et SFX ambiants, via World Labs Marble, FAL et ElevenLabs. APIs payantes. Viral sur le fil X (3–4 oct).",
-  "url": "https://github.com/neilsonnn/image-blaster",
-  "tags": [
-   "emerging",
-   "vfx"
-  ]
- },
- {
-  "date": "2026-10-03",
-  "name": "STUKACH 1.8.5",
-  "summary": "Validateur d’assets Blender GPL (42 checkers, overlays GPU, mode live) : la 1.8.5 unifie le « Naming Contract » pour les conventions objet/scène et redesign hiérarchie. Utile en QC pipeline avant livraison.",
-  "url": "https://github.com/abyrvalg379/STUKACH/releases/tag/v1.8.5",
-  "tags": [
-   "blender-addon",
-   "pipeline",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-03",
-  "name": "OpenDLSS-NR",
-  "summary": "Réimplémentation Vulkan MIT bit-exact du réseau Neural Rendering DLSS 5 (NVIDIA) — 71 blocs Swin/ViT, FP8, sans poids NVIDIA inclus. Port WebGPU navigateur fourni. Base OSS pour le neural rendering génératif.",
-  "url": "https://github.com/maanHimself/OpenDLSS-NR",
-  "tags": [
-   "emerging",
-   "vfx"
-  ]
- },
- {
-  "date": "2026-10-03",
-  "name": "three-dlss-nr 0.1.0",
-  "summary": "Port Three.js (TSL/WebGPU) d’OpenDLSS-NR : le réseau DLSS 5 NR en compute nodes, byte-identique à la référence. Démo live ; poids NVIDIA à fournir soi-même. Signal frais sur le fil X.",
-  "url": "https://github.com/bhouston/three-dlss-nr",
-  "tags": [
-   "emerging",
-   "vfx"
-  ]
- },
- {
-  "date": "2026-10-03",
-  "name": "BowerBot 2.0.0",
-  "summary": "Agent IA Apache-2.0 qui assemble des scènes OpenUSD production-ready depuis le langage naturel. La 2.0 casse la compat (physique USD, formes d’assets). Radar pipeline USD.",
-  "url": "https://github.com/binary-core-llc/bowerbot/releases/tag/v2.0.0",
-  "tags": [
-   "usd",
-   "pipeline",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-03",
-  "name": "ZeroGeometry Kit 1.0.1",
-  "summary": "Add-on Blender GPL : reframing vertical one-click (9:16 / 4:5 / 1:1) avec auto-follow, beat sync, loop doctor et wedge renders. Première release publique pour décliner une anim 16:9.",
-  "url": "https://github.com/zerogeometry/zerogeometry-kit/releases/tag/v1.0.1",
-  "tags": [
-   "blender-addon",
-   "video",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-02",
-  "name": "houdini-eevee-bridge 0.7.6",
-  "summary": "Pont Hydra qui fait tourner EEVEE (Blender 5.2 headless) dans le viewport Solaris de Houdini. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma : matériaux, lumières double face, primvars, instances, NURBS.",
-  "url": "https://github.com/badgerz42/houdini-eevee-bridge/releases/tag/v0.7.6",
-  "tags": [
-   "pipeline",
-   "usd",
-   "vfx",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-02",
-  "name": "Blender 5.3 — Copy Paste World Space Animation",
-  "summary": "Opérateurs natifs pour copier/coller l’animation en espace monde (objets et os, multi-sélection, entre fichiers via fichier temp). Utile pour un transfert d’anim / retarget léger sans add-on. Documenté dans le manuel 5.3 ; 5.3 est en beta depuis le 30 sept.",
-  "url": "https://docs.blender.org/manual/en/5.3/editors/3dview/animation/world_space_animation_copy_paste.html",
-  "tags": [
-   "emerging",
-   "vfx"
-  ]
- },
- {
-  "date": "2026-10-02",
-  "name": "GNToolkit 0.2.5",
-  "summary": "Versioning sémantique des node trees Blender (JSON + Git, checks headless). La 0.2.5 (27 sept) ajoute des audits impact / doublons / santé JSON et corrige la fidélité Menu Switch / modifiers à l’import.",
-  "url": "https://github.com/oobma/GNToolkit/releases/tag/v0.2.5",
-  "tags": [
-   "pipeline",
-   "blender-addon",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-02",
-  "name": "On-Twos Retimer 0.7.0",
-  "summary": "Add-on Blender GPL : bake une anim contrainte/physique en pas de 2 (ou 3) frames. En 0.7.0 (28 sept) : plus lié à MMD — standalone sur n’importe quel armature (sélection Pose Mode, chaînes enfants, highlight preview). Utile pour un look stop-motion / anime sur des sims.",
-  "url": "https://github.com/zlz188/ontwos-retimer/releases/tag/v0.7.0",
-  "tags": [
-   "blender-addon",
-   "vfx"
-  ]
- },
- {
-  "date": "2026-10-02",
-  "name": "LAMPOCHKA 3.5.0",
-  "summary": "Gestionnaire de lumières de scène (GPL). En 3.5.0 (27 sept) : sync Sky Texture avec le soleil (y compris Time keyé), Kelvin depuis l’élévation (horizon chaud → 6500 K), liste pliable, checker de mises à jour. Pratique pour setups éclairage / lookdev Blender 4.2–5.2.",
-  "url": "https://github.com/abyrvalg379/LAMPOCHKA/releases/tag/v3.5.0",
-  "tags": [
-   "blender-addon",
-   "vfx"
-  ]
- },
- {
-  "date": "2026-10-01",
-  "name": "Blenderbase 1.4.0",
-  "summary": "App desktop gratuite pour gérer versions Blender et add-ons. La 1.4.0 (30 sept) applique un add-on à une autre version installée (drag & drop ou Apply to) : pratique pour cloner un set d’extensions entre 4.x et 5.x.",
-  "url": "https://github.com/PhysicalAddons/blenderbase-public/releases/tag/v1.4.0",
-  "tags": [
-   "pipeline",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-01",
-  "name": "OpenUSDConnect",
-  "summary": "Live-link OpenUSD entre DCC et outils USD : transactions ordonnées, replay à la reconnexion, MaterialX et layers partagés. Intégrations Blender, usdview, Unreal, MCP et Python ; commits actifs fin septembre.",
-  "url": "https://github.com/RoboticHuman/OpenUSDConnect",
-  "tags": [
-   "usd",
-   "pipeline",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-01",
-  "name": "BlenderShelf 0.2.2",
-  "summary": "Étagère flottante de boutons custom et pie menu dans le viewport, style shelf Maya. La 0.2.x (30 sept) ajoute des shelves par mode (Object, Edit, Sculpt, UV, Shader, GN).",
-  "url": "https://github.com/blendershelf/BlenderShelf/releases/tag/v0.2.2",
-  "tags": [
-   "blender-addon",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-10-01",
-  "name": "CodeCinema",
-  "summary": "Framework pour faire des films « as code » : image, musique, son, titres et master via un CLI et ffmpeg, avec un court exemple de duel 3D en Blender 5.2+. Sortie initiale 30 sept–1er oct.",
-  "url": "https://github.com/ZJUCQR/CodeCinema",
-  "tags": [
-   "video",
-   "encoding",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-09-29",
-  "name": "Cloth Lab 0.8.1",
-  "summary": "Add-on libre de cloth / vêtements : presets tissu, pins, collisions, patrons, sewing, plis et tearing expérimental (Blender 5.2+). La 0.8.1 (annonce 26 sept) passe en UI anglaise avec les sources.",
-  "url": "https://slohero.com/tools/blender/en/",
-  "tags": [
-   "blender-addon",
-   "sim",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-09-29",
-  "name": "Hair Bone Generator 1.2.0",
-  "summary": "Extension GPL (extensions.blender.org) : génère une chaîne de bones deform le long d’un brin de cheveux mesh (cartes, tubes, tresses). La 1.2.0 (22 sept) accélère les meshes denses et ajoute Mirror to Other Side (symétrie L/R). Blender 4.5+.",
-  "url": "https://extensions.blender.org/add-ons/hair-bone-generator/",
-  "tags": [
-   "blender-addon",
-   "hair",
-   "skinning"
-  ]
- },
- {
-  "date": "2026-09-29",
-  "name": "MattRM2 VFX Build 1.1",
-  "summary": "Build Windows non officiel de Blender 5.2 orienté VFX : Deep EXR depuis Cycles, Z Depth compatible volumes, overrides par view layer, export caméra Alembic corrigé et nœud Curves Lofting.",
-  "url": "https://github.com/MattRM2/MattRM2_VFX_Build/releases/tag/v1.1.0",
-  "tags": [
-   "exr",
-   "pipeline",
-   "alembic",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-09-29",
-  "name": "three-gpu-pathtracer 0.0.25 — WebGPUPathTracer",
-  "summary": "Path tracer WebGPU pour three.js (MIT) : la 0.0.25 (28 sept) expose WebGPUPathTracer via « three-gpu-pathtracer/webgpu », déprécie WebGLPathTracer ; 0.0.26 (29 sept) corrige le chargement CDN. Utile pour previews web path-tracés / intégration web 3D.",
-  "url": "https://github.com/gkjohnson/three-gpu-pathtracer/releases/tag/v0.0.25",
-  "tags": [
-   "emerging"
-  ]
- },
- {
-  "date": "2026-09-29",
-  "name": "CoatLink 0.2.0",
-  "summary": "Pont GPL Blender ↔ 3D-Coat (protocole AppLink) : sync modèles bidirectionnelle prévisible, sans baking ni chirurgie de scène. La 0.2.0 (24 sept) resserre le pont ; install one-click. Niche mais utile si 3D-Coat est dans le pipeline sculpt/retopo.",
-  "url": "https://github.com/VictoryLuode/Blender-CoatLink/releases/tag/v0.2.0",
-  "tags": [
-   "blender-addon",
-   "pipeline",
-   "cad-retopo",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-09-27",
-  "name": "NodeForge 0.50.0",
-  "summary": "Add-on GPL qui compile un DSL Python-like en Geometry Nodes natifs (variables, opérateurs, packages). La 0.50.0 (18 sept) ouvre le projet en free software + package Math ; poussée encore active le 24 sept. Utile pour GN complexes maintenables / générables.",
-  "url": "https://github.com/denikryt/NodeForge/releases/tag/v0.50.0",
-  "tags": [
-   "blender-addon",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-09-27",
-  "name": "Simple Deform Helper 2.7.58 (V2)",
-  "summary": "Extension GPL (extensions.blender.org) : rebuild Geometry Nodes avec cages Standard / Shear / FFD / Curve, chaînes, multi-objets, keyframe + bake. Blender 5.0+. Gros saut UX pour déformer/animer sans se battre avec le Simple Deform natif.",
-  "url": "https://extensions.blender.org/add-ons/simple-deform-helper/",
-  "tags": [
-   "blender-addon"
-  ]
- },
- {
-  "date": "2026-09-27",
-  "name": "Blenderbase 1.3.2",
-  "summary": "App desktop gratuite pour gérer versions Blender, add-ons et .blend. La 1.3.x (21 sept) ajoute Sync pour cloner prefs, thème, keymap et add-ons entre machines (réseau local, dossier cloud, fichier .bbsetup).",
-  "url": "https://github.com/PhysicalAddons/blenderbase-public/releases/tag/v1.3.2",
-  "tags": [
-   "pipeline",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-09-27",
-  "name": "Fusion → Blender Bridge",
-  "summary": "Paire d’add-ons GPL (Fusion 360 + Blender 4.2+) : sync géométrie en un clic via WebSocket local ; matériaux, modifiers, sharp edges et light links Blender survivent aux révisions CAD. Pas d’import Appearance Fusion (volontaire).",
-  "url": "https://github.com/inspace9018/fusion-to-blender-bridge",
-  "tags": [
-   "blender-addon",
-   "cad-retopo",
-   "pipeline"
-  ]
- },
- {
-  "date": "2026-09-27",
-  "name": "Grease Pencil — Attribute Shape Keys (WIP)",
-  "summary": "Shape keys attributaires pour Grease Pencil en cours (PR #162946, prototype déjà jouable). Démos récentes (ex. rig 2D + drivers) : expressions faciales / morphs stroke sur builds expérimentales — pas encore dans une release stable.",
-  "url": "https://projects.blender.org/blender/blender/pulls/162946",
-  "tags": [
-   "emerging"
-  ]
- },
- {
-  "date": "2026-09-24",
-  "name": "Blender 5.3 — Gaussian Splats natifs (alpha)",
-  "summary": "Les Gaussian Splats entrent dans le cœur de Blender : import PLY / SPZ, schéma USD, nœuds Geometry Nodes et rendu Workbench / EEVEE / Cycles. Alpha 5.3 (finale prévue ~10 nov 2026), pas encore d’export.",
-  "url": "https://developer.blender.org/docs/release_notes/5.3/rendering/",
-  "tags": [
-   "emerging",
-   "usd"
-  ]
- },
- {
-  "date": "2026-09-24",
-  "name": "Light It Up 4.0.0",
-  "summary": "Add-on gratuit de 17 presets d’éclairage studio éditables, avec contrôles master (intensité, température, key/fill, orbit) et Fit To Subject. La 4.0.0 corrige notamment le collapse du rig à l’origine et son basculement sur les personnages FBX.",
-  "url": "https://extensions.blender.org/add-ons/light-it-up/",
-  "tags": [
-   "blender-addon"
-  ]
- },
- {
-  "date": "2026-09-24",
-  "name": "Blender 5.3 — bascule OCIO runtime",
-  "summary": "Mécanisme core pour changer la config OpenColorIO active à l’exécution (base pour des configs OCIO par projet). Fondations pipeline pour studios multi-configs ACES/OCIO ; l’UI projet complète n’est pas encore là.",
-  "url": "https://devtalk.blender.org/t/21-september-2026/45811",
-  "tags": [
-   "ocio",
-   "pipeline"
-  ]
- },
- {
-  "date": "2026-09-21",
-  "name": "Hardcraft 0.9.0-alpha",
-  "summary": "Add-on Blender 5.0+ qui retopo des exports CAD (STEP / Plasticity / OBJ) en patches quads/tris. La 0.9.0 (20 sept) ajoute le loft RAILS pour cylindres/cônes, plus de topo STEP, et des binaires converter Linux + macOS. Alpha GPL.",
-  "url": "https://github.com/polozad/hardcraft-dist/releases/tag/v0.9.0-alpha",
-  "tags": [
-   "blender-addon",
-   "cad-retopo",
-   "emerging"
-  ]
- },
- {
-  "date": "2026-09-21",
-  "name": "B Hair ShapeKey 1.0.0",
-  "summary": "Première extension officielle pour de vrais shape keys sur les Hair Curves modernes (sculpt Curves, drivers, miroir). Blender 5.2 LTS+, GPL, extensions.blender.org (13 sept).",
-  "url": "https://extensions.blender.org/add-ons/b-hair-shapekey/",
-  "tags": [
-   "blender-addon",
-   "hair"
-  ]
- },
- {
-  "date": "2026-09-21",
-  "name": "DV Skin Tools",
-  "summary": "Sortie initiale (14 sept). Weight paint / skinning style Maya (smooth multi-influences, mirror, copy weights, viz, undo, export JSON + script Maya). Blender 4.2+ / 5.x, GPL.",
-  "url": "https://blenderartists.org/t/released-dv-skin-tools-powerful-weight-paint-tools-for-blender/1652741",
-  "tags": [
-   "blender-addon",
-   "skinning"
-  ]
- },
- {
-  "date": "2026-09-21",
-  "name": "EXR Converter 0.10.0 / 0.10.1 (Derek Rein)",
-  "summary": "Desktop+CLI MIT pour EXR↔vidéo avec OCIO (ACES), slate/burn-in, ProRes. 0.10.0 corrige le bake ACES 2.0 + decode BRAW optionnel ; 0.10.1 durcit les browsers R3D/BRAW/ARRIRAW.",
-  "url": "https://github.com/derek-rein/exr-converter/releases",
-  "tags": [
-   "video",
-   "exr",
-   "ocio",
-   "encoding"
-  ]
- }
 ]
