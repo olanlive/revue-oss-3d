@@ -5,8 +5,57 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Open Painter 0.15.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-15-open-painter-0-15-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-15-open-painter-0-15-1</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Texturing PBR non destructif dans Blender 5.2+ (GPL) : texture sets, calques peints et de remplissage, masques, baking de mesh maps, 50 smart materials, UDIM et export. Version 0.15.1 publiée le 14 oct.</description>
+      <category>blender-addon</category>
+      <category>texturing</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Render Unique Frames 0.2.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-15-render-unique-frames-0-2-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-15-render-unique-frames-0-2-2</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender qui repère les images identiques d’une animation (objets, compositor, view layers) et ne rend que les uniques : idéal pour l’animation en 2 ou 3 et les gros décors fixes. Rendu headless en ligne de commande. Version 0.2.2 du 13 oct.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>render-farm</category>
+    </item>
+    <item>
+      <title>Preview Quads 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-15-preview-quads-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-15-preview-quads-1-0-0</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender qui prévisualise en direct, sans toucher au maillage, la conversion triangles vers quads (même algo que Blender), avec tous les réglages, puis l’applique en un clic. Pratique après import CAO ou booléens. Sorti le 12 oct.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Gausify Orbit 0.5.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-15-gausify-orbit-0-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-15-gausify-orbit-0-5-0</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Appli libre (MIT) qui transforme une vidéo en orbite, même générée par IA, en Gaussian Splat, 100 % en local : desktop macOS/Windows ou version WebGPU dans le navigateur. Version 0.5.0 du 13 oct.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Motion2MixamoRig (extension Blender)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-15-motion2mixamorig-extension-blender</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-15-motion2mixamorig-extension-blender</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Outil libre (Apache-2.0) qui copie le mouvement d’une personne filmée sur un perso riggé Mixamo et sort un GLB skinné. Une extension Blender 4.2+ expérimentale lance le pipeline depuis Blender. Mis en avant sur X le 13 oct.</description>
+      <category>blender-addon</category>
+      <category>rigging</category>
+      <category>animation</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>EffectCraft 0.9.2</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-14-effectcraft-0-9-2</link>
