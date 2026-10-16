@@ -5,8 +5,69 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Dolly Zoom 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-dolly-zoom-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-dolly-zoom-1-0-0</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL (4.2+) : curseur de dolly zoom (effet Hitchcock) pour le viewport et la caméra — focale et déplacement liés, pivot sur le curseur 3D. Première version 1.0.0 publiée le 11 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>camera</category>
+      <category>animation</category>
+    </item>
+    <item>
+      <title>Minimalist Pipeline 1.0.14</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-minimalist-pipeline-1-0-14</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-minimalist-pipeline-1-0-14</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Pipeline fichier léger dans Blender (GPL) : projets, versions, notes/retakes, sessions read-only et ferme de rendu sur disque partagé (JSON locaux). La 1.0.14 du 15 oct. ajoute le suivi Farm au monitoring et les previews de séquence.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>render-farm</category>
+      <category>asset-management</category>
+    </item>
+    <item>
+      <title>FreebirdCollabo 0.12.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-freebirdcollabo-0-12-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-freebirdcollabo-0-12-1</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL (alpha publique) pour co-éditer une scène en temps réel (objets, mesh, UV, matériaux, pose…) via Room Code ; option VR avec Freebird XR. La v0.12.1 du 6 oct. permet la mise à jour depuis le panneau COLLAB.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>OpenUTV 2026.13</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-openutv-2026-13</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-openutv-2026-13</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Lecteur d’images/séquences OSS (Apache 2.0, fork d’OpenRV) pour la review VFX : EXR/DPX, OCIO, HDR. La 2026.13 du 11 oct. accélère fortement les séquences d’images et ajoute un hover preview sur la timeline.</description>
+      <category>pipeline</category>
+      <category>vfx</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Hardcraft 0.10.0-alpha</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-hardcraft-0-10-0-alpha</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-hardcraft-0-10-0-alpha</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on de retopo CAO pour Blender (Plasticity/STEP/OBJ). La 0.10.0-alpha du 14 oct. ajoute De-feature (poches/bosses), couvreurs intégrés à la topologie (faces courbes incluses), Join de courbes et sélection par continuité CAO.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Synth Surface</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-synth-surface</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-synth-surface</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL : textures procédurales greeble (couleur/displacement) et lumières scatter, fork de Displacement X, utilisable directement dans Blender. Présenté sur r/blender fin septembre 2026.</description>
+      <category>blender-addon</category>
+      <category>texturing</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>Open Painter 0.15.1</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-15-open-painter-0-15-1</link>

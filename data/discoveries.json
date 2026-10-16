@@ -1,5 +1,96 @@
 [
   {
+    "date": "2026-10-16",
+    "name": "Dolly Zoom 1.0.0",
+    "summary": "Add-on Blender GPL (4.2+) : curseur de dolly zoom (effet Hitchcock) pour le viewport et la caméra — focale et déplacement liés, pivot sur le curseur 3D. Première version 1.0.0 publiée le 11 oct. 2026.",
+    "url": "https://extensions.blender.org/add-ons/dolly-zoom/",
+    "tags": [
+      "blender-addon",
+      "camera",
+      "animation"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "url": "https://extensions.blender.org/add-ons/dolly-zoom/"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Minimalist Pipeline 1.0.14",
+    "summary": "Pipeline fichier léger dans Blender (GPL) : projets, versions, notes/retakes, sessions read-only et ferme de rendu sur disque partagé (JSON locaux). La 1.0.14 du 15 oct. ajoute le suivi Farm au monitoring et les previews de séquence.",
+    "url": "https://extensions.blender.org/add-ons/minimalist-pipeline/",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "render-farm",
+      "asset-management"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "url": "https://extensions.blender.org/add-ons/minimalist-pipeline/"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "FreebirdCollabo 0.12.1",
+    "summary": "Add-on Blender GPL (alpha publique) pour co-éditer une scène en temps réel (objets, mesh, UV, matériaux, pose…) via Room Code ; option VR avec Freebird XR. La v0.12.1 du 6 oct. permet la mise à jour depuis le panneau COLLAB.",
+    "url": "https://github.com/niwanotorico/FreebirdCollabo/releases/tag/v0.12.1",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — Modeling Happy (article FreebirdCollabo)",
+      "url": "https://modelinghappy.com/archives/70924"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "OpenUTV 2026.13",
+    "summary": "Lecteur d’images/séquences OSS (Apache 2.0, fork d’OpenRV) pour la review VFX : EXR/DPX, OCIO, HDR. La 2026.13 du 11 oct. accélère fortement les séquences d’images et ajoute un hover preview sur la timeline.",
+    "url": "https://github.com/OpenUTV/utv/releases/tag/2026.13",
+    "tags": [
+      "pipeline",
+      "vfx",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — OpenUTV/utv (releases)",
+      "url": "https://github.com/OpenUTV/utv/releases"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Hardcraft 0.10.0-alpha",
+    "summary": "Add-on de retopo CAO pour Blender (Plasticity/STEP/OBJ). La 0.10.0-alpha du 14 oct. ajoute De-feature (poches/bosses), couvreurs intégrés à la topologie (faces courbes incluses), Join de courbes et sélection par continuité CAO.",
+    "url": "https://github.com/polozad/hardcraft-dist/releases/tag/v0.10.0-alpha",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — polozad/hardcraft-dist (releases)",
+      "url": "https://github.com/polozad/hardcraft-dist/releases"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Synth Surface",
+    "summary": "Add-on Blender GPL : textures procédurales greeble (couleur/displacement) et lumières scatter, fork de Displacement X, utilisable directement dans Blender. Présenté sur r/blender fin septembre 2026.",
+    "url": "https://github.com/nopeburger/synth-surface",
+    "tags": [
+      "blender-addon",
+      "texturing",
+      "emerging"
+    ],
+    "source": {
+      "label": "Reddit — r/blender (Synth Surface)",
+      "url": "https://www.reddit.com/r/blender/comments/1wto9rb/synth_surface_free_addon/"
+    }
+  },
+  {
     "date": "2026-10-15",
     "name": "Open Painter 0.15.1",
     "summary": "Texturing PBR non destructif dans Blender 5.2+ (GPL) : texture sets, calques peints et de remplissage, masques, baking de mesh maps, 50 smart materials, UDIM et export. Version 0.15.1 publiée le 14 oct.",
