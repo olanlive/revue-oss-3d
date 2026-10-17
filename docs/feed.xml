@@ -5,8 +5,58 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SMIRK 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-17-smirk-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-17-smirk-1-0-1</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL (5.2+) pour creuser bouches, yeux et autres ouvertures stylisées dans un mesh à partir d’une boucle d’arêtes, d’un ruban ou de Grease Pencil — la « bouche booléenne », pensée pour la prod. Publié le 13 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>rigging</category>
+    </item>
+    <item>
+      <title>Texture Wrangler 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-17-texture-wrangler-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-17-texture-wrangler-1-0-0</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL qui détecte chaque map (normal, roughness, AO…) quel que soit son nommage, puis copie et renomme les textures dans des dossiers matériaux propres, sans toucher aux originaux. Publié le 11 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>asset-management</category>
+      <category>texturing</category>
+    </item>
+    <item>
+      <title>LichtFeld Studio 0.5.4</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-17-lichtfeld-studio-0-5-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-17-lichtfeld-studio-0-5-4</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description>L’appli GPL d’entraînement et d’édition de Gaussian Splats ajoute un gestionnaire de projets, une galerie en ligne, un rendu headless de chemins caméra et l’entraînement HDR 16 bits, avec moins de VRAM. Sortie le 9 oct. 2026.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>natron-mcp</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-17-natron-mcp</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-17-natron-mcp</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Serveur MCP en Python (GPL-2) qui laisse un agent IA piloter Natron : graphe de nœuds, paramètres, keyframes, rendu, sessions headless. Pensé pour le fork Natron 3D 2.6 de Niik-l ; dépôt créé le 12 oct. 2026.</description>
+      <category>vfx</category>
+      <category>compositing</category>
+      <category>natron</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Blender — LoopTools désormais natif</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-17-blender-looptools-desormais-natif</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-17-blender-looptools-desormais-natif</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description>La réunion Modeling du 12 oct. 2026 annonce la fin de la migration des LoopTools en outils natifs de Blender ; une PR ouverte les ajoute au menu contextuel du mode édition.</description>
+      <category>blender</category>
+      <category>modeling</category>
+    </item>
     <item>
       <title>Dolly Zoom 1.0.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-dolly-zoom-1-0-0</link>
