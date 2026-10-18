@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-10-18",
+    "name": "Loop Resample 1.0.1",
+    "name_en": "Loop Resample 1.0.1",
+    "summary": "Add-on Blender GPL : sélectionnez des arêtes et changez leur nombre de segments à la molette, en gardant UV, seams, arêtes vives et couleurs de sommets. Shift lisse la courbe, Ctrl répartit les points. Publié le 11 oct. 2026, déjà près de 900 téléchargements.",
+    "summary_en": "GPL Blender add-on: select edges and change their segment count with the mouse wheel while keeping UVs, seams, sharp edges and vertex colours. Shift smooths the curve, Ctrl spaces points evenly. Released on Oct 11, 2026, already close to 900 downloads.",
+    "url": "https://extensions.blender.org/add-ons/loop-resample/",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "cad-retopo"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Mesh XR 0.6.4",
+    "name_en": "Mesh XR 0.6.4",
+    "summary": "Add-on Blender GPL qui permet de modéliser en VR via OpenXR : une manette sélectionne et déplace objets ou faces, l’autre porte un menu d’outils (extrude, bevel, inset, matériaux, UV). Publié le 9 oct. 2026 ; v0.6.5 sur GitHub le 17 oct.",
+    "summary_en": "GPL Blender add-on for modelling in VR through OpenXR: one controller selects and moves objects or faces, the other holds a tool menu (extrude, bevel, inset, materials, UVs). Released on Oct 9, 2026; v0.6.5 on GitHub on Oct 17.",
+    "url": "https://extensions.blender.org/add-ons/blender-xr/",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Blender — nœud Straight Skeleton (WIP)",
+    "name_en": "Blender — Straight Skeleton node (WIP)",
+    "summary": "PR de Howard Trickey : un nœud Geometry Nodes « Straight Skeleton » qui fait des insets/outsets façon offset à onglets sur courbes, meshes ou Grease Pencil, en gérant les chevauchements, avec plusieurs segments. « Presque fusionnable » selon la réunion du 12 oct. 2026.",
+    "summary_en": "PR by Howard Trickey: a “Straight Skeleton” Geometry Nodes node that makes mitred-offset-style insets/outsets on curves, meshes or Grease Pencil, handling overlaps, with multiple segments. “Closer to mergeable” per the Oct 12, 2026 meeting.",
+    "url": "https://projects.blender.org/blender/blender/pulls/165024",
+    "tags": [
+      "blender",
+      "geometry-nodes",
+      "modeling"
+    ],
+    "source": {
+      "label": "Web — devtalk.blender.org (Modeling Module Meeting du 12 oct.)",
+      "label_en": "Web — devtalk.blender.org (Oct 12 Modeling Module Meeting)",
+      "url": "https://devtalk.blender.org/t/2026-10-12-modeling-module-meeting/46035"
+    }
+  },
+  {
+    "date": "2026-10-18",
+    "name": "AYON Core 1.10",
+    "name_en": "AYON Core 1.10",
+    "summary": "Le pipeline open source AYON (successeur d’OpenPype) ajoute au Browser une catégorie Lists : listes d’entités et sessions de review rangées en dossiers, pour filtrer les versions d’un plan ou d’une tâche. 1.10.0 le 7 oct. 2026, correctif 1.10.1 le 13 oct.",
+    "summary_en": "The open-source AYON pipeline (OpenPype’s successor) adds a Lists category to its Browser: entity lists and review sessions grouped in folders, to filter versions of a shot or task. 1.10.0 on Oct 7, 2026, 1.10.1 fix on Oct 13.",
+    "url": "https://github.com/ynput/ayon-core/releases/tag/1.10.0",
+    "tags": [
+      "pipeline",
+      "asset-management",
+      "vfx"
+    ],
+    "source": {
+      "label": "GitHub — releases ynput/ayon-core (topic vfx-pipeline)",
+      "label_en": "GitHub — ynput/ayon-core releases (vfx-pipeline topic)",
+      "url": "https://github.com/ynput/ayon-core/releases"
+    }
+  },
+  {
     "date": "2026-10-17",
     "name": "SMIRK 1.0.1",
     "name_en": "SMIRK 1.0.1",

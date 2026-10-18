@@ -5,8 +5,48 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Loop Resample 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-18-loop-resample-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-18-loop-resample-1-0-1</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL : sélectionnez des arêtes et changez leur nombre de segments à la molette, en gardant UV, seams, arêtes vives et couleurs de sommets. Shift lisse la courbe, Ctrl répartit les points. Publié le 11 oct. 2026, déjà près de 900 téléchargements.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>cad-retopo</category>
+    </item>
+    <item>
+      <title>Mesh XR 0.6.4</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-18-mesh-xr-0-6-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-18-mesh-xr-0-6-4</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL qui permet de modéliser en VR via OpenXR : une manette sélectionne et déplace objets ou faces, l’autre porte un menu d’outils (extrude, bevel, inset, matériaux, UV). Publié le 9 oct. 2026 ; v0.6.5 sur GitHub le 17 oct.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Blender — nœud Straight Skeleton (WIP)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-18-blender-nud-straight-skeleton-wip</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-18-blender-nud-straight-skeleton-wip</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>PR de Howard Trickey : un nœud Geometry Nodes « Straight Skeleton » qui fait des insets/outsets façon offset à onglets sur courbes, meshes ou Grease Pencil, en gérant les chevauchements, avec plusieurs segments. « Presque fusionnable » selon la réunion du 12 oct. 2026.</description>
+      <category>blender</category>
+      <category>geometry-nodes</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>AYON Core 1.10</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-18-ayon-core-1-10</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-18-ayon-core-1-10</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le pipeline open source AYON (successeur d’OpenPype) ajoute au Browser une catégorie Lists : listes d’entités et sessions de review rangées en dossiers, pour filtrer les versions d’un plan ou d’une tâche. 1.10.0 le 7 oct. 2026, correctif 1.10.1 le 13 oct.</description>
+      <category>pipeline</category>
+      <category>asset-management</category>
+      <category>vfx</category>
+    </item>
     <item>
       <title>SMIRK 1.0.1</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-17-smirk-1-0-1</link>
