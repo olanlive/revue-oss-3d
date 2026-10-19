@@ -5,8 +5,56 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PolySketch 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-polysketch-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-19-polysketch-1-0-0</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL pour dessiner comme en CAO : esquisse 2D sur faces ou plans de travail avec accroches (sommet, milieu, perpendiculaire), découpe de faces le long d’une polyligne et offset à onglets exacts avec unités (100mm, 2'6"). Publié le 11 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>cad-retopo</category>
+    </item>
+    <item>
+      <title>Auto Pivot Baker 1.0.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-auto-pivot-baker-1-0-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-19-auto-pivot-baker-1-0-2</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL qui fusionne une collection d’objets en un seul mesh en gardant le pivot de chacun dans les UV, pour animer les morceaux par shader dans Unreal ou Unity. Projets d’exemple fournis ; v1.0.2 le 14 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>MatteDesk 0.32</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-mattedesk-0-32</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-19-mattedesk-0-32</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Outil GPL local pour le roto et les mattes VFX dans le navigateur : on décrit ou clique l’objet, SAM3, CoTracker3 et MatAnyone2 calculent le masque sur tout le plan, on ne corrige que les frames ratées. Export vers Nuke/After Effects. v0.32 le 18 oct. 2026.</description>
+      <category>vfx</category>
+      <category>compositing</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>RenderMesh 0.3.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-rendermesh-0-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-19-rendermesh-0-3-0</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Mini ferme de rendu Blender sans serveur pour PC Windows en réseau local (C++, Apache 2.0) : les machines inactives prennent des paquets de frames Eevee ou Cycles, le projet est transféré et les sorties rapatriées. CLI JSON incluse. v0.3.0 le 16 oct. 2026.</description>
+      <category>pipeline</category>
+      <category>render-farm</category>
+      <category>blender</category>
+    </item>
+    <item>
+      <title>babalon JS 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-babalon-js-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-19-babalon-js-1-0-1</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Compositeur de scènes 3D GPL dans le navigateur (Babylon.js, PWA hors ligne) : on importe glb/fbx, on place avec les raccourcis façon Blender, on éclaire, pose ou auto-rigge, puis mode photo de jeu vidéo et AR. v1.0.1 le 16 oct. 2026.</description>
+      <category>emerging</category>
+      <category>web</category>
+    </item>
     <item>
       <title>Loop Resample 1.0.1</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-18-loop-resample-1-0-1</link>
