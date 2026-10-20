@@ -5,8 +5,58 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 19 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RealIndex 1.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-20-realindex-1-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-20-realindex-1-1-0</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Extension Blender 5.2 GPL qui transforme un dossier en bibliothèque d’assets vivante : on y dépose un modèle Sketchfab, une texture ambientCG ou Poly Haven ou un HDRI (zippé ou non), et il apparaît dans l’Asset Browser avec sa vignette, sans import manuel. v1.1.0 le 17 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>asset-management</category>
+    </item>
+    <item>
+      <title>c4-operator 0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-20-c4-operator-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-20-c4-operator-0-1</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Opérateur Kubernetes Apache-2.0 d’Avalanche-io qui fait d’un cluster une ferme de rendu, CI et ML : fichiers adressés par ID C4 (SMPTE ST 2114), file triée par deadlines plutôt que priorités, sorties versionnées, HUD et serveur MCP. Statut v0.1, publié le 16 oct. 2026.</description>
+      <category>pipeline</category>
+      <category>render-farm</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>B-Bone Gizmos 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-20-b-bone-gizmos-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-20-b-bone-gizmos-1-0-0</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Extension Blender GPL de Tal Hershkovich, tirée d’AnimToolbox : un outil gizmo en Pose Mode pour sculpter les bendy bones comme des poignées de Bézier (position, rotation, échelle). Citée au meeting Animation &amp; Rigging du 15 oct. 2026 comme référence pour une intégration native.</description>
+      <category>blender-addon</category>
+      <category>rigging</category>
+      <category>animation</category>
+    </item>
+    <item>
+      <title>E3D Bridge 0.3.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-20-e3d-bridge-0-3-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-20-e3d-bridge-0-3-2</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL qui exporte une scène en un clic vers Element 3D (After Effects) : OBJ + MTL aux bons slots, textures Principled converties (roughness en glossiness, bump en normal), décimation des gros meshes CAO et rapport détaillé. Première version le 5 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>vfx</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>UV Island Colorizer 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-20-uv-island-colorizer-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-20-uv-island-colorizer-1-0-0</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender GPL qui donne une couleur aléatoire à chaque île UV pour vérifier un layout d’un coup d’œil, et peut baker une color ID map PNG de 64 à 8192 px via Cycles, par mesh, sélection ou collection entière. Publié le 10 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>uv</category>
+      <category>texturing</category>
+    </item>
     <item>
       <title>PolySketch 1.0.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-polysketch-1-0-0</link>
@@ -927,35 +977,6 @@
       <category>blender-addon</category>
       <category>cad-retopo</category>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>B Hair ShapeKey 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-21-b-hair-shapekey-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-21-b-hair-shapekey-1-0-0</guid>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Première extension officielle pour de vrais shape keys sur les Hair Curves modernes (sculpt Curves, drivers, miroir). Blender 5.2 LTS+, GPL, extensions.blender.org (13 sept).</description>
-      <category>blender-addon</category>
-      <category>hair</category>
-    </item>
-    <item>
-      <title>DV Skin Tools</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-21-dv-skin-tools</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-21-dv-skin-tools</guid>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Sortie initiale (14 sept). Weight paint / skinning style Maya (smooth multi-influences, mirror, copy weights, viz, undo, export JSON + script Maya). Blender 4.2+ / 5.x, GPL.</description>
-      <category>blender-addon</category>
-      <category>skinning</category>
-    </item>
-    <item>
-      <title>EXR Converter 0.10.0 / 0.10.1 (Derek Rein)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-21-exr-converter-0-10-0-0-10-1-derek-rein</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-21-exr-converter-0-10-0-0-10-1-derek-rein</guid>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Desktop+CLI MIT pour EXR↔vidéo avec OCIO (ACES), slate/burn-in, ProRes. 0.10.0 corrige le bake ACES 2.0 + decode BRAW optionnel ; 0.10.1 durcit les browsers R3D/BRAW/ARRIRAW.</description>
-      <category>video</category>
-      <category>exr</category>
-      <category>ocio</category>
-      <category>encoding</category>
     </item>
   </channel>
 </rss>
