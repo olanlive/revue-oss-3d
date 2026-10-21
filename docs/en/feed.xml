@@ -5,8 +5,52 @@
     <link>https://olanlive.github.io/revue-oss-3d/en/</link>
     <description>Open source 3D, VFX and video watch.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OOOSplat 0.7.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-21-ooosplat-0-7-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-21-ooosplat-0-7-0</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Apache-2.0 desktop app (Windows, macOS, Linux) that turns a video or image sequence into Gaussian Splats in one click, fully local (COLMAP + Brush). v0.7.0 on Oct 19, 2026 adds 360° video, PLY/SOG/SPZ import and multi-format export.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Maya Workflow Kit for Blender 0.2.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-21-maya-workflow-kit-for-blender-0-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-21-maya-workflow-kit-for-blender-0-2-0</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
+      <description>GPL Blender extension that gives Maya users their bearings back: hotbox and marking menus, Channel Box, Attribute Editor, shelves, Freeze/Delete History. One switch restores stock Blender. First public release on Oct 20, 2026.</description>
+      <category>blender-addon</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>In-Place Animation Tool 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-21-in-place-animation-tool-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-21-in-place-animation-tool-1-0-1</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
+      <description>GPL Blender extension that turns root-motion animations (Mixamo, Cascadeur, mocap, Rigify) into in-place cycles without feet sinking, keeping jumps and sway, and can extract a root bone for game engines. v1.0.1 on Oct 19, 2026.</description>
+      <category>blender-addon</category>
+      <category>animation</category>
+    </item>
+    <item>
+      <title>FBX Scale Report 0.1.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-21-fbx-scale-report-0-1-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-21-fbx-scale-report-0-1-2</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
+      <description>GPL Blender extension (also a command-line tool) that reads a folder of FBX files without importing them and reports each file’s declared unit scale and the tool that wrote it, with CSV and HTML reports. No more 100× oversized models. Released Oct 15, 2026.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Photonsmith 0.1.4</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-21-photonsmith-0-1-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-21-photonsmith-0-1-4</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
+      <description>MIT pbrt-v4-compatible path tracer with CPU, OptiX and Metal backends, a Qt GUI, a Scene Builder and a live preview where you can drag objects; its renders are checked against closed-form results. Shown on Oct 21, 2026; v0.1.4 from Oct 15.</description>
+      <category>emerging</category>
+    </item>
     <item>
       <title>RealIndex 1.1.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-20-realindex-1-1-0</link>
@@ -933,50 +977,6 @@
       <category>blender-addon</category>
       <category>cad-retopo</category>
       <category>pipeline</category>
-    </item>
-    <item>
-      <title>Grease Pencil — Attribute Shape Keys (WIP)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-09-27-grease-pencil-attribute-shape-keys-wip</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-09-27-grease-pencil-attribute-shape-keys-wip</guid>
-      <pubDate>Sun, 27 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Attribute-based shape keys for Grease Pencil in progress (PR #162946, prototype already usable). Recent demos (e.g. 2D rig + drivers): facial expressions / stroke morphs on experimental builds — not yet in a stable release.</description>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Blender 5.3 — native Gaussian Splats (alpha)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-09-24-blender-5-3-gaussian-splats-natifs-alpha</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-09-24-blender-5-3-gaussian-splats-natifs-alpha</guid>
-      <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Gaussian Splats land in Blender’s core: PLY / SPZ import, USD schema, Geometry Nodes and Workbench / EEVEE / Cycles rendering. 5.3 alpha (final expected ~Nov 10, 2026), no export yet.</description>
-      <category>emerging</category>
-      <category>usd</category>
-    </item>
-    <item>
-      <title>Light It Up 4.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-09-24-light-it-up-4-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-09-24-light-it-up-4-0-0</guid>
-      <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Free add-on with 17 editable studio lighting presets, master controls (intensity, temperature, key/fill, orbit) and Fit To Subject. 4.0.0 notably fixes the rig collapsing to the origin and flipping on FBX characters.</description>
-      <category>blender-addon</category>
-    </item>
-    <item>
-      <title>Blender 5.3 — runtime OCIO switching</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-09-24-blender-5-3-bascule-ocio-runtime</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-09-24-blender-5-3-bascule-ocio-runtime</guid>
-      <pubDate>Thu, 24 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Core mechanism to change the active OpenColorIO config at runtime (a basis for per-project OCIO configs). Pipeline foundations for studios with multiple ACES/OCIO configs; the full project UI isn’t there yet.</description>
-      <category>ocio</category>
-      <category>pipeline</category>
-    </item>
-    <item>
-      <title>Hardcraft 0.9.0-alpha</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-09-21-hardcraft-0-9-0-alpha</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-09-21-hardcraft-0-9-0-alpha</guid>
-      <pubDate>Mon, 21 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Blender 5.0+ add-on that retopologizes CAD exports (STEP / Plasticity / OBJ) into quad/tri patches. 0.9.0 (Sept 20) adds RAILS lofting for cylinders/cones, more STEP topology, and Linux + macOS converter binaries. GPL alpha.</description>
-      <category>blender-addon</category>
-      <category>cad-retopo</category>
-      <category>emerging</category>
     </item>
   </channel>
 </rss>

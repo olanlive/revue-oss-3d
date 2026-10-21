@@ -1,5 +1,89 @@
 [
   {
+    "date": "2026-10-21",
+    "name": "OOOSplat 0.7.0",
+    "name_en": "OOOSplat 0.7.0",
+    "summary": "Appli desktop Apache-2.0 (Windows, macOS, Linux) qui transforme une vidéo ou une série d’images en Gaussian Splats en un clic, tout en local (COLMAP + Brush). La v0.7.0 du 19 oct. 2026 ajoute la vidéo 360°, l’import PLY/SOG/SPZ et l’export multiformat.",
+    "summary_en": "Apache-2.0 desktop app (Windows, macOS, Linux) that turns a video or image sequence into Gaussian Splats in one click, fully local (COLMAP + Brush). v0.7.0 on Oct 19, 2026 adds 360° video, PLY/SOG/SPZ import and multi-format export.",
+    "url": "https://github.com/ooolabdev/ooosplat/releases/tag/0.7.0",
+    "tags": [
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (repos actifs)",
+      "label_en": "GitHub — gaussian-splatting topic (active repos)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "name": "Maya Workflow Kit for Blender 0.2.0",
+    "name_en": "Maya Workflow Kit for Blender 0.2.0",
+    "summary": "Extension Blender GPL qui rend aux habitués de Maya leurs repères : hotbox et marking menus, Channel Box, Attribute Editor, shelves, Freeze/Delete History. Un interrupteur rend Blender d’origine. Première version publique le 20 oct. 2026.",
+    "summary_en": "GPL Blender extension that gives Maya users their bearings back: hotbox and marking menus, Channel Box, Attribute Editor, shelves, Freeze/Delete History. One switch restores stock Blender. First public release on Oct 20, 2026.",
+    "url": "https://github.com/5hyuns/maya-workflow-kit-for-blender/releases/tag/v0.2.0",
+    "tags": [
+      "blender-addon",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — blender-addon topic (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "name": "In-Place Animation Tool 1.0.1",
+    "name_en": "In-Place Animation Tool 1.0.1",
+    "summary": "Extension Blender GPL qui convertit des animations en root motion (Mixamo, Cascadeur, mocap, Rigify) en cycles sur place, sans pieds qui s’enfoncent, en gardant sauts et balancement, avec extraction d’un root bone pour les moteurs de jeu. v1.0.1 le 19 oct. 2026.",
+    "summary_en": "GPL Blender extension that turns root-motion animations (Mixamo, Cascadeur, mocap, Rigify) into in-place cycles without feet sinking, keeping jumps and sway, and can extract a root bone for game engines. v1.0.1 on Oct 19, 2026.",
+    "url": "https://extensions.blender.org/add-ons/inplace-anim-tool/",
+    "tags": [
+      "blender-addon",
+      "animation"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "name": "FBX Scale Report 0.1.2",
+    "name_en": "FBX Scale Report 0.1.2",
+    "summary": "Extension Blender GPL (aussi en ligne de commande) qui lit un dossier de FBX sans les importer et signale l’échelle déclarée par chaque fichier et l’outil qui l’a écrit, avec rapport CSV et HTML. Fini les modèles 100× trop grands. Publiée le 15 oct. 2026.",
+    "summary_en": "GPL Blender extension (also a command-line tool) that reads a folder of FBX files without importing them and reports each file’s declared unit scale and the tool that wrote it, with CSV and HTML reports. No more 100× oversized models. Released Oct 15, 2026.",
+    "url": "https://extensions.blender.org/add-ons/fbxscale/",
+    "tags": [
+      "blender-addon",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "name": "Photonsmith 0.1.4",
+    "name_en": "Photonsmith 0.1.4",
+    "summary": "Path tracer MIT compatible pbrt-v4, avec backends CPU, OptiX et Metal, interface Qt, Scene Builder et aperçu live où l’on déplace les objets ; ses rendus sont vérifiés contre des résultats analytiques. Présenté le 21 oct. 2026, v0.1.4 du 15 oct.",
+    "summary_en": "MIT pbrt-v4-compatible path tracer with CPU, OptiX and Metal backends, a Qt GUI, a Scene Builder and a live preview where you can drag objects; its renders are checked against closed-form results. Shown on Oct 21, 2026; v0.1.4 from Oct 15.",
+    "url": "https://github.com/WxpMomota/photonsmith",
+    "tags": [
+      "emerging"
+    ],
+    "source": {
+      "label": "Reddit — r/GraphicsProgramming (Photonsmith)",
+      "label_en": "Reddit — r/GraphicsProgramming (Photonsmith)",
+      "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1xbeuf2/photonsmith_an_opensource_pbrtv4compatible_path/"
+    }
+  },
+  {
     "date": "2026-10-20",
     "name": "RealIndex 1.1.0",
     "name_en": "RealIndex 1.1.0",
