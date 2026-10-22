@@ -1,5 +1,90 @@
 [
   {
+    "date": "2026-10-22",
+    "name": "Blender sur Android — APK de démo (BCON26)",
+    "name_en": "Blender on Android — demo APK (BCON26)",
+    "summary": "Blender publie le 21 oct. 2026 la présentation du projet Blender sur Android montrée à la BCON26, avec un APK de démo téléchargeable pour tester l’avancée du portage sur tablette.",
+    "summary_en": "On Oct 21, 2026 Blender shared the Blender on Android project presentation shown at BCON26, along with a downloadable demo APK to try the current state of the tablet port.",
+    "url": "https://download.blender.org/demo/tablet/blender-demo-bcon2026.apk",
+    "tags": [
+      "blender",
+      "emerging"
+    ],
+    "source": {
+      "label": "Mastodon — @Blender@mastodon.social",
+      "label_en": "Mastodon — @Blender@mastodon.social",
+      "url": "https://mastodon.social/@Blender/117478893621338513"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "Holey Tools 1.0.0",
+    "name_en": "Holey Tools 1.0.0",
+    "summary": "Extension Blender GPL de précision pour les trous dans les maillages : Resize Hole redimensionne un perçage cylindrique ou conique au diamètre voulu, Fair Hole rebouche proprement. Mise à jour du 22 oct. 2026 qui gère bien mieux les cas difficiles.",
+    "summary_en": "GPL Blender extension for precise work on mesh holes: Resize Hole sets a cylindrical or conical bore to an exact diameter, Fair Hole fills it cleanly. The Oct 22, 2026 update handles difficult cases much better.",
+    "url": "https://extensions.blender.org/add-ons/holey-tools/",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Mastodon — @amoose136@3dp.chat (#b3d)",
+      "label_en": "Mastodon — @amoose136@3dp.chat (#b3d)",
+      "url": "https://3dp.chat/@amoose136/117483125740823973"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "Unravel 1.0.0",
+    "name_en": "Unravel 1.0.0",
+    "summary": "Extension Blender 5.2 en Geometry Nodes : on peint des déchirures sur un tissu, les trous s’ouvrent avec bords épais et fils effilochés (8 presets : denim, lin, soie…), compatibles simulation et export. Sortie le 19 oct. 2026.",
+    "summary_en": "Geometry Nodes extension for Blender 5.2: paint tears onto cloth and holes open with thick edges and frayed threads (8 presets: denim, linen, silk…), ready for simulation and export. Released Oct 19, 2026.",
+    "url": "https://extensions.blender.org/add-ons/unravel/",
+    "tags": [
+      "blender-addon",
+      "geometry-nodes"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "EasyBones 0.3.0",
+    "name_en": "EasyBones 0.3.0",
+    "summary": "Extension Blender GPL pour placer des os depuis une sélection de sommets sans quitter l’édition du maillage : New, Extend, Span (un os à travers un cylindre), menu pie Shift+Alt+B. Publiée le 19 oct. 2026.",
+    "summary_en": "GPL Blender extension to place bones from a vertex selection without leaving mesh edit mode: New, Extend, Span (a bone through a cylinder), Shift+Alt+B pie menu. Published Oct 19, 2026.",
+    "url": "https://extensions.blender.org/add-ons/easybones/",
+    "tags": [
+      "blender-addon",
+      "rigging"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "athenea 0.3.0",
+    "name_en": "athenea 0.3.0",
+    "summary": "Moteur Apache-2.0 (Slang + délégué Hydra) qui convertit des assets USD en Gaussian splats ré-éclairables sous n’importe quel ciel. La v0.3.0 du 19 oct. 2026 sort sur macOS, Linux et Windows avec un add-on Blender ; nœud OFX Nuke/Natron en route.",
+    "summary_en": "Apache-2.0 engine (Slang + Hydra delegate) that turns USD assets into Gaussian splats you can relight under any sky. v0.3.0 on Oct 19, 2026 ships for macOS, Linux and Windows with a Blender add-on; a Nuke/Natron OFX node is coming.",
+    "url": "https://github.com/jesusluque/athenea/releases/tag/v0.3.0",
+    "tags": [
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (repos actifs)",
+      "label_en": "GitHub — gaussian-splatting topic (active repos)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
     "date": "2026-10-21",
     "name": "OOOSplat 0.7.0",
     "name_en": "OOOSplat 0.7.0",

@@ -5,8 +5,53 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Blender sur Android — APK de démo (BCON26)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-22-blender-sur-android-apk-de-demo-bcon26</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-22-blender-sur-android-apk-de-demo-bcon26</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Blender publie le 21 oct. 2026 la présentation du projet Blender sur Android montrée à la BCON26, avec un APK de démo téléchargeable pour tester l’avancée du portage sur tablette.</description>
+      <category>blender</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Holey Tools 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-22-holey-tools-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-22-holey-tools-1-0-0</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Extension Blender GPL de précision pour les trous dans les maillages : Resize Hole redimensionne un perçage cylindrique ou conique au diamètre voulu, Fair Hole rebouche proprement. Mise à jour du 22 oct. 2026 qui gère bien mieux les cas difficiles.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Unravel 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-22-unravel-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-22-unravel-1-0-0</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Extension Blender 5.2 en Geometry Nodes : on peint des déchirures sur un tissu, les trous s’ouvrent avec bords épais et fils effilochés (8 presets : denim, lin, soie…), compatibles simulation et export. Sortie le 19 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>geometry-nodes</category>
+    </item>
+    <item>
+      <title>EasyBones 0.3.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-22-easybones-0-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-22-easybones-0-3-0</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Extension Blender GPL pour placer des os depuis une sélection de sommets sans quitter l’édition du maillage : New, Extend, Span (un os à travers un cylindre), menu pie Shift+Alt+B. Publiée le 19 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>rigging</category>
+    </item>
+    <item>
+      <title>athenea 0.3.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-22-athenea-0-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-22-athenea-0-3-0</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Moteur Apache-2.0 (Slang + délégué Hydra) qui convertit des assets USD en Gaussian splats ré-éclairables sous n’importe quel ciel. La v0.3.0 du 19 oct. 2026 sort sur macOS, Linux et Windows avec un add-on Blender ; nœud OFX Nuke/Natron en route.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>OOOSplat 0.7.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-21-ooosplat-0-7-0</link>
@@ -930,53 +975,6 @@
       <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
       <description>Path tracer WebGPU pour three.js (MIT) : la 0.0.25 (28 sept) expose WebGPUPathTracer via « three-gpu-pathtracer/webgpu », déprécie WebGLPathTracer ; 0.0.26 (29 sept) corrige le chargement CDN. Utile pour previews web path-tracés / intégration web 3D.</description>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>CoatLink 0.2.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-29-coatlink-0-2-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-29-coatlink-0-2-0</guid>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Pont GPL Blender ↔ 3D-Coat (protocole AppLink) : sync modèles bidirectionnelle prévisible, sans baking ni chirurgie de scène. La 0.2.0 (24 sept) resserre le pont ; install one-click. Niche mais utile si 3D-Coat est dans le pipeline sculpt/retopo.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-      <category>cad-retopo</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>NodeForge 0.50.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-27-nodeforge-0-50-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-27-nodeforge-0-50-0</guid>
-      <pubDate>Sun, 27 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Add-on GPL qui compile un DSL Python-like en Geometry Nodes natifs (variables, opérateurs, packages). La 0.50.0 (18 sept) ouvre le projet en free software + package Math ; poussée encore active le 24 sept. Utile pour GN complexes maintenables / générables.</description>
-      <category>blender-addon</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Simple Deform Helper 2.7.58 (V2)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-27-simple-deform-helper-2-7-58-v2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-27-simple-deform-helper-2-7-58-v2</guid>
-      <pubDate>Sun, 27 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Extension GPL (extensions.blender.org) : rebuild Geometry Nodes avec cages Standard / Shear / FFD / Curve, chaînes, multi-objets, keyframe + bake. Blender 5.0+. Gros saut UX pour déformer/animer sans se battre avec le Simple Deform natif.</description>
-      <category>blender-addon</category>
-    </item>
-    <item>
-      <title>Blenderbase 1.3.2</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-27-blenderbase-1-3-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-27-blenderbase-1-3-2</guid>
-      <pubDate>Sun, 27 Sep 2026 09:00:00 +0200</pubDate>
-      <description>App desktop gratuite pour gérer versions Blender, add-ons et .blend. La 1.3.x (21 sept) ajoute Sync pour cloner prefs, thème, keymap et add-ons entre machines (réseau local, dossier cloud, fichier .bbsetup).</description>
-      <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Fusion → Blender Bridge</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-09-27-fusion-blender-bridge</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-09-27-fusion-blender-bridge</guid>
-      <pubDate>Sun, 27 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Paire d’add-ons GPL (Fusion 360 + Blender 4.2+) : sync géométrie en un clic via WebSocket local ; matériaux, modifiers, sharp edges et light links Blender survivent aux révisions CAD. Pas d’import Appearance Fusion (volontaire).</description>
-      <category>blender-addon</category>
-      <category>cad-retopo</category>
-      <category>pipeline</category>
     </item>
   </channel>
 </rss>
