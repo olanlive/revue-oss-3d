@@ -5,8 +5,52 @@
     <link>https://olanlive.github.io/revue-oss-3d/en/</link>
     <description>Open source 3D, VFX and video watch.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Blender 5.2.3 LTS and 4.5.15 LTS</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-blender-5-2-3-lts-et-4-5-15-lts</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-blender-5-2-3-lts-et-4-5-15-lts</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Two corrective LTS releases out on Oct 22, 2026: Blender 5.2.3 fixes 113 bugs and Blender 4.5.15 fixes 60. Full changelog on the LTS page.</description>
+      <category>blender</category>
+    </item>
+    <item>
+      <title>CorridorKey 2.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-corridorkey-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-corridorkey-2-0</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Corridor Digital publishes the Python code and model for CorridorKey 2.0, for clean green/blue screen keys (NVIDIA GPU required). CC BY-NC-SA 4.0 license with extra terms, so not strictly open source; repo updated Oct 15, 2026.</description>
+      <category>vfx</category>
+      <category>compositing</category>
+    </item>
+    <item>
+      <title>DL GIS Exchange 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-dl-gis-exchange-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-dl-gis-exchange-1-0-0</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>GPL Blender extension released Oct 22, 2026: imports GeoTIFF/ASC/XYZ terrain and shapefile/GeoPackage/GeoJSON vectors, exports back to GeoTIFF, and computes cut and fill. No GDAL or QGIS needed.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Tree Wind Paint 0.3.4</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-tree-wind-paint-0-3-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-tree-wind-paint-0-3-4</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>GPL Blender add-on that auto-paints wind vertex colours on a tree from its structure (trunk, branches, leaves), with per-channel or UV touch-ups and a wind preview. New on Blender Extensions (spotted Oct 23, 2026).</description>
+      <category>blender-addon</category>
+      <category>texturing</category>
+    </item>
+    <item>
+      <title>Stepped Animation 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-stepped-animation-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-stepped-animation-1-0-0</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Blender 5.2 extension that turns smooth interpolated animation into stop-motion style stepped animation on 2s, 3s or 4s. New on Blender Extensions (spotted Oct 23, 2026).</description>
+      <category>blender-addon</category>
+      <category>animation</category>
+    </item>
     <item>
       <title>Blender on Android — demo APK (BCON26)</title>
       <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-22-blender-sur-android-apk-de-demo-bcon26</link>
@@ -925,55 +969,6 @@
       <pubDate>Thu, 01 Oct 2026 09:00:00 +0200</pubDate>
       <description>Floating shelf of custom buttons and pie menu in the viewport, Maya shelf style. 0.2.x (Sept 30) adds per-mode shelves (Object, Edit, Sculpt, UV, Shader, GN).</description>
       <category>blender-addon</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>CodeCinema</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-01-codecinema</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-01-codecinema</guid>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Framework for making films “as code”: image, music, sound, titles and master via a CLI and ffmpeg, with a short 3D duel example in Blender 5.2+. Initial release Sept 30–Oct 1.</description>
-      <category>video</category>
-      <category>encoding</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Cloth Lab 0.8.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-09-29-cloth-lab-0-8-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-09-29-cloth-lab-0-8-1</guid>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Free cloth / garment add-on: fabric presets, pins, collisions, patterns, sewing, wrinkles and experimental tearing (Blender 5.2+). 0.8.1 (announced Sept 26) switches to an English UI with the sources.</description>
-      <category>blender-addon</category>
-      <category>sim</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Hair Bone Generator 1.2.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-09-29-hair-bone-generator-1-2-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-09-29-hair-bone-generator-1-2-0</guid>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
-      <description>GPL extension (extensions.blender.org): generates a chain of deform bones along a mesh hair strand (cards, tubes, braids). 1.2.0 (Sept 22) speeds up dense meshes and adds Mirror to Other Side (L/R symmetry). Blender 4.5+.</description>
-      <category>blender-addon</category>
-      <category>hair</category>
-      <category>skinning</category>
-    </item>
-    <item>
-      <title>MattRM2 VFX Build 1.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-09-29-mattrm2-vfx-build-1-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-09-29-mattrm2-vfx-build-1-1</guid>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
-      <description>Unofficial VFX-oriented Windows build of Blender 5.2: Deep EXR from Cycles, volume-compatible Z Depth, per-view-layer overrides, fixed Alembic camera export and a Curves Lofting node.</description>
-      <category>exr</category>
-      <category>pipeline</category>
-      <category>alembic</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>three-gpu-pathtracer 0.0.25 — WebGPUPathTracer</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-09-29-three-gpu-pathtracer-0-0-25-webgpupathtracer</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-09-29-three-gpu-pathtracer-0-0-25-webgpupathtracer</guid>
-      <pubDate>Tue, 29 Sep 2026 09:00:00 +0200</pubDate>
-      <description>WebGPU path tracer for three.js (MIT): 0.0.25 (Sept 28) exposes WebGPUPathTracer via “three-gpu-pathtracer/webgpu” and deprecates WebGLPathTracer; 0.0.26 (Sept 29) fixes CDN loading. Useful for path-traced web previews / web 3D integration.</description>
       <category>emerging</category>
     </item>
   </channel>

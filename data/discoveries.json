@@ -1,5 +1,89 @@
 [
   {
+    "date": "2026-10-23",
+    "name": "Blender 5.2.3 LTS et 4.5.15 LTS",
+    "name_en": "Blender 5.2.3 LTS and 4.5.15 LTS",
+    "summary": "Deux versions correctives LTS sorties le 22 oct. 2026 : Blender 5.2.3 corrige 113 bugs et Blender 4.5.15 en corrige 60. Changelog complet sur la page LTS.",
+    "summary_en": "Two corrective LTS releases out on Oct 22, 2026: Blender 5.2.3 fixes 113 bugs and Blender 4.5.15 fixes 60. Full changelog on the LTS page.",
+    "url": "https://www.blender.org/download/lts/",
+    "tags": [
+      "blender"
+    ],
+    "source": {
+      "label": "Mastodon — @Blender@mastodon.social",
+      "label_en": "Mastodon — @Blender@mastodon.social",
+      "url": "https://mastodon.social/@Blender/117484686697624125"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "CorridorKey 2.0",
+    "name_en": "CorridorKey 2.0",
+    "summary": "Corridor Digital publie le code Python et le modèle de CorridorKey 2.0 pour des keys fond vert/bleu propres (GPU NVIDIA requis). Licence CC BY-NC-SA 4.0 avec conditions, donc pas strictement open source ; repo mis à jour le 15 oct. 2026.",
+    "summary_en": "Corridor Digital publishes the Python code and model for CorridorKey 2.0, for clean green/blue screen keys (NVIDIA GPU required). CC BY-NC-SA 4.0 license with extra terms, so not strictly open source; repo updated Oct 15, 2026.",
+    "url": "https://github.com/nikopueringer/CorridorKey2.0",
+    "tags": [
+      "vfx",
+      "compositing"
+    ],
+    "source": {
+      "label": "Mastodon — @tweak@ohai.social (#vfx)",
+      "label_en": "Mastodon — @tweak@ohai.social (#vfx)",
+      "url": "https://ohai.social/@tweak/117486455310719493"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "DL GIS Exchange 1.0.0",
+    "name_en": "DL GIS Exchange 1.0.0",
+    "summary": "Extension Blender GPL sortie le 22 oct. 2026 : importe terrains GeoTIFF/ASC/XYZ et vecteurs shapefile/GeoPackage/GeoJSON, et réexporte en GeoTIFF, avec calcul de déblai/remblai. Sans GDAL ni QGIS.",
+    "summary_en": "GPL Blender extension released Oct 22, 2026: imports GeoTIFF/ASC/XYZ terrain and shapefile/GeoPackage/GeoJSON vectors, exports back to GeoTIFF, and computes cut and fill. No GDAL or QGIS needed.",
+    "url": "https://github.com/DLandscapes/dl-gis-exchange/releases/tag/v1.0.0",
+    "tags": [
+      "blender-addon",
+      "pipeline"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — blender-addon topic (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Tree Wind Paint 0.3.4",
+    "name_en": "Tree Wind Paint 0.3.4",
+    "summary": "Add-on Blender GPL qui peint automatiquement les couleurs de vertex de vent d’un arbre à partir de sa structure (tronc, branches, feuilles), avec retouche par canal ou par UV et aperçu du vent. Nouveau sur Blender Extensions (repéré le 23 oct. 2026).",
+    "summary_en": "GPL Blender add-on that auto-paints wind vertex colours on a tree from its structure (trunk, branches, leaves), with per-channel or UV touch-ups and a wind preview. New on Blender Extensions (spotted Oct 23, 2026).",
+    "url": "https://extensions.blender.org/add-ons/tree-wind-paint/",
+    "tags": [
+      "blender-addon",
+      "texturing"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Stepped Animation 1.0.0",
+    "name_en": "Stepped Animation 1.0.0",
+    "summary": "Extension Blender 5.2 qui transforme une animation interpolée en animation saccadée façon stop motion, sur 2, 3 ou 4 images. Nouvelle sur Blender Extensions (repérée le 23 oct. 2026).",
+    "summary_en": "Blender 5.2 extension that turns smooth interpolated animation into stop-motion style stepped animation on 2s, 3s or 4s. New on Blender Extensions (spotted Oct 23, 2026).",
+    "url": "https://extensions.blender.org/add-ons/stepped-animation/",
+    "tags": [
+      "blender-addon",
+      "animation"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/"
+    }
+  },
+  {
     "date": "2026-10-22",
     "name": "Blender sur Android — APK de démo (BCON26)",
     "name_en": "Blender on Android — demo APK (BCON26)",
