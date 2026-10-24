@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-10-24",
+    "name": "Papercraft Pro",
+    "name_en": "Papercraft Pro",
+    "summary": "Nouvelle extension GPL pour Blender 4.2+ partagée le 24 oct. 2026 : elle déplie un mesh en patron papercraft avec languettes, mise en page live, export SVG prêt pour Cricut et rig animé qui replie la feuille sur le modèle.",
+    "summary_en": "New GPL extension for Blender 4.2+ shared on Oct 24, 2026: it unfolds a mesh into a papercraft pattern with glue tabs, live page layout, Cricut-ready SVG export and an animated rig that folds the sheet back onto the model.",
+    "url": "https://github.com/Liatach/papercraft-pro",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "3d-print"
+    ],
+    "source": {
+      "label": "Reddit — r/blender (u/liatach)",
+      "label_en": "Reddit — r/blender (u/liatach)",
+      "url": "https://www.reddit.com/r/blender/comments/1xe10aq/papercraft_blender_addon/"
+    }
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Spirula Studio v2026.10.16",
+    "name_en": "Spirula Studio v2026.10.16",
+    "summary": "Entraîneur Gaussian Splatting multi-GPU (Vulkan ou CUDA), de la vidéo au splat puis au mesh. La version du 16 oct. 2026 réduit la RAM/VRAM, ajoute l’initialisation dense, le spherical beta et gère mieux les footages log et 360.",
+    "summary_en": "Cross-vendor Gaussian Splatting trainer (Vulkan or CUDA), from video to splat to mesh. The Oct 16, 2026 release cuts RAM/VRAM use, adds dense initialization and spherical beta, and handles log and 360 footage better.",
+    "url": "https://github.com/harry7557558/spirula-studio/releases/tag/v2026.10.16",
+    "tags": [
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (repos actifs)",
+      "label_en": "GitHub — gaussian-splatting topic (active repos)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
+    "date": "2026-10-24",
+    "name": "ID RenderFlo 3.0.0",
+    "name_en": "ID RenderFlo 3.0.0",
+    "summary": "Add-on Blender qui apporte un studio de rendu façon KeyShot et un pipeline CAO pour designers industriels. Arrivé sur Blender Extensions le 14 oct. 2026, il passe en version 3.0.0 cette semaine.",
+    "summary_en": "Blender add-on that brings a KeyShot-style render studio and a CAD pipeline for industrial designers. Listed on Blender Extensions on Oct 14, 2026, it moved to version 3.0.0 this week.",
+    "url": "https://extensions.blender.org/add-ons/id-renderflo/",
+    "tags": [
+      "blender-addon",
+      "cad-retopo"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/id-renderflo/"
+    }
+  },
+  {
     "date": "2026-10-23",
     "name": "Blender 5.2.3 LTS et 4.5.15 LTS",
     "name_en": "Blender 5.2.3 LTS and 4.5.15 LTS",

@@ -5,8 +5,36 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Papercraft Pro</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-24-papercraft-pro</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-24-papercraft-pro</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Nouvelle extension GPL pour Blender 4.2+ partagée le 24 oct. 2026 : elle déplie un mesh en patron papercraft avec languettes, mise en page live, export SVG prêt pour Cricut et rig animé qui replie la feuille sur le modèle.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>3d-print</category>
+    </item>
+    <item>
+      <title>Spirula Studio v2026.10.16</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-24-spirula-studio-v2026-10-16</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-24-spirula-studio-v2026-10-16</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Entraîneur Gaussian Splatting multi-GPU (Vulkan ou CUDA), de la vidéo au splat puis au mesh. La version du 16 oct. 2026 réduit la RAM/VRAM, ajoute l’initialisation dense, le spherical beta et gère mieux les footages log et 360.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>ID RenderFlo 3.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-24-id-renderflo-3-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-24-id-renderflo-3-0-0</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Add-on Blender qui apporte un studio de rendu façon KeyShot et un pipeline CAO pour designers industriels. Arrivé sur Blender Extensions le 14 oct. 2026, il passe en version 3.0.0 cette semaine.</description>
+      <category>blender-addon</category>
+      <category>cad-retopo</category>
+    </item>
     <item>
       <title>Blender 5.2.3 LTS et 4.5.15 LTS</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-23-blender-5-2-3-lts-et-4-5-15-lts</link>
@@ -942,34 +970,6 @@
       <description>Gestionnaire de lumières de scène (GPL). En 3.5.0 (27 sept) : sync Sky Texture avec le soleil (y compris Time keyé), Kelvin depuis l’élévation (horizon chaud → 6500 K), liste pliable, checker de mises à jour. Pratique pour setups éclairage / lookdev Blender 4.2–5.2.</description>
       <category>blender-addon</category>
       <category>vfx</category>
-    </item>
-    <item>
-      <title>Blenderbase 1.4.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-01-blenderbase-1-4-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-01-blenderbase-1-4-0</guid>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0200</pubDate>
-      <description>App desktop gratuite pour gérer versions Blender et add-ons. La 1.4.0 (30 sept) applique un add-on à une autre version installée (drag &amp; drop ou Apply to) : pratique pour cloner un set d’extensions entre 4.x et 5.x.</description>
-      <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>OpenUSDConnect</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-01-openusdconnect</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-01-openusdconnect</guid>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Live-link OpenUSD entre DCC et outils USD : transactions ordonnées, replay à la reconnexion, MaterialX et layers partagés. Intégrations Blender, usdview, Unreal, MCP et Python ; commits actifs fin septembre.</description>
-      <category>usd</category>
-      <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>BlenderShelf 0.2.2</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-01-blendershelf-0-2-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-01-blendershelf-0-2-2</guid>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Étagère flottante de boutons custom et pie menu dans le viewport, style shelf Maya. La 0.2.x (30 sept) ajoute des shelves par mode (Object, Edit, Sculpt, UV, Shader, GN).</description>
-      <category>blender-addon</category>
-      <category>emerging</category>
     </item>
   </channel>
 </rss>
