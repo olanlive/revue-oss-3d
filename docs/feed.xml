@@ -5,8 +5,44 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SculptForge 0.6.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-25-sculptforge-0-6-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-25-sculptforge-0-6-0</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Appli de sculpt GPL pour Linux, macOS et Windows, pensée comme une alternative libre à ZBrush. La 0.5 du 24 oct. 2026 ajoute les niveaux de subdivision (multirésolution) et la 0.6, sortie le même jour, divise presque par deux la mémoire sur les gros modèles.</description>
+      <category>emerging</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Splatelier v0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-25-splatelier-v0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-25-splatelier-v0-1-0</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>App iOS sous Apache-2.0 qui capture, entraîne et affiche des Gaussian Splats entièrement sur l’iPhone, sans serveur. La v0.1.0 du 24 oct. 2026 refond l’écran de capture, ajoute plus de formats d’export et un mode LiDAR expérimental.</description>
+      <category>emerging</category>
+      <category>gaussian-splat</category>
+    </item>
+    <item>
+      <title>Viewport Rulers 1.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-25-viewport-rulers-1-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-25-viewport-rulers-1-1-0</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Petite extension GPL pour Blender 5.2+ publiée le 22 oct. 2026 : elle affiche des règles graduées configurables, façon Word, sur les bords du viewport 3D, idéales en vue orthographique pour mesurer sans passer par l’outil Mesure.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>3D Cursor Transform 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-25-3d-cursor-transform-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-25-3d-cursor-transform-1-0-0</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Extension GPL publiée le 18 oct. 2026 qui donne au curseur 3D de Blender tout le système de transformation natif : raccourcis G/R, gizmos, contraintes d’axe et de plan, snapping, mode précision et saisie numérique.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
     <item>
       <title>Papercraft Pro</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-24-papercraft-pro</link>
@@ -933,43 +969,6 @@
       <category>usd</category>
       <category>vfx</category>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>Blender 5.3 — Copy Paste World Space Animation</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-02-blender-5-3-copy-paste-world-space-animation</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-02-blender-5-3-copy-paste-world-space-animation</guid>
-      <pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Opérateurs natifs pour copier/coller l’animation en espace monde (objets et os, multi-sélection, entre fichiers via fichier temp). Utile pour un transfert d’anim / retarget léger sans add-on. Documenté dans le manuel 5.3 ; 5.3 est en beta depuis le 30 sept.</description>
-      <category>emerging</category>
-      <category>vfx</category>
-    </item>
-    <item>
-      <title>GNToolkit 0.2.5</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-02-gntoolkit-0-2-5</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-02-gntoolkit-0-2-5</guid>
-      <pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Versioning sémantique des node trees Blender (JSON + Git, checks headless). La 0.2.5 (27 sept) ajoute des audits impact / doublons / santé JSON et corrige la fidélité Menu Switch / modifiers à l’import.</description>
-      <category>pipeline</category>
-      <category>blender-addon</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>On-Twos Retimer 0.7.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-02-on-twos-retimer-0-7-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-02-on-twos-retimer-0-7-0</guid>
-      <pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL : bake une anim contrainte/physique en pas de 2 (ou 3) frames. En 0.7.0 (28 sept) : plus lié à MMD — standalone sur n’importe quel armature (sélection Pose Mode, chaînes enfants, highlight preview). Utile pour un look stop-motion / anime sur des sims.</description>
-      <category>blender-addon</category>
-      <category>vfx</category>
-    </item>
-    <item>
-      <title>LAMPOCHKA 3.5.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-02-lampochka-3-5-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-02-lampochka-3-5-0</guid>
-      <pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Gestionnaire de lumières de scène (GPL). En 3.5.0 (27 sept) : sync Sky Texture avec le soleil (y compris Time keyé), Kelvin depuis l’élévation (horizon chaud → 6500 K), liste pliable, checker de mises à jour. Pratique pour setups éclairage / lookdev Blender 4.2–5.2.</description>
-      <category>blender-addon</category>
-      <category>vfx</category>
     </item>
   </channel>
 </rss>

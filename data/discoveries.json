@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-10-25",
+    "name": "SculptForge 0.6.0",
+    "name_en": "SculptForge 0.6.0",
+    "summary": "Appli de sculpt GPL pour Linux, macOS et Windows, pensée comme une alternative libre à ZBrush. La 0.5 du 24 oct. 2026 ajoute les niveaux de subdivision (multirésolution) et la 0.6, sortie le même jour, divise presque par deux la mémoire sur les gros modèles.",
+    "summary_en": "GPL sculpting app for Linux, macOS and Windows, built as a free alternative to ZBrush. Version 0.5 (Oct 24, 2026) adds subdivision levels (multiresolution) and 0.6, out the same day, nearly halves memory use on heavy models.",
+    "url": "https://github.com/islandmed/SculptForge/releases/tag/v0.6.0",
+    "tags": [
+      "emerging",
+      "modeling"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (repos récents)",
+      "label_en": "GitHub — gaussian-splatting topic (recent repos)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "name": "Splatelier v0.1.0",
+    "name_en": "Splatelier v0.1.0",
+    "summary": "App iOS sous Apache-2.0 qui capture, entraîne et affiche des Gaussian Splats entièrement sur l’iPhone, sans serveur. La v0.1.0 du 24 oct. 2026 refond l’écran de capture, ajoute plus de formats d’export et un mode LiDAR expérimental.",
+    "summary_en": "Apache-2.0 iOS app that captures, trains and views Gaussian Splats entirely on the iPhone, with no server. The Oct 24, 2026 v0.1.0 reworks the capture screen, adds more export formats and an experimental LiDAR mode.",
+    "url": "https://github.com/shuta-ochiai/Splatelier/releases/tag/v0.1.0",
+    "tags": [
+      "emerging",
+      "gaussian-splat"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (repos récents)",
+      "label_en": "GitHub — gaussian-splatting topic (recent repos)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "name": "Viewport Rulers 1.1.0",
+    "name_en": "Viewport Rulers 1.1.0",
+    "summary": "Petite extension GPL pour Blender 5.2+ publiée le 22 oct. 2026 : elle affiche des règles graduées configurables, façon Word, sur les bords du viewport 3D, idéales en vue orthographique pour mesurer sans passer par l’outil Mesure.",
+    "summary_en": "Small GPL extension for Blender 5.2+ published on Oct 22, 2026: it adds configurable Word-style rulers along the edges of the 3D viewport, handy in orthographic view to measure without switching to the Measure tool.",
+    "url": "https://extensions.blender.org/add-ons/viewport-rulers/",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/viewport-rulers/"
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "name": "3D Cursor Transform 1.0.0",
+    "name_en": "3D Cursor Transform 1.0.0",
+    "summary": "Extension GPL publiée le 18 oct. 2026 qui donne au curseur 3D de Blender tout le système de transformation natif : raccourcis G/R, gizmos, contraintes d’axe et de plan, snapping, mode précision et saisie numérique.",
+    "summary_en": "GPL extension published on Oct 18, 2026 that gives Blender's 3D Cursor the full native transform system: G/R shortcuts, gizmos, axis and plane constraints, snapping, precision mode and numeric input.",
+    "url": "https://extensions.blender.org/add-ons/cursor-transform/",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/cursor-transform/"
+    }
+  },
+  {
     "date": "2026-10-24",
     "name": "Papercraft Pro",
     "name_en": "Papercraft Pro",
