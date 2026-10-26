@@ -1,5 +1,76 @@
 [
   {
+    "date": "2026-10-26",
+    "name": "Gaussian Splat to Blender Nodes",
+    "name_en": "Gaussian Splat to Blender Nodes",
+    "summary": "Kit MIT (skill d’agent, scripts et prompts) publié le 24 oct. 2026 qui reconstruit une scène capturée en Gaussian Splats en vraie géométrie Blender éditable, en Geometry Nodes et Shader Nodes, avec projection de texture multi-vues en option.",
+    "summary_en": "MIT toolkit (agent skill, scripts and prompts) released Oct 24, 2026 that rebuilds a Gaussian Splat capture as real, editable Blender geometry with Geometry Nodes and Shader Nodes, plus optional multi-view texture projection.",
+    "url": "https://github.com/gokayfem/gaussian-splat-to-blender-nodes",
+    "tags": [
+      "gaussian-splat",
+      "geometry-nodes",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (repos récents)",
+      "label_en": "GitHub — gaussian-splatting topic (recent repos)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "name": "NK Combine & Bake 1.0.0",
+    "name_en": "NK Combine & Bake 1.0.0",
+    "summary": "Extension Blender GPL qui fusionne les objets sélectionnés, crée un atlas UV et bake leurs matériaux (base color, metallic, roughness, normal, émission, alpha) en textures jusqu’à 8K avec Cycles. Nouvelle sur Blender Extensions en oct. 2026.",
+    "summary_en": "GPL Blender extension that merges selected objects, builds a UV atlas and bakes their materials (base color, metallic, roughness, normal, emission, alpha) into textures up to 8K with Cycles. New on Blender Extensions in Oct 2026.",
+    "url": "https://extensions.blender.org/add-ons/nk-combine-bake/",
+    "tags": [
+      "blender-addon",
+      "texturing",
+      "uv"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "name": "First Person Navigation 1.1.1",
+    "name_en": "First Person Navigation 1.1.1",
+    "summary": "Extension Blender GPL qui ajoute une navigation à la première personne façon Unreal dans le viewport : clic droit + WASD, pan, lissage de caméra et raccourcis configurables. La v1.1.1 du 26 oct. 2026 ajoute la montée/descente avec Q et E.",
+    "summary_en": "GPL Blender extension adding Unreal-style first-person viewport navigation: right-click + WASD, panning, camera smoothing and configurable keys. v1.1.1 (Oct 26, 2026) adds up/down movement with Q and E.",
+    "url": "https://codeberg.org/shaderwitch/first_person_navigation/releases/tag/v1.1.1",
+    "tags": [
+      "blender-addon",
+      "camera"
+    ],
+    "source": {
+      "label": "Mastodon — @Codekitten@mastodon.gamedev.place (#blender)",
+      "label_en": "Mastodon — @Codekitten@mastodon.gamedev.place (#blender)",
+      "url": "https://mastodon.gamedev.place/@Codekitten/117503709395966428"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "name": "colmap-wasm",
+    "name_en": "colmap-wasm",
+    "summary": "Portage WebAssembly non officiel de COLMAP 4.2.1 (BSD-3) publié le 19 oct. 2026 : extraction SIFT, matching sur WebGPU et global mapper tournent dans le navigateur, sans serveur, pour sortir caméras et nuage de points, la base d’une capture photogrammétrie ou splats.",
+    "summary_en": "Unofficial WebAssembly port of COLMAP 4.2.1 (BSD-3), released Oct 19, 2026: SIFT extraction, WebGPU matching and the global mapper run in the browser with no server, giving cameras and a sparse point cloud for photogrammetry or splat captures.",
+    "url": "https://github.com/obraia/colmap-wasm",
+    "tags": [
+      "gaussian-splat",
+      "web",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (repos récents)",
+      "label_en": "GitHub — gaussian-splatting topic (recent repos)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
     "date": "2026-10-25",
     "name": "SculptForge 0.6.0",
     "name_en": "SculptForge 0.6.0",

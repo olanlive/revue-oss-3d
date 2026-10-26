@@ -5,8 +5,47 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Gaussian Splat to Blender Nodes</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-26-gaussian-splat-to-blender-nodes</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-26-gaussian-splat-to-blender-nodes</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Kit MIT (skill d’agent, scripts et prompts) publié le 24 oct. 2026 qui reconstruit une scène capturée en Gaussian Splats en vraie géométrie Blender éditable, en Geometry Nodes et Shader Nodes, avec projection de texture multi-vues en option.</description>
+      <category>gaussian-splat</category>
+      <category>geometry-nodes</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>NK Combine &amp; Bake 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-26-nk-combine-bake-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-26-nk-combine-bake-1-0-0</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Extension Blender GPL qui fusionne les objets sélectionnés, crée un atlas UV et bake leurs matériaux (base color, metallic, roughness, normal, émission, alpha) en textures jusqu’à 8K avec Cycles. Nouvelle sur Blender Extensions en oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>texturing</category>
+      <category>uv</category>
+    </item>
+    <item>
+      <title>First Person Navigation 1.1.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-26-first-person-navigation-1-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-26-first-person-navigation-1-1-1</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Extension Blender GPL qui ajoute une navigation à la première personne façon Unreal dans le viewport : clic droit + WASD, pan, lissage de caméra et raccourcis configurables. La v1.1.1 du 26 oct. 2026 ajoute la montée/descente avec Q et E.</description>
+      <category>blender-addon</category>
+      <category>camera</category>
+    </item>
+    <item>
+      <title>colmap-wasm</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-26-colmap-wasm</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-26-colmap-wasm</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Portage WebAssembly non officiel de COLMAP 4.2.1 (BSD-3) publié le 19 oct. 2026 : extraction SIFT, matching sur WebGPU et global mapper tournent dans le navigateur, sans serveur, pour sortir caméras et nuage de points, la base d’une capture photogrammétrie ou splats.</description>
+      <category>gaussian-splat</category>
+      <category>web</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>SculptForge 0.6.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-25-sculptforge-0-6-0</link>
@@ -929,46 +968,6 @@
       <description>Réimplémentation Vulkan MIT bit-exact du réseau Neural Rendering DLSS 5 (NVIDIA) — 71 blocs Swin/ViT, FP8, sans poids NVIDIA inclus. Port WebGPU navigateur fourni. Base OSS pour le neural rendering génératif.</description>
       <category>emerging</category>
       <category>vfx</category>
-    </item>
-    <item>
-      <title>three-dlss-nr 0.1.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-03-three-dlss-nr-0-1-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-03-three-dlss-nr-0-1-0</guid>
-      <pubDate>Sat, 03 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Port Three.js (TSL/WebGPU) d’OpenDLSS-NR : le réseau DLSS 5 NR en compute nodes, byte-identique à la référence. Démo live ; poids NVIDIA à fournir soi-même. Signal frais sur le fil X.</description>
-      <category>emerging</category>
-      <category>vfx</category>
-    </item>
-    <item>
-      <title>BowerBot 2.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-03-bowerbot-2-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-03-bowerbot-2-0-0</guid>
-      <pubDate>Sat, 03 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Agent IA Apache-2.0 qui assemble des scènes OpenUSD production-ready depuis le langage naturel. La 2.0 casse la compat (physique USD, formes d’assets). Radar pipeline USD.</description>
-      <category>usd</category>
-      <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>ZeroGeometry Kit 1.0.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-03-zerogeometry-kit-1-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-03-zerogeometry-kit-1-0-1</guid>
-      <pubDate>Sat, 03 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL : reframing vertical one-click (9:16 / 4:5 / 1:1) avec auto-follow, beat sync, loop doctor et wedge renders. Première release publique pour décliner une anim 16:9.</description>
-      <category>blender-addon</category>
-      <category>video</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>houdini-eevee-bridge 0.7.6</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-02-houdini-eevee-bridge-0-7-6</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-02-houdini-eevee-bridge-0-7-6</guid>
-      <pubDate>Fri, 02 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Pont Hydra qui fait tourner EEVEE (Blender 5.2 headless) dans le viewport Solaris de Houdini. La 0.7.6 (1er oct) aligne surtout l’interop avec Karma : matériaux, lumières double face, primvars, instances, NURBS.</description>
-      <category>pipeline</category>
-      <category>usd</category>
-      <category>vfx</category>
-      <category>emerging</category>
     </item>
   </channel>
 </rss>
