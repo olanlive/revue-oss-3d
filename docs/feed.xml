@@ -5,8 +5,37 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 26 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AnyImage 1.1.7</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-27-anyimage-1-1-7</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-27-anyimage-1-1-7</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Add-on Blender GPL qui part d’images pour créer : coller depuis le presse-papiers, découper une forme en relief, plan de profondeur, rectification et color match de textures, détourage et upscale IA hors ligne. Version 1.1.7 sortie le 25 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>texturing</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Croquis 0.4.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-27-croquis-0-4-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-27-croquis-0-4-1</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Extension Blender GPL qui dessine la vue caméra comme un croquis d’architecte à main levée : encre, feutre, aquarelle, hachures, choix du papier, export PNG, SVG en calques ou PDF. Nouvelle sur Blender Extensions le 21 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Maya Workflow Kit for Blender 0.5.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-27-maya-workflow-kit-for-blender-0-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-27-maya-workflow-kit-for-blender-0-5-0</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Extension Blender GPL pour les habitués de Maya : hotbox et marking menus, Channel Box, Attribute Editor, shelves, navigation façon Maya, Freeze Transformations, Delete History… Un bouton rend Blender d’origine. Publiée sur Blender Extensions le 20 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>pipeline</category>
+    </item>
     <item>
       <title>Gaussian Splat to Blender Nodes</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-26-gaussian-splat-to-blender-nodes</link>
@@ -940,34 +969,6 @@
       <description>Première release publique GPL-3.0 : kit Extension Blender 5.2+ qui regroupe 16 outils modeling/modifiers/nodes/transforms (Custom Color Nodes via D, Weight Ramp by Order, Batch Operate Attributes, Reset Modifier, Join Equalizing Bevels…). Un seul zip à installer.</description>
       <category>blender-addon</category>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>image-blaster</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-04-image-blaster</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-04-image-blaster</guid>
-      <pubDate>Sun, 04 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Skillset (Claude) qui transforme une image en monde 3D en ~5 min : meshes, splat d’environnement et SFX ambiants, via World Labs Marble, FAL et ElevenLabs. APIs payantes. Viral sur le fil X (3–4 oct).</description>
-      <category>emerging</category>
-      <category>vfx</category>
-    </item>
-    <item>
-      <title>STUKACH 1.8.5</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-03-stukach-1-8-5</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-03-stukach-1-8-5</guid>
-      <pubDate>Sat, 03 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Validateur d’assets Blender GPL (42 checkers, overlays GPU, mode live) : la 1.8.5 unifie le « Naming Contract » pour les conventions objet/scène et redesign hiérarchie. Utile en QC pipeline avant livraison.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>OpenDLSS-NR</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-03-opendlss-nr</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-03-opendlss-nr</guid>
-      <pubDate>Sat, 03 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Réimplémentation Vulkan MIT bit-exact du réseau Neural Rendering DLSS 5 (NVIDIA) — 71 blocs Swin/ViT, FP8, sans poids NVIDIA inclus. Port WebGPU navigateur fourni. Base OSS pour le neural rendering génératif.</description>
-      <category>emerging</category>
-      <category>vfx</category>
     </item>
   </channel>
 </rss>

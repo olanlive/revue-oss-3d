@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-27",
+    "name": "AnyImage 1.1.7",
+    "name_en": "AnyImage 1.1.7",
+    "summary": "Add-on Blender GPL qui part d’images pour créer : coller depuis le presse-papiers, découper une forme en relief, plan de profondeur, rectification et color match de textures, détourage et upscale IA hors ligne. Version 1.1.7 sortie le 25 oct. 2026.",
+    "summary_en": "GPL Blender add-on that starts from images: paste from the clipboard, cut out shapes with thickness, depth planes, texture rectify and color match, plus offline AI background removal and upscaling. Version 1.1.7 released Oct 25, 2026.",
+    "url": "https://github.com/OmooLab/AnyImage/releases/tag/v1.1.7",
+    "tags": [
+      "blender-addon",
+      "texturing",
+      "modeling"
+    ],
+    "source": {
+      "label": "GitHub — topic blender (repos récents)",
+      "label_en": "GitHub — blender topic (recent repos)",
+      "url": "https://github.com/topics/blender"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Croquis 0.4.1",
+    "name_en": "Croquis 0.4.1",
+    "summary": "Extension Blender GPL qui dessine la vue caméra comme un croquis d’architecte à main levée : encre, feutre, aquarelle, hachures, choix du papier, export PNG, SVG en calques ou PDF. Nouvelle sur Blender Extensions le 21 oct. 2026.",
+    "summary_en": "GPL Blender extension that draws the camera view as an architect’s freehand sketch: ink, marker, watercolour, hatching, a choice of paper, and PNG, layered SVG or PDF output. New on Blender Extensions on Oct 21, 2026.",
+    "url": "https://extensions.blender.org/add-ons/croquis/",
+    "tags": [
+      "blender-addon",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Maya Workflow Kit for Blender 0.5.0",
+    "name_en": "Maya Workflow Kit for Blender 0.5.0",
+    "summary": "Extension Blender GPL pour les habitués de Maya : hotbox et marking menus, Channel Box, Attribute Editor, shelves, navigation façon Maya, Freeze Transformations, Delete History… Un bouton rend Blender d’origine. Publiée sur Blender Extensions le 20 oct. 2026.",
+    "summary_en": "GPL Blender extension for Maya users: hotbox and marking menus, Channel Box, Attribute Editor, shelves, Maya-style navigation, Freeze Transformations, Delete History… One switch gives plain Blender back. Published on Blender Extensions on Oct 20, 2026.",
+    "url": "https://extensions.blender.org/add-ons/allset/",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
     "date": "2026-10-26",
     "name": "Gaussian Splat to Blender Nodes",
     "name_en": "Gaussian Splat to Blender Nodes",
