@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-28",
+    "name": "Nukify 0.9.2",
+    "name_en": "Nukify 0.9.2",
+    "summary": "Compositeur nodal open source (GPL) pour Windows qui embarque Blender comme moteur : viewer A/B, roto, keying, tracking 2D et planar, nœuds 3D, sortie EXR/Cryptomatte. Première bêta publique sortie le 28 oct. 2026.",
+    "summary_en": "Open-source (GPL) node-based compositor for Windows that uses a bundled Blender as its engine: A/B viewer, roto, keying, 2D and planar tracking, 3D nodes, EXR/Cryptomatte output. First public beta released Oct 28, 2026.",
+    "url": "https://github.com/maxsarlijagit/Nukify/releases/tag/v0.9.2",
+    "tags": [
+      "compositing",
+      "vfx",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic compositing (repos actifs)",
+      "label_en": "GitHub — compositing topic (active repos)",
+      "url": "https://github.com/topics/compositing"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Quadami 0.1.0",
+    "name_en": "Quadami 0.1.0",
+    "summary": "Add-on Blender GPL de remaillage automatique en quads, dérivé d’AutoRemesher : on choisit le nombre de quads et il transforme un sculpt ou un scan en maillage propre aux boucles qui suivent la forme. Première version publique le 27 oct. 2026.",
+    "summary_en": "GPL Blender add-on for automatic quad remeshing, derived from AutoRemesher: pick a quad count and it turns a sculpt or scan into a clean mesh with edge loops that follow the shape. First public release on Oct 27, 2026.",
+    "url": "https://github.com/KajetanMuczynski/quadami/releases/tag/v0.1.0",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "cad-retopo"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — blender-addon topic (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "name": "ProxyWrangler 1.1.1",
+    "name_en": "ProxyWrangler 1.1.1",
+    "summary": "Extension Blender GPL pour la mise en place de décors lourds : elle remplace les assets par des proxies de silhouette allégés, gère les assets liés et overrides, puis restaure la géométrie de production au rendu. Nouvelle sur Blender Extensions le 25 oct. 2026.",
+    "summary_en": "GPL Blender extension for laying out heavy environments: it swaps assets for lightweight silhouette proxies, handles linked assets and overrides, then restores production geometry for rendering. New on Blender Extensions on Oct 25, 2026.",
+    "url": "https://extensions.blender.org/add-ons/proxy-wrangler/",
+    "tags": [
+      "blender-addon",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
     "date": "2026-10-27",
     "name": "AnyImage 1.1.7",
     "name_en": "AnyImage 1.1.7",

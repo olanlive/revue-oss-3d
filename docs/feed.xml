@@ -5,8 +5,37 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 27 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nukify 0.9.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-28-nukify-0-9-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-28-nukify-0-9-2</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Compositeur nodal open source (GPL) pour Windows qui embarque Blender comme moteur : viewer A/B, roto, keying, tracking 2D et planar, nœuds 3D, sortie EXR/Cryptomatte. Première bêta publique sortie le 28 oct. 2026.</description>
+      <category>compositing</category>
+      <category>vfx</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Quadami 0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-28-quadami-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-28-quadami-0-1-0</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Add-on Blender GPL de remaillage automatique en quads, dérivé d’AutoRemesher : on choisit le nombre de quads et il transforme un sculpt ou un scan en maillage propre aux boucles qui suivent la forme. Première version publique le 27 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>cad-retopo</category>
+    </item>
+    <item>
+      <title>ProxyWrangler 1.1.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-28-proxywrangler-1-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-28-proxywrangler-1-1-1</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Extension Blender GPL pour la mise en place de décors lourds : elle remplace les assets par des proxies de silhouette allégés, gère les assets liés et overrides, puis restaure la géométrie de production au rendu. Nouvelle sur Blender Extensions le 25 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+    </item>
     <item>
       <title>AnyImage 1.1.7</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-27-anyimage-1-1-7</link>
@@ -940,34 +969,6 @@
       <category>vfx</category>
       <category>sim</category>
       <category>exr</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>GNToolkit 0.2.8</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-04-gntoolkit-0-2-8</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-04-gntoolkit-0-2-8</guid>
-      <pubDate>Sun, 04 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Versioning sémantique des Geometry Nodes. La 0.2.8 (2 oct) ajoute l’impact des dépendances sur objets/modifiers, la résolution de conflits dans Sync, la détection des JSON modifiés hors Blender et l’export/import headless multi-fichiers.</description>
-      <category>pipeline</category>
-      <category>blender-addon</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>BlenderShelf 0.3.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-04-blendershelf-0-3-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-04-blendershelf-0-3-0</guid>
-      <pubDate>Sun, 04 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Étagère flottante de boutons custom dans le viewport (style Maya). La 0.3.0 (3 oct) ajoute le redimensionnement au coin, Add Script / Import Script (.py) depuis le clic droit, icônes auto pour les boutons script, et pages de pie menu au-delà de 8 boutons. Blender 4.2+ / 5.x.</description>
-      <category>blender-addon</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Eterea Blender Tools 1.6.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-04-eterea-blender-tools-1-6-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-04-eterea-blender-tools-1-6-1</guid>
-      <pubDate>Sun, 04 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Première release publique GPL-3.0 : kit Extension Blender 5.2+ qui regroupe 16 outils modeling/modifiers/nodes/transforms (Custom Color Nodes via D, Weight Ramp by Order, Batch Operate Attributes, Reset Modifier, Join Equalizing Bevels…). Un seul zip à installer.</description>
-      <category>blender-addon</category>
       <category>emerging</category>
     </item>
   </channel>
