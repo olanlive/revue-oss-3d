@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-10-29",
+    "name": "LiveActionAOV 0.9.0",
+    "name_en": "LiveActionAOV 0.9.0",
+    "summary": "Générateur open source (MIT) de passes AOV pour plaques live : profondeur, normales, flow, mattes en EXR prêts pour Nuke. La 0.9.0 du 28 oct. 2026 ajoute le camera track, une clean plate en gaussian splat, la roto en couches et un script .nk auto.",
+    "summary_en": "Open-source (MIT) AOV pass generator for live-action plates: depth, normals, flow, mattes as Nuke-ready EXRs. Version 0.9.0 (Oct 28, 2026) adds camera tracking, a Gaussian-splat clean plate, layered roto and an auto-generated .nk comp script.",
+    "url": "https://github.com/lettidude/LiveActionAOV/releases/tag/v0.9.0",
+    "tags": [
+      "compositing",
+      "vfx",
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic compositing (repos actifs)",
+      "label_en": "GitHub — compositing topic (active repos)",
+      "url": "https://github.com/topics/compositing"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "name": "pynk_p Smoothing Groups 1.0.1",
+    "name_en": "pynk_p Smoothing Groups 1.0.1",
+    "summary": "Add-on Blender (GPL) qui apporte les 30 smoothing groups façon 3ds Max : assignation par boutons, auto par angle et subdivision non destructive qui garde les arêtes dures via Geometry Nodes. Publié sur Blender Extensions fin oct. 2026.",
+    "summary_en": "Blender add-on (GPL) bringing 3ds Max-style 30 smoothing groups: toggle-button assignment, auto by angle, and non-destructive subdivision that keeps hard edges via Geometry Nodes. Published on Blender Extensions in late Oct 2026.",
+    "url": "https://extensions.blender.org/add-ons/pynkp-smoothing-groups/",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "geometry-nodes"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "name": "MP_Comp 4.0.1",
+    "name_en": "MP_Comp 4.0.1",
+    "summary": "Bibliothèque CC0 de plus de 100 effets procéduraux pour le compositeur de Blender, en node groups sans add-on. La 4.0.1 (11 oct. 2026) les rend utilisables comme « Scene Effects » dans le nouveau compositing de Blender 5.3, tout en restant compatible 5.2 LTS.",
+    "summary_en": "CC0 library of 100+ procedural effects for Blender's compositor, built as node groups with no add-on needed. Version 4.0.1 (Oct 11, 2026) makes them usable as Scene Effects in Blender 5.3's new compositor stack, while staying 5.2 LTS compatible.",
+    "url": "https://github.com/MomoPTFL/mp_comp/releases/tag/4.0.1",
+    "tags": [
+      "compositing",
+      "blender",
+      "vfx"
+    ],
+    "source": {
+      "label": "GitHub — topic compositing (repos actifs)",
+      "label_en": "GitHub — compositing topic (active repos)",
+      "url": "https://github.com/topics/compositing"
+    }
+  },
+  {
     "date": "2026-10-28",
     "name": "Nukify 0.9.2",
     "name_en": "Nukify 0.9.2",

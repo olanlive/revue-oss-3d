@@ -5,8 +5,39 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 28 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LiveActionAOV 0.9.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-29-liveactionaov-0-9-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-29-liveactionaov-0-9-0</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Générateur open source (MIT) de passes AOV pour plaques live : profondeur, normales, flow, mattes en EXR prêts pour Nuke. La 0.9.0 du 28 oct. 2026 ajoute le camera track, une clean plate en gaussian splat, la roto en couches et un script .nk auto.</description>
+      <category>compositing</category>
+      <category>vfx</category>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>pynk_p Smoothing Groups 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-29-pynk-p-smoothing-groups-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-29-pynk-p-smoothing-groups-1-0-1</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Add-on Blender (GPL) qui apporte les 30 smoothing groups façon 3ds Max : assignation par boutons, auto par angle et subdivision non destructive qui garde les arêtes dures via Geometry Nodes. Publié sur Blender Extensions fin oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>geometry-nodes</category>
+    </item>
+    <item>
+      <title>MP_Comp 4.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-29-mp-comp-4-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-29-mp-comp-4-0-1</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Bibliothèque CC0 de plus de 100 effets procéduraux pour le compositeur de Blender, en node groups sans add-on. La 4.0.1 (11 oct. 2026) les rend utilisables comme « Scene Effects » dans le nouveau compositing de Blender 5.3, tout en restant compatible 5.2 LTS.</description>
+      <category>compositing</category>
+      <category>blender</category>
+      <category>vfx</category>
+    </item>
     <item>
       <title>Nukify 0.9.2</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-28-nukify-0-9-2</link>
@@ -938,37 +969,6 @@
       <description>Plugin OpenUSD qui ouvre un .blend directement comme layer USD (references, usdview) sans installer Blender. La 0.1.0 (5 oct) se limite encore aux Mesh/Empty de Blender 5.2.2 : pas de matériaux, caméras, lumières ni animation.</description>
       <category>usd</category>
       <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>PostProject 0.6.0-alpha.1 (+ extension Blender VSE)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-05-postproject-0-6-0-alpha-1-extension-blender-vse</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-05-postproject-0-6-0-alpha-1-extension-blender-vse</guid>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Couche d’identité média pour la post-prod : IDs d’assets stables, provenance et relink déterministe par empreinte de contenu. La 0.6.0-alpha.1 est sortie le 4 oct, avec des pilotes Blender Sequencer, Kdenlive, Natron, OBS et Ardour.</description>
-      <category>pipeline</category>
-      <category>video</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>XNodify 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-05-xnodify-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-05-xnodify-1-0-0</guid>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Langage .xfy compilé pour écrire en code Geometry Nodes, shaders et World au lieu de câbler des nodes, avec groupes réutilisables et auto-layout. Validation offline en CLI/CI sans GUI. Repo publié le 3 oct.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Blackbody 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-05-blackbody-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-05-blackbody-1-0-0</guid>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
-      <description>App standalone de simulation GPU (feu, fumée, liquides, destruction, météo…) directement dans un plan live, avec tracking caméra et 111 presets. Exports deep EXR, OpenVDB et USD/OBJ. 1.0.0 du 30 sept : tout neuf, à tester.</description>
-      <category>vfx</category>
-      <category>sim</category>
-      <category>exr</category>
       <category>emerging</category>
     </item>
   </channel>
