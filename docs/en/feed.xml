@@ -5,8 +5,36 @@
     <link>https://olanlive.github.io/revue-oss-3d/en/</link>
     <description>Open source 3D, VFX and video watch.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Material Maker 1.8</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-30-material-maker-1-8</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-30-material-maker-1-8</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Open-source (MIT) node-based procedural material editor, a free alternative to Substance Designer. Version 1.8 (Oct 25, 2026) adds a Trimsheet node, an Auto Export node that re-exports on every change, a high-quality Gaussian blur and a Crop node.</description>
+      <category>texturing</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Blender Max 0.6.8</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-30-blender-max-0-6-8</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-30-blender-max-0-6-8</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+      <description>GPL add-on that dresses Blender like 3ds Max: Command Panel, modifier stack, quad menus, Scene Explorer and parametric primitives, with one-click return to Blender's own UI. Version 0.6.8 (Oct 24, 2026) draws lights the way Max does.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>SpEdE (Splat Edit Engine)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-30-spede-splat-edit-engine</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-30-spede-splat-edit-engine</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Open-source (AGPL) ComfyUI nodes released Oct 28, 2026 for editing Gaussian-splat scenes: click an object to remove it (the hole is refilled with new splats), extract it as a clean PLY or replace it. Everything runs locally on your own GPU.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>LiveActionAOV 0.9.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-29-liveactionaov-0-9-0</link>
@@ -941,35 +969,6 @@
       <description>Free add-on that redraws an edge loop along an editable spline, with X mirror, axis constraints and a Quick button to smooth in one go. 1.0.4 adds the industry compatible keymap.</description>
       <category>blender-addon</category>
       <category>modeling</category>
-    </item>
-    <item>
-      <title>Photo Relief 1.0.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-06-photo-relief-1-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-06-photo-relief-1-0-1</guid>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Small extension that turns an image into a closed, 3D-printable mesh, offline: Relief, Lithophane and Stamp modes, width in millimetres. Published on Sept 24 on Blender Extensions, 1.0.1 in early October.</description>
-      <category>blender-addon</category>
-      <category>3d-print</category>
-    </item>
-    <item>
-      <title>Multi Stage Compositor (NPR PoC, Blender 5.3)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-05-multi-stage-compositor-poc-npr-blender-5-3</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-05-multi-stage-compositor-poc-npr-blender-5-3</guid>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Official proof of concept from the NPR project, released on Sept 30 for feedback: per-object and per-material compositing trees in Blender 5.3, in the viewport as well as in the final render. A preview of per-object compositing in Blender.</description>
-      <category>blender-addon</category>
-      <category>vfx</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>usd-blender-plugins 0.1.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-05-usd-blender-plugins-0-1-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-05-usd-blender-plugins-0-1-0</guid>
-      <pubDate>Mon, 05 Oct 2026 09:00:00 +0200</pubDate>
-      <description>OpenUSD plugin that opens a .blend directly as a USD layer (references, usdview) without installing Blender. 0.1.0 (Oct 5) is still limited to Blender 5.2.2 Mesh/Empty objects: no materials, cameras, lights or animation.</description>
-      <category>usd</category>
-      <category>pipeline</category>
-      <category>emerging</category>
     </item>
   </channel>
 </rss>

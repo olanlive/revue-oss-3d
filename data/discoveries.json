@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-10-30",
+    "name": "Material Maker 1.8",
+    "name_en": "Material Maker 1.8",
+    "summary": "Éditeur de matériaux procéduraux open source (MIT) à base de nœuds, alternative libre à Substance Designer. La 1.8 du 25 oct. 2026 ajoute un nœud Trimsheet, un Auto Export qui réexporte à chaque changement, un flou gaussien HQ et un nœud Crop.",
+    "summary_en": "Open-source (MIT) node-based procedural material editor, a free alternative to Substance Designer. Version 1.8 (Oct 25, 2026) adds a Trimsheet node, an Auto Export node that re-exports on every change, a high-quality Gaussian blur and a Crop node.",
+    "url": "https://github.com/RodZill4/material-maker/releases/tag/1.8",
+    "tags": [
+      "texturing",
+      "emerging"
+    ],
+    "source": {
+      "label": "Mastodon — @indietooling@mastodon.gamedev.place (#b3d)",
+      "label_en": "Mastodon — @indietooling@mastodon.gamedev.place (#b3d)",
+      "url": "https://mastodon.gamedev.place/@indietooling/117527623986274525"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "name": "Blender Max 0.6.8",
+    "name_en": "Blender Max 0.6.8",
+    "summary": "Add-on GPL qui habille Blender comme 3ds Max : Command Panel, pile de modificateurs, quad menus, Scene Explorer et primitives paramétriques, avec retour à l’interface Blender d’un clic. La 0.6.8 du 24 oct. 2026 dessine les lumières comme dans Max.",
+    "summary_en": "GPL add-on that dresses Blender like 3ds Max: Command Panel, modifier stack, quad menus, Scene Explorer and parametric primitives, with one-click return to Blender's own UI. Version 0.6.8 (Oct 24, 2026) draws lights the way Max does.",
+    "url": "https://github.com/neom315/blender-max/releases/tag/v0.6.8",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic blender (repos récents)",
+      "label_en": "GitHub — blender topic (recent repos)",
+      "url": "https://github.com/topics/blender"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "name": "SpEdE (Splat Edit Engine)",
+    "name_en": "SpEdE (Splat Edit Engine)",
+    "summary": "Nœuds ComfyUI open source (AGPL) publiés le 28 oct. 2026 pour éditer une scène en gaussian splats : on clique un objet pour le supprimer (trou rebouché en nouveaux splats), l’extraire en PLY propre ou le remplacer. Tout tourne en local sur votre GPU.",
+    "summary_en": "Open-source (AGPL) ComfyUI nodes released Oct 28, 2026 for editing Gaussian-splat scenes: click an object to remove it (the hole is refilled with new splats), extract it as a clean PLY or replace it. Everything runs locally on your own GPU.",
+    "url": "https://github.com/Burgstall-labs/ComfyUI-SpEdE",
+    "tags": [
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (repos récents)",
+      "label_en": "GitHub — gaussian-splatting topic (recent repos)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
     "date": "2026-10-29",
     "name": "LiveActionAOV 0.9.0",
     "name_en": "LiveActionAOV 0.9.0",
