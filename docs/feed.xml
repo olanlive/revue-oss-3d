@@ -5,8 +5,46 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 30 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>noodlebin 0.1.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-31-noodlebin-0-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-31-noodlebin-0-1-1</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Extension GPL qui copie des arbres de nœuds Blender (shader, Geometry Nodes, compositor) en texte : on les colle sur noodlebin.art pour les voir et les partager par lien, puis on les recolle dans n’importe quel .blend avec valeurs, frames et groupes. Publiée le 25 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>geometry-nodes</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Origa 0.4.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-31-origa-0-4-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-31-origa-0-4-0</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Add-on GPL qui transforme un plan en papier : plier, rouler, friser, onduler, déchirer ou froisser par simples curseurs, avec presets (billets, reçus, parchemins) et une « pluie de billets » en un clic. Publié le 28 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>OM3D Asset Prep 0.6.5</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-31-om3d-asset-prep-0-6-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-31-om3d-asset-prep-0-6-5</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Add-on Blender GPL qui mène un asset de jeu de l’import en vrac au bake et à l’export : contrôle et réparation de scène (transforms, n-gons, normales, UV), appariement low/high pour le bake, export FBX par asset pour Unreal, Substance ou Marmoset. v0.6.5 du 29 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>asset-management</category>
+    </item>
+    <item>
+      <title>Idol (Speridlabs)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-31-idol-speridlabs</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-31-idol-speridlabs</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Code Apache-2.0 qui génère un objet en Gaussian splat (.ply 3DGS, jusqu’à ~1 M de gaussiennes, faces cachées comprises) à partir d’une seule image, sur GPU grand public (~7 Go de VRAM). Publié le 28 oct. 2026, déjà avec un plugin pour LichtFeld Studio.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>Material Maker 1.8</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-30-material-maker-1-8</link>
@@ -930,45 +968,6 @@
       <description>Exporte directement un GIF animé depuis le menu Render de Blender, sans outil externe. La 1.8.0 (5 oct) sépare la qualité en mode Basic (presets) et Advanced, où l’on règle le dithering et la taille de palette.</description>
       <category>blender-addon</category>
       <category>video</category>
-    </item>
-    <item>
-      <title>Gaussian Splat Patch 0.1.12</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-06-gaussian-splat-patch-0-1-12</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-06-gaussian-splat-patch-0-1-12</guid>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Retouche les scans Gaussian splat importés nativement dans Blender 5.3+ avec 7 brosses (Erase, Clone, Heal, Spot Heal, Bridge…), feather et mode Surface/Through. Toute jeune (v0.1.12 du 30 sept), elle complète bien les splats natifs de la 5.3.</description>
-      <category>blender-addon</category>
-      <category>gaussian-splat</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Nukomfy 0.1.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-06-nukomfy-0-1-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-06-nukomfy-0-1-1</guid>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Transforme des workflows ComfyUI en gizmos Nuke : l’artiste règle ses knobs dans la comp, envoie le job à une machine ComfyUI du réseau et réimporte les frames. La 0.1.1 (28 sept) corrige les rendus en ligne de commande et sur render farm.</description>
-      <category>vfx</category>
-      <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>MacBlend 3.3.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-06-macblend-3-3-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-06-macblend-3-3-0</guid>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Calibre des images contenant une ColorChecker directement dans Blender, en nœuds compositor ou shader, ou en LUT .cube. Sait aussi matcher deux images (HDRI vers plaque caméra, caméra A vers caméra B). 3.3.0 publiée le 22 sept.</description>
-      <category>blender-addon</category>
-      <category>vfx</category>
-      <category>color</category>
-    </item>
-    <item>
-      <title>Mio3 Flex 1.0.4</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-06-mio3-flex-1-0-4</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-06-mio3-flex-1-0-4</guid>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on gratuit qui redessine une edge loop le long d’une spline éditable, avec miroir X, contraintes d’axe et bouton Quick pour lisser d’un coup. La 1.0.4 ajoute le keymap industry compatible.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
     </item>
   </channel>
 </rss>

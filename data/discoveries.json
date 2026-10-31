@@ -1,5 +1,75 @@
 [
   {
+    "date": "2026-10-31",
+    "name": "noodlebin 0.1.1",
+    "name_en": "noodlebin 0.1.1",
+    "summary": "Extension GPL qui copie des arbres de nœuds Blender (shader, Geometry Nodes, compositor) en texte : on les colle sur noodlebin.art pour les voir et les partager par lien, puis on les recolle dans n’importe quel .blend avec valeurs, frames et groupes. Publiée le 25 oct. 2026.",
+    "summary_en": "GPL extension that copies Blender node trees (shader, Geometry Nodes, compositor) as text: paste them on noodlebin.art to view and share as a link, then paste them back into any .blend with values, frames and groups intact. Published Oct 25, 2026.",
+    "url": "https://extensions.blender.org/add-ons/noodlebin/",
+    "tags": [
+      "blender-addon",
+      "geometry-nodes",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "name": "Origa 0.4.0",
+    "name_en": "Origa 0.4.0",
+    "summary": "Add-on GPL qui transforme un plan en papier : plier, rouler, friser, onduler, déchirer ou froisser par simples curseurs, avec presets (billets, reçus, parchemins) et une « pluie de billets » en un clic. Publié le 28 oct. 2026.",
+    "summary_en": "GPL add-on that turns a plane into paper: fold, roll, curl, wave, tear or crumple it with simple sliders, with presets (bills, receipts, scrolls) and one-click money rain. Published Oct 28, 2026.",
+    "url": "https://extensions.blender.org/add-ons/origa/",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "name": "OM3D Asset Prep 0.6.5",
+    "name_en": "OM3D Asset Prep 0.6.5",
+    "summary": "Add-on Blender GPL qui mène un asset de jeu de l’import en vrac au bake et à l’export : contrôle et réparation de scène (transforms, n-gons, normales, UV), appariement low/high pour le bake, export FBX par asset pour Unreal, Substance ou Marmoset. v0.6.5 du 29 oct. 2026.",
+    "summary_en": "GPL Blender add-on that takes a game asset from messy import to baked and exported: scene checks and fixes (transforms, n-gons, normals, UVs), low/high pairing for baking and per-asset FBX export for Unreal, Substance or Marmoset. v0.6.5, Oct 29, 2026.",
+    "url": "https://github.com/onmars3d-dev/om3d-asset-prep/releases/tag/v0.6.5",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "asset-management"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — blender-addon topic (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "name": "Idol (Speridlabs)",
+    "name_en": "Idol (Speridlabs)",
+    "summary": "Code Apache-2.0 qui génère un objet en Gaussian splat (.ply 3DGS, jusqu’à ~1 M de gaussiennes, faces cachées comprises) à partir d’une seule image, sur GPU grand public (~7 Go de VRAM). Publié le 28 oct. 2026, déjà avec un plugin pour LichtFeld Studio.",
+    "summary_en": "Apache-2.0 code that generates a Gaussian splat object (3DGS .ply, up to ~1M Gaussians, unseen sides included) from a single image on consumer GPUs (~7 GB VRAM). Released Oct 28, 2026, already with a LichtFeld Studio plugin.",
+    "url": "https://github.com/speridlabs/idol-sdk",
+    "tags": [
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (plugin lyehe/lichtfeld-idol-plugin)",
+      "label_en": "GitHub — gaussian-splatting topic (lyehe/lichtfeld-idol-plugin plugin)",
+      "url": "https://github.com/lyehe/lichtfeld-idol-plugin"
+    }
+  },
+  {
     "date": "2026-10-30",
     "name": "Material Maker 1.8",
     "name_en": "Material Maker 1.8",
