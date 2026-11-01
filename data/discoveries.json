@@ -1,5 +1,75 @@
 [
   {
+    "date": "2026-11-01",
+    "name": "Ucupaint 3.0",
+    "name_en": "Ucupaint 3.0",
+    "summary": "Le système de calques de texture GPL pour Blender saute la 2.5 : interface recentrée sur la liste des calques avec un calque de base, canaux Height et Vector Displacement séparés, calques d’ajustement, décals sphériques et cylindriques, bake refondu. Sorti le 23 oct. 2026.",
+    "summary_en": "Blender’s GPL texture layer system skips 2.5: a UI centred on the layer list with a base layer, separate Height and Vector Displacement channels, adjustment layers, spherical and cylindrical decals, and a reworked bake target system. Released Oct 23, 2026.",
+    "url": "https://github.com/ucupumar/ucupaint/releases/tag/3.0.0",
+    "tags": [
+      "blender-addon",
+      "texturing"
+    ],
+    "source": {
+      "label": "Web — devtalk.blender.org (fil « 3D Texture Paint », commentaire de Nathaniel_Sabanski)",
+      "label_en": "Web — devtalk.blender.org (“3D Texture Paint” thread, comment by Nathaniel_Sabanski)",
+      "url": "https://devtalk.blender.org/t/3d-texture-paint-feedback-discussion/46202"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "name": "Ichno 1.0.4",
+    "name_en": "Ichno 1.0.4",
+    "summary": "Extension GPL qui sort en un clic des plans techniques PDF/SVG depuis la scène : vues projetées et isométrique, cotes automatiques, cartouche, nomenclature, une feuille par collection. La 1.0.4 (31 oct. 2026) range chaque plan dans son dossier.",
+    "summary_en": "GPL extension that turns your scene into PDF/SVG technical drawings in one click: projected and isometric views, automatic dimensions, title block, bill of materials, one sheet per collection. Version 1.0.4 (Oct 31, 2026) puts each drawing in its own folder.",
+    "url": "https://extensions.blender.org/add-ons/ichno/",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "name": "Black Hole Studio 1.0.0",
+    "name_en": "Black Hole Studio 1.0.0",
+    "summary": "Extension GPL qui ajoute un trou noir physiquement juste : lumière courbée par la relativité, disque d’accrétion avec effet Doppler et redshift, jets, objets de la scène déformés derrière. Mode rapide Cycles/EEVEE ou exact en OSL, six presets. Publiée le 28 oct. 2026.",
+    "summary_en": "GPL extension that adds a physically based black hole: light bent by general relativity, accretion disk with Doppler beaming and redshift, jets, scene objects lensed behind it. Fast mode for Cycles/EEVEE or exact OSL mode, six presets. Published Oct 28, 2026.",
+    "url": "https://extensions.blender.org/add-ons/blackhole-studio/",
+    "tags": [
+      "blender-addon",
+      "shading"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "name": "PlateLock",
+    "name_en": "PlateLock",
+    "summary": "Pack de nœuds ComfyUI sous MIT : LTX-2.3 génère l’effet (explosion, portail…) et PlateLock le composite sur la plaque d’origine comme en VFX, en gardant intacts au pixel près tous les pixels que l’effet ne touche pas. Publié le 29 oct. 2026.",
+    "summary_en": "MIT ComfyUI node pack: LTX-2.3 generates the effect (explosion, portal…) and PlateLock composites it onto the original plate the VFX way, keeping every pixel the effect doesn’t touch bit-identical. Published Oct 29, 2026.",
+    "url": "https://github.com/TusharTechs/platelock",
+    "tags": [
+      "vfx",
+      "compositing",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic vfx (nouveaux dépôts)",
+      "label_en": "GitHub — vfx topic (new repos)",
+      "url": "https://github.com/topics/vfx"
+    }
+  },
+  {
     "date": "2026-10-31",
     "name": "noodlebin 0.1.1",
     "name_en": "noodlebin 0.1.1",

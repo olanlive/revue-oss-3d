@@ -5,8 +5,46 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 31 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ucupaint 3.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-01-ucupaint-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-01-ucupaint-3-0</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le système de calques de texture GPL pour Blender saute la 2.5 : interface recentrée sur la liste des calques avec un calque de base, canaux Height et Vector Displacement séparés, calques d’ajustement, décals sphériques et cylindriques, bake refondu. Sorti le 23 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>texturing</category>
+    </item>
+    <item>
+      <title>Ichno 1.0.4</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-01-ichno-1-0-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-01-ichno-1-0-4</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Extension GPL qui sort en un clic des plans techniques PDF/SVG depuis la scène : vues projetées et isométrique, cotes automatiques, cartouche, nomenclature, une feuille par collection. La 1.0.4 (31 oct. 2026) range chaque plan dans son dossier.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Black Hole Studio 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-01-black-hole-studio-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-01-black-hole-studio-1-0-0</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Extension GPL qui ajoute un trou noir physiquement juste : lumière courbée par la relativité, disque d’accrétion avec effet Doppler et redshift, jets, objets de la scène déformés derrière. Mode rapide Cycles/EEVEE ou exact en OSL, six presets. Publiée le 28 oct. 2026.</description>
+      <category>blender-addon</category>
+      <category>shading</category>
+    </item>
+    <item>
+      <title>PlateLock</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-01-platelock</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-01-platelock</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Pack de nœuds ComfyUI sous MIT : LTX-2.3 génère l’effet (explosion, portail…) et PlateLock le composite sur la plaque d’origine comme en VFX, en gardant intacts au pixel près tous les pixels que l’effet ne touche pas. Publié le 29 oct. 2026.</description>
+      <category>vfx</category>
+      <category>compositing</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>noodlebin 0.1.1</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-10-31-noodlebin-0-1-1</link>
@@ -928,46 +966,6 @@
       <description>Ressuscite le moteur Blender Internal de la 2.79b comme moteur de rendu add-on dans Blender 5.2/5.3 : rendu viewport, anciens matériaux nodaux, import de scènes 2.79. Repo du 5 oct, expérimental et largement codé par IA, testé sur macOS ARM seulement.</description>
       <category>blender-addon</category>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>Splat Slicer 0.2.9</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-07-splat-slicer-0-2-9</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-07-splat-slicer-0-2-9</guid>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Découpe un scan Gaussian splat en couches à imprimer sur film transparent puis à empiler en bloc, avec preview couche par couche et export PDF, PNG, DTF ou DICOM/NIfTI/NRRD. Repo créé le 5 oct, déjà en v0.2.9 (6 oct) ; impression réelle pas encore testée.</description>
-      <category>blender-addon</category>
-      <category>gaussian-splat</category>
-      <category>3d-print</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>ROTONIX 2.0.0 beta 1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-07-rotonix-2-0-0-beta-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-07-rotonix-2-0-0-beta-1</guid>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Assistant de matte IA pour Nuke 15+, publié sur Nukepedia le 6 oct : un seul panneau pour sélectionner le sujet, tracker, retoucher et exporter une séquence alpha, avec SAM 2.1, ViTMatte et RAFT en local. Bêta gratuite, Windows uniquement.</description>
-      <category>vfx</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>AOV Rebuild Pipeline</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-07-aov-rebuild-pipeline</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-07-aov-rebuild-pipeline</guid>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Plugin Nuke 14 à 17 qui reconstruit automatiquement la beauty depuis les AOV d’un EXR, avec détection du moteur (Arnold, Redshift, V-Ray, Karma, UE5). Modes Basic ou Advanced et QC intégré jusqu’à l’audit pixel par pixel. Repo créé le 5 oct.</description>
-      <category>vfx</category>
-      <category>exr</category>
-      <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Render Animated .GIF 1.8.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-07-render-animated-gif-1-8-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-07-render-animated-gif-1-8-0</guid>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Exporte directement un GIF animé depuis le menu Render de Blender, sans outil externe. La 1.8.0 (5 oct) sépare la qualité en mode Basic (presets) et Advanced, où l’on règle le dithering et la taille de palette.</description>
-      <category>blender-addon</category>
-      <category>video</category>
     </item>
   </channel>
 </rss>
