@@ -1,5 +1,75 @@
 [
   {
+    "date": "2026-11-02",
+    "name": "Image Region Transform 1.0.4",
+    "name_en": "Image Region Transform 1.0.4",
+    "summary": "Add-on GPL qui sélectionne une zone de pixels dans l’éditeur Image/UV (cadre ou polyligne) pour la déplacer, tourner, déformer ou copier entre textures, sans toucher aux UV et avec l’annulation native. Version 1.0.4 du 1er nov. 2026.",
+    "summary_en": "GPL add-on that selects a pixel region in the Image/UV Editor (box or polyline) to move, rotate, warp or copy it across textures, without touching UVs and with native undo. Version 1.0.4 released Nov 1, 2026.",
+    "url": "https://extensions.blender.org/add-ons/image-region-transform/",
+    "tags": [
+      "blender-addon",
+      "texturing",
+      "uv"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/image-region-transform/"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "name": "EasyMold 1.0.1",
+    "name_en": "EasyMold 1.0.1",
+    "summary": "Add-on libre qui génère des moules imprimables en 3D autour d’un objet : moules directs ou en silicone, plan de joint, clés, trous de coulée, évents, découpe pour le plateau et export STL/3MF. Publié le 30 oct. 2026.",
+    "summary_en": "Free add-on that builds 3D-printable molds around an object: direct or silicone molds, parting surface, keys, pour holes, vents, splitting for the print bed and STL/3MF export. Published Oct 30, 2026.",
+    "url": "https://github.com/M1STERS/EasyMold",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "3d-print"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/easymold/"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "name": "Arkedia SKP Bridge 0.3.3",
+    "name_en": "Arkedia SKP Bridge 0.3.3",
+    "summary": "Extension Blender GPL qui importe et exporte des fichiers SketchUp .skp sans SketchUp : composants en instances, étiquettes en collections, scènes en caméras, et attributs IFC de Bonsai conservés. Windows, Blender 5.2. Version 0.3.3 du 30 oct. 2026.",
+    "summary_en": "GPL Blender extension that imports and exports SketchUp .skp files without SketchUp: components as instances, tags as collections, scenes as cameras, and Bonsai IFC attributes kept. Windows, Blender 5.2. Version 0.3.3 released Oct 30, 2026.",
+    "url": "https://github.com/Arkedia3D/arkedia-skp-bridge/releases/tag/v0.3.3",
+    "tags": [
+      "blender-addon",
+      "pipeline"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — blender-addon topic (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "name": "Fused Zip-NeRF",
+    "name_en": "Fused Zip-NeRF",
+    "summary": "Réimplémentation MIT de Zip-NeRF en noyaux CUDA fusionnés écrits à la main, pour le framework NeRFICG : selon son auteur Florian Hahlbohm, 6 à 7 fois plus rapide à entraîner et 10 fois au rendu, à qualité égale. Publiée le 30 oct. 2026.",
+    "summary_en": "MIT reimplementation of Zip-NeRF in handwritten fused CUDA kernels for the NeRFICG framework: per author Florian Hahlbohm, 6 to 7 times faster training and 10 times faster rendering at the same quality. Released Oct 30, 2026.",
+    "url": "https://github.com/fhahlbohm/fused-zipnerf",
+    "tags": [
+      "emerging",
+      "gaussian-splat"
+    ],
+    "source": {
+      "label": "Web — radiancefields.com (article du 31 oct. 2026)",
+      "label_en": "Web — radiancefields.com (Oct 31, 2026 article)",
+      "url": "https://radiancefields.com/florian-hahlbohm-rebuilds-zip-nerf-in-fused-cuda"
+    }
+  },
+  {
     "date": "2026-11-01",
     "name": "Ucupaint 3.0",
     "name_en": "Ucupaint 3.0",

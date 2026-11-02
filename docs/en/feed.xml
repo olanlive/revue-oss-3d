@@ -5,8 +5,46 @@
     <link>https://olanlive.github.io/revue-oss-3d/en/</link>
     <description>Open source 3D, VFX and video watch.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Image Region Transform 1.0.4</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-02-image-region-transform-1-0-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-02-image-region-transform-1-0-4</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>GPL add-on that selects a pixel region in the Image/UV Editor (box or polyline) to move, rotate, warp or copy it across textures, without touching UVs and with native undo. Version 1.0.4 released Nov 1, 2026.</description>
+      <category>blender-addon</category>
+      <category>texturing</category>
+      <category>uv</category>
+    </item>
+    <item>
+      <title>EasyMold 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-02-easymold-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-02-easymold-1-0-1</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Free add-on that builds 3D-printable molds around an object: direct or silicone molds, parting surface, keys, pour holes, vents, splitting for the print bed and STL/3MF export. Published Oct 30, 2026.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>3d-print</category>
+    </item>
+    <item>
+      <title>Arkedia SKP Bridge 0.3.3</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-02-arkedia-skp-bridge-0-3-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-02-arkedia-skp-bridge-0-3-3</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>GPL Blender extension that imports and exports SketchUp .skp files without SketchUp: components as instances, tags as collections, scenes as cameras, and Bonsai IFC attributes kept. Windows, Blender 5.2. Version 0.3.3 released Oct 30, 2026.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Fused Zip-NeRF</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-02-fused-zip-nerf</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-02-fused-zip-nerf</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>MIT reimplementation of Zip-NeRF in handwritten fused CUDA kernels for the NeRFICG framework: per author Florian Hahlbohm, 6 to 7 times faster training and 10 times faster rendering at the same quality. Released Oct 30, 2026.</description>
+      <category>emerging</category>
+      <category>gaussian-splat</category>
+    </item>
     <item>
       <title>Ucupaint 3.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-01-ucupaint-3-0</link>
@@ -929,43 +967,6 @@
       <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
       <description>Oct 7 release of the OpenUSD stage optimization library: USD 26.08 support, a slimmer Linux wheel, and a fix that finally makes UsdPreviewSurface shader checks reliable.</description>
       <category>usd</category>
-    </item>
-    <item>
-      <title>Hydra Lotus</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-09-hydra-lotus</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-09-hydra-lotus</guid>
-      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Brand-new Hydra delegate (created Sept 30): a Vulkan GPU path tracer for OpenUSD, with NEE/MIS, ReSTIR and denoising, each fast mode being checked against a reference path tracer.</description>
-      <category>usd</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Blender — Custom Space Types (proposal + branch)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-08-blender-custom-space-types-proposition-branche</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-08-blender-custom-space-types-proposition-branche</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Studio Autour de Minuit proposes (devtalk, Oct 7) letting add-ons create real Blender editors in Python: custom space type, header, sidebar, GPU drawing, saving and fallback if the add-on is missing. Public test branch, feedback wanted.</description>
-      <category>blender-addon</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Shramko SOG LOD Converter 1.2</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-08-shramko-sog-lod-converter-1-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-08-shramko-sog-lod-converter-1-2</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Converts huge PLY Gaussian splats (100M+ splats, 10+ GB) into Streamed SOG with real LODs for SuperSplat, in the browser via WebGPU, with no upload. Tested on Oct 2 on a 259M-splat city scan; 1.2 adds a queue. MIT.</description>
-      <category>gaussian-splat</category>
-      <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Blender Internal Port</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-08-blender-internal-port</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-08-blender-internal-port</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Brings back the Blender Internal engine from 2.79b as an add-on render engine in Blender 5.2/5.3: viewport rendering, old node materials, import of 2.79 scenes. Repo from Oct 5, experimental and largely AI-coded, tested on macOS ARM only.</description>
-      <category>blender-addon</category>
-      <category>emerging</category>
     </item>
   </channel>
 </rss>
