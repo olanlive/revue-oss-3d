@@ -5,8 +5,57 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 02 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Perspective Match 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-03-perspective-match-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-03-perspective-match-1-0-1</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Extension GPL pour Blender 5.2 publiée le 1er nov. 2026 : on trace des lignes de fuite sur une photo et la caméra se cale en direct (détection auto des lignes sur l’architecture), idéal pour intégrer de la 3D dans un plan fixe.</description>
+      <category>blender-addon</category>
+      <category>vfx</category>
+      <category>camera</category>
+      <category>matchmove</category>
+    </item>
+    <item>
+      <title>Devil Designer 0.11.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-03-devil-designer-0-11-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-03-devil-designer-0-11-0</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Add-on GPL pour créer des vêtements dans Blender : patrons 2D en centimètres, couture, drapé sur le personnage par simulation de tissu. La 0.11.0 du 31 oct. 2026 ajoute des presets de tissus calibrés et des réglages par pièce.</description>
+      <category>blender-addon</category>
+      <category>sim</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Sabercat 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-03-sabercat-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-03-sabercat-1-0-0</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Moteur GPU Apache-2.0 pour gaussian splats (Vulkan 1.3, Slang/C++) : rendu temps réel, gradients pour l’entraînement et rééclairage avec ombres ray-tracées, plus un viewer et un éditeur de calques avec export PLY/GLB. Version 1.0.0 du 29 oct. 2026.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>PlayCanvas — Particle Blast (splats)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-03-playcanvas-particle-blast-splats</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-03-playcanvas-particle-blast-splats</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Nouvel exemple du moteur MIT PlayCanvas (ajouté le 2 nov. 2026) : une scène en gaussian splats devient 2 millions de particules physiques WebGPU qui brûlent, coulent ou éclatent, avec collisions sur une grille de voxels tirée du splat.</description>
+      <category>gaussian-splat</category>
+      <category>sim</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>Gaussian-Splat-Lite</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-03-gaussian-splat-lite</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-03-gaussian-splat-lite</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Moteur de rendu Apache-2.0 de gaussian splats pour Three.js (WebGPU/WebGL2, PLY, SPZ, SOG, RAD, LOD en streaming). Son convertisseur RAD gère depuis le 2 nov. 2026 un codebook de SH : fichiers SH3 plus de 55 % plus légers.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>Image Region Transform 1.0.4</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-02-image-region-transform-1-0-4</link>
@@ -920,53 +969,6 @@
       <description>Ferme de rendu libre (MIT) pour le Movie Render Queue d’Unreal Engine 5 : dashboard web, file de jobs, découpe auto des plans sur plusieurs PC Windows, retries et historique. v1.0.0 sortie le 6 octobre 2026.</description>
       <category>pipeline</category>
       <category>render-farm</category>
-    </item>
-    <item>
-      <title>py2gn</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-10-py2gn</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-10-py2gn</guid>
-      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Nouvel add-on Blender (publié le 9 octobre 2026) qui compile des fonctions Python restreintes en groupes Geometry Nodes natifs : paramètres en sockets, corps en nœuds Math/Switch. 68 nœuds sur 351 supportés pour l’instant.</description>
-      <category>blender</category>
-      <category>addon</category>
-      <category>geometry-nodes</category>
-    </item>
-    <item>
-      <title>usd-web-viewer</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-10-usd-web-viewer</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-10-usd-web-viewer</guid>
-      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description>OpenUSD dans le navigateur (repo créé le 9 octobre 2026) : la composition USD tient dans 604 Ko de WebAssembly, avec rendu three.js. Pratique pour inspecter une scène sans DCC.</description>
-      <category>usd</category>
-      <category>pipeline</category>
-      <category>web</category>
-    </item>
-    <item>
-      <title>SleepyTools (Nuke)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-10-sleepytools-nuke</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-10-sleepytools-nuke</guid>
-      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Boîte à outils Nuke/NukeX publiée le 8 octobre 2026 : file de rendu, « script doctor », snapshots, éditeur de texte, bibliothèques BlinkScript et d’expressions, scrub de knobs et pack de gizmos.</description>
-      <category>nuke</category>
-      <category>vfx</category>
-      <category>compositing</category>
-    </item>
-    <item>
-      <title>Nuke × ComfyUI bridge 0.1.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-09-nuke-comfyui-bridge-0-1-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-09-nuke-comfyui-bridge-0-1-0</guid>
-      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Nouveau (8 oct) : un panneau Nuke envoie une plaque à ComfyUI et récupère un EXR multicouche par frame avec normales, profondeur métrique, position et matte alpha. Expérience perso, testée sur RTX 3090.</description>
-      <category>vfx</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>usd-optimize 1.3.1 (NVIDIA)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-09-usd-optimize-1-3-1-nvidia</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-09-usd-optimize-1-3-1-nvidia</guid>
-      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Version du 7 oct de la lib d’optimisation de stages OpenUSD : support USD 26.08, wheel Linux allégée, et correctif qui rend enfin fiables les checks de shaders UsdPreviewSurface.</description>
-      <category>usd</category>
     </item>
   </channel>
 </rss>
