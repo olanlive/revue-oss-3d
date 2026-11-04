@@ -1,5 +1,112 @@
 [
   {
+    "date": "2026-11-04",
+    "name": "Blender 5.3 — Gaussian splats natifs",
+    "name_en": "Blender 5.3 — native Gaussian splats",
+    "summary": "Billet des devs Blender du 30 oct. 2026 : la 5.3 importe les gaussian splats (.ply, .spz, USD) comme un type de point cloud, éditables en Geometry Nodes et rendus par EEVEE, Workbench et Cycles, avec un rééclairage encore expérimental.",
+    "summary_en": "Blender developers' post from Oct 30, 2026: 5.3 imports Gaussian splats (.ply, .spz, USD) as a point cloud type, editable in Geometry Nodes and rendered by EEVEE, Workbench and Cycles, with relighting still experimental.",
+    "url": "https://code.blender.org/2026/10/splatting-the-gaussians-into-blender/",
+    "tags": [
+      "blender",
+      "gaussian-splat",
+      "geometry-nodes"
+    ],
+    "source": {
+      "label": "Mastodon — @Blender@mastodon.social",
+      "label_en": "Mastodon — @Blender@mastodon.social",
+      "url": "https://mastodon.social/@Blender/117530125419925296"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "name": "Spirula Render 0.13.1",
+    "name_en": "Spirula Render 0.13.1",
+    "summary": "Moteur de rendu GPL pour Blender 5.3+ qui rend les gaussian splats avec le rastériseur de Spirula Studio, avec rééclairage et ombres entre splats. Les versions 0.11 à 0.13 (3 nov. 2026) ajoutent flares, filtres et objectifs vintage de Vintage Click.",
+    "summary_en": "GPL render engine for Blender 5.3+ that renders Gaussian splats with Spirula Studio's rasterizer, with relighting and splat-to-splat shadows. Versions 0.11 to 0.13 (Nov 3, 2026) add flares, filters and vintage lenses from Vintage Click.",
+    "url": "https://github.com/timfennell/blender-splat-render/releases/tag/v0.13.1",
+    "tags": [
+      "blender-addon",
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "Reddit — r/GaussianSplatting (u/timfennell_)",
+      "label_en": "Reddit — r/GaussianSplatting (u/timfennell_)",
+      "url": "https://www.reddit.com/r/GaussianSplatting/comments/1xmt3r3/blender_53_3dgs_render_engine_with_lenses_and/"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "name": "Photocraft VFX 0.4.0",
+    "name_en": "Photocraft VFX 0.4.0",
+    "summary": "Éditeur d'images par calques Apache-2.0 pensé comme Nuke : 32 bits linéaire ACEScg, OpenColorIO, export EXR multicanal et script Nuke. La 0.4.0 du 4 nov. 2026 ajoute un viewer OCIO façon Nuke, des LUT de visualisation et le choix de l'espace d'entrée.",
+    "summary_en": "Apache-2.0 layer-based image editor built like Nuke: 32-bit scene-linear ACEScg, OpenColorIO, multichannel EXR export and Nuke script output. 0.4.0 (Nov 4, 2026) adds a Nuke-style OCIO viewer, viewer LUTs and an input colour space setting.",
+    "url": "https://github.com/metalrahul/photocraft-vfx/releases/tag/vfx-v0.4.0",
+    "tags": [
+      "vfx",
+      "compositing",
+      "ocio",
+      "emerging"
+    ],
+    "source": {
+      "label": "Reddit — r/vfx (u/More_Fox3730)",
+      "label_en": "Reddit — r/vfx (u/More_Fox3730)",
+      "url": "https://www.reddit.com/r/vfx/comments/1xlzjum/photocraft_vfx_fork/"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "name": "Unity Gaussian Splatting 2.0.0",
+    "name_en": "Unity Gaussian Splatting 2.0.0",
+    "summary": "Plugin MIT d'Aras Pranckevičius pour rendre des gaussian splats dans Unity. La 2.0.0 du 2 nov. 2026 lit directement les .ply et .spz (dont SPZ 4) sans conversion, trie globalement plusieurs splats qui se croisent et retire les outils d'édition.",
+    "summary_en": "Aras Pranckevičius's MIT plugin for rendering Gaussian splats in Unity. 2.0.0 (Nov 2, 2026) loads .ply and .spz files (including SPZ 4) directly with no conversion, sorts several intersecting splats globally and drops the editing tools.",
+    "url": "https://github.com/aras-p/UnityGaussianSplatting/releases/tag/v2.0.0",
+    "tags": [
+      "gaussian-splat"
+    ],
+    "source": {
+      "label": "Web — radiancefields.com (article du 3 nov. 2026)",
+      "label_en": "Web — radiancefields.com (Nov 3, 2026 article)",
+      "url": "https://radiancefields.com/unity-gaussian-splatting-2-0-0-loads-ply-and-spz-directly"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "name": "SimpleStep Importer 1.5.3",
+    "name_en": "SimpleStep Importer 1.5.3",
+    "summary": "Add-on GPL (2 nov. 2026) qui importe des assemblages CAO STEP dans Blender 5.2+ sans figer l'interface : conversion C++ en arrière-plan, noms et hiérarchie des pièces, instances, couleurs et maillage adaptatif. Windows x64 seulement pour l'instant.",
+    "summary_en": "GPL add-on (Nov 2, 2026) that imports STEP CAD assemblies into Blender 5.2+ without freezing the UI: background C++ conversion, part names and hierarchy, instances, colours and adaptive meshing. Windows x64 only for now.",
+    "url": "https://github.com/glenn-de-backer/blender-step-importer/releases/tag/1.5.3",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "cad-retopo"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — topic blender-addon (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "name": "SplatThumb 0.4.0",
+    "name_en": "SplatThumb 0.4.0",
+    "summary": "Outil MIT pour Windows 10/11 qui affiche dans l'Explorateur des vignettes des fichiers .ply de gaussian splats (INRIA et PLY compressés SuperSplat), avec un angle de vue réglable par fichier. Version 0.4.0 du 1er nov. 2026.",
+    "summary_en": "MIT tool for Windows 10/11 that shows Explorer thumbnails for Gaussian splat .ply files (INRIA and SuperSplat compressed PLY), with an adjustable view per file. Version 0.4.0, Nov 1, 2026.",
+    "url": "https://github.com/VoxelKei/SplatThumb/releases/tag/v0.4.0",
+    "tags": [
+      "gaussian-splat",
+      "asset-management",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (nouveaux dépôts)",
+      "label_en": "GitHub — topic gaussian-splatting (new repos)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
     "date": "2026-11-03",
     "name": "Perspective Match 1.0.1",
     "name_en": "Perspective Match 1.0.1",

@@ -5,8 +5,67 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 03 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Blender 5.3 — Gaussian splats natifs</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-04-blender-5-3-gaussian-splats-natifs</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-04-blender-5-3-gaussian-splats-natifs</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Billet des devs Blender du 30 oct. 2026 : la 5.3 importe les gaussian splats (.ply, .spz, USD) comme un type de point cloud, éditables en Geometry Nodes et rendus par EEVEE, Workbench et Cycles, avec un rééclairage encore expérimental.</description>
+      <category>blender</category>
+      <category>gaussian-splat</category>
+      <category>geometry-nodes</category>
+    </item>
+    <item>
+      <title>Spirula Render 0.13.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-04-spirula-render-0-13-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-04-spirula-render-0-13-1</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Moteur de rendu GPL pour Blender 5.3+ qui rend les gaussian splats avec le rastériseur de Spirula Studio, avec rééclairage et ombres entre splats. Les versions 0.11 à 0.13 (3 nov. 2026) ajoutent flares, filtres et objectifs vintage de Vintage Click.</description>
+      <category>blender-addon</category>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Photocraft VFX 0.4.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-04-photocraft-vfx-0-4-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-04-photocraft-vfx-0-4-0</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Éditeur d'images par calques Apache-2.0 pensé comme Nuke : 32 bits linéaire ACEScg, OpenColorIO, export EXR multicanal et script Nuke. La 0.4.0 du 4 nov. 2026 ajoute un viewer OCIO façon Nuke, des LUT de visualisation et le choix de l'espace d'entrée.</description>
+      <category>vfx</category>
+      <category>compositing</category>
+      <category>ocio</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Unity Gaussian Splatting 2.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-04-unity-gaussian-splatting-2-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-04-unity-gaussian-splatting-2-0-0</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Plugin MIT d'Aras Pranckevičius pour rendre des gaussian splats dans Unity. La 2.0.0 du 2 nov. 2026 lit directement les .ply et .spz (dont SPZ 4) sans conversion, trie globalement plusieurs splats qui se croisent et retire les outils d'édition.</description>
+      <category>gaussian-splat</category>
+    </item>
+    <item>
+      <title>SimpleStep Importer 1.5.3</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-04-simplestep-importer-1-5-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-04-simplestep-importer-1-5-3</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Add-on GPL (2 nov. 2026) qui importe des assemblages CAO STEP dans Blender 5.2+ sans figer l'interface : conversion C++ en arrière-plan, noms et hiérarchie des pièces, instances, couleurs et maillage adaptatif. Windows x64 seulement pour l'instant.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>cad-retopo</category>
+    </item>
+    <item>
+      <title>SplatThumb 0.4.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-04-splatthumb-0-4-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-04-splatthumb-0-4-0</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Outil MIT pour Windows 10/11 qui affiche dans l'Explorateur des vignettes des fichiers .ply de gaussian splats (INRIA et PLY compressés SuperSplat), avec un angle de vue réglable par fichier. Version 0.4.0 du 1er nov. 2026.</description>
+      <category>gaussian-splat</category>
+      <category>asset-management</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>Perspective Match 1.0.1</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-03-perspective-match-1-0-1</link>
@@ -909,66 +968,6 @@
       <category>compositing</category>
       <category>natron</category>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>UVgami 2.2.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-12-uvgami-2-2-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-12-uvgami-2-2-0</guid>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender de dépliage UV automatique qui réunit trois moteurs : OptCuts, PartUV (GPU, SIGGRAPH Asia 2025) et xatlas. La 2.2.0 du 6 octobre ajoute un dépliage web et une appli desktop, mise à jour en 0.3.0 le 12 octobre 2026.</description>
-      <category>blender-addon</category>
-      <category>uv</category>
-      <category>modeling</category>
-    </item>
-    <item>
-      <title>H-Style RBD Nodes 1.0.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-12-h-style-rbd-nodes-1-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-12-h-style-rbd-nodes-1-0-1</guid>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Groupes Geometry Nodes de destruction rigid body pour le VFX temps réel : fracture béton, verre ou bois, solveur Bullet, bake puis export FBX, Alembic ou VAT vers les moteurs de jeu. Publié sur Blender Extensions le 6 octobre 2026.</description>
-      <category>blender-addon</category>
-      <category>vfx</category>
-      <category>sim</category>
-      <category>geometry-nodes</category>
-    </item>
-    <item>
-      <title>FTC – Fit The Camera 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-12-ftc-fit-the-camera-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-12-ftc-fit-the-camera-1-0-0</guid>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Extension Blender 5.2+ qui retrouve focale, position et rotation de la caméra à partir d’une seule photo (points de fuite, rectangle connu ou horizon), à l’échelle réelle, puis prépare l’intégration CG avec ombres au sol. v1.0.0 sortie le 11 octobre 2026.</description>
-      <category>blender-addon</category>
-      <category>vfx</category>
-      <category>matchmove</category>
-    </item>
-    <item>
-      <title>Blender Compositor — Fast Gaussian 2 à 10× plus rapide (décision)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-12-blender-compositor-fast-gaussian-2-a-10-plus-rapide-decision</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-12-blender-compositor-fast-gaussian-2-a-10-plus-rapide-decision</guid>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description>À la réunion compositor du 8 octobre 2026, l’équipe a décidé de remplacer l’implémentation du flou Fast Gaussian par le Downsampled Gaussian, 2 à 10× plus rapide pour un résultat à peine différent ; retours d’artistes attendus après le merge.</description>
-      <category>blender</category>
-      <category>compositing</category>
-      <category>vfx</category>
-    </item>
-    <item>
-      <title>OpenScatter 0.13.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-11-openscatter-0-13-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-11-openscatter-0-13-0</guid>
-      <pubDate>Sun, 11 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Fork communautaire et gratuit de GScatter (Graswald, plus maintenu) : scattering Geometry Nodes pour prairies et forêts, même interface, Blender 4.2 à 5.2. Release 0.13.0 publiée le 4 octobre 2026.</description>
-      <category>blender</category>
-      <category>addon</category>
-      <category>geometry-nodes</category>
-    </item>
-    <item>
-      <title>Unreal Render Farm 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-11-unreal-render-farm-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-11-unreal-render-farm-1-0-0</guid>
-      <pubDate>Sun, 11 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Ferme de rendu libre (MIT) pour le Movie Render Queue d’Unreal Engine 5 : dashboard web, file de jobs, découpe auto des plans sur plusieurs PC Windows, retries et historique. v1.0.0 sortie le 6 octobre 2026.</description>
-      <category>pipeline</category>
-      <category>render-farm</category>
     </item>
   </channel>
 </rss>
