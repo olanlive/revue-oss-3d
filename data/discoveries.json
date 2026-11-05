@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-11-05",
+    "name": "OpenFilmic 1.0.0",
+    "name_en": "OpenFilmic 1.0.0",
+    "summary": "OpenFilmic 1.0.0 (5 nov. 2026) : nœud Compositor Blender 5.2+ GPL qui empile émulations film, effets d’objectif, grain animé et bordures — 28 presets inclus.",
+    "summary_en": "OpenFilmic 1.0.0 (5 Nov 2026): a GPL Blender 5.2+ Compositor node packing film emulations, lens effects, animated grain and borders — 28 presets included.",
+    "url": "https://github.com/DimZol/openfilmic/releases/tag/v1.0.0",
+    "tags": [
+      "compositing",
+      "blender-addon",
+      "vfx"
+    ],
+    "source": {
+      "label": "GitHub — DimZol/openfilmic (release)",
+      "label_en": "GitHub — DimZol/openfilmic (release)",
+      "url": "https://github.com/DimZol/openfilmic/releases/tag/v1.0.0"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "CurioMesh 0.9.6",
+    "name_en": "CurioMesh 0.9.6",
+    "summary": "CurioMesh 0.9.6 (5 nov. 2026) : retopo auto GPL pour Blender 3.6–5.2, quads partie par partie avec contrôle caméra ; Texture Sets pour baker en plusieurs atlas.",
+    "summary_en": "CurioMesh 0.9.6 (5 Nov 2026): free GPL auto-retopo for Blender 3.6–5.2 — all-quads part by part with camera checks; Texture Sets bake across multiple atlases.",
+    "url": "https://github.com/CurioCrafter/CurioMesh/releases/tag/v0.9.6",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "retopology"
+    ],
+    "source": {
+      "label": "X — @cutetoxicguy",
+      "label_en": "X — @cutetoxicguy",
+      "url": "https://x.com/cutetoxicguy/status/2118131181418135974"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "StableGen 0.5.0",
+    "name_en": "StableGen 0.5.0",
+    "summary": "StableGen 0.5.0 (4 nov. 2026) : add-on Blender GPL pour texturing/génération AI via ComfyUI installable dans Blender, multi-vues cohérentes, remesh LATO.2 et Make Solid.",
+    "summary_en": "StableGen 0.5.0 (4 Nov 2026): GPL Blender add-on for AI texturing/generation via ComfyUI installable inside Blender, consistent multi-view projection, LATO.2 remesh and Make Solid.",
+    "url": "https://github.com/sakalond/StableGen/releases/tag/v0.5.0",
+    "tags": [
+      "blender-addon",
+      "texturing",
+      "shading"
+    ],
+    "source": {
+      "label": "X — @sakalond",
+      "label_en": "X — @sakalond",
+      "url": "https://x.com/sakalond/status/2117419883474399564"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "OGC 3D Tiles Streaming 0.5.1",
+    "name_en": "OGC 3D Tiles Streaming 0.5.1",
+    "summary": "OGC 3D Tiles Streaming 0.5.1 (4 nov. 2026) : add-on Blender MIT (Iconem) qui streame meshes, nuages et splats KHR via cesium-native, avec clips et overlays, rendu EEVEE/Cycles.",
+    "summary_en": "OGC 3D Tiles Streaming 0.5.1 (4 Nov 2026): MIT Blender add-on (Iconem) streaming meshes, point clouds and KHR Gaussian splats via cesium-native, with clips and overlays, EEVEE/Cycles.",
+    "url": "https://github.com/Iconem/blender_ogc3dtiles/releases/tag/v0.5.1",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "gaussian-splat"
+    ],
+    "source": {
+      "label": "Reddit — r/GaussianSplatting",
+      "label_en": "Reddit — r/GaussianSplatting",
+      "url": "https://www.reddit.com/r/GaussianSplatting/comments/1xnojfc/iconemblender_ogc3dtiles_for_streaming_into/"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "splat2stl",
+    "name_en": "splat2stl",
+    "summary": "splat2stl (repo du 1er nov. 2026) : outil MIT qui transforme un splat .ply en STL étanche + OBJ coloré via carving PyTorch, ~10 s sur GPU 8 Go — sans extraction de surface.",
+    "summary_en": "splat2stl (repo dated 1 Nov 2026): MIT tool turning a Gaussian splat .ply into a watertight STL plus colored OBJ via pure-PyTorch silhouette carving, ~10 s on an 8 GB GPU.",
+    "url": "https://github.com/helgard-orlm/splat2stl",
+    "tags": [
+      "gaussian-splat",
+      "modeling",
+      "oss-3d"
+    ],
+    "source": {
+      "label": "X — @doodi_dev",
+      "label_en": "X — @doodi_dev",
+      "url": "https://x.com/doodi_dev/status/2118225549646594321"
+    }
+  },
+  {
     "date": "2026-11-04",
     "name": "Blender 5.3 — Gaussian splats natifs",
     "name_en": "Blender 5.3 — native Gaussian splats",

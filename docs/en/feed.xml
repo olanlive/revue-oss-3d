@@ -5,8 +5,58 @@
     <link>https://olanlive.github.io/revue-oss-3d/en/</link>
     <description>Open source 3D, VFX and video watch.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenFilmic 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-05-openfilmic-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-05-openfilmic-1-0-0</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>OpenFilmic 1.0.0 (5 Nov 2026): a GPL Blender 5.2+ Compositor node packing film emulations, lens effects, animated grain and borders — 28 presets included.</description>
+      <category>compositing</category>
+      <category>blender-addon</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>CurioMesh 0.9.6</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-05-curiomesh-0-9-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-05-curiomesh-0-9-6</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>CurioMesh 0.9.6 (5 Nov 2026): free GPL auto-retopo for Blender 3.6–5.2 — all-quads part by part with camera checks; Texture Sets bake across multiple atlases.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>retopology</category>
+    </item>
+    <item>
+      <title>StableGen 0.5.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-05-stablegen-0-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-05-stablegen-0-5-0</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>StableGen 0.5.0 (4 Nov 2026): GPL Blender add-on for AI texturing/generation via ComfyUI installable inside Blender, consistent multi-view projection, LATO.2 remesh and Make Solid.</description>
+      <category>blender-addon</category>
+      <category>texturing</category>
+      <category>shading</category>
+    </item>
+    <item>
+      <title>OGC 3D Tiles Streaming 0.5.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-05-ogc-3d-tiles-streaming-0-5-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-05-ogc-3d-tiles-streaming-0-5-1</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>OGC 3D Tiles Streaming 0.5.1 (4 Nov 2026): MIT Blender add-on (Iconem) streaming meshes, point clouds and KHR Gaussian splats via cesium-native, with clips and overlays, EEVEE/Cycles.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>gaussian-splat</category>
+    </item>
+    <item>
+      <title>splat2stl</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-05-splat2stl</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-05-splat2stl</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>splat2stl (repo dated 1 Nov 2026): MIT tool turning a Gaussian splat .ply into a watertight STL plus colored OBJ via pure-PyTorch silhouette carving, ~10 s on an 8 GB GPU.</description>
+      <category>gaussian-splat</category>
+      <category>modeling</category>
+      <category>oss-3d</category>
+    </item>
     <item>
       <title>Blender 5.3 — native Gaussian splats</title>
       <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-04-blender-5-3-gaussian-splats-natifs</link>
@@ -916,57 +966,6 @@
       <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
       <description>Render &amp; Cycles meeting of Oct 13: OpenPBR support (v1.1.1) is functionally complete and moves to testing, Gaussian splats are done for this milestone, and a ReSTIR prototype (WIP #164970) revives reservoir-based sampling.</description>
       <category>blender</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>IngeTrazo 0.5.8</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-13-ingetrazo-0-5-8</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-13-ingetrazo-0-5-8</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Free SketchUp-style 3D modeler (GPL-3.0) for architecture and engineering, native on Linux/Windows/macOS: push/pull, watertight solids, opens .skp, IFC/glTF/OBJ export, scaled PDF plans and rendering via Blender. 0.5.8 came out on Oct 12.</description>
-      <category>modelisation</category>
-      <category>architecture</category>
-      <category>outil</category>
-    </item>
-    <item>
-      <title>ChainCut – Bone Chain Slicer</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-13-chaincut-bone-chain-slicer</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-13-chaincut-bone-chain-slicer</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Blender 5.2+ add-on (GPL-3.0) that cuts bones into 2 to 8 connected segments, keeping clean names and redistributing vertex group weights, unlike the native Subdivide. Version 0.1.0, created on Oct 12.</description>
-      <category>blender</category>
-      <category>addon</category>
-      <category>rigging</category>
-    </item>
-    <item>
-      <title>GH Stack (Grasshopper ↔ Blender)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-13-gh-stack-grasshopper-blender</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-13-gh-stack-grasshopper-blender</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Blender extension (GPL-3.0) that drives Grasshopper definitions as stackable modifiers alongside Geometry Nodes, with animatable parameters, via WebSocket to Rhino 8. v0.1.x demo, created on Oct 12.</description>
-      <category>blender</category>
-      <category>addon</category>
-      <category>procedural</category>
-    </item>
-    <item>
-      <title>EpicFigRig 2.0 (Blender 5 fork)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-13-epicfigrig-2-0-fork-blender-5</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-13-epicfigrig-2-0-fork-blender-5</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>GPL-3.0 fork of the EpicFigRig LEGO minifig auto-rig, compatible with Blender 4.0 and 5.0 while the original breaks in 5.0: one-click rigging of Mecabricks exports, IK/FK, capes and accessories. Release 2.0 published in May 2026.</description>
-      <category>blender</category>
-      <category>addon</category>
-      <category>rigging</category>
-    </item>
-    <item>
-      <title>Natron 2.6 — 3D / Cycles fork (Niik-l)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-12-natron-2-6-fork-3d-cycles-niik-l</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-12-natron-2-6-fork-3d-cycles-niik-l</guid>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Natron fork that adds a 3D system, Cycles as a node (AOV passes, deep EXR), deep compositing, particles, volumes and a 3D camera tracker: 69 nodes on a Qt6 base. Portable Windows and Linux builds, latest on October 7, 2026.</description>
-      <category>vfx</category>
-      <category>compositing</category>
-      <category>natron</category>
       <category>emerging</category>
     </item>
   </channel>
