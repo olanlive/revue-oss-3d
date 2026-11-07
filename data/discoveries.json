@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-11-07",
+    "name": "StarLightGS",
+    "name_en": "StarLightGS",
+    "summary": "StarLightGS (6 nov. 2026) : plugin MIT CoSTAR pour Unreal Engine 5.7+ qui écrit les Gaussian splats dans le GBuffer — relighting et ombres natives (VSM), sans mesh proxy.",
+    "summary_en": "StarLightGS (6 Nov 2026): MIT CoSTAR plugin for Unreal Engine 5.7+ that writes Gaussian splats into the GBuffer — native relighting and shadows (VSM), no proxy mesh.",
+    "url": "https://github.com/CoSTAR-National-Lab/starlightgs",
+    "tags": [
+      "gaussian-splat",
+      "vfx",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Web — Radiance Fields",
+      "label_en": "Web — Radiance Fields",
+      "url": "https://radiancefields.com/starlightgs-relights-gaussian-splats-inside-unreal-engine"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "name": "Gaussian Splat Patch 0.2.0",
+    "name_en": "Gaussian Splat Patch 0.2.0",
+    "summary": "Gaussian Splat Patch 0.2.0 (4 nov. 2026) : extension GPL Blender 5.3+ qui convertit un mesh en splats sans training (bake Cycles, 3 modes d’éclairage dont Light from Scan via Spirula).",
+    "summary_en": "Gaussian Splat Patch 0.2.0 (4 Nov 2026): GPL Blender 5.3+ extension that converts a mesh into splats with no training (Cycles bake, 3 lighting modes including Light from Scan via Spirula).",
+    "url": "https://github.com/timfennell/blender-splat-patch/releases/tag/v0.2.0",
+    "tags": [
+      "blender-addon",
+      "gaussian-splat",
+      "modeling"
+    ],
+    "source": {
+      "label": "Web — Radiance Fields",
+      "label_en": "Web — Radiance Fields",
+      "url": "https://radiancefields.com/gaussian-splat-patch-turns-blender-meshes-into-splats"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "name": "Maya Workflow Kit 0.13.0",
+    "name_en": "Maya Workflow Kit 0.13.0",
+    "summary": "Maya Workflow Kit 0.13.0 (7 nov. 2026) : extension GPL Blender 5.2 LTS — Smart Bevel façon Maya 2027, Universal Manipulator sur composants, Connect Tool et fenêtres Graph/UV détachables.",
+    "summary_en": "Maya Workflow Kit 0.13.0 (7 Nov 2026): GPL Blender 5.2 LTS extension — Maya 2027-style Smart Bevel, Universal Manipulator on components, Connect Tool and tear-off Graph/UV editor windows.",
+    "url": "https://github.com/5hyuns/maya-workflow-kit-for-blender/releases/tag/v0.13.0",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "pipeline"
+    ],
+    "source": {
+      "label": "GitHub — 5hyuns/maya-workflow-kit-for-blender (release)",
+      "label_en": "GitHub — 5hyuns/maya-workflow-kit-for-blender (release)",
+      "url": "https://github.com/5hyuns/maya-workflow-kit-for-blender/releases/tag/v0.13.0"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "name": "Nukify 0.11.1",
+    "name_en": "Nukify 0.11.1",
+    "summary": "Nukify 0.11.1 (7 nov. 2026) : compositeur nodal open source (GPL) basé sur Blender — glisser-déposer d’images/séquences vers le graphe (nœuds Read) et menu « Importar material… ».",
+    "summary_en": "Nukify 0.11.1 (7 Nov 2026): GPL open-source node compositor powered by Blender — drag-and-drop images/sequences onto the graph (Read nodes) and a new Import material context menu.",
+    "url": "https://github.com/maxsarlijagit/Nukify/releases/tag/v0.11.1",
+    "tags": [
+      "compositing",
+      "vfx"
+    ],
+    "source": {
+      "label": "GitHub — maxsarlijagit/Nukify (release)",
+      "label_en": "GitHub — maxsarlijagit/Nukify (release)",
+      "url": "https://github.com/maxsarlijagit/Nukify/releases/tag/v0.11.1"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "name": "Continuum Flow 0.4.0",
+    "name_en": "Continuum Flow 0.4.0",
+    "summary": "Continuum Flow 0.4.0 (11 oct. 2026) : add-on GPL de simu fumée/feu GPU OpenCL pour Blender 5.0+ (AMD/NVIDIA), jusqu’à ~60× plus rapide que le solveur natif ; UI keyframable.",
+    "summary_en": "Continuum Flow 0.4.0 (11 Oct 2026): GPL GPU OpenCL smoke/fire sim add-on for Blender 5.0+ (AMD/NVIDIA), up to ~60× faster than the native solver; keyframable UI.",
+    "url": "https://github.com/lutzr2000/Continuum_Flow/releases/tag/v0.4.0",
+    "tags": [
+      "blender-addon",
+      "sim",
+      "vfx"
+    ],
+    "source": {
+      "label": "BlenderArtists — Continuum Flow",
+      "label_en": "BlenderArtists — Continuum Flow",
+      "url": "https://blenderartists.org/t/free-blender-gpu-smoke-simulation-addon-20-x-faster/1647130"
+    }
+  },
+  {
     "date": "2026-11-06",
     "name": "SuperSplat for Blender 0.1.0",
     "name_en": "SuperSplat for Blender 0.1.0",

@@ -5,8 +5,57 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>StarLightGS</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-07-starlightgs</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-07-starlightgs</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>StarLightGS (6 nov. 2026) : plugin MIT CoSTAR pour Unreal Engine 5.7+ qui écrit les Gaussian splats dans le GBuffer — relighting et ombres natives (VSM), sans mesh proxy.</description>
+      <category>gaussian-splat</category>
+      <category>vfx</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Gaussian Splat Patch 0.2.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-07-gaussian-splat-patch-0-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-07-gaussian-splat-patch-0-2-0</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Gaussian Splat Patch 0.2.0 (4 nov. 2026) : extension GPL Blender 5.3+ qui convertit un mesh en splats sans training (bake Cycles, 3 modes d’éclairage dont Light from Scan via Spirula).</description>
+      <category>blender-addon</category>
+      <category>gaussian-splat</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Maya Workflow Kit 0.13.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-07-maya-workflow-kit-0-13-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-07-maya-workflow-kit-0-13-0</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Maya Workflow Kit 0.13.0 (7 nov. 2026) : extension GPL Blender 5.2 LTS — Smart Bevel façon Maya 2027, Universal Manipulator sur composants, Connect Tool et fenêtres Graph/UV détachables.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Nukify 0.11.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-07-nukify-0-11-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-07-nukify-0-11-1</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Nukify 0.11.1 (7 nov. 2026) : compositeur nodal open source (GPL) basé sur Blender — glisser-déposer d’images/séquences vers le graphe (nœuds Read) et menu « Importar material… ».</description>
+      <category>compositing</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>Continuum Flow 0.4.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-07-continuum-flow-0-4-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-07-continuum-flow-0-4-0</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Continuum Flow 0.4.0 (11 oct. 2026) : add-on GPL de simu fumée/feu GPU OpenCL pour Blender 5.0+ (AMD/NVIDIA), jusqu’à ~60× plus rapide que le solveur natif ; UI keyframable.</description>
+      <category>blender-addon</category>
+      <category>sim</category>
+      <category>vfx</category>
+    </item>
     <item>
       <title>SuperSplat for Blender 0.1.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-06-supersplat-for-blender-0-1-0</link>
@@ -920,54 +969,6 @@
       <description>Add-on de retopo CAO pour Blender (Plasticity/STEP/OBJ). La 0.10.0-alpha du 14 oct. ajoute De-feature (poches/bosses), couvreurs intégrés à la topologie (faces courbes incluses), Join de courbes et sélection par continuité CAO.</description>
       <category>blender-addon</category>
       <category>modeling</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Synth Surface</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-synth-surface</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-synth-surface</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL : textures procédurales greeble (couleur/displacement) et lumières scatter, fork de Displacement X, utilisable directement dans Blender. Présenté sur r/blender fin septembre 2026.</description>
-      <category>blender-addon</category>
-      <category>texturing</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Open Painter 0.15.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-15-open-painter-0-15-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-15-open-painter-0-15-1</guid>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Texturing PBR non destructif dans Blender 5.2+ (GPL) : texture sets, calques peints et de remplissage, masques, baking de mesh maps, 50 smart materials, UDIM et export. Version 0.15.1 publiée le 14 oct.</description>
-      <category>blender-addon</category>
-      <category>texturing</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Render Unique Frames 0.2.2</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-15-render-unique-frames-0-2-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-15-render-unique-frames-0-2-2</guid>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender qui repère les images identiques d’une animation (objets, compositor, view layers) et ne rend que les uniques : idéal pour l’animation en 2 ou 3 et les gros décors fixes. Rendu headless en ligne de commande. Version 0.2.2 du 13 oct.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-      <category>render-farm</category>
-    </item>
-    <item>
-      <title>Preview Quads 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-15-preview-quads-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-15-preview-quads-1-0-0</guid>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender qui prévisualise en direct, sans toucher au maillage, la conversion triangles vers quads (même algo que Blender), avec tous les réglages, puis l’applique en un clic. Pratique après import CAO ou booléens. Sorti le 12 oct.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-    </item>
-    <item>
-      <title>Gausify Orbit 0.5.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-15-gausify-orbit-0-5-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-15-gausify-orbit-0-5-0</guid>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Appli libre (MIT) qui transforme une vidéo en orbite, même générée par IA, en Gaussian Splat, 100 % en local : desktop macOS/Windows ou version WebGPU dans le navigateur. Version 0.5.0 du 13 oct.</description>
-      <category>gaussian-splat</category>
       <category>emerging</category>
     </item>
   </channel>
