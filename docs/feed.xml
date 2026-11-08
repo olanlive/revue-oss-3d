@@ -5,8 +5,37 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 07 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenBillow 0.5.4</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-08-openbillow-0-5-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-08-openbillow-0-5-4</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0100</pubDate>
+      <description>OpenBillow 0.5.4 (8 nov. 2026) : add-on GPL de simulation fumée, feu et liquide GPU (NVIDIA Warp) pour Blender 4.5+ — cache OpenVDB, FLIP/APIC avec spray/mousse/bulles, et presets de base inclus.</description>
+      <category>blender-addon</category>
+      <category>sim</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>Comp 0.2.0 beta</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-08-comp-0-2-0-beta</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-08-comp-0-2-0-beta</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Comp 0.2.0 beta (7 nov. 2026) : compositeur nodal gratuit (Windows, macOS, Linux) — projections 3D depuis une caméra FBX/Alembic, keying IA local (CCkey, AutoMatte) et neuf modèles d’objectif 3DE.</description>
+      <category>compositing</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>LichtFeld Training for Blender 0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-08-lichtfeld-training-for-blender-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-08-lichtfeld-training-for-blender-0-1-0</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0100</pubDate>
+      <description>LichtFeld Training for Blender 0.1.0 (2 nov. 2026) : extension GPL pour Blender 5.3 qui crée un rig caméra, capture la scène (Cycles ou EEVEE) et entraîne un splat navigable sans ouvrir LichtFeld Studio.</description>
+      <category>blender-addon</category>
+      <category>gaussian-splat</category>
+      <category>pipeline</category>
+    </item>
     <item>
       <title>StarLightGS</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-07-starlightgs</link>
@@ -940,36 +969,6 @@
       <category>pipeline</category>
       <category>render-farm</category>
       <category>asset-management</category>
-    </item>
-    <item>
-      <title>FreebirdCollabo 0.12.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-freebirdcollabo-0-12-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-freebirdcollabo-0-12-1</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL (alpha publique) pour co-éditer une scène en temps réel (objets, mesh, UV, matériaux, pose…) via Room Code ; option VR avec Freebird XR. La v0.12.1 du 6 oct. permet la mise à jour depuis le panneau COLLAB.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>OpenUTV 2026.13</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-openutv-2026-13</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-openutv-2026-13</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Lecteur d’images/séquences OSS (Apache 2.0, fork d’OpenRV) pour la review VFX : EXR/DPX, OCIO, HDR. La 2026.13 du 11 oct. accélère fortement les séquences d’images et ajoute un hover preview sur la timeline.</description>
-      <category>pipeline</category>
-      <category>vfx</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Hardcraft 0.10.0-alpha</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-hardcraft-0-10-0-alpha</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-hardcraft-0-10-0-alpha</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on de retopo CAO pour Blender (Plasticity/STEP/OBJ). La 0.10.0-alpha du 14 oct. ajoute De-feature (poches/bosses), couvreurs intégrés à la topologie (faces courbes incluses), Join de courbes et sélection par continuité CAO.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-      <category>emerging</category>
     </item>
   </channel>
 </rss>

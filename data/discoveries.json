@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-08",
+    "name": "OpenBillow 0.5.4",
+    "name_en": "OpenBillow 0.5.4",
+    "summary": "OpenBillow 0.5.4 (8 nov. 2026) : add-on GPL de simulation fumée, feu et liquide GPU (NVIDIA Warp) pour Blender 4.5+ — cache OpenVDB, FLIP/APIC avec spray/mousse/bulles, et presets de base inclus.",
+    "summary_en": "OpenBillow 0.5.4 (8 Nov 2026): GPL GPU smoke, fire and liquid sim add-on (NVIDIA Warp) for Blender 4.5+ — OpenVDB cache, FLIP/APIC with spray/foam/bubbles, and built-in starter presets.",
+    "url": "https://github.com/LittleRags/openbillow-public/releases/tag/v0.5.4",
+    "tags": [
+      "blender-addon",
+      "sim",
+      "vfx"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — topic blender-addon (recent repos)",
+      "url": "https://github.com/LittleRags/openbillow-public/releases/tag/v0.5.4"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "name": "Comp 0.2.0 beta",
+    "name_en": "Comp 0.2.0 beta",
+    "summary": "Comp 0.2.0 beta (7 nov. 2026) : compositeur nodal gratuit (Windows, macOS, Linux) — projections 3D depuis une caméra FBX/Alembic, keying IA local (CCkey, AutoMatte) et neuf modèles d’objectif 3DE.",
+    "summary_en": "Comp 0.2.0 beta (7 Nov 2026): free node-based compositor (Windows, macOS, Linux) — 3D projections from an FBX/Alembic camera, local AI keying (CCkey, AutoMatte) and nine 3DE lens models.",
+    "url": "https://github.com/ukmsz/Comp-releases/releases/tag/comp-0.2.0-beta",
+    "tags": [
+      "compositing",
+      "vfx"
+    ],
+    "source": {
+      "label": "Reddit — r/vfx (u/Ill_Wrongdoer_9973)",
+      "label_en": "Reddit — r/vfx (u/Ill_Wrongdoer_9973)",
+      "url": "https://www.reddit.com/r/vfx/comments/1xqawms/comp_02_beta_is_now_available_for_windows_macos/"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "name": "LichtFeld Training for Blender 0.1.0",
+    "name_en": "LichtFeld Training for Blender 0.1.0",
+    "summary": "LichtFeld Training for Blender 0.1.0 (2 nov. 2026) : extension GPL pour Blender 5.3 qui crée un rig caméra, capture la scène (Cycles ou EEVEE) et entraîne un splat navigable sans ouvrir LichtFeld Studio.",
+    "summary_en": "LichtFeld Training for Blender 0.1.0 (2 Nov 2026): GPL extension for Blender 5.3 that builds a camera rig, captures the scene (Cycles or EEVEE) and trains a navigable splat without opening LichtFeld Studio.",
+    "url": "https://github.com/MrNeRF/lichtfeld-blender-plugin",
+    "tags": [
+      "blender-addon",
+      "gaussian-splat",
+      "pipeline"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (nouveaux dépôts)",
+      "label_en": "GitHub — topic gaussian-splatting (new repositories)",
+      "url": "https://github.com/MrNeRF/lichtfeld-blender-plugin"
+    }
+  },
+  {
     "date": "2026-11-07",
     "name": "StarLightGS",
     "name_en": "StarLightGS",
