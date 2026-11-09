@@ -15,5 +15,5 @@ THEME_COLOR = ''
 PEPITES_HASHTAGS = '#b3d #opensource'
 FEED_MINUTE = 0
 DAY_SEP_STYLE = 'plain'
-COVERED = False
-COVERED_SCOPE = ''
+COVERED = True
+COVERED_SCOPE = 'Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `olanlive/revue-animation`), audio/vidéo : montage, encodage, lecture, sous-titres (voir `olanlive/revue-audio-video`), polices et typographie (voir `olanlive/revue-typographie`) et infrastructure IT de studio : stockage, sauvegarde, réseau, déploiement, sécurité (voir `olanlive/revue-outils-it`) — vérifier aussi leurs `data/discoveries.json` avant d’ajouter.\n\n'
