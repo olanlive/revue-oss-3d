@@ -5,8 +5,35 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 08 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Wanderer CAD 2.96.122</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-09-wanderer-cad-2-96-122</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-09-wanderer-cad-2-96-122</guid>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Wanderer CAD 2.96.122 (9 nov. 2026) : add-on GPL qui apporte à Blender un workflow façon CAO (ligne de commande, accrochages, cotes, calques) et ajoute la modélisation SubD à la Rhino : box, loft, sweep, revolve, plis et outils d’édition.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Intelligent UV Mapping 0.36.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-09-intelligent-uv-mapping-0-36-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-09-intelligent-uv-mapping-0-36-0</guid>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Intelligent UV Mapping 0.36.0 (8 nov. 2026) : add-on GPL de dépliage UV automatique — coutures guidées par la courbure, fusion d’îlots, densité de texels homogène. Nouvelle version avec complétion topologique des coutures et une édition 100 % Blender.</description>
+      <category>blender-addon</category>
+      <category>uv</category>
+    </item>
+    <item>
+      <title>Sculptools: Layers 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-09-sculptools-layers-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-09-sculptools-layers-1-0-0</guid>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Sculptools: Layers 1.0.0 (publié le 1er nov. 2026) : extension GPL qui ajoute des calques de sculpt non destructifs à Blender — opacité par calque, Morph Brush, miroir, support Multires et conversion en shape keys.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
     <item>
       <title>OpenBillow 0.5.4</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-08-openbillow-0-5-4</link>
@@ -939,36 +966,6 @@
       <category>compositing</category>
       <category>natron</category>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>Blender — LoopTools désormais natif</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-17-blender-looptools-desormais-natif</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-17-blender-looptools-desormais-natif</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>La réunion Modeling du 12 oct. 2026 annonce la fin de la migration des LoopTools en outils natifs de Blender ; une PR ouverte les ajoute au menu contextuel du mode édition.</description>
-      <category>blender</category>
-      <category>modeling</category>
-    </item>
-    <item>
-      <title>Dolly Zoom 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-dolly-zoom-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-dolly-zoom-1-0-0</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL (4.2+) : curseur de dolly zoom (effet Hitchcock) pour le viewport et la caméra — focale et déplacement liés, pivot sur le curseur 3D. Première version 1.0.0 publiée le 11 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>camera</category>
-      <category>animation</category>
-    </item>
-    <item>
-      <title>Minimalist Pipeline 1.0.14</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-16-minimalist-pipeline-1-0-14</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-16-minimalist-pipeline-1-0-14</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Pipeline fichier léger dans Blender (GPL) : projets, versions, notes/retakes, sessions read-only et ferme de rendu sur disque partagé (JSON locaux). La 1.0.14 du 15 oct. ajoute le suivi Farm au monitoring et les previews de séquence.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-      <category>render-farm</category>
-      <category>asset-management</category>
     </item>
   </channel>
 </rss>

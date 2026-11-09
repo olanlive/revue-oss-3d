@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-11-09",
+    "name": "Wanderer CAD 2.96.122",
+    "name_en": "Wanderer CAD 2.96.122",
+    "summary": "Wanderer CAD 2.96.122 (9 nov. 2026) : add-on GPL qui apporte à Blender un workflow façon CAO (ligne de commande, accrochages, cotes, calques) et ajoute la modélisation SubD à la Rhino : box, loft, sweep, revolve, plis et outils d’édition.",
+    "summary_en": "Wanderer CAD 2.96.122 (9 Nov 2026): GPL add-on bringing a CAD-style workflow to Blender (command line, snaps, dimensions, layers) and adding Rhino-style SubD modeling: box, loft, sweep, revolve, creases and edit tools.",
+    "url": "https://github.com/Impressivetravel/wanderer-cad/releases/tag/v2.96.122",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — topic blender-addon (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "name": "Intelligent UV Mapping 0.36.0",
+    "name_en": "Intelligent UV Mapping 0.36.0",
+    "summary": "Intelligent UV Mapping 0.36.0 (8 nov. 2026) : add-on GPL de dépliage UV automatique — coutures guidées par la courbure, fusion d’îlots, densité de texels homogène. Nouvelle version avec complétion topologique des coutures et une édition 100 % Blender.",
+    "summary_en": "Intelligent UV Mapping 0.36.0 (8 Nov 2026): GPL add-on for automatic UV unwrapping — curvature-driven seams, island merging, even texel density. New release adds topological seam completion and a Blender-only edition.",
+    "url": "https://github.com/PieroFra/intelligent_uv/releases/tag/v0.36.0",
+    "tags": [
+      "blender-addon",
+      "uv"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — topic blender-addon (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "name": "Sculptools: Layers 1.0.0",
+    "name_en": "Sculptools: Layers 1.0.0",
+    "summary": "Sculptools: Layers 1.0.0 (publié le 1er nov. 2026) : extension GPL qui ajoute des calques de sculpt non destructifs à Blender — opacité par calque, Morph Brush, miroir, support Multires et conversion en shape keys.",
+    "summary_en": "Sculptools: Layers 1.0.0 (published 1 Nov 2026): GPL extension adding non-destructive sculpt layers to Blender — per-layer opacity, Morph Brush, mirroring, Multires support and baking to shape keys.",
+    "url": "https://extensions.blender.org/add-ons/sculptools-layers/",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
     "date": "2026-11-08",
     "name": "OpenBillow 0.5.4",
     "name_en": "OpenBillow 0.5.4",
