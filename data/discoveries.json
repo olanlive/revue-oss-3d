@@ -1,5 +1,74 @@
 [
   {
+    "date": "2026-11-10",
+    "name": "Narwhal 3D 0.4.12",
+    "name_en": "Narwhal 3D 0.4.12",
+    "summary": "Narwhal 3D 0.4.12 (9 nov. 2026) : CAO NURBS libre (GPL) pilotée par commandes, pour courbes précises, surfaces lisses et solides en quatre vues. Cette version ajoute TracePicture (détourage d’une image en courbes) aux paquets Linux et Windows.",
+    "summary_en": "Narwhal 3D 0.4.12 (9 Nov 2026): free GPL, command-driven NURBS CAD for precise curves, smooth surfaces and solids in four views. This release adds TracePicture (tracing an image into curves) to the Linux and Windows packages.",
+    "url": "https://github.com/ContributionRich/Narwhal3D/releases/tag/v0.4.12",
+    "tags": [
+      "modeling",
+      "cad"
+    ],
+    "source": {
+      "label": "GitHub — recherche topic blender (repos actifs)",
+      "label_en": "GitHub — topic blender search (active repos)",
+      "url": "https://github.com/topics/blender"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "name": "Max Spline Tools 1.5.2",
+    "name_en": "Max Spline Tools 1.5.2",
+    "summary": "Max Spline Tools 1.5.2 (4 nov. 2026) : extension GPL qui apporte à Blender le workflow « editable spline » de 3ds Max : dessin Bézier avec accrochage, extrude, outline, congé et chanfrein interactifs, booléens de splines et primitives paramétriques.",
+    "summary_en": "Max Spline Tools 1.5.2 (4 Nov 2026): GPL extension bringing the 3ds Max editable-spline workflow to Blender: Bezier drawing with snapping, interactive extrude, outline, fillet and chamfer, spline booleans and parametric primitives.",
+    "url": "https://extensions.blender.org/add-ons/fanlei-max-spline-tools/",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "name": "Texture Relinker 0.1.2",
+    "name_en": "Texture Relinker 0.1.2",
+    "summary": "Texture Relinker 0.1.2 (6 nov. 2026) : extension GPL qui retrouve les textures manquantes (roses) d’un .blend même renommées ou converties, en notant la ressemblance des noms de fichiers ; on vérifie chaque correspondance avant de relinker.",
+    "summary_en": "Texture Relinker 0.1.2 (6 Nov 2026): GPL extension that finds a .blend’s missing (pink) textures even when renamed or converted, by scoring file-name similarity; you check every match before relinking.",
+    "url": "https://extensions.blender.org/add-ons/texture-relinker/",
+    "tags": [
+      "blender-addon",
+      "texturing",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "name": "Kanvaz 9.8.4",
+    "name_en": "Kanvaz 9.8.4",
+    "summary": "Kanvaz 9.8.4 (10 nov. 2026) : planche de références MIT sur canevas infini pour artistes 3D/VFX, hors ligne : modèles 3D, images, GIF, vidéo, audio et annotations. Cette version passe à Electron 45 et met à jour ses dépendances.",
+    "summary_en": "Kanvaz 9.8.4 (10 Nov 2026): MIT infinite-canvas reference board for 3D/VFX artists, fully offline: 3D models, images, GIFs, video, audio and annotations. This release moves to Electron 45 and updates dependencies.",
+    "url": "https://github.com/p4inz-code/kanvaz/releases/tag/v9.8.4",
+    "tags": [
+      "pipeline",
+      "vfx"
+    ],
+    "source": {
+      "label": "GitHub — topic vfx (repos actifs)",
+      "label_en": "GitHub — topic vfx (active repos)",
+      "url": "https://github.com/topics/vfx"
+    }
+  },
+  {
     "date": "2026-11-09",
     "name": "Wanderer CAD 2.96.122",
     "name_en": "Wanderer CAD 2.96.122",

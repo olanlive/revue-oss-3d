@@ -5,8 +5,45 @@
     <link>https://olanlive.github.io/revue-oss-3d/en/</link>
     <description>Open source 3D, VFX and video watch.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Narwhal 3D 0.4.12</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-10-narwhal-3d-0-4-12</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-10-narwhal-3d-0-4-12</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Narwhal 3D 0.4.12 (9 Nov 2026): free GPL, command-driven NURBS CAD for precise curves, smooth surfaces and solids in four views. This release adds TracePicture (tracing an image into curves) to the Linux and Windows packages.</description>
+      <category>modeling</category>
+      <category>cad</category>
+    </item>
+    <item>
+      <title>Max Spline Tools 1.5.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-10-max-spline-tools-1-5-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-10-max-spline-tools-1-5-2</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Max Spline Tools 1.5.2 (4 Nov 2026): GPL extension bringing the 3ds Max editable-spline workflow to Blender: Bezier drawing with snapping, interactive extrude, outline, fillet and chamfer, spline booleans and parametric primitives.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Texture Relinker 0.1.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-10-texture-relinker-0-1-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-10-texture-relinker-0-1-2</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Texture Relinker 0.1.2 (6 Nov 2026): GPL extension that finds a .blend’s missing (pink) textures even when renamed or converted, by scoring file-name similarity; you check every match before relinking.</description>
+      <category>blender-addon</category>
+      <category>texturing</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Kanvaz 9.8.4</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-10-kanvaz-9-8-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-10-kanvaz-9-8-4</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Kanvaz 9.8.4 (10 Nov 2026): MIT infinite-canvas reference board for 3D/VFX artists, fully offline: 3D models, images, GIFs, video, audio and annotations. This release moves to Electron 45 and updates dependencies.</description>
+      <category>pipeline</category>
+      <category>vfx</category>
+    </item>
     <item>
       <title>Wanderer CAD 2.96.122</title>
       <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-09-wanderer-cad-2-96-122</link>
@@ -925,47 +962,6 @@
       <category>pipeline</category>
       <category>asset-management</category>
       <category>vfx</category>
-    </item>
-    <item>
-      <title>SMIRK 1.0.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-17-smirk-1-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-17-smirk-1-0-1</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>GPL Blender add-on (5.2+) for carving mouths, eyes and other stylised openings into a mesh from an edge loop, a ribbon or Grease Pencil — the “boolean mouth”, built for production. Released on Oct 13, 2026.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-      <category>rigging</category>
-    </item>
-    <item>
-      <title>Texture Wrangler 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-17-texture-wrangler-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-17-texture-wrangler-1-0-0</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>GPL Blender add-on that detects every map (normal, roughness, AO…) whatever its naming, then copies and renames the textures into clean per-material folders without touching the originals. Released on Oct 11, 2026.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-      <category>asset-management</category>
-      <category>texturing</category>
-    </item>
-    <item>
-      <title>LichtFeld Studio 0.5.4</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-17-lichtfeld-studio-0-5-4</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-17-lichtfeld-studio-0-5-4</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The GPL app for training and editing Gaussian Splats adds a project manager, an online gallery, headless rendering of camera paths and 16-bit HDR training, with less VRAM. Released on Oct 9, 2026.</description>
-      <category>gaussian-splat</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>natron-mcp</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-17-natron-mcp</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-17-natron-mcp</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Python MCP server (GPL-2) that lets an AI agent drive Natron: node graph, parameters, keyframes, rendering, headless sessions. Designed for Niik-l’s Natron 3D 2.6 fork; repo created on Oct 12, 2026.</description>
-      <category>vfx</category>
-      <category>compositing</category>
-      <category>natron</category>
-      <category>emerging</category>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,10 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-10 | Narwhal 3D 0.4.12 | modeling, cad | https://github.com/ContributionRich/Narwhal3D/releases/tag/v0.4.12 | https://olanlive.github.io/revue-oss-3d/#2026-11-10-narwhal-3d-0-4-12 |
+| 2026-11-10 | Max Spline Tools 1.5.2 | blender-addon, modeling | https://extensions.blender.org/add-ons/fanlei-max-spline-tools/ | https://olanlive.github.io/revue-oss-3d/#2026-11-10-max-spline-tools-1-5-2 |
+| 2026-11-10 | Texture Relinker 0.1.2 | blender-addon, texturing, pipeline | https://extensions.blender.org/add-ons/texture-relinker/ | https://olanlive.github.io/revue-oss-3d/#2026-11-10-texture-relinker-0-1-2 |
+| 2026-11-10 | Kanvaz 9.8.4 | pipeline, vfx | https://github.com/p4inz-code/kanvaz/releases/tag/v9.8.4 | https://olanlive.github.io/revue-oss-3d/#2026-11-10-kanvaz-9-8-4 |
 | 2026-11-09 | Wanderer CAD 2.96.122 | blender-addon, modeling | https://github.com/Impressivetravel/wanderer-cad/releases/tag/v2.96.122 | https://olanlive.github.io/revue-oss-3d/#2026-11-09-wanderer-cad-2-96-122 |
 | 2026-11-09 | Intelligent UV Mapping 0.36.0 | blender-addon, uv | https://github.com/PieroFra/intelligent_uv/releases/tag/v0.36.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-09-intelligent-uv-mapping-0-36-0 |
 | 2026-11-09 | Sculptools: Layers 1.0.0 | blender-addon, modeling | https://extensions.blender.org/add-ons/sculptools-layers/ | https://olanlive.github.io/revue-oss-3d/#2026-11-09-sculptools-layers-1-0-0 |
