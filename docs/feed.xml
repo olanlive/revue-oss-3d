@@ -5,8 +5,56 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 10 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sculpt Join 0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-11-sculpt-join-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-11-sculpt-join-0-1-0</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Sculpt Join 0.1.0 (10 nov. 2026) : extension GPL qui fusionne temporairement les meshes visibles (corps, vêtements, accessoires) pour les sculpter comme une seule pièce, puis renvoie les nouvelles positions dans chaque original, modificateurs et Multires intacts.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Tessera – Mosaic &amp; Tile Studio 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-11-tessera-mosaic-tile-studio-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-11-tessera-mosaic-tile-studio-1-0-0</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Tessera 1.0.0 (9 nov. 2026) : studio Geometry Nodes GPL de mosaïques et carrelages, 94 styles (romain, byzantin, zellige, azulejos, terrazzo…), matériau céramique en couches, éclats et carreaux manquants réglables en direct.</description>
+      <category>blender-addon</category>
+      <category>geometry-nodes</category>
+      <category>texturing</category>
+    </item>
+    <item>
+      <title>matte</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-11-matte</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-11-matte</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0100</pubDate>
+      <description>matte (publié le 10 nov. 2026) : compositeur nodal MIT qui tourne dans le navigateur sur GPU : keying chroma avec suppression de spill, light wrap, étalonnage, keyframes, scopes et export du plan, sans rien installer.</description>
+      <category>compositing</category>
+      <category>vfx</category>
+      <category>web</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Blender2UE Mesh Bridge 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-11-blender2ue-mesh-bridge-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-11-blender2ue-mesh-bridge-1-0-0</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Blender2UE Mesh Bridge 1.0.0 (11 nov. 2026) : add-on GPL qui envoie une scène Blender vers Unreal 5.6–5.8 avec positions, rotations et échelles exactes, soit par copier-coller, soit par export FBX + script de placement automatique avec un matériau par mesh.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Sundari 0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-11-sundari-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-11-sundari-0-1-0</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Sundari 0.1.0 (10 nov. 2026) : path tracer spectral et atelier de look-dev pour Mac Apple Silicon, gratuit mais pas open source : OpenUSD, MaterialX, OpenPBR, dispersion et live-link Blender. Première preuve de concept publique.</description>
+      <category>vfx</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>Narwhal 3D 0.4.12</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-10-narwhal-3d-0-4-12</link>
@@ -913,55 +961,6 @@
       <category>pipeline</category>
       <category>render-farm</category>
       <category>blender</category>
-    </item>
-    <item>
-      <title>babalon JS 1.0.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-babalon-js-1-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-19-babalon-js-1-0-1</guid>
-      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Compositeur de scènes 3D GPL dans le navigateur (Babylon.js, PWA hors ligne) : on importe glb/fbx, on place avec les raccourcis façon Blender, on éclaire, pose ou auto-rigge, puis mode photo de jeu vidéo et AR. v1.0.1 le 16 oct. 2026.</description>
-      <category>emerging</category>
-      <category>web</category>
-    </item>
-    <item>
-      <title>Loop Resample 1.0.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-18-loop-resample-1-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-18-loop-resample-1-0-1</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL : sélectionnez des arêtes et changez leur nombre de segments à la molette, en gardant UV, seams, arêtes vives et couleurs de sommets. Shift lisse la courbe, Ctrl répartit les points. Publié le 11 oct. 2026, déjà près de 900 téléchargements.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-      <category>cad-retopo</category>
-    </item>
-    <item>
-      <title>Mesh XR 0.6.4</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-18-mesh-xr-0-6-4</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-18-mesh-xr-0-6-4</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL qui permet de modéliser en VR via OpenXR : une manette sélectionne et déplace objets ou faces, l’autre porte un menu d’outils (extrude, bevel, inset, matériaux, UV). Publié le 9 oct. 2026 ; v0.6.5 sur GitHub le 17 oct.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Blender — nœud Straight Skeleton (WIP)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-18-blender-nud-straight-skeleton-wip</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-18-blender-nud-straight-skeleton-wip</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>PR de Howard Trickey : un nœud Geometry Nodes « Straight Skeleton » qui fait des insets/outsets façon offset à onglets sur courbes, meshes ou Grease Pencil, en gérant les chevauchements, avec plusieurs segments. « Presque fusionnable » selon la réunion du 12 oct. 2026.</description>
-      <category>blender</category>
-      <category>geometry-nodes</category>
-      <category>modeling</category>
-    </item>
-    <item>
-      <title>AYON Core 1.10</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-18-ayon-core-1-10</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-18-ayon-core-1-10</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Le pipeline open source AYON (successeur d’OpenPype) ajoute au Browser une catégorie Lists : listes d’entités et sessions de review rangées en dossiers, pour filtrer les versions d’un plan ou d’une tâche. 1.10.0 le 7 oct. 2026, correctif 1.10.1 le 13 oct.</description>
-      <category>pipeline</category>
-      <category>asset-management</category>
-      <category>vfx</category>
     </item>
   </channel>
 </rss>

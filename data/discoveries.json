@@ -1,5 +1,93 @@
 [
   {
+    "date": "2026-11-11",
+    "name": "Sculpt Join 0.1.0",
+    "name_en": "Sculpt Join 0.1.0",
+    "summary": "Sculpt Join 0.1.0 (10 nov. 2026) : extension GPL qui fusionne temporairement les meshes visibles (corps, vêtements, accessoires) pour les sculpter comme une seule pièce, puis renvoie les nouvelles positions dans chaque original, modificateurs et Multires intacts.",
+    "summary_en": "Sculpt Join 0.1.0 (10 Nov 2026): GPL extension that temporarily joins visible meshes (body, clothes, accessories) so you can sculpt them as one piece, then writes the new positions back into each original, modifiers and Multires intact.",
+    "url": "https://extensions.blender.org/add-ons/sculpt-join/",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "name": "Tessera – Mosaic & Tile Studio 1.0.0",
+    "name_en": "Tessera – Mosaic & Tile Studio 1.0.0",
+    "summary": "Tessera 1.0.0 (9 nov. 2026) : studio Geometry Nodes GPL de mosaïques et carrelages, 94 styles (romain, byzantin, zellige, azulejos, terrazzo…), matériau céramique en couches, éclats et carreaux manquants réglables en direct.",
+    "summary_en": "Tessera 1.0.0 (9 Nov 2026): GPL Geometry Nodes studio for mosaics and tiles, 94 styles (Roman, Byzantine, zellige, azulejos, terrazzo…), layered ceramic material, chips and missing tiles tweakable live.",
+    "url": "https://extensions.blender.org/add-ons/tessera-mosaic/",
+    "tags": [
+      "blender-addon",
+      "geometry-nodes",
+      "texturing"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "name": "matte",
+    "name_en": "matte",
+    "summary": "matte (publié le 10 nov. 2026) : compositeur nodal MIT qui tourne dans le navigateur sur GPU : keying chroma avec suppression de spill, light wrap, étalonnage, keyframes, scopes et export du plan, sans rien installer.",
+    "summary_en": "matte (released 10 Nov 2026): MIT node-based compositor running in the browser on the GPU: chroma keying with spill suppression, light wrap, grading, keyframes, scopes and shot export, with nothing to install.",
+    "url": "https://github.com/pMag11-alt/matte",
+    "tags": [
+      "compositing",
+      "vfx",
+      "web",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — topic compositing (repos récents)",
+      "label_en": "GitHub — topic compositing (recent repos)",
+      "url": "https://github.com/topics/compositing"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "name": "Blender2UE Mesh Bridge 1.0.0",
+    "name_en": "Blender2UE Mesh Bridge 1.0.0",
+    "summary": "Blender2UE Mesh Bridge 1.0.0 (11 nov. 2026) : add-on GPL qui envoie une scène Blender vers Unreal 5.6–5.8 avec positions, rotations et échelles exactes, soit par copier-coller, soit par export FBX + script de placement automatique avec un matériau par mesh.",
+    "summary_en": "Blender2UE Mesh Bridge 1.0.0 (11 Nov 2026): GPL add-on that sends a Blender scene to Unreal 5.6–5.8 with exact positions, rotations and scales, either via copy-paste or via FBX export + an auto-placement script with one material per mesh.",
+    "url": "https://github.com/Mowen-M/Blender2UE-Mesh-Bridge/releases/tag/v1.0.0",
+    "tags": [
+      "blender-addon",
+      "pipeline"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — topic blender-addon (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "name": "Sundari 0.1.0",
+    "name_en": "Sundari 0.1.0",
+    "summary": "Sundari 0.1.0 (10 nov. 2026) : path tracer spectral et atelier de look-dev pour Mac Apple Silicon, gratuit mais pas open source : OpenUSD, MaterialX, OpenPBR, dispersion et live-link Blender. Première preuve de concept publique.",
+    "summary_en": "Sundari 0.1.0 (10 Nov 2026): spectral path tracer and look-dev workspace for Apple Silicon Macs, free but not open source: OpenUSD, MaterialX, OpenPBR, dispersion and a Blender live-link. First public proof of concept.",
+    "url": "https://sundari.sundari-renderer.workers.dev",
+    "tags": [
+      "vfx",
+      "emerging"
+    ],
+    "source": {
+      "label": "Reddit — r/vfx (u/BlackGoku36)",
+      "label_en": "Reddit — r/vfx (u/BlackGoku36)",
+      "url": "https://www.reddit.com/r/vfx/comments/1xsjsqm/poc_release_sundari_spectral_path_tracer/"
+    }
+  },
+  {
     "date": "2026-11-10",
     "name": "Narwhal 3D 0.4.12",
     "name_en": "Narwhal 3D 0.4.12",
