@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-12",
+    "name": "BakeDown 1.6.0",
+    "name_en": "BakeDown 1.6.0",
+    "summary": "BakeDown 1.6.0 (11 nov. 2026) : add-on Blender GPL qui transforme un mesh lourd (IA, scan, sculpt) en asset léger : simplification, bake des textures PBR de l’original, LODs et export Unity, Unreal ou glTF, sans détruire l’original.",
+    "summary_en": "BakeDown 1.6.0 (11 Nov 2026): GPL Blender add-on that turns a heavy mesh (AI, scan, sculpt) into a light asset: simplification, baking the original's PBR textures, LODs and export to Unity, Unreal or glTF, with the original kept intact.",
+    "url": "https://github.com/keeraa/bakedown/releases/tag/v1.6.0",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "texturing"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — blender-addon topic (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "name": "Smart Tris to Quads 4.1.0",
+    "name_en": "Smart Tris to Quads 4.1.0",
+    "summary": "Smart Tris to Quads 4.1.0 (11 nov. 2026) : un Alt+J plus malin pour les meshes triangulés (STL de CAO) : les quads suivent la vraie grille de la surface, traversent les biseaux, et un mode Full Quad ne laisse que des quads sans bouger les sommets d’origine.",
+    "summary_en": "Smart Tris to Quads 4.1.0 (11 Nov 2026): a smarter Alt+J for triangulated meshes (CAD STL): quads follow the surface's real grid and run through bevels, and a Full Quad mode leaves only quads without moving the original vertices.",
+    "url": "https://github.com/Pavelbotsu/smart-tris-to-quads/releases/tag/v4.1.0",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "cad-retopo"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — blender-addon topic (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "name": "Version Notes 0.1.0",
+    "name_en": "Version Notes 0.1.0",
+    "summary": "Version Notes 0.1.0 (5 nov. 2026) : extension GPL qui ajoute une note (et l’auteur) à chaque sauvegarde incrémentale, via « Save As » ou « Save Incremental With Note », regroupées dans un fichier texte à côté des .blend pour savoir ce qui a changé.",
+    "summary_en": "Version Notes 0.1.0 (5 Nov 2026): GPL extension that adds a note (and the author) to each incremental save, via Save As or Save Incremental With Note, collected in a text file next to the .blend files so you can see what changed.",
+    "url": "https://extensions.blender.org/add-ons/version-notes/",
+    "tags": [
+      "blender-addon",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
     "date": "2026-11-11",
     "name": "Sculpt Join 0.1.0",
     "name_en": "Sculpt Join 0.1.0",

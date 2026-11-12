@@ -7,6 +7,9 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-12 | BakeDown 1.6.0 | blender-addon, modeling, texturing | https://github.com/keeraa/bakedown/releases/tag/v1.6.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-12-bakedown-1-6-0 |
+| 2026-11-12 | Smart Tris to Quads 4.1.0 | blender-addon, modeling, cad-retopo | https://github.com/Pavelbotsu/smart-tris-to-quads/releases/tag/v4.1.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-12-smart-tris-to-quads-4-1-0 |
+| 2026-11-12 | Version Notes 0.1.0 | blender-addon, pipeline | https://extensions.blender.org/add-ons/version-notes/ | https://olanlive.github.io/revue-oss-3d/#2026-11-12-version-notes-0-1-0 |
 | 2026-11-11 | Sculpt Join 0.1.0 | blender-addon, modeling | https://extensions.blender.org/add-ons/sculpt-join/ | https://olanlive.github.io/revue-oss-3d/#2026-11-11-sculpt-join-0-1-0 |
 | 2026-11-11 | Tessera – Mosaic & Tile Studio 1.0.0 | blender-addon, geometry-nodes, texturing | https://extensions.blender.org/add-ons/tessera-mosaic/ | https://olanlive.github.io/revue-oss-3d/#2026-11-11-tessera-mosaic-tile-studio-1-0-0 |
 | 2026-11-11 | matte | compositing, vfx, web, emerging | https://github.com/pMag11-alt/matte | https://olanlive.github.io/revue-oss-3d/#2026-11-11-matte |

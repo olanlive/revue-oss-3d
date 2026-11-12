@@ -5,8 +5,37 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 11 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>BakeDown 1.6.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-12-bakedown-1-6-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-12-bakedown-1-6-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>BakeDown 1.6.0 (11 nov. 2026) : add-on Blender GPL qui transforme un mesh lourd (IA, scan, sculpt) en asset léger : simplification, bake des textures PBR de l’original, LODs et export Unity, Unreal ou glTF, sans détruire l’original.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>texturing</category>
+    </item>
+    <item>
+      <title>Smart Tris to Quads 4.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-12-smart-tris-to-quads-4-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-12-smart-tris-to-quads-4-1-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Smart Tris to Quads 4.1.0 (11 nov. 2026) : un Alt+J plus malin pour les meshes triangulés (STL de CAO) : les quads suivent la vraie grille de la surface, traversent les biseaux, et un mode Full Quad ne laisse que des quads sans bouger les sommets d’origine.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>cad-retopo</category>
+    </item>
+    <item>
+      <title>Version Notes 0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-12-version-notes-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-12-version-notes-0-1-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Version Notes 0.1.0 (5 nov. 2026) : extension GPL qui ajoute une note (et l’auteur) à chaque sauvegarde incrémentale, via « Save As » ou « Save Incremental With Note », regroupées dans un fichier texte à côté des .blend pour savoir ce qui a changé.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+    </item>
     <item>
       <title>Sculpt Join 0.1.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-11-sculpt-join-0-1-0</link>
@@ -932,35 +961,6 @@
       <category>blender-addon</category>
       <category>modeling</category>
       <category>cad-retopo</category>
-    </item>
-    <item>
-      <title>Auto Pivot Baker 1.0.2</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-auto-pivot-baker-1-0-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-19-auto-pivot-baker-1-0-2</guid>
-      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL qui fusionne une collection d’objets en un seul mesh en gardant le pivot de chacun dans les UV, pour animer les morceaux par shader dans Unreal ou Unity. Projets d’exemple fournis ; v1.0.2 le 14 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-    </item>
-    <item>
-      <title>MatteDesk 0.32</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-mattedesk-0-32</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-19-mattedesk-0-32</guid>
-      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Outil GPL local pour le roto et les mattes VFX dans le navigateur : on décrit ou clique l’objet, SAM3, CoTracker3 et MatAnyone2 calculent le masque sur tout le plan, on ne corrige que les frames ratées. Export vers Nuke/After Effects. v0.32 le 18 oct. 2026.</description>
-      <category>vfx</category>
-      <category>compositing</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>RenderMesh 0.3.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-rendermesh-0-3-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-19-rendermesh-0-3-0</guid>
-      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Mini ferme de rendu Blender sans serveur pour PC Windows en réseau local (C++, Apache 2.0) : les machines inactives prennent des paquets de frames Eevee ou Cycles, le projet est transféré et les sorties rapatriées. CLI JSON incluse. v0.3.0 le 16 oct. 2026.</description>
-      <category>pipeline</category>
-      <category>render-farm</category>
-      <category>blender</category>
     </item>
   </channel>
 </rss>
