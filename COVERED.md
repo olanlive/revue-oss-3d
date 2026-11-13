@@ -7,6 +7,9 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-13 | OpenReview 2.0.0 | vfx, pipeline, exr | https://github.com/maruthuvfx/OpenReview/releases/tag/v2.0.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-13-openreview-2-0-0 |
+| 2026-11-13 | Gaffer 1.7.7 | vfx, pipeline, emerging | https://github.com/GafferHQ/gaffer/releases/tag/1.7.7.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-13-gaffer-1-7-7 |
+| 2026-11-13 | Mask Tools (Bookyakuno) | blender-addon, modeling | https://bookyakuno.gumroad.com/l/bcmiT | https://olanlive.github.io/revue-oss-3d/#2026-11-13-mask-tools-bookyakuno |
 | 2026-11-12 | BakeDown 1.6.0 | blender-addon, modeling, texturing | https://github.com/keeraa/bakedown/releases/tag/v1.6.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-12-bakedown-1-6-0 |
 | 2026-11-12 | Smart Tris to Quads 4.1.0 | blender-addon, modeling, cad-retopo | https://github.com/Pavelbotsu/smart-tris-to-quads/releases/tag/v4.1.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-12-smart-tris-to-quads-4-1-0 |
 | 2026-11-12 | Version Notes 0.1.0 | blender-addon, pipeline | https://extensions.blender.org/add-ons/version-notes/ | https://olanlive.github.io/revue-oss-3d/#2026-11-12-version-notes-0-1-0 |

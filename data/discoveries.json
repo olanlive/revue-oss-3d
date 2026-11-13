@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-13",
+    "name": "OpenReview 2.0.0",
+    "name_en": "OpenReview 2.0.0",
+    "summary": "OpenReview 2.0.0 (4 nov. 2026) : visionneuse de dailies VFX sous licence MIT (séquences, passes EXR, comparaison plate/compo, contrôle NaN) qui passe à un moteur natif en Rust, bien plus rapide pour les planches contact et le scrubbing.",
+    "summary_en": "OpenReview 2.0.0 (4 Nov 2026): MIT-licensed VFX dailies viewer (sequences, EXR passes, plate/comp comparison, NaN checks) that moves to a native Rust engine, much faster for contact sheets and scrubbing.",
+    "url": "https://github.com/maruthuvfx/OpenReview/releases/tag/v2.0.0",
+    "tags": [
+      "vfx",
+      "pipeline",
+      "exr"
+    ],
+    "source": {
+      "label": "Web — Digital Production (article sur OpenReview 1.2.0, 11 nov. 2026)",
+      "label_en": "Web — Digital Production (article on OpenReview 1.2.0, 11 Nov 2026)",
+      "url": "https://digitalproduction.com/2026/11/11/openreview-free-vfx-dailies-exr-qc/"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "name": "Gaffer 1.7.7",
+    "name_en": "Gaffer 1.7.7",
+    "summary": "Gaffer 1.7.7 (12 nov. 2026) : l’appli nodale open source (BSD) de lookdev, lighting et automatisation VFX ajoute un mode Collect au DeepMerge et des colonnes compactes dans le Light Editor, après l’outil de peinture et l’interface MCP des 1.7.5–1.7.6.",
+    "summary_en": "Gaffer 1.7.7 (12 Nov 2026): the open source (BSD) node-based app for VFX lookdev, lighting and automation adds a Collect mode to DeepMerge and compact columns in the Light Editor, after the paint tool and MCP interface of 1.7.5–1.7.6.",
+    "url": "https://github.com/GafferHQ/gaffer/releases/tag/1.7.7.0",
+    "tags": [
+      "vfx",
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — Digital Production (article Gaffer 1.7.6, 10 nov. 2026)",
+      "label_en": "Web — Digital Production (Gaffer 1.7.6 article, 10 Nov 2026)",
+      "url": "https://digitalproduction.com/2026/11/10/gaffer-1-7-6-painting-lighting-and-mcp/"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "name": "Mask Tools (Bookyakuno)",
+    "name_en": "Mask Tools (Bookyakuno)",
+    "summary": "Mask Tools, add-on Blender gratuit de Bookyakuno, mis à jour (signalé le 12 nov. 2026) : masques de sculpt sauvegardés en vertex groups et combinables, masques de creux, de bosses ou d’AO, flou, contraste et courbes, le tout dans un panneau Sculpt.",
+    "summary_en": "Mask Tools, a free Blender add-on by Bookyakuno, got an update (spotted 12 Nov 2026): sculpt masks saved as combinable vertex groups, cavity, convexity or AO masks, blur, contrast and curves, all in one Sculpt panel.",
+    "url": "https://bookyakuno.gumroad.com/l/bcmiT",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Mastodon — @metin@graphics.social",
+      "label_en": "Mastodon — @metin@graphics.social",
+      "url": "https://graphics.social/@metin/117602567456368120"
+    }
+  },
+  {
     "date": "2026-11-12",
     "name": "BakeDown 1.6.0",
     "name_en": "BakeDown 1.6.0",

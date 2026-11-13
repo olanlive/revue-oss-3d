@@ -5,8 +5,37 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 12 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenReview 2.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-13-openreview-2-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-13-openreview-2-0-0</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>OpenReview 2.0.0 (4 nov. 2026) : visionneuse de dailies VFX sous licence MIT (séquences, passes EXR, comparaison plate/compo, contrôle NaN) qui passe à un moteur natif en Rust, bien plus rapide pour les planches contact et le scrubbing.</description>
+      <category>vfx</category>
+      <category>pipeline</category>
+      <category>exr</category>
+    </item>
+    <item>
+      <title>Gaffer 1.7.7</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-13-gaffer-1-7-7</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-13-gaffer-1-7-7</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Gaffer 1.7.7 (12 nov. 2026) : l’appli nodale open source (BSD) de lookdev, lighting et automatisation VFX ajoute un mode Collect au DeepMerge et des colonnes compactes dans le Light Editor, après l’outil de peinture et l’interface MCP des 1.7.5–1.7.6.</description>
+      <category>vfx</category>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Mask Tools (Bookyakuno)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-13-mask-tools-bookyakuno</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-13-mask-tools-bookyakuno</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Mask Tools, add-on Blender gratuit de Bookyakuno, mis à jour (signalé le 12 nov. 2026) : masques de sculpt sauvegardés en vertex groups et combinables, masques de creux, de bosses ou d’AO, flou, contraste et courbes, le tout dans un panneau Sculpt.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
     <item>
       <title>BakeDown 1.6.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-12-bakedown-1-6-0</link>
@@ -931,36 +960,6 @@
       <category>blender-addon</category>
       <category>rigging</category>
       <category>animation</category>
-    </item>
-    <item>
-      <title>E3D Bridge 0.3.2</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-20-e3d-bridge-0-3-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-20-e3d-bridge-0-3-2</guid>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL qui exporte une scène en un clic vers Element 3D (After Effects) : OBJ + MTL aux bons slots, textures Principled converties (roughness en glossiness, bump en normal), décimation des gros meshes CAO et rapport détaillé. Première version le 5 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>vfx</category>
-      <category>pipeline</category>
-    </item>
-    <item>
-      <title>UV Island Colorizer 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-20-uv-island-colorizer-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-20-uv-island-colorizer-1-0-0</guid>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL qui donne une couleur aléatoire à chaque île UV pour vérifier un layout d’un coup d’œil, et peut baker une color ID map PNG de 64 à 8192 px via Cycles, par mesh, sélection ou collection entière. Publié le 10 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>uv</category>
-      <category>texturing</category>
-    </item>
-    <item>
-      <title>PolySketch 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-19-polysketch-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-19-polysketch-1-0-0</guid>
-      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Add-on Blender GPL pour dessiner comme en CAO : esquisse 2D sur faces ou plans de travail avec accroches (sommet, milieu, perpendiculaire), découpe de faces le long d’une polyligne et offset à onglets exacts avec unités (100mm, 2'6"). Publié le 11 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-      <category>cad-retopo</category>
     </item>
   </channel>
 </rss>
