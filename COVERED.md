@@ -7,6 +7,9 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-18 | SculptForge 0.13.7 | modeling, sculpt | https://github.com/islandmed/SculptForge/releases/tag/v0.13.7 | https://olanlive.github.io/revue-oss-3d/#2026-11-18-sculptforge-0-13-7 |
+| 2026-11-18 | Texel Kit 1.0.1 | blender-addon, uv, texturing | https://extensions.blender.org/add-ons/texel-kit/ | https://olanlive.github.io/revue-oss-3d/#2026-11-18-texel-kit-1-0-1 |
+| 2026-11-18 | LayerCake 1.1.1 | compositing, blender, vfx | https://extensions.blender.org/add-ons/layercake/ | https://olanlive.github.io/revue-oss-3d/#2026-11-18-layercake-1-1-1 |
 | 2026-11-13 | OpenReview 2.0.0 | vfx, pipeline, exr | https://github.com/maruthuvfx/OpenReview/releases/tag/v2.0.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-13-openreview-2-0-0 |
 | 2026-11-13 | Gaffer 1.7.7 | vfx, pipeline, emerging | https://github.com/GafferHQ/gaffer/releases/tag/1.7.7.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-13-gaffer-1-7-7 |
 | 2026-11-13 | Mask Tools (Bookyakuno) | blender-addon, modeling | https://bookyakuno.gumroad.com/l/bcmiT | https://olanlive.github.io/revue-oss-3d/#2026-11-13-mask-tools-bookyakuno |

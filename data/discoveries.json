@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-18",
+    "name": "SculptForge 0.13.7",
+    "name_en": "SculptForge 0.13.7",
+    "summary": "SculptForge 0.13.7 (18 nov. 2026) : appli de sculpt 3D libre (GPL). La série 0.13 apporte ombres et occlusion ambiante dans la vue PBR ; la 0.13.7 ajoute des formes cercle et ellipse pour masquer, sélectionner et couper.",
+    "summary_en": "SculptForge 0.13.7 (18 Nov 2026): a free GPL 3D sculpting app. The 0.13 series brings shadows and ambient occlusion to the PBR view; 0.13.7 adds circle and ellipse shapes for Mask, Select and Cut.",
+    "url": "https://github.com/islandmed/SculptForge/releases/tag/v0.13.7",
+    "tags": [
+      "modeling",
+      "sculpt"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos actifs)",
+      "label_en": "GitHub — blender-addon topic (active repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "name": "Texel Kit 1.0.1",
+    "name_en": "Texel Kit 1.0.1",
+    "summary": "Texel Kit 1.0.1 (11 nov. 2026) : add-on Blender GPL pour mesurer et unifier la densité de texels (objet, faces ou îles UV), avec préréglages, pipette, carte thermique et damier réversible. Pour Blender 4.2 et plus.",
+    "summary_en": "Texel Kit 1.0.1 (11 Nov 2026): a GPL Blender add-on to measure and unify texel density (object, faces or UV islands), with presets, an eyedropper, a heatmap and a reversible checker. For Blender 4.2 and later.",
+    "url": "https://extensions.blender.org/add-ons/texel-kit/",
+    "tags": [
+      "blender-addon",
+      "uv",
+      "texturing"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "name": "LayerCake 1.1.1",
+    "name_en": "LayerCake 1.1.1",
+    "summary": "LayerCake 1.1.1 (11 nov. 2026) : add-on GPL pour le compositeur de Blender qui reconstruit l’image Combined à partir des passes (Render Layers ou EXR multicouche), de façon éditable, avec Cycles, EEVEE et Cryptomatte. Pour Blender 4.2 à 5.3.",
+    "summary_en": "LayerCake 1.1.1 (11 Nov 2026): a GPL add-on for Blender’s compositor that rebuilds the Combined image from render passes (Render Layers or multilayer EXR) in an editable node setup, with Cycles, EEVEE and Cryptomatte. For Blender 4.2–5.3.",
+    "url": "https://extensions.blender.org/add-ons/layercake/",
+    "tags": [
+      "compositing",
+      "blender",
+      "vfx"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveautés)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/?sort_by=-date_approved"
+    }
+  },
+  {
     "date": "2026-11-13",
     "name": "OpenReview 2.0.0",
     "name_en": "OpenReview 2.0.0",

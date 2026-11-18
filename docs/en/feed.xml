@@ -5,8 +5,37 @@
     <link>https://olanlive.github.io/revue-oss-3d/en/</link>
     <description>Open source 3D, VFX and video watch.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SculptForge 0.13.7</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-18-sculptforge-0-13-7</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-18-sculptforge-0-13-7</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0100</pubDate>
+      <description>SculptForge 0.13.7 (18 Nov 2026): a free GPL 3D sculpting app. The 0.13 series brings shadows and ambient occlusion to the PBR view; 0.13.7 adds circle and ellipse shapes for Mask, Select and Cut.</description>
+      <category>modeling</category>
+      <category>sculpt</category>
+    </item>
+    <item>
+      <title>Texel Kit 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-18-texel-kit-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-18-texel-kit-1-0-1</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Texel Kit 1.0.1 (11 Nov 2026): a GPL Blender add-on to measure and unify texel density (object, faces or UV islands), with presets, an eyedropper, a heatmap and a reversible checker. For Blender 4.2 and later.</description>
+      <category>blender-addon</category>
+      <category>uv</category>
+      <category>texturing</category>
+    </item>
+    <item>
+      <title>LayerCake 1.1.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-18-layercake-1-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-18-layercake-1-1-1</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0100</pubDate>
+      <description>LayerCake 1.1.1 (11 Nov 2026): a GPL add-on for Blender’s compositor that rebuilds the Combined image from render passes (Render Layers or multilayer EXR) in an editable node setup, with Cycles, EEVEE and Cryptomatte. For Blender 4.2–5.3.</description>
+      <category>compositing</category>
+      <category>blender</category>
+      <category>vfx</category>
+    </item>
     <item>
       <title>OpenReview 2.0.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-13-openreview-2-0-0</link>
@@ -930,36 +959,6 @@
       <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
       <description>MIT pbrt-v4-compatible path tracer with CPU, OptiX and Metal backends, a Qt GUI, a Scene Builder and a live preview where you can drag objects; its renders are checked against closed-form results. Shown on Oct 21, 2026; v0.1.4 from Oct 15.</description>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>RealIndex 1.1.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-20-realindex-1-1-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-20-realindex-1-1-0</guid>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
-      <description>GPL Blender 5.2 extension that turns a folder into a live asset library: drop in a Sketchfab model, an ambientCG or Poly Haven texture or an HDRI (zipped or not) and it shows up in the Asset Browser with a thumbnail, no manual import. v1.1.0 on Oct 17, 2026.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-      <category>asset-management</category>
-    </item>
-    <item>
-      <title>c4-operator 0.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-20-c4-operator-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-20-c4-operator-0-1</guid>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Apache-2.0 Kubernetes operator from Avalanche-io that turns a cluster into one farm for rendering, CI and ML: files addressed by C4 ID (SMPTE ST 2114), a queue ordered by deadlines instead of priorities, versioned outputs, a HUD and an MCP server. v0.1, published Oct 16, 2026.</description>
-      <category>pipeline</category>
-      <category>render-farm</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>B-Bone Gizmos 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-20-b-bone-gizmos-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-20-b-bone-gizmos-1-0-0</guid>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
-      <description>GPL Blender extension by Tal Hershkovich, extracted from AnimToolbox: a Pose Mode gizmo tool to shape bendy bones like Bézier handles (location, rotation, scale). Cited at the Oct 15, 2026 Animation &amp; Rigging meeting as a reference for a native version.</description>
-      <category>blender-addon</category>
-      <category>rigging</category>
-      <category>animation</category>
     </item>
   </channel>
 </rss>
