@@ -1,5 +1,76 @@
 [
   {
+    "date": "2026-11-19",
+    "name": "CryptoRay 0.6.1",
+    "name_en": "CryptoRay 0.6.1",
+    "summary": "CryptoRay 0.6.1 (16 nov. 2026) : add-on Blender GPL pour Cycles qui donne un ID Cryptomatte à chaque objet vu à travers le verre ou reflété dans le chrome, déformé comme le beauty, dans un EXR lisible par Nuke ou tout lecteur Cryptomatte.",
+    "summary_en": "CryptoRay 0.6.1 (16 Nov 2026): a GPL Blender add-on for Cycles that gives every object seen through glass or reflected in chrome its own Cryptomatte ID, distorted like the beauty, in an EXR readable by Nuke or any Cryptomatte reader.",
+    "url": "https://extensions.blender.org/add-ons/cryptoray/",
+    "tags": [
+      "blender-addon",
+      "compositing",
+      "vfx"
+    ],
+    "source": {
+      "label": "Blender Extensions — nouveaux add-ons (CryptoRay)",
+      "label_en": "Blender Extensions — new add-ons (CryptoRay)",
+      "url": "https://extensions.blender.org/add-ons/cryptoray/"
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "name": "GrimTopo 1.0.1",
+    "name_en": "GrimTopo 1.0.1",
+    "summary": "GrimTopo 1.0.1 (13 nov. 2026) : add-on de retopologie libre (GPL) de Grim Edge Studio. On dessine des bandes, patchs ou tubes sur un sculpt ou un scan et ils deviennent des quads ; Smart Fill propose le remplissage des trous, avec relax, symétrie et tête modèle.",
+    "summary_en": "GrimTopo 1.0.1 (13 Nov 2026): a free (GPL) retopology add-on by Grim Edge Studio. Draw strips, patches or tubes on a sculpt or scan and they become quads; Smart Fill suggests hole fills, with relax, mirror and a template head.",
+    "url": "https://extensions.blender.org/add-ons/grimtopo/",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "cad-retopo"
+    ],
+    "source": {
+      "label": "Blender Extensions — nouveaux add-ons (GrimTopo)",
+      "label_en": "Blender Extensions — new add-ons (GrimTopo)",
+      "url": "https://extensions.blender.org/add-ons/grimtopo/"
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "name": "Splat Repair 0.1.0",
+    "name_en": "Splat Repair 0.1.0",
+    "summary": "Splat Repair 0.1.0 (16 nov. 2026) : éditeur de gaussian splats sous Apache 2.0 avec pinceau de réparation : on peint ce qui doit partir et la surface est reconstruite (Fast Fill CPU, Deep Fill LaMa). Tampon, lasso, nettoyage des floaters ; PLY, SPLAT, SPZ.",
+    "summary_en": "Splat Repair 0.1.0 (16 Nov 2026): an Apache 2.0 Gaussian splat editor with a repair brush: paint over what should go and the surface is rebuilt (CPU Fast Fill, LaMa Deep Fill). Clone stamp, lasso, floater clean-up; PLY, SPLAT, SPZ.",
+    "url": "https://github.com/NicolasDrum/splat-repair/releases/tag/v0.1.0",
+    "tags": [
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "X — @GreatCreations_",
+      "label_en": "X — @GreatCreations_",
+      "url": "https://x.com/GreatCreations_/status/2123039300027822545"
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "name": "Harappa 1.2.1",
+    "name_en": "Harappa 1.2.1",
+    "summary": "Harappa 1.2.1 (16 nov. 2026) : add-on Blender GPL qui transforme un terrain en prairie façon anime sous EEVEE (herbe peinte, fleurs, arbres, ciel cel-shadé). La 1.2 ajoute étangs, ruisseaux, cascades, rochers et météo ; la 1.2.1 refait couler l’eau.",
+    "summary_en": "Harappa 1.2.1 (16 Nov 2026): a GPL Blender add-on that turns terrain into an anime-style meadow in EEVEE (painted grass, flowers, trees, cel-shaded sky). 1.2 adds ponds, streams, waterfalls, rocks and weather; 1.2.1 makes the water flow again.",
+    "url": "https://github.com/kanaworksai-hue/harappa/releases/tag/v1.2.1",
+    "tags": [
+      "blender-addon",
+      "geometry-nodes",
+      "procedural"
+    ],
+    "source": {
+      "label": "X — @anim_final_v2",
+      "label_en": "X — @anim_final_v2",
+      "url": "https://x.com/anim_final_v2/status/2122748692264284554"
+    }
+  },
+  {
     "date": "2026-11-18",
     "name": "SculptForge 0.13.7",
     "name_en": "SculptForge 0.13.7",

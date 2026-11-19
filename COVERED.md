@@ -7,6 +7,10 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-19 | CryptoRay 0.6.1 | blender-addon, compositing, vfx | https://extensions.blender.org/add-ons/cryptoray/ | https://olanlive.github.io/revue-oss-3d/#2026-11-19-cryptoray-0-6-1 |
+| 2026-11-19 | GrimTopo 1.0.1 | blender-addon, modeling, cad-retopo | https://extensions.blender.org/add-ons/grimtopo/ | https://olanlive.github.io/revue-oss-3d/#2026-11-19-grimtopo-1-0-1 |
+| 2026-11-19 | Splat Repair 0.1.0 | gaussian-splat, emerging | https://github.com/NicolasDrum/splat-repair/releases/tag/v0.1.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-19-splat-repair-0-1-0 |
+| 2026-11-19 | Harappa 1.2.1 | blender-addon, geometry-nodes, procedural | https://github.com/kanaworksai-hue/harappa/releases/tag/v1.2.1 | https://olanlive.github.io/revue-oss-3d/#2026-11-19-harappa-1-2-1 |
 | 2026-11-18 | SculptForge 0.13.7 | modeling, sculpt | https://github.com/islandmed/SculptForge/releases/tag/v0.13.7 | https://olanlive.github.io/revue-oss-3d/#2026-11-18-sculptforge-0-13-7 |
 | 2026-11-18 | Texel Kit 1.0.1 | blender-addon, uv, texturing | https://extensions.blender.org/add-ons/texel-kit/ | https://olanlive.github.io/revue-oss-3d/#2026-11-18-texel-kit-1-0-1 |
 | 2026-11-18 | LayerCake 1.1.1 | compositing, blender, vfx | https://extensions.blender.org/add-ons/layercake/ | https://olanlive.github.io/revue-oss-3d/#2026-11-18-layercake-1-1-1 |

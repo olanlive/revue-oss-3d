@@ -5,8 +5,47 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 18 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>CryptoRay 0.6.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-19-cryptoray-0-6-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-19-cryptoray-0-6-1</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0100</pubDate>
+      <description>CryptoRay 0.6.1 (16 nov. 2026) : add-on Blender GPL pour Cycles qui donne un ID Cryptomatte à chaque objet vu à travers le verre ou reflété dans le chrome, déformé comme le beauty, dans un EXR lisible par Nuke ou tout lecteur Cryptomatte.</description>
+      <category>blender-addon</category>
+      <category>compositing</category>
+      <category>vfx</category>
+    </item>
+    <item>
+      <title>GrimTopo 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-19-grimtopo-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-19-grimtopo-1-0-1</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0100</pubDate>
+      <description>GrimTopo 1.0.1 (13 nov. 2026) : add-on de retopologie libre (GPL) de Grim Edge Studio. On dessine des bandes, patchs ou tubes sur un sculpt ou un scan et ils deviennent des quads ; Smart Fill propose le remplissage des trous, avec relax, symétrie et tête modèle.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>cad-retopo</category>
+    </item>
+    <item>
+      <title>Splat Repair 0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-19-splat-repair-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-19-splat-repair-0-1-0</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Splat Repair 0.1.0 (16 nov. 2026) : éditeur de gaussian splats sous Apache 2.0 avec pinceau de réparation : on peint ce qui doit partir et la surface est reconstruite (Fast Fill CPU, Deep Fill LaMa). Tampon, lasso, nettoyage des floaters ; PLY, SPLAT, SPZ.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Harappa 1.2.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-19-harappa-1-2-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-19-harappa-1-2-1</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Harappa 1.2.1 (16 nov. 2026) : add-on Blender GPL qui transforme un terrain en prairie façon anime sous EEVEE (herbe peinte, fleurs, arbres, ciel cel-shadé). La 1.2 ajoute étangs, ruisseaux, cascades, rochers et météo ; la 1.2.1 refait couler l’eau.</description>
+      <category>blender-addon</category>
+      <category>geometry-nodes</category>
+      <category>procedural</category>
+    </item>
     <item>
       <title>SculptForge 0.13.7</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-18-sculptforge-0-13-7</link>
@@ -923,41 +962,6 @@
       <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
       <description>Appli desktop Apache-2.0 (Windows, macOS, Linux) qui transforme une vidéo ou une série d’images en Gaussian Splats en un clic, tout en local (COLMAP + Brush). La v0.7.0 du 19 oct. 2026 ajoute la vidéo 360°, l’import PLY/SOG/SPZ et l’export multiformat.</description>
       <category>gaussian-splat</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Maya Workflow Kit for Blender 0.2.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-21-maya-workflow-kit-for-blender-0-2-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-21-maya-workflow-kit-for-blender-0-2-0</guid>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Extension Blender GPL qui rend aux habitués de Maya leurs repères : hotbox et marking menus, Channel Box, Attribute Editor, shelves, Freeze/Delete History. Un interrupteur rend Blender d’origine. Première version publique le 20 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>In-Place Animation Tool 1.0.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-21-in-place-animation-tool-1-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-21-in-place-animation-tool-1-0-1</guid>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Extension Blender GPL qui convertit des animations en root motion (Mixamo, Cascadeur, mocap, Rigify) en cycles sur place, sans pieds qui s’enfoncent, en gardant sauts et balancement, avec extraction d’un root bone pour les moteurs de jeu. v1.0.1 le 19 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>animation</category>
-    </item>
-    <item>
-      <title>FBX Scale Report 0.1.2</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-21-fbx-scale-report-0-1-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-21-fbx-scale-report-0-1-2</guid>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Extension Blender GPL (aussi en ligne de commande) qui lit un dossier de FBX sans les importer et signale l’échelle déclarée par chaque fichier et l’outil qui l’a écrit, avec rapport CSV et HTML. Fini les modèles 100× trop grands. Publiée le 15 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-    </item>
-    <item>
-      <title>Photonsmith 0.1.4</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-21-photonsmith-0-1-4</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-21-photonsmith-0-1-4</guid>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Path tracer MIT compatible pbrt-v4, avec backends CPU, OptiX et Metal, interface Qt, Scene Builder et aperçu live où l’on déplace les objets ; ses rendus sont vérifiés contre des résultats analytiques. Présenté le 21 oct. 2026, v0.1.4 du 15 oct.</description>
       <category>emerging</category>
     </item>
   </channel>
