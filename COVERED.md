@@ -7,6 +7,9 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-20 | mPainter 0.9.2 | texturing, open-source, blender | https://github.com/mattiaslind93/mpainter | https://olanlive.github.io/revue-oss-3d/#2026-11-20-mpainter-0-9-2 |
+| 2026-11-20 | Pinvas 1.0.1 | blender-addon, modeling | https://github.com/OEBS-OVER-ENGINEERED-BLENDER-SOLUTIONS/Pinvas | https://olanlive.github.io/revue-oss-3d/#2026-11-20-pinvas-1-0-1 |
+| 2026-11-20 | Frankensplat | gaussian-splatting, free | https://offlinetools.io/frankensplat | https://olanlive.github.io/revue-oss-3d/#2026-11-20-frankensplat |
 | 2026-11-19 | CryptoRay 0.6.1 | blender-addon, compositing, vfx | https://extensions.blender.org/add-ons/cryptoray/ | https://olanlive.github.io/revue-oss-3d/#2026-11-19-cryptoray-0-6-1 |
 | 2026-11-19 | GrimTopo 1.0.1 | blender-addon, modeling, cad-retopo | https://extensions.blender.org/add-ons/grimtopo/ | https://olanlive.github.io/revue-oss-3d/#2026-11-19-grimtopo-1-0-1 |
 | 2026-11-19 | Splat Repair 0.1.0 | gaussian-splat, emerging | https://github.com/NicolasDrum/splat-repair/releases/tag/v0.1.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-19-splat-repair-0-1-0 |
