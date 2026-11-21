@@ -5,8 +5,48 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 20 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Facetor 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-21-facetor-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-21-facetor-1-0-0</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Facetor 1.0.0 (17 nov. 2026) : extension Blender GPL qui change le nombre de segments d’un cylindre, d’un trou, d’un bevel ou d’un congé (Alt+B + molette) sans casser la silhouette, même sur la topologie sale des exports CAO.</description>
+      <category>modeling</category>
+      <category>blender-addon</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Maskwright Lite 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-21-maskwright-lite-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-21-maskwright-lite-1-0-0</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Maskwright Lite 1.0.0 (13 nov. 2026) : ajoute au compositor de Blender un nœud qui contient son propre masque Bézier. On dessine la forme sur l’image, on règle bord doux, inversion et opacité, puis on sort un masque ou un détourage. GPL.</description>
+      <category>compositing</category>
+      <category>blender-addon</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>MaxDrop 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-21-maxdrop-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-21-maxdrop-1-0-0</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0100</pubDate>
+      <description>MaxDrop 1.0.0 (20 nov. 2026) : extension Blender GPL, fork d’io_scene_max, qui importe des scènes 3ds Max .max sans 3ds Max : meshes, UV, matériaux V-Ray/Corona avec textures, lumières et caméras, même depuis le .zip de la scène.</description>
+      <category>pipeline</category>
+      <category>blender-addon</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Scan3D</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-21-scan3d</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-21-scan3d</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Scan3D (19 nov. 2026) : pipeline MIT pour Windows qui transforme photos ou vidéo de téléphone en gaussian splat, mesh texturé et mesh de collision dans un même repère, via Spirula Studio et COLMAP, avec une interface web et sans cloud.</description>
+      <category>gaussian-splatting</category>
+      <category>photogrammetry</category>
+      <category>open-source</category>
+    </item>
     <item>
       <title>mPainter 0.9.2</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-20-mpainter-0-9-2</link>
@@ -928,42 +968,6 @@
       <description>Add-on Blender GPL qui peint automatiquement les couleurs de vertex de vent d’un arbre à partir de sa structure (tronc, branches, feuilles), avec retouche par canal ou par UV et aperçu du vent. Nouveau sur Blender Extensions (repéré le 23 oct. 2026).</description>
       <category>blender-addon</category>
       <category>texturing</category>
-    </item>
-    <item>
-      <title>Stepped Animation 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-23-stepped-animation-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-23-stepped-animation-1-0-0</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Extension Blender 5.2 qui transforme une animation interpolée en animation saccadée façon stop motion, sur 2, 3 ou 4 images. Nouvelle sur Blender Extensions (repérée le 23 oct. 2026).</description>
-      <category>blender-addon</category>
-      <category>animation</category>
-    </item>
-    <item>
-      <title>Blender sur Android — APK de démo (BCON26)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-22-blender-sur-android-apk-de-demo-bcon26</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-22-blender-sur-android-apk-de-demo-bcon26</guid>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Blender publie le 21 oct. 2026 la présentation du projet Blender sur Android montrée à la BCON26, avec un APK de démo téléchargeable pour tester l’avancée du portage sur tablette.</description>
-      <category>blender</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Holey Tools 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-22-holey-tools-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-22-holey-tools-1-0-0</guid>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Extension Blender GPL de précision pour les trous dans les maillages : Resize Hole redimensionne un perçage cylindrique ou conique au diamètre voulu, Fair Hole rebouche proprement. Mise à jour du 22 oct. 2026 qui gère bien mieux les cas difficiles.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-    </item>
-    <item>
-      <title>Unravel 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-22-unravel-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-22-unravel-1-0-0</guid>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Extension Blender 5.2 en Geometry Nodes : on peint des déchirures sur un tissu, les trous s’ouvrent avec bords épais et fils effilochés (8 presets : denim, lin, soie…), compatibles simulation et export. Sortie le 19 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>geometry-nodes</category>
     </item>
   </channel>
 </rss>

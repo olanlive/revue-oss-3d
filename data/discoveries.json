@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-11-21",
+    "name": "Facetor 1.0.0",
+    "name_en": "Facetor 1.0.0",
+    "summary": "Facetor 1.0.0 (17 nov. 2026) : extension Blender GPL qui change le nombre de segments d’un cylindre, d’un trou, d’un bevel ou d’un congé (Alt+B + molette) sans casser la silhouette, même sur la topologie sale des exports CAO.",
+    "summary_en": "Facetor 1.0.0 (17 Nov 2026): GPL Blender extension that changes the segment count of a cylinder, hole, bevel or fillet (Alt+B + mouse wheel) while keeping the silhouette, even on messy CAD-export topology.",
+    "url": "https://github.com/alaneoh/facetor",
+    "tags": [
+      "modeling",
+      "blender-addon",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveau)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/facetor/"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "name": "Maskwright Lite 1.0.0",
+    "name_en": "Maskwright Lite 1.0.0",
+    "summary": "Maskwright Lite 1.0.0 (13 nov. 2026) : ajoute au compositor de Blender un nœud qui contient son propre masque Bézier. On dessine la forme sur l’image, on règle bord doux, inversion et opacité, puis on sort un masque ou un détourage. GPL.",
+    "summary_en": "Maskwright Lite 1.0.0 (13 Nov 2026): adds a node to Blender’s compositor that holds its own Bézier mask. Draw the shape over the image, set soft edge, invert and opacity, then output a mask or a cut-out. GPL.",
+    "url": "https://extensions.blender.org/add-ons/maskwright-lite/",
+    "tags": [
+      "compositing",
+      "blender-addon",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveau)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/maskwright-lite/"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "name": "MaxDrop 1.0.0",
+    "name_en": "MaxDrop 1.0.0",
+    "summary": "MaxDrop 1.0.0 (20 nov. 2026) : extension Blender GPL, fork d’io_scene_max, qui importe des scènes 3ds Max .max sans 3ds Max : meshes, UV, matériaux V-Ray/Corona avec textures, lumières et caméras, même depuis le .zip de la scène.",
+    "summary_en": "MaxDrop 1.0.0 (20 Nov 2026): GPL Blender extension, a fork of io_scene_max, that imports 3ds Max .max scenes without 3ds Max: meshes, UVs, V-Ray/Corona materials with textures, lights and cameras, even from the scene’s .zip.",
+    "url": "https://github.com/jsiovn/maxdrop/releases/tag/v1.0.0",
+    "tags": [
+      "pipeline",
+      "blender-addon",
+      "open-source"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon",
+      "label_en": "GitHub — blender-addon topic",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "name": "Scan3D",
+    "name_en": "Scan3D",
+    "summary": "Scan3D (19 nov. 2026) : pipeline MIT pour Windows qui transforme photos ou vidéo de téléphone en gaussian splat, mesh texturé et mesh de collision dans un même repère, via Spirula Studio et COLMAP, avec une interface web et sans cloud.",
+    "summary_en": "Scan3D (19 Nov 2026): MIT Windows pipeline that turns photos or a phone video into a Gaussian splat, a textured mesh and a collision mesh in one coordinate system, via Spirula Studio and COLMAP, with a web UI and no cloud.",
+    "url": "https://github.com/danchar12138/scan3d-windows",
+    "tags": [
+      "gaussian-splatting",
+      "photogrammetry",
+      "open-source"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting",
+      "label_en": "GitHub — gaussian-splatting topic",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
     "date": "2026-11-20",
     "name": "mPainter 0.9.2",
     "name_en": "mPainter 0.9.2",

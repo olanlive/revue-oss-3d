@@ -7,6 +7,10 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-21 | Facetor 1.0.0 | modeling, blender-addon, open-source | https://github.com/alaneoh/facetor | https://olanlive.github.io/revue-oss-3d/#2026-11-21-facetor-1-0-0 |
+| 2026-11-21 | Maskwright Lite 1.0.0 | compositing, blender-addon, open-source | https://extensions.blender.org/add-ons/maskwright-lite/ | https://olanlive.github.io/revue-oss-3d/#2026-11-21-maskwright-lite-1-0-0 |
+| 2026-11-21 | MaxDrop 1.0.0 | pipeline, blender-addon, open-source | https://github.com/jsiovn/maxdrop/releases/tag/v1.0.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-21-maxdrop-1-0-0 |
+| 2026-11-21 | Scan3D | gaussian-splatting, photogrammetry, open-source | https://github.com/danchar12138/scan3d-windows | https://olanlive.github.io/revue-oss-3d/#2026-11-21-scan3d |
 | 2026-11-20 | mPainter 0.9.2 | texturing, open-source, blender | https://github.com/mattiaslind93/mpainter | https://olanlive.github.io/revue-oss-3d/#2026-11-20-mpainter-0-9-2 |
 | 2026-11-20 | Pinvas 1.0.1 | blender-addon, modeling | https://github.com/OEBS-OVER-ENGINEERED-BLENDER-SOLUTIONS/Pinvas | https://olanlive.github.io/revue-oss-3d/#2026-11-20-pinvas-1-0-1 |
 | 2026-11-20 | Frankensplat | gaussian-splatting, free | https://offlinetools.io/frankensplat | https://olanlive.github.io/revue-oss-3d/#2026-11-20-frankensplat |
