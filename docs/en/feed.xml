@@ -5,8 +5,71 @@
     <link>https://olanlive.github.io/revue-oss-3d/en/</link>
     <description>Open source 3D, VFX and video watch.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PolyTailor 1.1.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-polytailor-1-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-polytailor-1-1-1</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>PolyTailor (published Nov 13, 1.1.1 on Nov 20, 2026): GPL Blender retopology and modeling extension for Edit Mode. Four tools on a W wheel: Build draws faces and quad strips, Fill caps holes with clean quads, plus Relax and Tweak; Topo mode snaps to the source model.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>retopology</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Sculpt UVs 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-sculpt-uvs-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-sculpt-uvs-1-0-0</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Sculpt UVs 1.0.0 (17 Nov 2026): GPL Blender 5.x extension that paints UV seams with brushes right on the mesh. Draw, Erase, Move and Smooth brushes with live preview; only seam flags change, not the geometry or the UVs.</description>
+      <category>blender-addon</category>
+      <category>uv</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Hardcraft 0.11.0-alpha</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-hardcraft-0-11-0-alpha</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-hardcraft-0-11-0-alpha</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>CAD retopology add-on for Blender (Plasticity/STEP/OBJ). 0.11.0-alpha (13 Nov 2026) reworks splits (C key, ring split on tubes), adds a POINT mode, parts merge into one UV chart, a Japanese UI, STEP converter 1.2.7 and big speed gains.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>QuickSplat 0.4.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-quicksplat-0-4-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-quicksplat-0-4-0</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>QuickSplat 0.4.0 (19 Nov 2026): 3D preview of Gaussian splats and point clouds on the space bar, in Windows Explorer (QuickLook plugin) and macOS Finder. Reads PLY, SPLAT, KSPLAT, SPZ and SOG offline. GPL-3.0.</description>
+      <category>gaussian-splatting</category>
+      <category>pipeline</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Aztek 2.416</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-aztek-2-416</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-aztek-2-416</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Aztek (repo created Nov 5, 2.416 on Nov 22, 2026): free MIT-0 3D app for Linux, Windows and macOS that follows studio DCC commands, hotkeys and menus: modeling, UVs, simulation, a path tracer, USD, MEL/Python scripts and .ma/.mb files.</description>
+      <category>modeling</category>
+      <category>uv</category>
+      <category>new-tool</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>AssetBridge</title>
+      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-assetbridge</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-11-22-assetbridge</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>AssetBridge (Nov 16–17, 2026): local open-source (MIT) asset browser for Blender and Cinema 4D. It indexes your existing folders (Megascans, Poly Haven, kits, Gaussian splats…), shows a thumbnail grid and 3D previews, and sends an asset in one click with its materials.</description>
+      <category>asset-management</category>
+      <category>pipeline</category>
+      <category>blender-addon</category>
+      <category>open-source</category>
+    </item>
     <item>
       <title>Facetor 1.0.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/en/#2026-11-21-facetor-1-0-0</link>
@@ -915,59 +978,6 @@
       <category>blender-addon</category>
       <category>modeling</category>
       <category>3d-print</category>
-    </item>
-    <item>
-      <title>Spirula Studio v2026.10.16</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-24-spirula-studio-v2026-10-16</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-24-spirula-studio-v2026-10-16</guid>
-      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Cross-vendor Gaussian Splatting trainer (Vulkan or CUDA), from video to splat to mesh. The Oct 16, 2026 release cuts RAM/VRAM use, adds dense initialization and spherical beta, and handles log and 360 footage better.</description>
-      <category>gaussian-splat</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>ID RenderFlo 3.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-24-id-renderflo-3-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-24-id-renderflo-3-0-0</guid>
-      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Blender add-on that brings a KeyShot-style render studio and a CAD pipeline for industrial designers. Listed on Blender Extensions on Oct 14, 2026, it moved to version 3.0.0 this week.</description>
-      <category>blender-addon</category>
-      <category>cad-retopo</category>
-    </item>
-    <item>
-      <title>Blender 5.2.3 LTS and 4.5.15 LTS</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-blender-5-2-3-lts-et-4-5-15-lts</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-blender-5-2-3-lts-et-4-5-15-lts</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Two corrective LTS releases out on Oct 22, 2026: Blender 5.2.3 fixes 113 bugs and Blender 4.5.15 fixes 60. Full changelog on the LTS page.</description>
-      <category>blender</category>
-    </item>
-    <item>
-      <title>CorridorKey 2.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-corridorkey-2-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-corridorkey-2-0</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Corridor Digital publishes the Python code and model for CorridorKey 2.0, for clean green/blue screen keys (NVIDIA GPU required). CC BY-NC-SA 4.0 license with extra terms, so not strictly open source; repo updated Oct 15, 2026.</description>
-      <category>vfx</category>
-      <category>compositing</category>
-    </item>
-    <item>
-      <title>DL GIS Exchange 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-dl-gis-exchange-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-dl-gis-exchange-1-0-0</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
-      <description>GPL Blender extension released Oct 22, 2026: imports GeoTIFF/ASC/XYZ terrain and shapefile/GeoPackage/GeoJSON vectors, exports back to GeoTIFF, and computes cut and fill. No GDAL or QGIS needed.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-    </item>
-    <item>
-      <title>Tree Wind Paint 0.3.4</title>
-      <link>https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-tree-wind-paint-0-3-4</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/en/#2026-10-23-tree-wind-paint-0-3-4</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
-      <description>GPL Blender add-on that auto-paints wind vertex colours on a tree from its structure (trunk, branches, leaves), with per-channel or UV touch-ups and a wind preview. New on Blender Extensions (spotted Oct 23, 2026).</description>
-      <category>blender-addon</category>
-      <category>texturing</category>
     </item>
   </channel>
 </rss>

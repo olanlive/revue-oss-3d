@@ -7,6 +7,12 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-22 | PolyTailor 1.1.1 | blender-addon, modeling, retopology, open-source | https://extensions.blender.org/add-ons/polytailor/ | https://olanlive.github.io/revue-oss-3d/#2026-11-22-polytailor-1-1-1 |
+| 2026-11-22 | Sculpt UVs 1.0.0 | blender-addon, uv, open-source | https://extensions.blender.org/add-ons/sculpt-uvs/ | https://olanlive.github.io/revue-oss-3d/#2026-11-22-sculpt-uvs-1-0-0 |
+| 2026-11-22 | Hardcraft 0.11.0-alpha | blender-addon, modeling, emerging | https://github.com/polozad/hardcraft-dist/releases/tag/v0.11.0-alpha | https://olanlive.github.io/revue-oss-3d/#2026-11-22-hardcraft-0-11-0-alpha |
+| 2026-11-22 | QuickSplat 0.4.0 | gaussian-splatting, pipeline, open-source | https://github.com/gabriverga/QuickSplat | https://olanlive.github.io/revue-oss-3d/#2026-11-22-quicksplat-0-4-0 |
+| 2026-11-22 | Aztek 2.416 | modeling, uv, new-tool, open-source | https://github.com/srlegrand/Aztek | https://olanlive.github.io/revue-oss-3d/#2026-11-22-aztek-2-416 |
+| 2026-11-22 | AssetBridge | asset-management, pipeline, blender-addon, open-source | https://github.com/sdimaging/AssetBridge | https://olanlive.github.io/revue-oss-3d/#2026-11-22-assetbridge |
 | 2026-11-21 | Facetor 1.0.0 | modeling, blender-addon, open-source | https://github.com/alaneoh/facetor | https://olanlive.github.io/revue-oss-3d/#2026-11-21-facetor-1-0-0 |
 | 2026-11-21 | Maskwright Lite 1.0.0 | compositing, blender-addon, open-source | https://extensions.blender.org/add-ons/maskwright-lite/ | https://olanlive.github.io/revue-oss-3d/#2026-11-21-maskwright-lite-1-0-0 |
 | 2026-11-21 | MaxDrop 1.0.0 | pipeline, blender-addon, open-source | https://github.com/jsiovn/maxdrop/releases/tag/v1.0.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-21-maxdrop-1-0-0 |

@@ -1,5 +1,116 @@
 [
   {
+    "date": "2026-11-22",
+    "name": "PolyTailor 1.1.1",
+    "name_en": "PolyTailor 1.1.1",
+    "summary": "PolyTailor (publié le 13 nov., 1.1.1 du 20 nov. 2026) : extension Blender GPL de retopo et modélisation en Edit Mode. Quatre outils sur une roue (W) : Build (faces, bandes de quads), Fill (trous bouchés en quads propres), Relax et Tweak ; le mode Topo colle au modèle source.",
+    "summary_en": "PolyTailor (published Nov 13, 1.1.1 on Nov 20, 2026): GPL Blender retopology and modeling extension for Edit Mode. Four tools on a W wheel: Build draws faces and quad strips, Fill caps holes with clean quads, plus Relax and Tweak; Topo mode snaps to the source model.",
+    "url": "https://extensions.blender.org/add-ons/polytailor/",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "retopology",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveau)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/polytailor/"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "name": "Sculpt UVs 1.0.0",
+    "name_en": "Sculpt UVs 1.0.0",
+    "summary": "Sculpt UVs 1.0.0 (17 nov. 2026) : extension Blender 5.x GPL qui peint les coutures UV au pinceau directement sur le mesh. Brosses Draw, Erase, Move et Smooth, aperçu en direct ; seules les coutures changent, pas la géométrie ni les UV.",
+    "summary_en": "Sculpt UVs 1.0.0 (17 Nov 2026): GPL Blender 5.x extension that paints UV seams with brushes right on the mesh. Draw, Erase, Move and Smooth brushes with live preview; only seam flags change, not the geometry or the UVs.",
+    "url": "https://extensions.blender.org/add-ons/sculpt-uvs/",
+    "tags": [
+      "blender-addon",
+      "uv",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveau)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/sculpt-uvs/"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "name": "Hardcraft 0.11.0-alpha",
+    "name_en": "Hardcraft 0.11.0-alpha",
+    "summary": "Add-on de retopo CAO pour Blender (Plasticity/STEP/OBJ). La 0.11.0-alpha du 13 nov. 2026 refond les découpes (touche C, ring split sur tubes), ajoute un mode POINT, la fusion de pièces en un seul îlot UV, une UI japonaise, le convertisseur STEP 1.2.7 et de gros gains de vitesse.",
+    "summary_en": "CAD retopology add-on for Blender (Plasticity/STEP/OBJ). 0.11.0-alpha (13 Nov 2026) reworks splits (C key, ring split on tubes), adds a POINT mode, parts merge into one UV chart, a Japanese UI, STEP converter 1.2.7 and big speed gains.",
+    "url": "https://github.com/polozad/hardcraft-dist/releases/tag/v0.11.0-alpha",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — polozad/hardcraft-dist (releases)",
+      "label_en": "GitHub — polozad/hardcraft-dist (releases)",
+      "url": "https://github.com/polozad/hardcraft-dist/releases"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "name": "QuickSplat 0.4.0",
+    "name_en": "QuickSplat 0.4.0",
+    "summary": "QuickSplat 0.4.0 (19 nov. 2026) : aperçu 3D des gaussian splats et nuages de points avec la barre d’espace, dans l’Explorateur Windows (plugin QuickLook) et le Finder macOS. Lit PLY, SPLAT, KSPLAT, SPZ et SOG hors ligne. GPL-3.0.",
+    "summary_en": "QuickSplat 0.4.0 (19 Nov 2026): 3D preview of Gaussian splats and point clouds on the space bar, in Windows Explorer (QuickLook plugin) and macOS Finder. Reads PLY, SPLAT, KSPLAT, SPZ and SOG offline. GPL-3.0.",
+    "url": "https://github.com/gabriverga/QuickSplat",
+    "tags": [
+      "gaussian-splatting",
+      "pipeline",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — Radiance Fields (21 nov. 2026)",
+      "label_en": "Web — Radiance Fields (21 Nov 2026)",
+      "url": "https://radiancefields.com/quicksplat-previews-gaussian-splats-with-the-space-bar"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "name": "Aztek 2.416",
+    "name_en": "Aztek 2.416",
+    "summary": "Aztek (dépôt créé le 5 nov., 2.416 du 22 nov. 2026) : logiciel 3D libre (MIT-0) pour Linux, Windows et macOS qui reprend les commandes, raccourcis et menus des DCC de studio : modélisation, UV, simulation, path tracer, USD, scripts MEL/Python et fichiers .ma/.mb.",
+    "summary_en": "Aztek (repo created Nov 5, 2.416 on Nov 22, 2026): free MIT-0 3D app for Linux, Windows and macOS that follows studio DCC commands, hotkeys and menus: modeling, UVs, simulation, a path tracer, USD, MEL/Python scripts and .ma/.mb files.",
+    "url": "https://github.com/srlegrand/Aztek",
+    "tags": [
+      "modeling",
+      "uv",
+      "new-tool",
+      "open-source"
+    ],
+    "source": {
+      "label": "Mastodon — @eugenialoli@mastodon.social",
+      "label_en": "Mastodon — @eugenialoli@mastodon.social",
+      "url": "https://mastodon.social/@eugenialoli/117657166240335915"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "name": "AssetBridge",
+    "name_en": "AssetBridge",
+    "summary": "AssetBridge (16–17 nov. 2026) : navigateur d’assets local open source (MIT) pour Blender et Cinema 4D. Il indexe les dossiers existants (Megascans, Poly Haven, kits, gaussian splats…), affiche une grille de vignettes et aperçus 3D, et envoie l’asset en un clic avec ses matériaux.",
+    "summary_en": "AssetBridge (Nov 16–17, 2026): local open-source (MIT) asset browser for Blender and Cinema 4D. It indexes your existing folders (Megascans, Poly Haven, kits, Gaussian splats…), shows a thumbnail grid and 3D previews, and sends an asset in one click with its materials.",
+    "url": "https://github.com/sdimaging/AssetBridge",
+    "tags": [
+      "asset-management",
+      "pipeline",
+      "blender-addon",
+      "open-source"
+    ],
+    "source": {
+      "label": "GitHub — sdimaging/AssetBridge (via topic gaussian-splatting)",
+      "label_en": "GitHub — sdimaging/AssetBridge (via gaussian-splatting topic)",
+      "url": "https://github.com/sdimaging/AssetBridge/commits/main"
+    }
+  },
+  {
     "date": "2026-11-21",
     "name": "Facetor 1.0.0",
     "name_en": "Facetor 1.0.0",
