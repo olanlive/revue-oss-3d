@@ -1,5 +1,120 @@
 [
   {
+    "date": "2026-11-23",
+    "name": "HueAtlas Lite 1.0.1",
+    "name_en": "HueAtlas Lite 1.0.1",
+    "summary": "HueAtlas Lite (1.0.0 le 19 nov., 1.0.1 le 21 nov. 2026) : add-on Blender GPL de texturing par atlas de palette pour kits low-poly. Un matériau, une petite image ; tu assignes une couleur aux faces et changer une couleur met l'image à jour sans toucher aux UV.",
+    "summary_en": "HueAtlas Lite (1.0.0 on Nov 19, 1.0.1 on Nov 21, 2026): GPL Blender add-on for palette-atlas texturing of low-poly kits. One material, one small image; you assign a swatch to faces, and changing a colour updates the image without touching the UVs.",
+    "url": "https://github.com/Alex20090906/hueatlas-lite",
+    "tags": [
+      "blender-addon",
+      "texturing",
+      "uv",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — BlenderNation (22 nov. 2026)",
+      "label_en": "Web — BlenderNation (22 Nov 2026)",
+      "url": "https://www.blendernation.com/2026/11/22/hueatlas-lite-free-palette-atlas-texturing-for-low-poly-game-kits/"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "name": "Sculpt Transform Plus 0.1.0",
+    "name_en": "Sculpt Transform Plus 0.1.0",
+    "summary": "Sculpt Transform Plus 0.1.0 (20 nov. 2026) : extension Blender 5.3+ GPL qui garde le gizmo de transformation aligné sur le pivot en Sculpt Mode. Pivot posé sur la surface (Shift + clic droit), mémorisé par objet, axes locaux et undo natif.",
+    "summary_en": "Sculpt Transform Plus 0.1.0 (Nov 20, 2026): GPL Blender 5.3+ extension that keeps the Transform gizmo aligned with the pivot in Sculpt Mode. Pivot placed on the surface (Shift + right click), remembered per object, local axis locks and native undo.",
+    "url": "https://extensions.blender.org/add-ons/sculpt-transform-plus/",
+    "tags": [
+      "blender-addon",
+      "sculpt",
+      "modeling",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveau)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/sculpt-transform-plus/"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "name": "Ensō Engine 1.1 beta",
+    "name_en": "Ensō Engine 1.1 beta",
+    "summary": "Ensō Engine 1.1 beta (annoncé le 21 nov. 2026) : build libre et gratuit de Blender 5.3 pour l'anime et le NPR (Windows). Cel shading avec Light Select et For Each Light, lignes d'encre et curvature dans EEVEE, passes de masques pour le compositor.",
+    "summary_en": "Ensō Engine 1.1 beta (announced Nov 21, 2026): free, open source Blender 5.3 build for anime and NPR (Windows). Cel shading with Light Select and For Each Light, ink lines and curvature in EEVEE, mask passes for the compositor.",
+    "url": "https://enso.mix3ddesign.com",
+    "tags": [
+      "rendering",
+      "npr",
+      "blender",
+      "compositing",
+      "open-source"
+    ],
+    "source": {
+      "label": "BlenderArtists — Ensō Engine",
+      "label_en": "BlenderArtists — Ensō Engine",
+      "url": "https://blenderartists.org/t/enso-engine-a-free-blender-build-for-anime-and-npr/1658319"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "name": "OVV Orient Vector Viewer 1.0.2",
+    "name_en": "OVV Orient Vector Viewer 1.0.2",
+    "summary": "OVV 1.0.2 (première release publique, 21 nov. 2026) : add-on Blender 5.2+ GPL qui affiche vecteurs et orientations dans Geometry Nodes, façon Houdini. Touche V pour câbler le viewer ; flèches, repères ou cubes, plus des nœuds de maths quaternion et matrice.",
+    "summary_en": "OVV 1.0.2 (first public release, Nov 21, 2026): GPL Blender 5.2+ add-on that visualizes vectors and orientations in Geometry Nodes, Houdini style. Press V to wire the viewer; arrows, bases or cubes, plus quaternion and matrix math nodes.",
+    "url": "https://github.com/TreyWojo/ovv_orient_vector_viewer/releases/tag/v1.0.2",
+    "tags": [
+      "blender-addon",
+      "geometry-nodes",
+      "procedural",
+      "open-source"
+    ],
+    "source": {
+      "label": "BlenderArtists — OVV: Orient Vector Viewer",
+      "label_en": "BlenderArtists — OVV: Orient Vector Viewer",
+      "url": "https://blenderartists.org/t/ovv-orient-vector-viewer/1658346"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "name": "BlendGit 2.0.0",
+    "name_en": "BlendGit 2.0.0",
+    "summary": "BlendGit 2.0.0 (15 nov. 2026) : add-on Blender 5.0+ GPL qui versionne un .blend avec Git depuis la sidebar. Un fichier par objet, mesh ou matériau, donc des commits légers ; historique avec aperçu, retour d'un seul objet, branches et push GitHub.",
+    "summary_en": "BlendGit 2.0.0 (Nov 15, 2026): GPL Blender 5.0+ add-on that versions a .blend with Git from the sidebar. One file per object, mesh or material, so commits stay small; history with preview, single-item rollback, branches and GitHub push.",
+    "url": "https://github.com/Gnottero/BlendGit/releases/tag/v2.0.0",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "versioning",
+      "open-source"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — blender-addon topic (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "name": "SplatCraft 0.1.3",
+    "name_en": "SplatCraft 0.1.3",
+    "summary": "SplatCraft 0.1.3 (22 nov. 2026) : studio de gaussian splatting MIT, local. Photos ou vidéos en entrée : extraction et tri des images, alignement COLMAP (points manuels possibles), entraînement Brush avec aperçu live, puis export. Prototype testé sur macOS.",
+    "summary_en": "SplatCraft 0.1.3 (Nov 22, 2026): local, MIT-licensed Gaussian splatting studio. Drop photos or videos: frames extracted and filtered, COLMAP alignment (with manual matches), Brush training with live preview, then export. Early prototype, tested on macOS.",
+    "url": "https://github.com/fabianfreund/SplatCraft/releases/tag/v0.1.3",
+    "tags": [
+      "gaussian-splatting",
+      "photogrammetry",
+      "new-tool",
+      "open-source"
+    ],
+    "source": {
+      "label": "GitHub — topic gaussian-splatting (repos récents)",
+      "label_en": "GitHub — gaussian-splatting topic (recent repos)",
+      "url": "https://github.com/topics/gaussian-splatting"
+    }
+  },
+  {
     "date": "2026-11-22",
     "name": "PolyTailor 1.1.1",
     "name_en": "PolyTailor 1.1.1",

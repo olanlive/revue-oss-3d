@@ -5,8 +5,75 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 22 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>HueAtlas Lite 1.0.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-23-hueatlas-lite-1-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-23-hueatlas-lite-1-0-1</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>HueAtlas Lite (1.0.0 le 19 nov., 1.0.1 le 21 nov. 2026) : add-on Blender GPL de texturing par atlas de palette pour kits low-poly. Un matériau, une petite image ; tu assignes une couleur aux faces et changer une couleur met l'image à jour sans toucher aux UV.</description>
+      <category>blender-addon</category>
+      <category>texturing</category>
+      <category>uv</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Sculpt Transform Plus 0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-23-sculpt-transform-plus-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-23-sculpt-transform-plus-0-1-0</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Sculpt Transform Plus 0.1.0 (20 nov. 2026) : extension Blender 5.3+ GPL qui garde le gizmo de transformation aligné sur le pivot en Sculpt Mode. Pivot posé sur la surface (Shift + clic droit), mémorisé par objet, axes locaux et undo natif.</description>
+      <category>blender-addon</category>
+      <category>sculpt</category>
+      <category>modeling</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Ensō Engine 1.1 beta</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-23-enso-engine-1-1-beta</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-23-enso-engine-1-1-beta</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Ensō Engine 1.1 beta (annoncé le 21 nov. 2026) : build libre et gratuit de Blender 5.3 pour l'anime et le NPR (Windows). Cel shading avec Light Select et For Each Light, lignes d'encre et curvature dans EEVEE, passes de masques pour le compositor.</description>
+      <category>rendering</category>
+      <category>npr</category>
+      <category>blender</category>
+      <category>compositing</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>OVV Orient Vector Viewer 1.0.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-23-ovv-orient-vector-viewer-1-0-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-23-ovv-orient-vector-viewer-1-0-2</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>OVV 1.0.2 (première release publique, 21 nov. 2026) : add-on Blender 5.2+ GPL qui affiche vecteurs et orientations dans Geometry Nodes, façon Houdini. Touche V pour câbler le viewer ; flèches, repères ou cubes, plus des nœuds de maths quaternion et matrice.</description>
+      <category>blender-addon</category>
+      <category>geometry-nodes</category>
+      <category>procedural</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>BlendGit 2.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-23-blendgit-2-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-23-blendgit-2-0-0</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>BlendGit 2.0.0 (15 nov. 2026) : add-on Blender 5.0+ GPL qui versionne un .blend avec Git depuis la sidebar. Un fichier par objet, mesh ou matériau, donc des commits légers ; historique avec aperçu, retour d'un seul objet, branches et push GitHub.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>versioning</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>SplatCraft 0.1.3</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-23-splatcraft-0-1-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-23-splatcraft-0-1-3</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>SplatCraft 0.1.3 (22 nov. 2026) : studio de gaussian splatting MIT, local. Photos ou vidéos en entrée : extraction et tri des images, alignement COLMAP (points manuels possibles), entraînement Brush avec aperçu live, puis export. Prototype testé sur macOS.</description>
+      <category>gaussian-splatting</category>
+      <category>photogrammetry</category>
+      <category>new-tool</category>
+      <category>open-source</category>
+    </item>
     <item>
       <title>PolyTailor 1.1.1</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-22-polytailor-1-1-1</link>
@@ -922,62 +989,6 @@
       <description>Extension Blender GPL qui ajoute une navigation à la première personne façon Unreal dans le viewport : clic droit + WASD, pan, lissage de caméra et raccourcis configurables. La v1.1.1 du 26 oct. 2026 ajoute la montée/descente avec Q et E.</description>
       <category>blender-addon</category>
       <category>camera</category>
-    </item>
-    <item>
-      <title>colmap-wasm</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-26-colmap-wasm</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-26-colmap-wasm</guid>
-      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Portage WebAssembly non officiel de COLMAP 4.2.1 (BSD-3) publié le 19 oct. 2026 : extraction SIFT, matching sur WebGPU et global mapper tournent dans le navigateur, sans serveur, pour sortir caméras et nuage de points, la base d’une capture photogrammétrie ou splats.</description>
-      <category>gaussian-splat</category>
-      <category>web</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>SculptForge 0.6.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-25-sculptforge-0-6-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-25-sculptforge-0-6-0</guid>
-      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Appli de sculpt GPL pour Linux, macOS et Windows, pensée comme une alternative libre à ZBrush. La 0.5 du 24 oct. 2026 ajoute les niveaux de subdivision (multirésolution) et la 0.6, sortie le même jour, divise presque par deux la mémoire sur les gros modèles.</description>
-      <category>emerging</category>
-      <category>modeling</category>
-    </item>
-    <item>
-      <title>Splatelier v0.1.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-25-splatelier-v0-1-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-25-splatelier-v0-1-0</guid>
-      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
-      <description>App iOS sous Apache-2.0 qui capture, entraîne et affiche des Gaussian Splats entièrement sur l’iPhone, sans serveur. La v0.1.0 du 24 oct. 2026 refond l’écran de capture, ajoute plus de formats d’export et un mode LiDAR expérimental.</description>
-      <category>emerging</category>
-      <category>gaussian-splat</category>
-    </item>
-    <item>
-      <title>Viewport Rulers 1.1.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-25-viewport-rulers-1-1-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-25-viewport-rulers-1-1-0</guid>
-      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Petite extension GPL pour Blender 5.2+ publiée le 22 oct. 2026 : elle affiche des règles graduées configurables, façon Word, sur les bords du viewport 3D, idéales en vue orthographique pour mesurer sans passer par l’outil Mesure.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-    </item>
-    <item>
-      <title>3D Cursor Transform 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-25-3d-cursor-transform-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-25-3d-cursor-transform-1-0-0</guid>
-      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Extension GPL publiée le 18 oct. 2026 qui donne au curseur 3D de Blender tout le système de transformation natif : raccourcis G/R, gizmos, contraintes d’axe et de plan, snapping, mode précision et saisie numérique.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-    </item>
-    <item>
-      <title>Papercraft Pro</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-24-papercraft-pro</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-24-papercraft-pro</guid>
-      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Nouvelle extension GPL pour Blender 4.2+ partagée le 24 oct. 2026 : elle déplie un mesh en patron papercraft avec languettes, mise en page live, export SVG prêt pour Cricut et rig animé qui replie la feuille sur le modèle.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-      <category>3d-print</category>
     </item>
   </channel>
 </rss>
