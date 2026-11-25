@@ -7,6 +7,9 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-25 | SplatPilot | blender-addon, gaussian-splat | https://superhivemarket.com/products/splatpilot | https://olanlive.github.io/revue-oss-3d/#2026-11-25-splatpilot |
+| 2026-11-25 | FashionCraft 0.2.2 | sim, modeling, open-source, emerging | https://github.com/opopina/fashioncraft | https://olanlive.github.io/revue-oss-3d/#2026-11-25-fashioncraft-0-2-2 |
+| 2026-11-25 | DBS_SceneProjection 0.9.0 | vfx, compositing, matchmove, open-source | https://github.com/dborrull/DBS_SceneProjection | https://olanlive.github.io/revue-oss-3d/#2026-11-25-dbs-sceneprojection-0-9-0 |
 | 2026-11-23 | HueAtlas Lite 1.0.1 | blender-addon, texturing, uv, open-source | https://github.com/Alex20090906/hueatlas-lite | https://olanlive.github.io/revue-oss-3d/#2026-11-23-hueatlas-lite-1-0-1 |
 | 2026-11-23 | Sculpt Transform Plus 0.1.0 | blender-addon, sculpt, modeling, open-source | https://extensions.blender.org/add-ons/sculpt-transform-plus/ | https://olanlive.github.io/revue-oss-3d/#2026-11-23-sculpt-transform-plus-0-1-0 |
 | 2026-11-23 | Ensō Engine 1.1 beta | rendering, npr, blender, compositing, open-source | https://enso.mix3ddesign.com | https://olanlive.github.io/revue-oss-3d/#2026-11-23-enso-engine-1-1-beta |

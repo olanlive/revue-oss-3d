@@ -5,8 +5,39 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 23 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SplatPilot</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-25-splatpilot</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-25-splatpilot</guid>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0100</pubDate>
+      <description>SplatPilot (présenté le 23 nov. 2026) : extension Blender GPL qui rend ta scène sous de nombreux angles, entraîne un gaussian splat en local sur le GPU et le réimporte dans Blender. Carte de couverture, export PLY/SOG/SPZ ; 19 $ sur Superhive, source incluse.</description>
+      <category>blender-addon</category>
+      <category>gaussian-splat</category>
+    </item>
+    <item>
+      <title>FashionCraft 0.2.2</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-25-fashioncraft-0-2-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-25-fashioncraft-0-2-2</guid>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0100</pubDate>
+      <description>FashionCraft (v0.2.2 le 25 nov. 2026) : appli libre (MIT, Rust) de conception de vêtements 3D à la Marvelous Designer : patrons 2D, couture, drapé par simulation de tissu GPU sur un avatar, puis export vers Blender. Alpha précoce.</description>
+      <category>sim</category>
+      <category>modeling</category>
+      <category>open-source</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>DBS_SceneProjection 0.9.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-25-dbs-sceneprojection-0-9-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-25-dbs-sceneprojection-0-9-0</guid>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0100</pubDate>
+      <description>DBS_SceneProjection 0.9.0 (24 nov. 2026) : gizmo Nuke MIT qui, depuis une seule image du plan, construit caméra et géométrie de projection (sol, murs, primitives) via ComfyUI (MoGe 2, SAM 3) et Blender, calées sur ton camera track. Splat optionnel.</description>
+      <category>vfx</category>
+      <category>compositing</category>
+      <category>matchmove</category>
+      <category>open-source</category>
+    </item>
     <item>
       <title>HueAtlas Lite 1.0.1</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-23-hueatlas-lite-1-0-1</link>
@@ -960,35 +991,6 @@
       <category>blender-addon</category>
       <category>modeling</category>
       <category>pipeline</category>
-    </item>
-    <item>
-      <title>Gaussian Splat to Blender Nodes</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-26-gaussian-splat-to-blender-nodes</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-26-gaussian-splat-to-blender-nodes</guid>
-      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Kit MIT (skill d’agent, scripts et prompts) publié le 24 oct. 2026 qui reconstruit une scène capturée en Gaussian Splats en vraie géométrie Blender éditable, en Geometry Nodes et Shader Nodes, avec projection de texture multi-vues en option.</description>
-      <category>gaussian-splat</category>
-      <category>geometry-nodes</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>NK Combine &amp; Bake 1.0.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-26-nk-combine-bake-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-26-nk-combine-bake-1-0-0</guid>
-      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Extension Blender GPL qui fusionne les objets sélectionnés, crée un atlas UV et bake leurs matériaux (base color, metallic, roughness, normal, émission, alpha) en textures jusqu’à 8K avec Cycles. Nouvelle sur Blender Extensions en oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>texturing</category>
-      <category>uv</category>
-    </item>
-    <item>
-      <title>First Person Navigation 1.1.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-26-first-person-navigation-1-1-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-26-first-person-navigation-1-1-1</guid>
-      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Extension Blender GPL qui ajoute une navigation à la première personne façon Unreal dans le viewport : clic droit + WASD, pan, lissage de caméra et raccourcis configurables. La v1.1.1 du 26 oct. 2026 ajoute la montée/descente avec Q et E.</description>
-      <category>blender-addon</category>
-      <category>camera</category>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-25",
+    "name": "SplatPilot",
+    "name_en": "SplatPilot",
+    "summary": "SplatPilot (présenté le 23 nov. 2026) : extension Blender GPL qui rend ta scène sous de nombreux angles, entraîne un gaussian splat en local sur le GPU et le réimporte dans Blender. Carte de couverture, export PLY/SOG/SPZ ; 19 $ sur Superhive, source incluse.",
+    "summary_en": "SplatPilot (featured Nov 23, 2026): GPL Blender extension that renders your scene from many views, trains a Gaussian splat locally on the GPU and brings it back into Blender. Coverage map, PLY/SOG/SPZ export; US$19 on Superhive, source included.",
+    "url": "https://superhivemarket.com/products/splatpilot",
+    "tags": [
+      "blender-addon",
+      "gaussian-splat"
+    ],
+    "source": {
+      "label": "Web — Digital Production (23 nov. 2026)",
+      "label_en": "Web — Digital Production (23 Nov 2026)",
+      "url": "https://digitalproduction.com/2026/11/23/splatpilot-blender-gaussian-splats/"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "name": "FashionCraft 0.2.2",
+    "name_en": "FashionCraft 0.2.2",
+    "summary": "FashionCraft (v0.2.2 le 25 nov. 2026) : appli libre (MIT, Rust) de conception de vêtements 3D à la Marvelous Designer : patrons 2D, couture, drapé par simulation de tissu GPU sur un avatar, puis export vers Blender. Alpha précoce.",
+    "summary_en": "FashionCraft (v0.2.2 on Nov 25, 2026): free MIT app written in Rust for 3D garment design in the Marvelous Designer vein: 2D patterns, sewing, GPU cloth-sim draping on an avatar, then export to Blender. Early alpha.",
+    "url": "https://github.com/opopina/fashioncraft",
+    "tags": [
+      "sim",
+      "modeling",
+      "open-source",
+      "emerging"
+    ],
+    "source": {
+      "label": "Mastodon — @ricop@mastodon.social (24 nov. 2026)",
+      "label_en": "Mastodon — @ricop@mastodon.social (24 Nov 2026)",
+      "url": "https://mastodon.social/@ricop/117668721877800398"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "name": "DBS_SceneProjection 0.9.0",
+    "name_en": "DBS_SceneProjection 0.9.0",
+    "summary": "DBS_SceneProjection 0.9.0 (24 nov. 2026) : gizmo Nuke MIT qui, depuis une seule image du plan, construit caméra et géométrie de projection (sol, murs, primitives) via ComfyUI (MoGe 2, SAM 3) et Blender, calées sur ton camera track. Splat optionnel.",
+    "summary_en": "DBS_SceneProjection 0.9.0 (Nov 24, 2026): MIT Nuke gizmo that builds a projection camera and geometry (floor, walls, primitives) from a single plate frame via ComfyUI (MoGe 2, SAM 3) and Blender, snapped to your camera track. Optional splat.",
+    "url": "https://github.com/dborrull/DBS_SceneProjection",
+    "tags": [
+      "vfx",
+      "compositing",
+      "matchmove",
+      "open-source"
+    ],
+    "source": {
+      "label": "GitHub — topic vfx (repos récents)",
+      "label_en": "GitHub — topic vfx (recent repos)",
+      "url": "https://github.com/topics/vfx"
+    }
+  },
+  {
     "date": "2026-11-23",
     "name": "HueAtlas Lite 1.0.1",
     "name_en": "HueAtlas Lite 1.0.1",
