@@ -1,5 +1,96 @@
 [
   {
+    "date": "2026-11-26",
+    "name": "Softimage Importer 0.3.0",
+    "name_en": "Softimage Importer 0.3.0",
+    "summary": "Softimage Importer 0.3.0 (21 nov. 2026) : extension Blender 5.2+ GPL qui importe les fichiers Softimage sans Softimage : dotXSI 3.0–6.0 et scènes/modèles natifs .scn/.emdl. Géométrie, matériaux, textures, squelettes en armatures, skinning et animations convertis.",
+    "summary_en": "Softimage Importer 0.3.0 (Nov 21, 2026): GPL Blender 5.2+ extension that imports Softimage files without Softimage: dotXSI 3.0–6.0 and native .scn/.emdl scenes and models. Geometry, materials, textures, skeletons as armatures, skinning and animation are converted.",
+    "url": "https://extensions.blender.org/add-ons/io-scene-softimage/",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveau)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/io-scene-softimage/"
+    }
+  },
+  {
+    "date": "2026-11-26",
+    "name": "Spline Maker 1.0.0",
+    "name_en": "Spline Maker 1.0.0",
+    "summary": "Spline Maker 1.0.0 (22 nov. 2026) : extension Blender GPL pour dessiner et éditer des courbes de Bézier natives à l'ancienne : angles et arcs, sélection sommet/segment/spline, gizmos, insertion et soudure de sommets, profil rectangle ou cercle balayé en live le long de la spline.",
+    "summary_en": "Spline Maker 1.0.0 (Nov 22, 2026): GPL Blender extension to draw and edit native Bézier curves the classic way: corners and arcs, vertex/segment/spline selection levels, gizmos, insert and weld vertices, and a live rectangle or circle profile swept along the spline.",
+    "url": "https://extensions.blender.org/add-ons/spline-maker/",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveau)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/spline-maker/"
+    }
+  },
+  {
+    "date": "2026-11-26",
+    "name": "Shrink Patch 1.13.0",
+    "name_en": "Shrink Patch 1.13.0",
+    "summary": "Shrink Patch 1.13.0 (21 nov. 2026) : add-on Blender 5.3 GPL qui pose des détails modélisés (bossages, anneaux, prises, inserts) sur n'importe quelle surface sans couture visible : base plaquée, normales transférées, découpe auto des insets à la KIT OPS. Patchs éditables en live.",
+    "summary_en": "Shrink Patch 1.13.0 (Nov 21, 2026): GPL Blender 5.3 add-on that places modelled details (bosses, rings, sockets, insets) on any surface with no visible seam: base wrapped on, normals transferred, KIT OPS-style automatic cuts for insets. Patches stay live and editable.",
+    "url": "https://github.com/mttfntn/shrinkpatch-blender",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "open-source"
+    ],
+    "source": {
+      "label": "GitHub — topic blender-addon (repos récents)",
+      "label_en": "GitHub — topic blender-addon (recent repos)",
+      "url": "https://github.com/topics/blender-addon"
+    }
+  },
+  {
+    "date": "2026-11-26",
+    "name": "Lightning Emperor 0.1.1",
+    "name_en": "Lightning Emperor 0.1.1",
+    "summary": "Lightning Emperor 0.1.1 (21 nov. 2026) : outils GPL pour incruster du CG derrière des acteurs tournés sur fond vert/bleu : distance caméra, keying auto-calibré, despill, tracking de marqueurs, ombres, grain assorti. Lib Python + CLI, add-on Blender 4.2+ et serveur MCP.",
+    "summary_en": "Lightning Emperor 0.1.1 (Nov 21, 2026): GPL tools to composite CG behind actors shot on green or blue screen: camera distance, self-calibrating key, despill, marker tracking, shadows, matched grain. Python library + CLI, Blender 4.2+ add-on and MCP server.",
+    "url": "https://github.com/LucidMach/LightningEmperor",
+    "tags": [
+      "vfx",
+      "compositing",
+      "blender-addon",
+      "open-source"
+    ],
+    "source": {
+      "label": "GitHub — topic compositing (repos récents)",
+      "label_en": "GitHub — topic compositing (recent repos)",
+      "url": "https://github.com/topics/compositing"
+    }
+  },
+  {
+    "date": "2026-11-26",
+    "name": "OpenSplat4D 0.3",
+    "name_en": "OpenSplat4D 0.3",
+    "summary": "OpenSplat4D 0.3 (24 nov. 2026) : plugin Unreal Engine 5.7–5.9 de rendu temps réel de gaussian splats 3D et 4D, désormais entièrement open source (Apache-2.0) avec fracture Chaos et ombres par splat. Lit PLY, SPZ, Spacetime Gaussians et le 4DGS de Fudan.",
+    "summary_en": "OpenSplat4D 0.3 (Nov 24, 2026): Unreal Engine 5.7–5.9 plugin for real-time 3D and 4D Gaussian splat rendering, now fully open source (Apache-2.0) with Chaos fracture and per-splat shadows. Reads PLY, SPZ, Spacetime Gaussians and Fudan's 4DGS.",
+    "url": "https://github.com/YuanBaoSMadLab/OpenSplat4D",
+    "tags": [
+      "gaussian-splat",
+      "open-source",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — Radiance Fields (24 nov. 2026)",
+      "label_en": "Web — Radiance Fields (24 Nov 2026)",
+      "url": "https://radiancefields.com/opensplat4d-0-3-open-sources-its-unreal-4dgs-plugin"
+    }
+  },
+  {
     "date": "2026-11-25",
     "name": "SplatPilot",
     "name_en": "SplatPilot",

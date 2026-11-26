@@ -5,8 +5,59 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Softimage Importer 0.3.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-26-softimage-importer-0-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-26-softimage-importer-0-3-0</guid>
+      <pubDate>Thu, 26 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Softimage Importer 0.3.0 (21 nov. 2026) : extension Blender 5.2+ GPL qui importe les fichiers Softimage sans Softimage : dotXSI 3.0–6.0 et scènes/modèles natifs .scn/.emdl. Géométrie, matériaux, textures, squelettes en armatures, skinning et animations convertis.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Spline Maker 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-26-spline-maker-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-26-spline-maker-1-0-0</guid>
+      <pubDate>Thu, 26 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Spline Maker 1.0.0 (22 nov. 2026) : extension Blender GPL pour dessiner et éditer des courbes de Bézier natives à l'ancienne : angles et arcs, sélection sommet/segment/spline, gizmos, insertion et soudure de sommets, profil rectangle ou cercle balayé en live le long de la spline.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Shrink Patch 1.13.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-26-shrink-patch-1-13-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-26-shrink-patch-1-13-0</guid>
+      <pubDate>Thu, 26 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Shrink Patch 1.13.0 (21 nov. 2026) : add-on Blender 5.3 GPL qui pose des détails modélisés (bossages, anneaux, prises, inserts) sur n'importe quelle surface sans couture visible : base plaquée, normales transférées, découpe auto des insets à la KIT OPS. Patchs éditables en live.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Lightning Emperor 0.1.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-26-lightning-emperor-0-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-26-lightning-emperor-0-1-1</guid>
+      <pubDate>Thu, 26 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Lightning Emperor 0.1.1 (21 nov. 2026) : outils GPL pour incruster du CG derrière des acteurs tournés sur fond vert/bleu : distance caméra, keying auto-calibré, despill, tracking de marqueurs, ombres, grain assorti. Lib Python + CLI, add-on Blender 4.2+ et serveur MCP.</description>
+      <category>vfx</category>
+      <category>compositing</category>
+      <category>blender-addon</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>OpenSplat4D 0.3</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-26-opensplat4d-0-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-26-opensplat4d-0-3</guid>
+      <pubDate>Thu, 26 Nov 2026 09:00:00 +0100</pubDate>
+      <description>OpenSplat4D 0.3 (24 nov. 2026) : plugin Unreal Engine 5.7–5.9 de rendu temps réel de gaussian splats 3D et 4D, désormais entièrement open source (Apache-2.0) avec fracture Chaos et ombres par splat. Lit PLY, SPZ, Spacetime Gaussians et le 4DGS de Fudan.</description>
+      <category>gaussian-splat</category>
+      <category>open-source</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>SplatPilot</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-25-splatpilot</link>
@@ -943,54 +994,6 @@
       <category>compositing</category>
       <category>vfx</category>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>Quadami 0.1.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-28-quadami-0-1-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-28-quadami-0-1-0</guid>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Add-on Blender GPL de remaillage automatique en quads, dérivé d’AutoRemesher : on choisit le nombre de quads et il transforme un sculpt ou un scan en maillage propre aux boucles qui suivent la forme. Première version publique le 27 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-      <category>cad-retopo</category>
-    </item>
-    <item>
-      <title>ProxyWrangler 1.1.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-28-proxywrangler-1-1-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-28-proxywrangler-1-1-1</guid>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Extension Blender GPL pour la mise en place de décors lourds : elle remplace les assets par des proxies de silhouette allégés, gère les assets liés et overrides, puis restaure la géométrie de production au rendu. Nouvelle sur Blender Extensions le 25 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-    </item>
-    <item>
-      <title>AnyImage 1.1.7</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-27-anyimage-1-1-7</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-27-anyimage-1-1-7</guid>
-      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Add-on Blender GPL qui part d’images pour créer : coller depuis le presse-papiers, découper une forme en relief, plan de profondeur, rectification et color match de textures, détourage et upscale IA hors ligne. Version 1.1.7 sortie le 25 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>texturing</category>
-      <category>modeling</category>
-    </item>
-    <item>
-      <title>Croquis 0.4.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-27-croquis-0-4-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-27-croquis-0-4-1</guid>
-      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Extension Blender GPL qui dessine la vue caméra comme un croquis d’architecte à main levée : encre, feutre, aquarelle, hachures, choix du papier, export PNG, SVG en calques ou PDF. Nouvelle sur Blender Extensions le 21 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Maya Workflow Kit for Blender 0.5.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-27-maya-workflow-kit-for-blender-0-5-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-27-maya-workflow-kit-for-blender-0-5-0</guid>
-      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Extension Blender GPL pour les habitués de Maya : hotbox et marking menus, Channel Box, Attribute Editor, shelves, navigation façon Maya, Freeze Transformations, Delete History… Un bouton rend Blender d’origine. Publiée sur Blender Extensions le 20 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-      <category>pipeline</category>
     </item>
   </channel>
 </rss>
