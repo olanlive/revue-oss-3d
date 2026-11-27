@@ -7,6 +7,11 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-27 | PERF-GS 1.0.0 | gaussian-splat, open-source, emerging | https://github.com/electronicarts/perf-gs/releases/tag/v1.0.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-27-perf-gs-1-0-0 |
+| 2026-11-27 | RG Houdini Bridge 1.0.0 | blender-addon, procedural, pipeline, open-source | https://github.com/raphaelg-dev/RGHoudiniBlender/releases/tag/v1.0.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-27-rg-houdini-bridge-1-0-0 |
+| 2026-11-27 | FORMLYNX Inventor Import 1.1.1 | blender-addon, pipeline, cad-retopo, open-source | https://extensions.blender.org/add-ons/formlynx-inventor-import/ | https://olanlive.github.io/revue-oss-3d/#2026-11-27-formlynx-inventor-import-1-1-1 |
+| 2026-11-27 | Pre-Selection Highlight 0.3.0 | blender-addon, modeling | https://metamesh3.gumroad.com/l/preselectionHighLight | https://olanlive.github.io/revue-oss-3d/#2026-11-27-pre-selection-highlight-0-3-0 |
+| 2026-11-27 | Spirula Studio v2026.11.27 | gaussian-splat, emerging | https://github.com/harry7557558/spirula-studio/releases/tag/v2026.11.27 | https://olanlive.github.io/revue-oss-3d/#2026-11-27-spirula-studio-v2026-11-27 |
 | 2026-11-26 | Softimage Importer 0.3.0 | blender-addon, pipeline, open-source | https://extensions.blender.org/add-ons/io-scene-softimage/ | https://olanlive.github.io/revue-oss-3d/#2026-11-26-softimage-importer-0-3-0 |
 | 2026-11-26 | Spline Maker 1.0.0 | blender-addon, modeling, open-source | https://extensions.blender.org/add-ons/spline-maker/ | https://olanlive.github.io/revue-oss-3d/#2026-11-26-spline-maker-1-0-0 |
 | 2026-11-26 | Shrink Patch 1.13.0 | blender-addon, modeling, open-source | https://github.com/mttfntn/shrinkpatch-blender | https://olanlive.github.io/revue-oss-3d/#2026-11-26-shrink-patch-1-13-0 |

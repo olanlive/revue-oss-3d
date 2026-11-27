@@ -5,8 +5,58 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PERF-GS 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-27-perf-gs-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-27-perf-gs-1-0-0</guid>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0100</pubDate>
+      <description>PERF-GS 1.0.0 (26 nov. 2026) : EA SEED publie en BSD-3 un entraîneur Gaussian Splatting écrit en Slang, sur Vulkan ou D3D12, sans CUDA ni PyTorch. Un hub autonome lance COLMAP sur un dossier de photos, entraîne puis exporte un PLY.</description>
+      <category>gaussian-splat</category>
+      <category>open-source</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>RG Houdini Bridge 1.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-27-rg-houdini-bridge-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-27-rg-houdini-bridge-1-0-0</guid>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0100</pubDate>
+      <description>RG Houdini Bridge 1.0.0 (25 nov. 2026) : extension Blender GPL qui transforme les nœuds Houdini et vos HDA en modificateurs live et non destructifs, mis à jour quand le mesh change, sans export. Requiert un Houdini installé (testé Indie, Windows, Blender 5.2).</description>
+      <category>blender-addon</category>
+      <category>procedural</category>
+      <category>pipeline</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>FORMLYNX Inventor Import 1.1.1</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-27-formlynx-inventor-import-1-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-27-formlynx-inventor-import-1-1-1</guid>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0100</pubDate>
+      <description>FORMLYNX Inventor Import 1.1.1 (23 nov. 2026) : extension Blender GPL qui importe assemblages .iam et pièces .ipt d'Autodesk Inventor en meshes sans Inventor : noms du navigateur, collections ou empties, couleurs par face, meshes partagés, échelle en mm.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>cad-retopo</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Pre-Selection Highlight 0.3.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-27-pre-selection-highlight-0-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-27-pre-selection-highlight-0-3-0</guid>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Pre-Selection Highlight 0.3.0 : add-on Blender 5.0+ gratuit qui surligne en Edit Mode sommets, arêtes et faces avant le clic et colore l'influence de l'édition proportionnelle, rayon au raccourci façon Maya. La 0.3.0 gère la symétrie topologique (article du 27 nov.).</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+    </item>
+    <item>
+      <title>Spirula Studio v2026.11.27</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-27-spirula-studio-v2026-11-27</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-27-spirula-studio-v2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Spirula Studio v2026.11.27 (27 nov. 2026) : l'entraîneur Gaussian Splatting GPL (Vulkan ou CUDA, vidéo → splat → mesh) améliore le meshing et les surfaces peu texturées, réduit la VRAM, ajoute un partitionnement Voronoi et l'export PLY Y-up pour SuperSplat.</description>
+      <category>gaussian-splat</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>Softimage Importer 0.3.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-26-softimage-importer-0-3-0</link>
@@ -943,56 +993,6 @@
       <description>Add-on GPL qui habille Blender comme 3ds Max : Command Panel, pile de modificateurs, quad menus, Scene Explorer et primitives paramétriques, avec retour à l’interface Blender d’un clic. La 0.6.8 du 24 oct. 2026 dessine les lumières comme dans Max.</description>
       <category>blender-addon</category>
       <category>modeling</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>SpEdE (Splat Edit Engine)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-30-spede-splat-edit-engine</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-30-spede-splat-edit-engine</guid>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Nœuds ComfyUI open source (AGPL) publiés le 28 oct. 2026 pour éditer une scène en gaussian splats : on clique un objet pour le supprimer (trou rebouché en nouveaux splats), l’extraire en PLY propre ou le remplacer. Tout tourne en local sur votre GPU.</description>
-      <category>gaussian-splat</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>LiveActionAOV 0.9.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-29-liveactionaov-0-9-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-29-liveactionaov-0-9-0</guid>
-      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Générateur open source (MIT) de passes AOV pour plaques live : profondeur, normales, flow, mattes en EXR prêts pour Nuke. La 0.9.0 du 28 oct. 2026 ajoute le camera track, une clean plate en gaussian splat, la roto en couches et un script .nk auto.</description>
-      <category>compositing</category>
-      <category>vfx</category>
-      <category>gaussian-splat</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>pynk_p Smoothing Groups 1.0.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-29-pynk-p-smoothing-groups-1-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-29-pynk-p-smoothing-groups-1-0-1</guid>
-      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Add-on Blender (GPL) qui apporte les 30 smoothing groups façon 3ds Max : assignation par boutons, auto par angle et subdivision non destructive qui garde les arêtes dures via Geometry Nodes. Publié sur Blender Extensions fin oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-      <category>geometry-nodes</category>
-    </item>
-    <item>
-      <title>MP_Comp 4.0.1</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-29-mp-comp-4-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-29-mp-comp-4-0-1</guid>
-      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Bibliothèque CC0 de plus de 100 effets procéduraux pour le compositeur de Blender, en node groups sans add-on. La 4.0.1 (11 oct. 2026) les rend utilisables comme « Scene Effects » dans le nouveau compositing de Blender 5.3, tout en restant compatible 5.2 LTS.</description>
-      <category>compositing</category>
-      <category>blender</category>
-      <category>vfx</category>
-    </item>
-    <item>
-      <title>Nukify 0.9.2</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-28-nukify-0-9-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-28-nukify-0-9-2</guid>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Compositeur nodal open source (GPL) pour Windows qui embarque Blender comme moteur : viewer A/B, roto, keying, tracking 2D et planar, nœuds 3D, sortie EXR/Cryptomatte. Première bêta publique sortie le 28 oct. 2026.</description>
-      <category>compositing</category>
-      <category>vfx</category>
       <category>emerging</category>
     </item>
   </channel>

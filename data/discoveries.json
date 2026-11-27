@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-11-27",
+    "name": "PERF-GS 1.0.0",
+    "name_en": "PERF-GS 1.0.0",
+    "summary": "PERF-GS 1.0.0 (26 nov. 2026) : EA SEED publie en BSD-3 un entraîneur Gaussian Splatting écrit en Slang, sur Vulkan ou D3D12, sans CUDA ni PyTorch. Un hub autonome lance COLMAP sur un dossier de photos, entraîne puis exporte un PLY.",
+    "summary_en": "PERF-GS 1.0.0 (Nov 26, 2026): EA SEED releases a BSD-3 Gaussian Splatting trainer written in Slang, running on Vulkan or D3D12 with no CUDA or PyTorch. A standalone hub runs COLMAP on a photo folder, trains and exports a PLY.",
+    "url": "https://github.com/electronicarts/perf-gs/releases/tag/v1.0.0",
+    "tags": [
+      "gaussian-splat",
+      "open-source",
+      "emerging"
+    ],
+    "source": {
+      "label": "Web — Radiance Fields",
+      "label_en": "Web — Radiance Fields",
+      "url": "https://radiancefields.com/electronic-arts-seed-open-sources-perf-gs-splat-trainer"
+    }
+  },
+  {
+    "date": "2026-11-27",
+    "name": "RG Houdini Bridge 1.0.0",
+    "name_en": "RG Houdini Bridge 1.0.0",
+    "summary": "RG Houdini Bridge 1.0.0 (25 nov. 2026) : extension Blender GPL qui transforme les nœuds Houdini et vos HDA en modificateurs live et non destructifs, mis à jour quand le mesh change, sans export. Requiert un Houdini installé (testé Indie, Windows, Blender 5.2).",
+    "summary_en": "RG Houdini Bridge 1.0.0 (Nov 25, 2026): GPL Blender extension that turns Houdini nodes and your own HDAs into live, non-destructive modifiers that update when the mesh changes, with no export step. Needs a local Houdini (tested with Indie, Windows, Blender 5.2).",
+    "url": "https://github.com/raphaelg-dev/RGHoudiniBlender/releases/tag/v1.0.0",
+    "tags": [
+      "blender-addon",
+      "procedural",
+      "pipeline",
+      "open-source"
+    ],
+    "source": {
+      "label": "X — @raphaelg_dev",
+      "label_en": "X — @raphaelg_dev",
+      "url": "https://x.com/raphaelg_dev/status/2125848376491258363"
+    }
+  },
+  {
+    "date": "2026-11-27",
+    "name": "FORMLYNX Inventor Import 1.1.1",
+    "name_en": "FORMLYNX Inventor Import 1.1.1",
+    "summary": "FORMLYNX Inventor Import 1.1.1 (23 nov. 2026) : extension Blender GPL qui importe assemblages .iam et pièces .ipt d'Autodesk Inventor en meshes sans Inventor : noms du navigateur, collections ou empties, couleurs par face, meshes partagés, échelle en mm.",
+    "summary_en": "FORMLYNX Inventor Import 1.1.1 (Nov 23, 2026): GPL Blender extension that imports Autodesk Inventor .iam assemblies and .ipt parts as meshes without Inventor: browser names, collections or empties, per-face colours, shared meshes, millimetre scale.",
+    "url": "https://extensions.blender.org/add-ons/formlynx-inventor-import/",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "cad-retopo",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveau)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/formlynx-inventor-import/"
+    }
+  },
+  {
+    "date": "2026-11-27",
+    "name": "Pre-Selection Highlight 0.3.0",
+    "name_en": "Pre-Selection Highlight 0.3.0",
+    "summary": "Pre-Selection Highlight 0.3.0 : add-on Blender 5.0+ gratuit qui surligne en Edit Mode sommets, arêtes et faces avant le clic et colore l'influence de l'édition proportionnelle, rayon au raccourci façon Maya. La 0.3.0 gère la symétrie topologique (article du 27 nov.).",
+    "summary_en": "Pre-Selection Highlight 0.3.0: free Blender 5.0+ add-on that highlights vertices, edges and faces before you click in Edit Mode (loops and paths too) and colours proportional editing falloff, with a Maya-style radius hotkey. 0.3.0 adds topology symmetry (Nov 27 article).",
+    "url": "https://metamesh3.gumroad.com/l/preselectionHighLight",
+    "tags": [
+      "blender-addon",
+      "modeling"
+    ],
+    "source": {
+      "label": "Web — ModelingTechNote",
+      "label_en": "Web — ModelingTechNote",
+      "url": "https://modelingtechnote.com/2026/11/27/pre-selection-highlight/"
+    }
+  },
+  {
+    "date": "2026-11-27",
+    "name": "Spirula Studio v2026.11.27",
+    "name_en": "Spirula Studio v2026.11.27",
+    "summary": "Spirula Studio v2026.11.27 (27 nov. 2026) : l'entraîneur Gaussian Splatting GPL (Vulkan ou CUDA, vidéo → splat → mesh) améliore le meshing et les surfaces peu texturées, réduit la VRAM, ajoute un partitionnement Voronoi et l'export PLY Y-up pour SuperSplat.",
+    "summary_en": "Spirula Studio v2026.11.27 (Nov 27, 2026): the GPL Gaussian Splatting trainer (Vulkan or CUDA, video → splat → mesh) improves meshing and low-texture surfaces, cuts VRAM, adds Voronoi partitioning, Y-up PLY export for SuperSplat and a live meshing preview.",
+    "url": "https://github.com/harry7557558/spirula-studio/releases/tag/v2026.11.27",
+    "tags": [
+      "gaussian-splat",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — release harry7557558/spirula-studio",
+      "label_en": "GitHub — harry7557558/spirula-studio release",
+      "url": "https://github.com/harry7557558/spirula-studio/releases/tag/v2026.11.27"
+    }
+  },
+  {
     "date": "2026-11-26",
     "name": "Softimage Importer 0.3.0",
     "name_en": "Softimage Importer 0.3.0",
