@@ -1,5 +1,98 @@
 [
   {
+    "date": "2026-11-28",
+    "name": "Industrial CG Platform 5.3.0",
+    "name_en": "Industrial CG Platform 5.3.0",
+    "summary": "Industrial CG Platform 5.3.0 (23 nov. 2026) : fork libre de Blender orienté VFX film (Deep EXR, overscan, light groups) recalé sur Blender 5.3.0. Le Deep EXR de Cycles gère désormais le World Volume natif, avec un échantillon lointain pour le brouillard infini.",
+    "summary_en": "Industrial CG Platform 5.3.0 (Nov 23, 2026): free Blender fork aimed at film VFX (Deep EXR, overscan, light groups), now rebased on Blender 5.3.0. Cycles Deep EXR now handles the native World Volume, storing unbounded fog in a far-depth sample.",
+    "url": "https://github.com/RolandVyens/industrial-cg-platform/releases/tag/industrial-cg-platform-5.3.0",
+    "tags": [
+      "vfx",
+      "compositing",
+      "rendering",
+      "open-source"
+    ],
+    "source": {
+      "label": "X — @cgweave",
+      "label_en": "X — @cgweave",
+      "url": "https://x.com/cgweave/status/2125597635860140087"
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "name": "Better Gaussian Splat Importer 0.9.0 (KIRI Engine)",
+    "name_en": "Better Gaussian Splat Importer 0.9.0 (KIRI Engine)",
+    "summary": "Better Gaussian Splat Importer 0.9.0 (25 nov. 2026) : add-on gratuit de KIRI Engine pour Blender 5.3 qui ajoute à File > Import les splats SOG, SPLAT, KSPLAT, PLY compressé et XGRIDS LCC/LCC2, convertis localement en splats natifs Blender.",
+    "summary_en": "Better Gaussian Splat Importer 0.9.0 (Nov 25, 2026): free KIRI Engine add-on for Blender 5.3 that adds SOG, SPLAT, KSPLAT, compressed PLY and XGRIDS LCC/LCC2 splats to File > Import, converted locally into native Blender splats.",
+    "url": "https://kiriinnov.gumroad.com/l/novzan",
+    "tags": [
+      "blender-addon",
+      "gaussian-splat",
+      "free"
+    ],
+    "source": {
+      "label": "X — @KIRI_Engine_App",
+      "label_en": "X — @KIRI_Engine_App",
+      "url": "https://x.com/KIRI_Engine_App/status/2125524896478298196"
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "name": "Shape Draw 0.1.0",
+    "name_en": "Shape Draw 0.1.0",
+    "summary": "Shape Draw 0.1.0 (25 nov. 2026) : extension Blender GPL, un outil « plume » de modélisation : on clique un contour (coins nets ou courbes), sur le sol ou une face, puis on l'extrude à la souris ou à la cote exacte, avec bevel et booléen live.",
+    "summary_en": "Shape Draw 0.1.0 (Nov 25, 2026): GPL Blender extension, a pen tool for modelling: click out an outline (sharp or curved points) on the ground or any face, then pull it up with the mouse or an exact height, with bevel and a live boolean.",
+    "url": "https://extensions.blender.org/add-ons/shape-draw/",
+    "tags": [
+      "blender-addon",
+      "modeling",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveau)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/shape-draw/"
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "name": "Lightwave Importer (BlenderLight) 2.0.0",
+    "name_en": "Lightwave Importer (BlenderLight) 2.0.0",
+    "summary": "Lightwave Importer 2.0.0 (publié le 27 nov. 2026 sur extensions.blender.org) : importe dans Blender 5.2+ les objets LightWave LWOB, LWO2 et LWO3 : calques, subpatches, UV, weight maps, morphs, matériaux en Principled BSDF, skelegons en armature.",
+    "summary_en": "Lightwave Importer 2.0.0 (published Nov 27, 2026 on extensions.blender.org): imports LightWave LWOB, LWO2 and LWO3 objects into Blender 5.2+: layers, subpatches, UVs, weight maps, morphs, Principled BSDF materials, skelegons to armatures.",
+    "url": "https://extensions.blender.org/add-ons/blenderlight/",
+    "tags": [
+      "blender-addon",
+      "pipeline",
+      "import-export",
+      "open-source"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (nouveau)",
+      "label_en": "Web — extensions.blender.org (new)",
+      "url": "https://extensions.blender.org/add-ons/blenderlight/"
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "name": "Animated SOG (.asog)",
+    "name_en": "Animated SOG (.asog)",
+    "summary": "Animated SOG (repo ouvert le 20 nov. 2026, MIT) : format compact de splats 4D (mouvement, SH, son) avec encodeur Python, pipeline flip-book de PLY par frame et lecteurs PlayCanvas/three.js en streaming. 180 frames PLY de 3,6 Go tiennent en 12,4 Mo.",
+    "summary_en": "Animated SOG (repo opened Nov 20, 2026, MIT): compact 4D Gaussian splat format (motion, SH, sound) with a Python encoder, a per-frame PLY flip-book pipeline and streaming PlayCanvas/three.js players. 180 PLY frames totalling 3.6 GB fit in 12.4 MB.",
+    "url": "https://github.com/arrival-space/animated-sog",
+    "tags": [
+      "gaussian-splat",
+      "4d",
+      "open-source",
+      "emerging"
+    ],
+    "source": {
+      "label": "GitHub — recherche « gaussian splat »",
+      "label_en": "GitHub — “gaussian splat” search",
+      "url": "https://github.com/search?q=gaussian+splat&type=repositories&s=stars"
+    }
+  },
+  {
     "date": "2026-11-27",
     "name": "PERF-GS 1.0.0",
     "name_en": "PERF-GS 1.0.0",

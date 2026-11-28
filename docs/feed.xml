@@ -5,8 +5,61 @@
     <link>https://olanlive.github.io/revue-oss-3d/</link>
     <description>Veille open source 3D, VFX et vidéo.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 27 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-oss-3d/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Industrial CG Platform 5.3.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-28-industrial-cg-platform-5-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-28-industrial-cg-platform-5-3-0</guid>
+      <pubDate>Sat, 28 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Industrial CG Platform 5.3.0 (23 nov. 2026) : fork libre de Blender orienté VFX film (Deep EXR, overscan, light groups) recalé sur Blender 5.3.0. Le Deep EXR de Cycles gère désormais le World Volume natif, avec un échantillon lointain pour le brouillard infini.</description>
+      <category>vfx</category>
+      <category>compositing</category>
+      <category>rendering</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Better Gaussian Splat Importer 0.9.0 (KIRI Engine)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-28-better-gaussian-splat-importer-0-9-0-kiri-engine</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-28-better-gaussian-splat-importer-0-9-0-kiri-engine</guid>
+      <pubDate>Sat, 28 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Better Gaussian Splat Importer 0.9.0 (25 nov. 2026) : add-on gratuit de KIRI Engine pour Blender 5.3 qui ajoute à File &gt; Import les splats SOG, SPLAT, KSPLAT, PLY compressé et XGRIDS LCC/LCC2, convertis localement en splats natifs Blender.</description>
+      <category>blender-addon</category>
+      <category>gaussian-splat</category>
+      <category>free</category>
+    </item>
+    <item>
+      <title>Shape Draw 0.1.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-28-shape-draw-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-28-shape-draw-0-1-0</guid>
+      <pubDate>Sat, 28 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Shape Draw 0.1.0 (25 nov. 2026) : extension Blender GPL, un outil « plume » de modélisation : on clique un contour (coins nets ou courbes), sur le sol ou une face, puis on l'extrude à la souris ou à la cote exacte, avec bevel et booléen live.</description>
+      <category>blender-addon</category>
+      <category>modeling</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Lightwave Importer (BlenderLight) 2.0.0</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-28-lightwave-importer-blenderlight-2-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-28-lightwave-importer-blenderlight-2-0-0</guid>
+      <pubDate>Sat, 28 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Lightwave Importer 2.0.0 (publié le 27 nov. 2026 sur extensions.blender.org) : importe dans Blender 5.2+ les objets LightWave LWOB, LWO2 et LWO3 : calques, subpatches, UV, weight maps, morphs, matériaux en Principled BSDF, skelegons en armature.</description>
+      <category>blender-addon</category>
+      <category>pipeline</category>
+      <category>import-export</category>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Animated SOG (.asog)</title>
+      <link>https://olanlive.github.io/revue-oss-3d/#2026-11-28-animated-sog-asog</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-11-28-animated-sog-asog</guid>
+      <pubDate>Sat, 28 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Animated SOG (repo ouvert le 20 nov. 2026, MIT) : format compact de splats 4D (mouvement, SH, son) avec encodeur Python, pipeline flip-book de PLY par frame et lecteurs PlayCanvas/three.js en streaming. 180 frames PLY de 3,6 Go tiennent en 12,4 Mo.</description>
+      <category>gaussian-splat</category>
+      <category>4d</category>
+      <category>open-source</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>PERF-GS 1.0.0</title>
       <link>https://olanlive.github.io/revue-oss-3d/#2026-11-27-perf-gs-1-0-0</link>
@@ -947,53 +1000,6 @@
       <category>blender-addon</category>
       <category>geometry-nodes</category>
       <category>pipeline</category>
-    </item>
-    <item>
-      <title>Origa 0.4.0</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-31-origa-0-4-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-31-origa-0-4-0</guid>
-      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Add-on GPL qui transforme un plan en papier : plier, rouler, friser, onduler, déchirer ou froisser par simples curseurs, avec presets (billets, reçus, parchemins) et une « pluie de billets » en un clic. Publié le 28 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-    </item>
-    <item>
-      <title>OM3D Asset Prep 0.6.5</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-31-om3d-asset-prep-0-6-5</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-31-om3d-asset-prep-0-6-5</guid>
-      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Add-on Blender GPL qui mène un asset de jeu de l’import en vrac au bake et à l’export : contrôle et réparation de scène (transforms, n-gons, normales, UV), appariement low/high pour le bake, export FBX par asset pour Unreal, Substance ou Marmoset. v0.6.5 du 29 oct. 2026.</description>
-      <category>blender-addon</category>
-      <category>pipeline</category>
-      <category>asset-management</category>
-    </item>
-    <item>
-      <title>Idol (Speridlabs)</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-31-idol-speridlabs</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-31-idol-speridlabs</guid>
-      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Code Apache-2.0 qui génère un objet en Gaussian splat (.ply 3DGS, jusqu’à ~1 M de gaussiennes, faces cachées comprises) à partir d’une seule image, sur GPU grand public (~7 Go de VRAM). Publié le 28 oct. 2026, déjà avec un plugin pour LichtFeld Studio.</description>
-      <category>gaussian-splat</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Material Maker 1.8</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-30-material-maker-1-8</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-30-material-maker-1-8</guid>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Éditeur de matériaux procéduraux open source (MIT) à base de nœuds, alternative libre à Substance Designer. La 1.8 du 25 oct. 2026 ajoute un nœud Trimsheet, un Auto Export qui réexporte à chaque changement, un flou gaussien HQ et un nœud Crop.</description>
-      <category>texturing</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Blender Max 0.6.8</title>
-      <link>https://olanlive.github.io/revue-oss-3d/#2026-10-30-blender-max-0-6-8</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-oss-3d/#2026-10-30-blender-max-0-6-8</guid>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Add-on GPL qui habille Blender comme 3ds Max : Command Panel, pile de modificateurs, quad menus, Scene Explorer et primitives paramétriques, avec retour à l’interface Blender d’un clic. La 0.6.8 du 24 oct. 2026 dessine les lumières comme dans Max.</description>
-      <category>blender-addon</category>
-      <category>modeling</category>
-      <category>emerging</category>
     </item>
   </channel>
 </rss>

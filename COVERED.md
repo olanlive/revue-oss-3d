@@ -7,6 +7,11 @@ Hors périmètre / déjà couvert ailleurs : animation, rigging et mocap (voir `
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-28 | Industrial CG Platform 5.3.0 | vfx, compositing, rendering, open-source | https://github.com/RolandVyens/industrial-cg-platform/releases/tag/industrial-cg-platform-5.3.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-28-industrial-cg-platform-5-3-0 |
+| 2026-11-28 | Better Gaussian Splat Importer 0.9.0 (KIRI Engine) | blender-addon, gaussian-splat, free | https://kiriinnov.gumroad.com/l/novzan | https://olanlive.github.io/revue-oss-3d/#2026-11-28-better-gaussian-splat-importer-0-9-0-kiri-engine |
+| 2026-11-28 | Shape Draw 0.1.0 | blender-addon, modeling, open-source | https://extensions.blender.org/add-ons/shape-draw/ | https://olanlive.github.io/revue-oss-3d/#2026-11-28-shape-draw-0-1-0 |
+| 2026-11-28 | Lightwave Importer (BlenderLight) 2.0.0 | blender-addon, pipeline, import-export, open-source | https://extensions.blender.org/add-ons/blenderlight/ | https://olanlive.github.io/revue-oss-3d/#2026-11-28-lightwave-importer-blenderlight-2-0-0 |
+| 2026-11-28 | Animated SOG (.asog) | gaussian-splat, 4d, open-source, emerging | https://github.com/arrival-space/animated-sog | https://olanlive.github.io/revue-oss-3d/#2026-11-28-animated-sog-asog |
 | 2026-11-27 | PERF-GS 1.0.0 | gaussian-splat, open-source, emerging | https://github.com/electronicarts/perf-gs/releases/tag/v1.0.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-27-perf-gs-1-0-0 |
 | 2026-11-27 | RG Houdini Bridge 1.0.0 | blender-addon, procedural, pipeline, open-source | https://github.com/raphaelg-dev/RGHoudiniBlender/releases/tag/v1.0.0 | https://olanlive.github.io/revue-oss-3d/#2026-11-27-rg-houdini-bridge-1-0-0 |
 | 2026-11-27 | FORMLYNX Inventor Import 1.1.1 | blender-addon, pipeline, cad-retopo, open-source | https://extensions.blender.org/add-ons/formlynx-inventor-import/ | https://olanlive.github.io/revue-oss-3d/#2026-11-27-formlynx-inventor-import-1-1-1 |
